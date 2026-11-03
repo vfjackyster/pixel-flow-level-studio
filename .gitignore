@@ -1,0 +1,28 @@
+# Re-creatable dependencies and caches
+node_modules/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.vite/
+.DS_Store
+Thumbs.db
+*.log
+
+# Local secrets and personal runtime state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Source application packages / external extraction inputs
+*.apk
+*.xapk
+*.aab
+*.ipa
+
+# Data-app local portable data exports
+research-report/.data-app-offline/

@@ -1,0 +1,112 @@
+{
+  "funnels": [
+    {
+      "funnelId": "3db5681ee587345ad9a3cf8400a692d1",
+      "count": 2700
+    },
+    {
+      "funnelId": "65481f3d2aec1414bab0b5f12cb45881",
+      "count": 9
+    },
+    {
+      "funnelId": "c56f7c5f890174060bf24c313b5d4e7f",
+      "count": 193
+    },
+    {
+      "funnelId": "dd9f09021153c49e981fc64998b69651",
+      "count": 27
+    },
+    {
+      "funnelId": "959360f6ec28f44d29a50a7ca06a406a",
+      "count": 26
+    },
+    {
+      "funnelId": "2b9f8b3a170d641beb588c95eec7f92c",
+      "count": 12
+    },
+    {
+      "funnelId": "31aa5bd03c0da46cf896b656e3fe3ad5",
+      "count": 3
+    },
+    {
+      "funnelId": "3661123b18c1748e296ee62b280fcbfa",
+      "count": 14
+    },
+    {
+      "funnelId": "cb49e38d0962543138429ae2d43e33e3",
+      "count": 82
+    },
+    {
+      "funnelId": "88773a585becb435c8fde1a7b7119e07",
+      "count": 13
+    },
+    {
+      "funnelId": "6a7c19cfe9ad342beada13ef95f2ec9e",
+      "count": 1
+    },
+    {
+      "funnelId": "acd1edd476df7404b836a333b77aec47",
+      "count": 1
+    },
+    {
+      "funnelId": "51be4bae1ed214e9187f2a96a9f87797",
+      "count": 1
+    },
+    {
+      "funnelId": "7b40b27989a354589b73f9423597ecd1",
+      "count": 2
+    },
+    {
+      "funnelId": "e27fce0eaa0254b0bbec260fd9029d01",
+      "count": 5
+    },
+    {
+      "funnelId": "378b1ff67fdc84cc7b304cc8417b8b5f",
+      "count": 19
+    },
+    {
+      "funnelId": "959213cba04524949976d086c8780024",
+      "count": 88
+    },
+    {
+      "funnelId": "4993c259c62d74a3ba5d9181a133db87",
+      "count": 1
+    },
+    {
+      "funnelId": "60435ea4f63ee4f3c9a806f0701ae6ed",
+      "count": 17
+    },
+    {
+      "funnelId": "f4bdfa99d06e04e01a8e3443b2984f0d",
+      "count": 1
+    },
+    {
+      "funnelId": "7a0c86a65109447cb914164500052eb4",
+      "count": 1
+    },
+    {
+      "funnelId": "f514093fd82534cd494efd9fb8fdc9c3",
+      "count": 1
+    },
+    {
+      "funnelId": "71ea942f560f945d787946e964353a61",
+      "count": 1
+    },
+    {
+      "funnelId": "d0988b396252c4bcf822ff249245dccb",
+      "count": 1
+    },
+    {
+      "funnelId": "ad827fabe1686465a89a5ac237734d6e",
+      "count": 2
+    },
+    {
+      "funnelId": "34f390a30a78e434a8de91fc7b7334ee",
+      "count": 94
+    },
+    {
+      "funnelId": "40f0de0d9bdd74bb29d006cce51d7b75",
+      "count": 185
+    }
+  ]
+}

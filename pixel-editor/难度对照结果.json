@@ -1,0 +1,158 @@
+[
+  {
+    "file": "01-阻塞队列-单槽.json",
+    "diagnostics": {
+      "pixels": 12,
+      "front": 10,
+      "exposure": 0.8333333333333334,
+      "layers": 2,
+      "activeHeads": 1,
+      "productiveHeads": 0,
+      "mismatch": 1,
+      "shortage": [],
+      "surplus": 0,
+      "shooters": 3
+    },
+    "policies": [
+      {
+        "policy": "random",
+        "risk": 100,
+        "interval": [
+          97.08630437264931,
+          100
+        ],
+        "wins": 0,
+        "fails": 128,
+        "trials": 128
+      },
+      {
+        "policy": "greedy",
+        "risk": 100,
+        "interval": [
+          97.08630437264931,
+          100
+        ],
+        "wins": 0,
+        "fails": 128,
+        "trials": 128
+      }
+    ]
+  },
+  {
+    "file": "02-仅前移红射手.json",
+    "diagnostics": {
+      "pixels": 12,
+      "front": 10,
+      "exposure": 0.8333333333333334,
+      "layers": 2,
+      "activeHeads": 1,
+      "productiveHeads": 1,
+      "mismatch": 0,
+      "shortage": [],
+      "surplus": 0,
+      "shooters": 3
+    },
+    "policies": [
+      {
+        "policy": "random",
+        "risk": 0,
+        "interval": [
+          0,
+          2.913695627350686
+        ],
+        "wins": 128,
+        "fails": 0,
+        "trials": 128
+      },
+      {
+        "policy": "greedy",
+        "risk": 0,
+        "interval": [
+          0,
+          2.913695627350686
+        ],
+        "wins": 128,
+        "fails": 0,
+        "trials": 128
+      }
+    ]
+  },
+  {
+    "file": "03-仅增至双槽.json",
+    "diagnostics": {
+      "pixels": 12,
+      "front": 10,
+      "exposure": 0.8333333333333334,
+      "layers": 2,
+      "activeHeads": 1,
+      "productiveHeads": 0,
+      "mismatch": 1,
+      "shortage": [],
+      "surplus": 0,
+      "shooters": 3
+    },
+    "policies": [
+      {
+        "policy": "random",
+        "risk": 0,
+        "interval": [
+          0,
+          2.913695627350686
+        ],
+        "wins": 128,
+        "fails": 0,
+        "trials": 128
+      },
+      {
+        "policy": "greedy",
+        "risk": 0,
+        "interval": [
+          0,
+          2.913695627350686
+        ],
+        "wins": 128,
+        "fails": 0,
+        "trials": 128
+      }
+    ]
+  },
+  {
+    "file": "04-双列策略差异.json",
+    "diagnostics": {
+      "pixels": 12,
+      "front": 10,
+      "exposure": 0.8333333333333334,
+      "layers": 2,
+      "activeHeads": 2,
+      "productiveHeads": 1,
+      "mismatch": 0.5,
+      "shortage": [],
+      "surplus": 0,
+      "shooters": 3
+    },
+    "policies": [
+      {
+        "policy": "random",
+        "risk": 25,
+        "interval": [
+          18.30128486135872,
+          33.15556295231662
+        ],
+        "wins": 96,
+        "fails": 32,
+        "trials": 128
+      },
+      {
+        "policy": "greedy",
+        "risk": 0,
+        "interval": [
+          0,
+          2.913695627350686
+        ],
+        "wins": 128,
+        "fails": 0,
+        "trials": 128
+      }
+    ]
+  }
+]

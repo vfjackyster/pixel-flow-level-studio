@@ -1,0 +1,5075 @@
+
+# .unknown::unknown 0x345e170 size=64
+345e170: movw ip, #0x63a4
+345e174: movt ip, #0x337
+345e178: add ip, ip, pc
+345e17c: bx ip
+345e180: movw ip, #0x63ac
+345e184: movt ip, #0x337
+345e188: add ip, ip, pc
+345e18c: bx ip
+345e190: movw ip, #0x6840
+345e194: movt ip, #0x337
+345e198: add ip, ip, pc
+345e19c: bx ip
+345e1a0: movw ip, #0x4664
+345e1a4: movt ip, #0x337
+345e1a8: add ip, ip, pc
+345e1ac: bx ip
+
+# .unknown::unknown 0x345e180 size=64
+345e180: movw ip, #0x63ac
+345e184: movt ip, #0x337
+345e188: add ip, ip, pc
+345e18c: bx ip
+345e190: movw ip, #0x6840
+345e194: movt ip, #0x337
+345e198: add ip, ip, pc
+345e19c: bx ip
+345e1a0: movw ip, #0x4664
+345e1a4: movt ip, #0x337
+345e1a8: add ip, ip, pc
+345e1ac: bx ip
+345e1b0: movw ip, #0x4fd0
+345e1b4: movt ip, #0x337
+345e1b8: add ip, ip, pc
+345e1bc: bx ip
+
+# .unknown::unknown 0x345e190 size=64
+345e190: movw ip, #0x6840
+345e194: movt ip, #0x337
+345e198: add ip, ip, pc
+345e19c: bx ip
+345e1a0: movw ip, #0x4664
+345e1a4: movt ip, #0x337
+345e1a8: add ip, ip, pc
+345e1ac: bx ip
+345e1b0: movw ip, #0x4fd0
+345e1b4: movt ip, #0x337
+345e1b8: add ip, ip, pc
+345e1bc: bx ip
+345e1c0: movw ip, #0x4250
+345e1c4: movt ip, #0x337
+345e1c8: add ip, ip, pc
+345e1cc: bx ip
+
+# Crescive.Levels.CreatorLevelSettingsProcessor::Process 0x2592ed8 size=8
+2592ed8: mov r0, r1
+2592edc: bx lr
+
+# Crescive.Levels.CreatorLevelSettingsProcessor::.ctor 0x2592ee0 size=84
+2592ee0: push {r4, r5, fp, lr}
+2592ee4: ldr r5, [pc, #0x3c]
+2592ee8: mov r4, r0
+2592eec: add r5, pc, r5
+2592ef0: ldrb r0, [r5]
+2592ef4: cmp r0, #0
+2592ef8: bne #0x2592f10
+2592efc: ldr r0, [pc, #0x28]
+2592f00: ldr r0, [pc, r0]
+2592f04: bl #0x236fa00
+2592f08: mov r0, #1
+2592f0c: strb r0, [r5]
+2592f10: ldr r0, [pc, #0x18]
+2592f14: ldr r0, [pc, r0]
+2592f18: ldr r1, [r0]
+2592f1c: mov r0, r4
+2592f20: pop {r4, r5, fp, lr}
+2592f24: b #0x345cb4c
+
+# Loom.Game.LevelSessionInfoData::.ctor 0x25b78dc size=8
+25b78dc: mov r1, #0
+25b78e0: b #0x3459e1c
+
+# Loom.Game.LevelEase.CreatorLevelSettingsEaseProcessor::Process 0x262ef28 size=216
+262ef28: push {r4, r5, fp, lr}
+262ef2c: sub sp, sp, #8
+262ef30: ldr r5, [pc, #0xb0]
+262ef34: mov r4, r1
+262ef38: add r5, pc, r5
+262ef3c: ldrb r0, [r5]
+262ef40: cmp r0, #0
+262ef44: bne #0x262ef5c
+262ef48: ldr r0, [pc, #0x9c]
+262ef4c: ldr r0, [pc, r0]
+262ef50: bl #0x236fa00
+262ef54: mov r0, #1
+262ef58: strb r0, [r5]
+262ef5c: ldr r5, [pc, #0x8c]
+262ef60: add r5, pc, r5
+262ef64: ldrb r0, [r5]
+262ef68: cmp r0, #0
+262ef6c: bne #0x262ef84
+262ef70: ldr r0, [pc, #0x7c]
+262ef74: ldr r0, [pc, r0]
+262ef78: bl #0x236fa00
+262ef7c: mov r0, #1
+262ef80: strb r0, [r5]
+262ef84: ldr r0, [pc, #0x6c]
+262ef88: ldr r0, [pc, r0]
+262ef8c: ldr r0, [r0]
+262ef90: ldr r0, [r0, #0x5c]
+262ef94: ldr r5, [r0]
+262ef98: cmp r5, #0
+262ef9c: bne #0x262efa4
+262efa0: bl #0x236fcb0
+262efa4: ldr r0, [pc, #0x50]
+262efa8: mov r1, #0
+262efac: ldr r0, [pc, r0]
+262efb0: ldr r2, [r0]
+262efb4: mov r0, r5
+262efb8: bl #0x342be6c
+262efbc: mov r5, r0
+262efc0: cmp r0, #0
+262efc4: bne #0x262efcc
+262efc8: bl #0x236fcb0
+262efcc: mov r0, r5
+262efd0: mov r1, r4
+262efd4: mov r2, #0
+262efd8: mov r3, #0
+262efdc: bl #0x262f000 ; Loom.Game.LevelEase.LevelEaseSystem::EaseLevel
+262efe0: add sp, sp, #8
+262efe4: pop {r4, r5, fp, pc}
+
+# Loom.Game.LevelEase.CreatorLevelSettingsEaseProcessor::.ctor 0x262f19c size=84
+262f19c: push {r4, r5, fp, lr}
+262f1a0: ldr r5, [pc, #0x3c]
+262f1a4: mov r4, r0
+262f1a8: add r5, pc, r5
+262f1ac: ldrb r0, [r5]
+262f1b0: cmp r0, #0
+262f1b4: bne #0x262f1cc
+262f1b8: ldr r0, [pc, #0x28]
+262f1bc: ldr r0, [pc, r0]
+262f1c0: bl #0x236fa00
+262f1c4: mov r0, #1
+262f1c8: strb r0, [r5]
+262f1cc: ldr r0, [pc, #0x18]
+262f1d0: ldr r0, [pc, r0]
+262f1d4: ldr r1, [r0]
+262f1d8: mov r0, r4
+262f1dc: pop {r4, r5, fp, lr}
+262f1e0: b #0x345cb4c
+262f1e4: ldreq r4, [sp], r4, asr #8
+262f1e8: uqsub8eq sl, r8, r0
+
+# Loom.Game.Map.MapFailEvents::get_Events 0x28acdc8 size=8
+28acdc8: ldr r0, [r0, #0xc]
+28acdcc: bx lr
+
+# Loom.Game.Map.MapFailEvents::Get 0x28acdd0 size=8
+28acdd0: ldr r0, [r0, #0xc]
+28acdd4: bx lr
+
+# Loom.Game.Map.MapFailEvents::TriggerOutOfSpaceFail 0x28ac908 size=52
+28ac908: push {r4, lr}
+28ac90c: ldr r4, [r0, #0xc]
+28ac910: cmp r4, #0
+28ac914: bne #0x28ac91c
+28ac918: bl #0x236fcb0
+28ac91c: ldr r0, [r4, #8]
+28ac920: cmp r0, #0
+28ac924: popeq {r4, pc}
+28ac928: ldr r2, [r0, #0xc]
+28ac92c: ldr r1, [r0, #0x14]
+28ac930: ldr r0, [r0, #0x20]
+28ac934: pop {r4, lr}
+28ac938: bx r2
+
+# Loom.Game.Map.MapFailEvents::SubscribeToOutOfSpaceFail 0x28ac860 size=40
+28ac860: push {r4, r5, fp, lr}
+28ac864: ldr r5, [r0, #0xc]
+28ac868: mov r4, r1
+28ac86c: cmp r5, #0
+28ac870: bne #0x28ac878
+28ac874: bl #0x236fcb0
+28ac878: mov r0, r5
+28ac87c: mov r1, r4
+28ac880: pop {r4, r5, fp, lr}
+28ac884: b #0x28ad4f8 ; Loom.Game.Map.MapFailEventsData::add_OnOutOfSpaceFail
+
+# Loom.Game.Map.MapFailEvents::UnsubscribeFromOutOfSpaceFail 0x28ac8c0 size=40
+28ac8c0: push {r4, r5, fp, lr}
+28ac8c4: ldr r5, [r0, #0xc]
+28ac8c8: mov r4, r1
+28ac8cc: cmp r5, #0
+28ac8d0: bne #0x28ac8d8
+28ac8d4: bl #0x236fcb0
+28ac8d8: mov r0, r5
+28ac8dc: mov r1, r4
+28ac8e0: pop {r4, r5, fp, lr}
+28ac8e4: b #0x28ad598 ; Loom.Game.Map.MapFailEventsData::remove_OnOutOfSpaceFail
+
+# Loom.Game.Map.MapFailEvents::TriggerLockedOutFail 0x28ac638 size=52
+28ac638: push {r4, lr}
+28ac63c: ldr r4, [r0, #0xc]
+28ac640: cmp r4, #0
+28ac644: bne #0x28ac64c
+28ac648: bl #0x236fcb0
+28ac64c: ldr r0, [r4, #0xc]
+28ac650: cmp r0, #0
+28ac654: popeq {r4, pc}
+28ac658: ldr r2, [r0, #0xc]
+28ac65c: ldr r1, [r0, #0x14]
+28ac660: ldr r0, [r0, #0x20]
+28ac664: pop {r4, lr}
+28ac668: bx r2
+
+# Loom.Game.Map.MapFailEvents::SubscribeToLockedOutFail 0x28ac590 size=40
+28ac590: push {r4, r5, fp, lr}
+28ac594: ldr r5, [r0, #0xc]
+28ac598: mov r4, r1
+28ac59c: cmp r5, #0
+28ac5a0: bne #0x28ac5a8
+28ac5a4: bl #0x236fcb0
+28ac5a8: mov r0, r5
+28ac5ac: mov r1, r4
+28ac5b0: pop {r4, r5, fp, lr}
+28ac5b4: b #0x28ad638 ; Loom.Game.Map.MapFailEventsData::add_OnLockedOutFail
+
+# Loom.Game.Map.MapFailEvents::UnsubscribeFromLockedOutFail 0x28ac5f0 size=40
+28ac5f0: push {r4, r5, fp, lr}
+28ac5f4: ldr r5, [r0, #0xc]
+28ac5f8: mov r4, r1
+28ac5fc: cmp r5, #0
+28ac600: bne #0x28ac608
+28ac604: bl #0x236fcb0
+28ac608: mov r0, r5
+28ac60c: mov r1, r4
+28ac610: pop {r4, r5, fp, lr}
+28ac614: b #0x28ad6d8 ; Loom.Game.Map.MapFailEventsData::remove_OnLockedOutFail
+
+# Loom.Game.Map.MapFailEvents::TriggerFrozenFail 0x28ac4d0 size=52
+28ac4d0: push {r4, lr}
+28ac4d4: ldr r4, [r0, #0xc]
+28ac4d8: cmp r4, #0
+28ac4dc: bne #0x28ac4e4
+28ac4e0: bl #0x236fcb0
+28ac4e4: ldr r0, [r4, #0x10]
+28ac4e8: cmp r0, #0
+28ac4ec: popeq {r4, pc}
+28ac4f0: ldr r2, [r0, #0xc]
+28ac4f4: ldr r1, [r0, #0x14]
+28ac4f8: ldr r0, [r0, #0x20]
+28ac4fc: pop {r4, lr}
+28ac500: bx r2
+
+# Loom.Game.Map.MapFailEvents::SubscribeToFrozenFail 0x28ac428 size=40
+28ac428: push {r4, r5, fp, lr}
+28ac42c: ldr r5, [r0, #0xc]
+28ac430: mov r4, r1
+28ac434: cmp r5, #0
+28ac438: bne #0x28ac440
+28ac43c: bl #0x236fcb0
+28ac440: mov r0, r5
+28ac444: mov r1, r4
+28ac448: pop {r4, r5, fp, lr}
+28ac44c: b #0x28ad778 ; Loom.Game.Map.MapFailEventsData::add_OnFrozenFail
+
+# Loom.Game.Map.MapFailEvents::UnsubscribeFromFrozenFail 0x28ac488 size=40
+28ac488: push {r4, r5, fp, lr}
+28ac48c: ldr r5, [r0, #0xc]
+28ac490: mov r4, r1
+28ac494: cmp r5, #0
+28ac498: bne #0x28ac4a0
+28ac49c: bl #0x236fcb0
+28ac4a0: mov r0, r5
+28ac4a4: mov r1, r4
+28ac4a8: pop {r4, r5, fp, lr}
+28ac4ac: b #0x28ad818 ; Loom.Game.Map.MapFailEventsData::remove_OnFrozenFail
+
+# Loom.Game.Map.MapFailEvents::TriggerUfoFail 0x28acd40 size=52
+28acd40: push {r4, lr}
+28acd44: ldr r4, [r0, #0xc]
+28acd48: cmp r4, #0
+28acd4c: bne #0x28acd54
+28acd50: bl #0x236fcb0
+28acd54: ldr r0, [r4, #0x14]
+28acd58: cmp r0, #0
+28acd5c: popeq {r4, pc}
+28acd60: ldr r2, [r0, #0xc]
+28acd64: ldr r1, [r0, #0x14]
+28acd68: ldr r0, [r0, #0x20]
+28acd6c: pop {r4, lr}
+28acd70: bx r2
+
+# Loom.Game.Map.MapFailEvents::SubscribeToUfoFail 0x28acc98 size=40
+28acc98: push {r4, r5, fp, lr}
+28acc9c: ldr r5, [r0, #0xc]
+28acca0: mov r4, r1
+28acca4: cmp r5, #0
+28acca8: bne #0x28accb0
+28accac: bl #0x236fcb0
+28accb0: mov r0, r5
+28accb4: mov r1, r4
+28accb8: pop {r4, r5, fp, lr}
+28accbc: b #0x28ad8b8 ; Loom.Game.Map.MapFailEventsData::add_OnUfoFail
+
+# Loom.Game.Map.MapFailEvents::UnsubscribeFromUfoFail 0x28accf8 size=40
+28accf8: push {r4, r5, fp, lr}
+28accfc: ldr r5, [r0, #0xc]
+28acd00: mov r4, r1
+28acd04: cmp r5, #0
+28acd08: bne #0x28acd10
+28acd0c: bl #0x236fcb0
+28acd10: mov r0, r5
+28acd14: mov r1, r4
+28acd18: pop {r4, r5, fp, lr}
+28acd1c: b #0x28ad958 ; Loom.Game.Map.MapFailEventsData::remove_OnUfoFail
+
+# Loom.Game.Map.MapFailEvents::TriggerCurtainFail 0x28ac368 size=52
+28ac368: push {r4, lr}
+28ac36c: ldr r4, [r0, #0xc]
+28ac370: cmp r4, #0
+28ac374: bne #0x28ac37c
+28ac378: bl #0x236fcb0
+28ac37c: ldr r0, [r4, #0x18]
+28ac380: cmp r0, #0
+28ac384: popeq {r4, pc}
+28ac388: ldr r2, [r0, #0xc]
+28ac38c: ldr r1, [r0, #0x14]
+28ac390: ldr r0, [r0, #0x20]
+28ac394: pop {r4, lr}
+28ac398: bx r2
+
+# Loom.Game.Map.MapFailEvents::SubscribeToCurtainFail 0x28ac2c0 size=40
+28ac2c0: push {r4, r5, fp, lr}
+28ac2c4: ldr r5, [r0, #0xc]
+28ac2c8: mov r4, r1
+28ac2cc: cmp r5, #0
+28ac2d0: bne #0x28ac2d8
+28ac2d4: bl #0x236fcb0
+28ac2d8: mov r0, r5
+28ac2dc: mov r1, r4
+28ac2e0: pop {r4, r5, fp, lr}
+28ac2e4: b #0x28ad9f8 ; Loom.Game.Map.MapFailEventsData::add_OnCurtainFail
+
+# Loom.Game.Map.MapFailEvents::UnsubscribeFromCurtainFail 0x28ac320 size=40
+28ac320: push {r4, r5, fp, lr}
+28ac324: ldr r5, [r0, #0xc]
+28ac328: mov r4, r1
+28ac32c: cmp r5, #0
+28ac330: bne #0x28ac338
+28ac334: bl #0x236fcb0
+28ac338: mov r0, r5
+28ac33c: mov r1, r4
+28ac340: pop {r4, r5, fp, lr}
+28ac344: b #0x28ada98 ; Loom.Game.Map.MapFailEventsData::remove_OnCurtainFail
+
+# Loom.Game.Map.MapFailEvents::TriggerBullTotemFail 0x28ace8c size=52
+28ace8c: push {r4, lr}
+28ace90: ldr r4, [r0, #0xc]
+28ace94: cmp r4, #0
+28ace98: bne #0x28acea0
+28ace9c: bl #0x236fcb0
+28acea0: ldr r0, [r4, #0x1c]
+28acea4: cmp r0, #0
+28acea8: popeq {r4, pc}
+28aceac: ldr r2, [r0, #0xc]
+28aceb0: ldr r1, [r0, #0x14]
+28aceb4: ldr r0, [r0, #0x20]
+28aceb8: pop {r4, lr}
+28acebc: bx r2
+
+# Loom.Game.Map.MapFailEvents::SubscribeToBullTotemFail 0x28acedc size=40
+28acedc: push {r4, r5, fp, lr}
+28acee0: ldr r5, [r0, #0xc]
+28acee4: mov r4, r1
+28acee8: cmp r5, #0
+28aceec: bne #0x28acef4
+28acef0: bl #0x236fcb0
+28acef4: mov r0, r5
+28acef8: mov r1, r4
+28acefc: pop {r4, r5, fp, lr}
+28acf00: b #0x28adb38 ; Loom.Game.Map.MapFailEventsData::add_OnBullTotemFail
+
+# Loom.Game.Map.MapFailEvents::UnsubscribeFromBullTotemFail 0x28acf08 size=40
+28acf08: push {r4, r5, fp, lr}
+28acf0c: ldr r5, [r0, #0xc]
+28acf10: mov r4, r1
+28acf14: cmp r5, #0
+28acf18: bne #0x28acf20
+28acf1c: bl #0x236fcb0
+28acf20: mov r0, r5
+28acf24: mov r1, r4
+28acf28: pop {r4, r5, fp, lr}
+28acf2c: b #0x28adbd8 ; Loom.Game.Map.MapFailEventsData::remove_OnBullTotemFail
+
+# Loom.Game.Map.MapFailEvents::TriggerSpaceshipFail 0x28acbd8 size=52
+28acbd8: push {r4, lr}
+28acbdc: ldr r4, [r0, #0xc]
+28acbe0: cmp r4, #0
+28acbe4: bne #0x28acbec
+28acbe8: bl #0x236fcb0
+28acbec: ldr r0, [r4, #0x20]
+28acbf0: cmp r0, #0
+28acbf4: popeq {r4, pc}
+28acbf8: ldr r2, [r0, #0xc]
+28acbfc: ldr r1, [r0, #0x14]
+28acc00: ldr r0, [r0, #0x20]
+28acc04: pop {r4, lr}
+28acc08: bx r2
+
+# Loom.Game.Map.MapFailEvents::SubscribeToSpaceshipFail 0x28acb30 size=40
+28acb30: push {r4, r5, fp, lr}
+28acb34: ldr r5, [r0, #0xc]
+28acb38: mov r4, r1
+28acb3c: cmp r5, #0
+28acb40: bne #0x28acb48
+28acb44: bl #0x236fcb0
+28acb48: mov r0, r5
+28acb4c: mov r1, r4
+28acb50: pop {r4, r5, fp, lr}
+28acb54: b #0x28adc78 ; Loom.Game.Map.MapFailEventsData::add_OnSpaceshipFail
+
+# Loom.Game.Map.MapFailEvents::UnsubscribeFromSpaceshipFail 0x28acb90 size=40
+28acb90: push {r4, r5, fp, lr}
+28acb94: ldr r5, [r0, #0xc]
+28acb98: mov r4, r1
+28acb9c: cmp r5, #0
+28acba0: bne #0x28acba8
+28acba4: bl #0x236fcb0
+28acba8: mov r0, r5
+28acbac: mov r1, r4
+28acbb0: pop {r4, r5, fp, lr}
+28acbb4: b #0x28add18 ; Loom.Game.Map.MapFailEventsData::remove_OnSpaceshipFail
+
+# Loom.Game.Map.MapFailEvents::TriggerOctopigFail 0x28acf58 size=52
+28acf58: push {r4, lr}
+28acf5c: ldr r4, [r0, #0xc]
+28acf60: cmp r4, #0
+28acf64: bne #0x28acf6c
+28acf68: bl #0x236fcb0
+28acf6c: ldr r0, [r4, #0x24]
+28acf70: cmp r0, #0
+28acf74: popeq {r4, pc}
+28acf78: ldr r2, [r0, #0xc]
+28acf7c: ldr r1, [r0, #0x14]
+28acf80: ldr r0, [r0, #0x20]
+28acf84: pop {r4, lr}
+28acf88: bx r2
+
+# Loom.Game.Map.MapFailEvents::SubscribeToOctopigFail 0x28acfa8 size=40
+28acfa8: push {r4, r5, fp, lr}
+28acfac: ldr r5, [r0, #0xc]
+28acfb0: mov r4, r1
+28acfb4: cmp r5, #0
+28acfb8: bne #0x28acfc0
+28acfbc: bl #0x236fcb0
+28acfc0: mov r0, r5
+28acfc4: mov r1, r4
+28acfc8: pop {r4, r5, fp, lr}
+28acfcc: b #0x28addb8 ; Loom.Game.Map.MapFailEventsData::add_OnOctopigFail
+
+# Loom.Game.Map.MapFailEvents::UnsubscribeFromOctopigFail 0x28acfd4 size=40
+28acfd4: push {r4, r5, fp, lr}
+28acfd8: ldr r5, [r0, #0xc]
+28acfdc: mov r4, r1
+28acfe0: cmp r5, #0
+28acfe4: bne #0x28acfec
+28acfe8: bl #0x236fcb0
+28acfec: mov r0, r5
+28acff0: mov r1, r4
+28acff4: pop {r4, r5, fp, lr}
+28acff8: b #0x28ade58 ; Loom.Game.Map.MapFailEventsData::remove_OnOctopigFail
+
+# Loom.Game.Map.MapFailEvents::TriggerObstacleFail 0x28ac7a0 size=52
+28ac7a0: push {r4, lr}
+28ac7a4: ldr r4, [r0, #0xc]
+28ac7a8: cmp r4, #0
+28ac7ac: bne #0x28ac7b4
+28ac7b0: bl #0x236fcb0
+28ac7b4: ldr r0, [r4, #0x28]
+28ac7b8: cmp r0, #0
+28ac7bc: popeq {r4, pc}
+28ac7c0: ldr r2, [r0, #0xc]
+28ac7c4: ldr r1, [r0, #0x14]
+28ac7c8: ldr r0, [r0, #0x20]
+28ac7cc: pop {r4, lr}
+28ac7d0: bx r2
+
+# Loom.Game.Map.MapFailEvents::SubscribeToObstacleFail 0x28ac6f8 size=40
+28ac6f8: push {r4, r5, fp, lr}
+28ac6fc: ldr r5, [r0, #0xc]
+28ac700: mov r4, r1
+28ac704: cmp r5, #0
+28ac708: bne #0x28ac710
+28ac70c: bl #0x236fcb0
+28ac710: mov r0, r5
+28ac714: mov r1, r4
+28ac718: pop {r4, r5, fp, lr}
+28ac71c: b #0x28adef8 ; Loom.Game.Map.MapFailEventsData::add_OnObstacleFail
+
+# Loom.Game.Map.MapFailEvents::UnsubscribeFromObstacleFail 0x28ac758 size=40
+28ac758: push {r4, r5, fp, lr}
+28ac75c: ldr r5, [r0, #0xc]
+28ac760: mov r4, r1
+28ac764: cmp r5, #0
+28ac768: bne #0x28ac770
+28ac76c: bl #0x236fcb0
+28ac770: mov r0, r5
+28ac774: mov r1, r4
+28ac778: pop {r4, r5, fp, lr}
+28ac77c: b #0x28adf98 ; Loom.Game.Map.MapFailEventsData::remove_OnObstacleFail
+
+# Loom.Game.Map.MapFailEvents::TriggerOutOfTimeFail 0x28aca70 size=52
+28aca70: push {r4, lr}
+28aca74: ldr r4, [r0, #0xc]
+28aca78: cmp r4, #0
+28aca7c: bne #0x28aca84
+28aca80: bl #0x236fcb0
+28aca84: ldr r0, [r4, #0x2c]
+28aca88: cmp r0, #0
+28aca8c: popeq {r4, pc}
+28aca90: ldr r2, [r0, #0xc]
+28aca94: ldr r1, [r0, #0x14]
+28aca98: ldr r0, [r0, #0x20]
+28aca9c: pop {r4, lr}
+28acaa0: bx r2
+
+# Loom.Game.Map.MapFailEvents::SubscribeToOutOfTimeFail 0x28ac9c8 size=40
+28ac9c8: push {r4, r5, fp, lr}
+28ac9cc: ldr r5, [r0, #0xc]
+28ac9d0: mov r4, r1
+28ac9d4: cmp r5, #0
+28ac9d8: bne #0x28ac9e0
+28ac9dc: bl #0x236fcb0
+28ac9e0: mov r0, r5
+28ac9e4: mov r1, r4
+28ac9e8: pop {r4, r5, fp, lr}
+28ac9ec: b #0x28ae038 ; Loom.Game.Map.MapFailEventsData::add_OnOutOfTimeFail
+
+# Loom.Game.Map.MapFailEvents::UnsubscribeFromOutOfTimeFail 0x28aca28 size=40
+28aca28: push {r4, r5, fp, lr}
+28aca2c: ldr r5, [r0, #0xc]
+28aca30: mov r4, r1
+28aca34: cmp r5, #0
+28aca38: bne #0x28aca40
+28aca3c: bl #0x236fcb0
+28aca40: mov r0, r5
+28aca44: mov r1, r4
+28aca48: pop {r4, r5, fp, lr}
+28aca4c: b #0x28ae0d8 ; Loom.Game.Map.MapFailEventsData::remove_OnOutOfTimeFail
+
+# Loom.Game.Map.MapFailEvents::Subscribe 0x28ad048 size=40
+28ad048: push {r4, r5, fp, lr}
+28ad04c: ldr r5, [r0, #0xc]
+28ad050: mov r4, r1
+28ad054: cmp r5, #0
+28ad058: bne #0x28ad060
+28ad05c: bl #0x236fcb0
+28ad060: mov r0, r5
+28ad064: mov r1, r4
+28ad068: pop {r4, r5, fp, lr}
+28ad06c: b #0x28ad070 ; Loom.Game.Map.MapFailEventsData::Subscribe
+
+# Loom.Game.Map.MapFailEvents::Unsubscribe 0x28ad29c size=40
+28ad29c: push {r4, r5, fp, lr}
+28ad2a0: ldr r5, [r0, #0xc]
+28ad2a4: mov r4, r1
+28ad2a8: cmp r5, #0
+28ad2ac: bne #0x28ad2b4
+28ad2b0: bl #0x236fcb0
+28ad2b4: mov r0, r5
+28ad2b8: mov r1, r4
+28ad2bc: pop {r4, r5, fp, lr}
+28ad2c0: b #0x28ad2c4 ; Loom.Game.Map.MapFailEventsData::Unsubscribe
+
+# Loom.Game.Map.MapFailEvents::.ctor 0x28ad4f0 size=8
+28ad4f0: mov r1, #0
+28ad4f4: b #0x345ca24
+
+# Loom.Game.Map.MapFailEventsData::add_OnOutOfSpaceFail 0x28ad4f8 size=160
+28ad4f8: push {r4, r5, r6, r7, r8, lr}
+28ad4fc: ldr r6, [pc, #0x88]
+28ad500: mov r5, r0
+28ad504: mov r4, r1
+28ad508: add r6, pc, r6
+28ad50c: ldrb r0, [r6]
+28ad510: cmp r0, #0
+28ad514: bne #0x28ad52c
+28ad518: ldr r0, [pc, #0x70]
+28ad51c: ldr r0, [pc, r0]
+28ad520: bl #0x236fa00
+28ad524: mov r0, #1
+28ad528: strb r0, [r6]
+28ad52c: ldr r0, [r5, #8]!
+28ad530: ldr r8, [pc, #0x5c]
+28ad534: ldr r8, [pc, r8]
+28ad538: mov r1, r4
+28ad53c: mov r2, #0
+28ad540: mov r6, r0
+28ad544: mov r7, #0
+28ad548: bl #0x345a2e8
+28ad54c: cmp r0, #0
+28ad550: beq #0x28ad570
+28ad554: ldr r1, [r8]
+28ad558: ldr r2, [r0]
+28ad55c: cmp r2, r1
+28ad560: beq #0x28ad56c
+28ad564: bl #0x2370068
+28ad568: b #0x28ad570
+28ad56c: mov r7, r0
+28ad570: mov r0, r5
+28ad574: mov r1, r7
+28ad578: mov r2, r6
+28ad57c: bl #0x23aa6ac
+28ad580: cmp r0, r6
+28ad584: bne #0x28ad538
+28ad588: pop {r4, r5, r6, r7, r8, pc}
+28ad58c: ldrbteq r7, [r5], -r5, asr #9
+28ad590: strbeq sb, [r0], -r0, ror #14
+28ad594: strbeq sb, [r0], -r8, asr #14
+
+# Loom.Game.Map.MapFailEventsData::remove_OnOutOfSpaceFail 0x28ad598 size=160
+28ad598: push {r4, r5, r6, r7, r8, lr}
+28ad59c: ldr r6, [pc, #0x88]
+28ad5a0: mov r5, r0
+28ad5a4: mov r4, r1
+28ad5a8: add r6, pc, r6
+28ad5ac: ldrb r0, [r6]
+28ad5b0: cmp r0, #0
+28ad5b4: bne #0x28ad5cc
+28ad5b8: ldr r0, [pc, #0x70]
+28ad5bc: ldr r0, [pc, r0]
+28ad5c0: bl #0x236fa00
+28ad5c4: mov r0, #1
+28ad5c8: strb r0, [r6]
+28ad5cc: ldr r0, [r5, #8]!
+28ad5d0: ldr r8, [pc, #0x5c]
+28ad5d4: ldr r8, [pc, r8]
+28ad5d8: mov r1, r4
+28ad5dc: mov r2, #0
+28ad5e0: mov r6, r0
+28ad5e4: mov r7, #0
+28ad5e8: bl #0x345a2f8
+28ad5ec: cmp r0, #0
+28ad5f0: beq #0x28ad610
+28ad5f4: ldr r1, [r8]
+28ad5f8: ldr r2, [r0]
+28ad5fc: cmp r2, r1
+28ad600: beq #0x28ad60c
+28ad604: bl #0x2370068
+28ad608: b #0x28ad610
+28ad60c: mov r7, r0
+28ad610: mov r0, r5
+28ad614: mov r1, r7
+28ad618: mov r2, r6
+28ad61c: bl #0x23aa6ac
+28ad620: cmp r0, r6
+28ad624: bne #0x28ad5d8
+28ad628: pop {r4, r5, r6, r7, r8, pc}
+28ad62c: ldrbteq r7, [r5], -r6, lsr #8
+28ad630: strbeq sb, [r0], -r0, asr #13
+28ad634: strbeq sb, [r0], -r8, lsr #13
+
+# Loom.Game.Map.MapFailEventsData::add_OnLockedOutFail 0x28ad638 size=160
+28ad638: push {r4, r5, r6, r7, r8, lr}
+28ad63c: ldr r6, [pc, #0x88]
+28ad640: mov r5, r0
+28ad644: mov r4, r1
+28ad648: add r6, pc, r6
+28ad64c: ldrb r0, [r6]
+28ad650: cmp r0, #0
+28ad654: bne #0x28ad66c
+28ad658: ldr r0, [pc, #0x70]
+28ad65c: ldr r0, [pc, r0]
+28ad660: bl #0x236fa00
+28ad664: mov r0, #1
+28ad668: strb r0, [r6]
+28ad66c: ldr r0, [r5, #0xc]!
+28ad670: ldr r8, [pc, #0x5c]
+28ad674: ldr r8, [pc, r8]
+28ad678: mov r1, r4
+28ad67c: mov r2, #0
+28ad680: mov r6, r0
+28ad684: mov r7, #0
+28ad688: bl #0x345a2e8
+28ad68c: cmp r0, #0
+28ad690: beq #0x28ad6b0
+28ad694: ldr r1, [r8]
+28ad698: ldr r2, [r0]
+28ad69c: cmp r2, r1
+28ad6a0: beq #0x28ad6ac
+28ad6a4: bl #0x2370068
+28ad6a8: b #0x28ad6b0
+28ad6ac: mov r7, r0
+28ad6b0: mov r0, r5
+28ad6b4: mov r1, r7
+28ad6b8: mov r2, r6
+28ad6bc: bl #0x23aa6ac
+28ad6c0: cmp r0, r6
+28ad6c4: bne #0x28ad678
+28ad6c8: pop {r4, r5, r6, r7, r8, pc}
+28ad6cc: ldrbteq r7, [r5], -r7, lsl #7
+28ad6d0: strbeq sb, [r0], -r0, lsr #12
+28ad6d4: strbeq sb, [r0], -r8, lsl #12
+
+# Loom.Game.Map.MapFailEventsData::remove_OnLockedOutFail 0x28ad6d8 size=160
+28ad6d8: push {r4, r5, r6, r7, r8, lr}
+28ad6dc: ldr r6, [pc, #0x88]
+28ad6e0: mov r5, r0
+28ad6e4: mov r4, r1
+28ad6e8: add r6, pc, r6
+28ad6ec: ldrb r0, [r6]
+28ad6f0: cmp r0, #0
+28ad6f4: bne #0x28ad70c
+28ad6f8: ldr r0, [pc, #0x70]
+28ad6fc: ldr r0, [pc, r0]
+28ad700: bl #0x236fa00
+28ad704: mov r0, #1
+28ad708: strb r0, [r6]
+28ad70c: ldr r0, [r5, #0xc]!
+28ad710: ldr r8, [pc, #0x5c]
+28ad714: ldr r8, [pc, r8]
+28ad718: mov r1, r4
+28ad71c: mov r2, #0
+28ad720: mov r6, r0
+28ad724: mov r7, #0
+28ad728: bl #0x345a2f8
+28ad72c: cmp r0, #0
+28ad730: beq #0x28ad750
+28ad734: ldr r1, [r8]
+28ad738: ldr r2, [r0]
+28ad73c: cmp r2, r1
+28ad740: beq #0x28ad74c
+28ad744: bl #0x2370068
+28ad748: b #0x28ad750
+28ad74c: mov r7, r0
+28ad750: mov r0, r5
+28ad754: mov r1, r7
+28ad758: mov r2, r6
+28ad75c: bl #0x23aa6ac
+28ad760: cmp r0, r6
+28ad764: bne #0x28ad718
+28ad768: pop {r4, r5, r6, r7, r8, pc}
+28ad76c: ldrbteq r7, [r5], -r8, ror #5
+28ad770: strbeq sb, [r0], -r0, lsl #11
+28ad774: strbeq sb, [r0], -r8, ror #10
+
+# Loom.Game.Map.MapFailEventsData::add_OnFrozenFail 0x28ad778 size=160
+28ad778: push {r4, r5, r6, r7, r8, lr}
+28ad77c: ldr r6, [pc, #0x88]
+28ad780: mov r5, r0
+28ad784: mov r4, r1
+28ad788: add r6, pc, r6
+28ad78c: ldrb r0, [r6]
+28ad790: cmp r0, #0
+28ad794: bne #0x28ad7ac
+28ad798: ldr r0, [pc, #0x70]
+28ad79c: ldr r0, [pc, r0]
+28ad7a0: bl #0x236fa00
+28ad7a4: mov r0, #1
+28ad7a8: strb r0, [r6]
+28ad7ac: ldr r0, [r5, #0x10]!
+28ad7b0: ldr r8, [pc, #0x5c]
+28ad7b4: ldr r8, [pc, r8]
+28ad7b8: mov r1, r4
+28ad7bc: mov r2, #0
+28ad7c0: mov r6, r0
+28ad7c4: mov r7, #0
+28ad7c8: bl #0x345a2e8
+28ad7cc: cmp r0, #0
+28ad7d0: beq #0x28ad7f0
+28ad7d4: ldr r1, [r8]
+28ad7d8: ldr r2, [r0]
+28ad7dc: cmp r2, r1
+28ad7e0: beq #0x28ad7ec
+28ad7e4: bl #0x2370068
+28ad7e8: b #0x28ad7f0
+28ad7ec: mov r7, r0
+28ad7f0: mov r0, r5
+28ad7f4: mov r1, r7
+28ad7f8: mov r2, r6
+28ad7fc: bl #0x23aa6ac
+28ad800: cmp r0, r6
+28ad804: bne #0x28ad7b8
+28ad808: pop {r4, r5, r6, r7, r8, pc}
+28ad80c: ldrbteq r7, [r5], -sb, asr #4
+28ad810: strbeq sb, [r0], -r0, ror #9
+28ad814: strbeq sb, [r0], -r8, asr #9
+
+# Loom.Game.Map.MapFailEventsData::remove_OnFrozenFail 0x28ad818 size=160
+28ad818: push {r4, r5, r6, r7, r8, lr}
+28ad81c: ldr r6, [pc, #0x88]
+28ad820: mov r5, r0
+28ad824: mov r4, r1
+28ad828: add r6, pc, r6
+28ad82c: ldrb r0, [r6]
+28ad830: cmp r0, #0
+28ad834: bne #0x28ad84c
+28ad838: ldr r0, [pc, #0x70]
+28ad83c: ldr r0, [pc, r0]
+28ad840: bl #0x236fa00
+28ad844: mov r0, #1
+28ad848: strb r0, [r6]
+28ad84c: ldr r0, [r5, #0x10]!
+28ad850: ldr r8, [pc, #0x5c]
+28ad854: ldr r8, [pc, r8]
+28ad858: mov r1, r4
+28ad85c: mov r2, #0
+28ad860: mov r6, r0
+28ad864: mov r7, #0
+28ad868: bl #0x345a2f8
+28ad86c: cmp r0, #0
+28ad870: beq #0x28ad890
+28ad874: ldr r1, [r8]
+28ad878: ldr r2, [r0]
+28ad87c: cmp r2, r1
+28ad880: beq #0x28ad88c
+28ad884: bl #0x2370068
+28ad888: b #0x28ad890
+28ad88c: mov r7, r0
+28ad890: mov r0, r5
+28ad894: mov r1, r7
+28ad898: mov r2, r6
+28ad89c: bl #0x23aa6ac
+28ad8a0: cmp r0, r6
+28ad8a4: bne #0x28ad858
+28ad8a8: pop {r4, r5, r6, r7, r8, pc}
+28ad8ac: ldrbteq r7, [r5], -sl, lsr #3
+28ad8b0: strbeq sb, [r0], -r0, asr #8
+28ad8b4: strbeq sb, [r0], -r8, lsr #8
+
+# Loom.Game.Map.MapFailEventsData::add_OnUfoFail 0x28ad8b8 size=160
+28ad8b8: push {r4, r5, r6, r7, r8, lr}
+28ad8bc: ldr r6, [pc, #0x88]
+28ad8c0: mov r5, r0
+28ad8c4: mov r4, r1
+28ad8c8: add r6, pc, r6
+28ad8cc: ldrb r0, [r6]
+28ad8d0: cmp r0, #0
+28ad8d4: bne #0x28ad8ec
+28ad8d8: ldr r0, [pc, #0x70]
+28ad8dc: ldr r0, [pc, r0]
+28ad8e0: bl #0x236fa00
+28ad8e4: mov r0, #1
+28ad8e8: strb r0, [r6]
+28ad8ec: ldr r0, [r5, #0x14]!
+28ad8f0: ldr r8, [pc, #0x5c]
+28ad8f4: ldr r8, [pc, r8]
+28ad8f8: mov r1, r4
+28ad8fc: mov r2, #0
+28ad900: mov r6, r0
+28ad904: mov r7, #0
+28ad908: bl #0x345a2e8
+28ad90c: cmp r0, #0
+28ad910: beq #0x28ad930
+28ad914: ldr r1, [r8]
+28ad918: ldr r2, [r0]
+28ad91c: cmp r2, r1
+28ad920: beq #0x28ad92c
+28ad924: bl #0x2370068
+28ad928: b #0x28ad930
+28ad92c: mov r7, r0
+28ad930: mov r0, r5
+28ad934: mov r1, r7
+28ad938: mov r2, r6
+28ad93c: bl #0x23aa6ac
+28ad940: cmp r0, r6
+28ad944: bne #0x28ad8f8
+28ad948: pop {r4, r5, r6, r7, r8, pc}
+28ad94c: ldrbteq r7, [r5], -fp, lsl #2
+28ad950: strbeq sb, [r0], -r0, lsr #7
+28ad954: strbeq sb, [r0], -r8, lsl #7
+
+# Loom.Game.Map.MapFailEventsData::remove_OnUfoFail 0x28ad958 size=160
+28ad958: push {r4, r5, r6, r7, r8, lr}
+28ad95c: ldr r6, [pc, #0x88]
+28ad960: mov r5, r0
+28ad964: mov r4, r1
+28ad968: add r6, pc, r6
+28ad96c: ldrb r0, [r6]
+28ad970: cmp r0, #0
+28ad974: bne #0x28ad98c
+28ad978: ldr r0, [pc, #0x70]
+28ad97c: ldr r0, [pc, r0]
+28ad980: bl #0x236fa00
+28ad984: mov r0, #1
+28ad988: strb r0, [r6]
+28ad98c: ldr r0, [r5, #0x14]!
+28ad990: ldr r8, [pc, #0x5c]
+28ad994: ldr r8, [pc, r8]
+28ad998: mov r1, r4
+28ad99c: mov r2, #0
+28ad9a0: mov r6, r0
+28ad9a4: mov r7, #0
+28ad9a8: bl #0x345a2f8
+28ad9ac: cmp r0, #0
+28ad9b0: beq #0x28ad9d0
+28ad9b4: ldr r1, [r8]
+28ad9b8: ldr r2, [r0]
+28ad9bc: cmp r2, r1
+28ad9c0: beq #0x28ad9cc
+28ad9c4: bl #0x2370068
+28ad9c8: b #0x28ad9d0
+28ad9cc: mov r7, r0
+28ad9d0: mov r0, r5
+28ad9d4: mov r1, r7
+28ad9d8: mov r2, r6
+28ad9dc: bl #0x23aa6ac
+28ad9e0: cmp r0, r6
+28ad9e4: bne #0x28ad998
+28ad9e8: pop {r4, r5, r6, r7, r8, pc}
+28ad9ec: ldrbteq r7, [r5], -ip, rrx
+28ad9f0: strbeq sb, [r0], -r0, lsl #6
+28ad9f4: strbeq sb, [r0], -r8, ror #5
+
+# Loom.Game.Map.MapFailEventsData::add_OnCurtainFail 0x28ad9f8 size=160
+28ad9f8: push {r4, r5, r6, r7, r8, lr}
+28ad9fc: ldr r6, [pc, #0x88]
+28ada00: mov r5, r0
+28ada04: mov r4, r1
+28ada08: add r6, pc, r6
+28ada0c: ldrb r0, [r6]
+28ada10: cmp r0, #0
+28ada14: bne #0x28ada2c
+28ada18: ldr r0, [pc, #0x70]
+28ada1c: ldr r0, [pc, r0]
+28ada20: bl #0x236fa00
+28ada24: mov r0, #1
+28ada28: strb r0, [r6]
+28ada2c: ldr r0, [r5, #0x18]!
+28ada30: ldr r8, [pc, #0x5c]
+28ada34: ldr r8, [pc, r8]
+28ada38: mov r1, r4
+28ada3c: mov r2, #0
+28ada40: mov r6, r0
+28ada44: mov r7, #0
+28ada48: bl #0x345a2e8
+28ada4c: cmp r0, #0
+28ada50: beq #0x28ada70
+28ada54: ldr r1, [r8]
+28ada58: ldr r2, [r0]
+28ada5c: cmp r2, r1
+28ada60: beq #0x28ada6c
+28ada64: bl #0x2370068
+28ada68: b #0x28ada70
+28ada6c: mov r7, r0
+28ada70: mov r0, r5
+28ada74: mov r1, r7
+28ada78: mov r2, r6
+28ada7c: bl #0x23aa6ac
+28ada80: cmp r0, r6
+28ada84: bne #0x28ada38
+28ada88: pop {r4, r5, r6, r7, r8, pc}
+28ada8c: ldrbteq r6, [r5], -sp, asr #31
+28ada90: strbeq sb, [r0], -r0, ror #4
+28ada94: strbeq sb, [r0], -r8, asr #4
+
+# Loom.Game.Map.MapFailEventsData::remove_OnCurtainFail 0x28ada98 size=160
+28ada98: push {r4, r5, r6, r7, r8, lr}
+28ada9c: ldr r6, [pc, #0x88]
+28adaa0: mov r5, r0
+28adaa4: mov r4, r1
+28adaa8: add r6, pc, r6
+28adaac: ldrb r0, [r6]
+28adab0: cmp r0, #0
+28adab4: bne #0x28adacc
+28adab8: ldr r0, [pc, #0x70]
+28adabc: ldr r0, [pc, r0]
+28adac0: bl #0x236fa00
+28adac4: mov r0, #1
+28adac8: strb r0, [r6]
+28adacc: ldr r0, [r5, #0x18]!
+28adad0: ldr r8, [pc, #0x5c]
+28adad4: ldr r8, [pc, r8]
+28adad8: mov r1, r4
+28adadc: mov r2, #0
+28adae0: mov r6, r0
+28adae4: mov r7, #0
+28adae8: bl #0x345a2f8
+28adaec: cmp r0, #0
+28adaf0: beq #0x28adb10
+28adaf4: ldr r1, [r8]
+28adaf8: ldr r2, [r0]
+28adafc: cmp r2, r1
+28adb00: beq #0x28adb0c
+28adb04: bl #0x2370068
+28adb08: b #0x28adb10
+28adb0c: mov r7, r0
+28adb10: mov r0, r5
+28adb14: mov r1, r7
+28adb18: mov r2, r6
+28adb1c: bl #0x23aa6ac
+28adb20: cmp r0, r6
+28adb24: bne #0x28adad8
+28adb28: pop {r4, r5, r6, r7, r8, pc}
+28adb2c: ldrbteq r6, [r5], -lr, lsr #30
+28adb30: strbeq sb, [r0], -r0, asr #3
+28adb34: strbeq sb, [r0], -r8, lsr #3
+
+# Loom.Game.Map.MapFailEventsData::add_OnBullTotemFail 0x28adb38 size=160
+28adb38: push {r4, r5, r6, r7, r8, lr}
+28adb3c: ldr r6, [pc, #0x88]
+28adb40: mov r5, r0
+28adb44: mov r4, r1
+28adb48: add r6, pc, r6
+28adb4c: ldrb r0, [r6]
+28adb50: cmp r0, #0
+28adb54: bne #0x28adb6c
+28adb58: ldr r0, [pc, #0x70]
+28adb5c: ldr r0, [pc, r0]
+28adb60: bl #0x236fa00
+28adb64: mov r0, #1
+28adb68: strb r0, [r6]
+28adb6c: ldr r0, [r5, #0x1c]!
+28adb70: ldr r8, [pc, #0x5c]
+28adb74: ldr r8, [pc, r8]
+28adb78: mov r1, r4
+28adb7c: mov r2, #0
+28adb80: mov r6, r0
+28adb84: mov r7, #0
+28adb88: bl #0x345a2e8
+28adb8c: cmp r0, #0
+28adb90: beq #0x28adbb0
+28adb94: ldr r1, [r8]
+28adb98: ldr r2, [r0]
+28adb9c: cmp r2, r1
+28adba0: beq #0x28adbac
+28adba4: bl #0x2370068
+28adba8: b #0x28adbb0
+28adbac: mov r7, r0
+28adbb0: mov r0, r5
+28adbb4: mov r1, r7
+28adbb8: mov r2, r6
+28adbbc: bl #0x23aa6ac
+28adbc0: cmp r0, r6
+28adbc4: bne #0x28adb78
+28adbc8: pop {r4, r5, r6, r7, r8, pc}
+28adbcc: ldrbteq r6, [r5], -pc, lsl #29
+28adbd0: strbeq sb, [r0], -r0, lsr #2
+28adbd4: strbeq sb, [r0], -r8, lsl #2
+
+# Loom.Game.Map.MapFailEventsData::remove_OnBullTotemFail 0x28adbd8 size=160
+28adbd8: push {r4, r5, r6, r7, r8, lr}
+28adbdc: ldr r6, [pc, #0x88]
+28adbe0: mov r5, r0
+28adbe4: mov r4, r1
+28adbe8: add r6, pc, r6
+28adbec: ldrb r0, [r6]
+28adbf0: cmp r0, #0
+28adbf4: bne #0x28adc0c
+28adbf8: ldr r0, [pc, #0x70]
+28adbfc: ldr r0, [pc, r0]
+28adc00: bl #0x236fa00
+28adc04: mov r0, #1
+28adc08: strb r0, [r6]
+28adc0c: ldr r0, [r5, #0x1c]!
+28adc10: ldr r8, [pc, #0x5c]
+28adc14: ldr r8, [pc, r8]
+28adc18: mov r1, r4
+28adc1c: mov r2, #0
+28adc20: mov r6, r0
+28adc24: mov r7, #0
+28adc28: bl #0x345a2f8
+28adc2c: cmp r0, #0
+28adc30: beq #0x28adc50
+28adc34: ldr r1, [r8]
+28adc38: ldr r2, [r0]
+28adc3c: cmp r2, r1
+28adc40: beq #0x28adc4c
+28adc44: bl #0x2370068
+28adc48: b #0x28adc50
+28adc4c: mov r7, r0
+28adc50: mov r0, r5
+28adc54: mov r1, r7
+28adc58: mov r2, r6
+28adc5c: bl #0x23aa6ac
+28adc60: cmp r0, r6
+28adc64: bne #0x28adc18
+28adc68: pop {r4, r5, r6, r7, r8, pc}
+28adc6c: uhsub8eq r6, r5, r0
+28adc70: strbeq sb, [r0], -r0, lsl #1
+28adc74: strbeq sb, [r0], -r8, rrx
+
+# Loom.Game.Map.MapFailEventsData::add_OnSpaceshipFail 0x28adc78 size=160
+28adc78: push {r4, r5, r6, r7, r8, lr}
+28adc7c: ldr r6, [pc, #0x88]
+28adc80: mov r5, r0
+28adc84: mov r4, r1
+28adc88: add r6, pc, r6
+28adc8c: ldrb r0, [r6]
+28adc90: cmp r0, #0
+28adc94: bne #0x28adcac
+28adc98: ldr r0, [pc, #0x70]
+28adc9c: ldr r0, [pc, r0]
+28adca0: bl #0x236fa00
+28adca4: mov r0, #1
+28adca8: strb r0, [r6]
+28adcac: ldr r0, [r5, #0x20]!
+28adcb0: ldr r8, [pc, #0x5c]
+28adcb4: ldr r8, [pc, r8]
+28adcb8: mov r1, r4
+28adcbc: mov r2, #0
+28adcc0: mov r6, r0
+28adcc4: mov r7, #0
+28adcc8: bl #0x345a2e8
+28adccc: cmp r0, #0
+28adcd0: beq #0x28adcf0
+28adcd4: ldr r1, [r8]
+28adcd8: ldr r2, [r0]
+28adcdc: cmp r2, r1
+28adce0: beq #0x28adcec
+28adce4: bl #0x2370068
+28adce8: b #0x28adcf0
+28adcec: mov r7, r0
+28adcf0: mov r0, r5
+28adcf4: mov r1, r7
+28adcf8: mov r2, r6
+28adcfc: bl #0x23aa6ac
+28add00: cmp r0, r6
+28add04: bne #0x28adcb8
+28add08: pop {r4, r5, r6, r7, r8, pc}
+28add0c: uhsaxeq r6, r5, r1
+28add10: strbeq r8, [r0], -r0, ror #31
+28add14: strbeq r8, [r0], -r8, asr #31
+
+# Loom.Game.Map.MapFailEventsData::remove_OnSpaceshipFail 0x28add18 size=160
+28add18: push {r4, r5, r6, r7, r8, lr}
+28add1c: ldr r6, [pc, #0x88]
+28add20: mov r5, r0
+28add24: mov r4, r1
+28add28: add r6, pc, r6
+28add2c: ldrb r0, [r6]
+28add30: cmp r0, #0
+28add34: bne #0x28add4c
+28add38: ldr r0, [pc, #0x70]
+28add3c: ldr r0, [pc, r0]
+28add40: bl #0x236fa00
+28add44: mov r0, #1
+28add48: strb r0, [r6]
+28add4c: ldr r0, [r5, #0x20]!
+28add50: ldr r8, [pc, #0x5c]
+28add54: ldr r8, [pc, r8]
+28add58: mov r1, r4
+28add5c: mov r2, #0
+28add60: mov r6, r0
+28add64: mov r7, #0
+28add68: bl #0x345a2f8
+28add6c: cmp r0, #0
+28add70: beq #0x28add90
+28add74: ldr r1, [r8]
+28add78: ldr r2, [r0]
+28add7c: cmp r2, r1
+28add80: beq #0x28add8c
+28add84: bl #0x2370068
+28add88: b #0x28add90
+28add8c: mov r7, r0
+28add90: mov r0, r5
+28add94: mov r1, r7
+28add98: mov r2, r6
+28add9c: bl #0x23aa6ac
+28adda0: cmp r0, r6
+28adda4: bne #0x28add58
+28adda8: pop {r4, r5, r6, r7, r8, pc}
+
+# Loom.Game.Map.MapFailEventsData::add_OnOctopigFail 0x28addb8 size=160
+28addb8: push {r4, r5, r6, r7, r8, lr}
+28addbc: ldr r6, [pc, #0x88]
+28addc0: mov r5, r0
+28addc4: mov r4, r1
+28addc8: add r6, pc, r6
+28addcc: ldrb r0, [r6]
+28addd0: cmp r0, #0
+28addd4: bne #0x28addec
+28addd8: ldr r0, [pc, #0x70]
+28adddc: ldr r0, [pc, r0]
+28adde0: bl #0x236fa00
+28adde4: mov r0, #1
+28adde8: strb r0, [r6]
+28addec: ldr r0, [r5, #0x24]!
+28addf0: ldr r8, [pc, #0x5c]
+28addf4: ldr r8, [pc, r8]
+28addf8: mov r1, r4
+28addfc: mov r2, #0
+28ade00: mov r6, r0
+28ade04: mov r7, #0
+28ade08: bl #0x345a2e8
+28ade0c: cmp r0, #0
+28ade10: beq #0x28ade30
+28ade14: ldr r1, [r8]
+28ade18: ldr r2, [r0]
+28ade1c: cmp r2, r1
+28ade20: beq #0x28ade2c
+28ade24: bl #0x2370068
+28ade28: b #0x28ade30
+28ade2c: mov r7, r0
+28ade30: mov r0, r5
+28ade34: mov r1, r7
+28ade38: mov r2, r6
+28ade3c: bl #0x23aa6ac
+28ade40: cmp r0, r6
+28ade44: bne #0x28addf8
+28ade48: pop {r4, r5, r6, r7, r8, pc}
+28ade4c: uhadd16eq r6, r5, r3
+28ade50: strbeq r8, [r0], -r0, lsr #29
+28ade54: strbeq r8, [r0], -r8, lsl #29
+
+# Loom.Game.Map.MapFailEventsData::remove_OnOctopigFail 0x28ade58 size=160
+28ade58: push {r4, r5, r6, r7, r8, lr}
+28ade5c: ldr r6, [pc, #0x88]
+28ade60: mov r5, r0
+28ade64: mov r4, r1
+28ade68: add r6, pc, r6
+28ade6c: ldrb r0, [r6]
+28ade70: cmp r0, #0
+28ade74: bne #0x28ade8c
+28ade78: ldr r0, [pc, #0x70]
+28ade7c: ldr r0, [pc, r0]
+28ade80: bl #0x236fa00
+28ade84: mov r0, #1
+28ade88: strb r0, [r6]
+28ade8c: ldr r0, [r5, #0x24]!
+28ade90: ldr r8, [pc, #0x5c]
+28ade94: ldr r8, [pc, r8]
+28ade98: mov r1, r4
+28ade9c: mov r2, #0
+28adea0: mov r6, r0
+28adea4: mov r7, #0
+28adea8: bl #0x345a2f8
+28adeac: cmp r0, #0
+28adeb0: beq #0x28aded0
+28adeb4: ldr r1, [r8]
+28adeb8: ldr r2, [r0]
+28adebc: cmp r2, r1
+28adec0: beq #0x28adecc
+28adec4: bl #0x2370068
+28adec8: b #0x28aded0
+28adecc: mov r7, r0
+28aded0: mov r0, r5
+28aded4: mov r1, r7
+28aded8: mov r2, r6
+28adedc: bl #0x23aa6ac
+28adee0: cmp r0, r6
+28adee4: bne #0x28ade98
+28adee8: pop {r4, r5, r6, r7, r8, pc}
+28adeec: uhsub16eq r6, r5, r4
+28adef0: strbeq r8, [r0], -r0, lsl #28
+28adef4: strbeq r8, [r0], -r8, ror #27
+
+# Loom.Game.Map.MapFailEventsData::add_OnObstacleFail 0x28adef8 size=160
+28adef8: push {r4, r5, r6, r7, r8, lr}
+28adefc: ldr r6, [pc, #0x88]
+28adf00: mov r5, r0
+28adf04: mov r4, r1
+28adf08: add r6, pc, r6
+28adf0c: ldrb r0, [r6]
+28adf10: cmp r0, #0
+28adf14: bne #0x28adf2c
+28adf18: ldr r0, [pc, #0x70]
+28adf1c: ldr r0, [pc, r0]
+28adf20: bl #0x236fa00
+28adf24: mov r0, #1
+28adf28: strb r0, [r6]
+28adf2c: ldr r0, [r5, #0x28]!
+28adf30: ldr r8, [pc, #0x5c]
+28adf34: ldr r8, [pc, r8]
+28adf38: mov r1, r4
+28adf3c: mov r2, #0
+28adf40: mov r6, r0
+28adf44: mov r7, #0
+28adf48: bl #0x345a2e8
+28adf4c: cmp r0, #0
+28adf50: beq #0x28adf70
+28adf54: ldr r1, [r8]
+28adf58: ldr r2, [r0]
+28adf5c: cmp r2, r1
+28adf60: beq #0x28adf6c
+28adf64: bl #0x2370068
+28adf68: b #0x28adf70
+28adf6c: mov r7, r0
+28adf70: mov r0, r5
+28adf74: mov r1, r7
+28adf78: mov r2, r6
+28adf7c: bl #0x23aa6ac
+28adf80: cmp r0, r6
+28adf84: bne #0x28adf38
+28adf88: pop {r4, r5, r6, r7, r8, pc}
+
+# Loom.Game.Map.MapFailEventsData::remove_OnObstacleFail 0x28adf98 size=160
+28adf98: push {r4, r5, r6, r7, r8, lr}
+28adf9c: ldr r6, [pc, #0x88]
+28adfa0: mov r5, r0
+28adfa4: mov r4, r1
+28adfa8: add r6, pc, r6
+28adfac: ldrb r0, [r6]
+28adfb0: cmp r0, #0
+28adfb4: bne #0x28adfcc
+28adfb8: ldr r0, [pc, #0x70]
+28adfbc: ldr r0, [pc, r0]
+28adfc0: bl #0x236fa00
+28adfc4: mov r0, #1
+28adfc8: strb r0, [r6]
+28adfcc: ldr r0, [r5, #0x28]!
+28adfd0: ldr r8, [pc, #0x5c]
+28adfd4: ldr r8, [pc, r8]
+28adfd8: mov r1, r4
+28adfdc: mov r2, #0
+28adfe0: mov r6, r0
+28adfe4: mov r7, #0
+28adfe8: bl #0x345a2f8
+28adfec: cmp r0, #0
+28adff0: beq #0x28ae010
+28adff4: ldr r1, [r8]
+28adff8: ldr r2, [r0]
+28adffc: cmp r2, r1
+28ae000: beq #0x28ae00c
+28ae004: bl #0x2370068
+28ae008: b #0x28ae010
+28ae00c: mov r7, r0
+28ae010: mov r0, r5
+28ae014: mov r1, r7
+28ae018: mov r2, r6
+28ae01c: bl #0x23aa6ac
+28ae020: cmp r0, r6
+28ae024: bne #0x28adfd8
+28ae028: pop {r4, r5, r6, r7, r8, pc}
+28ae02c: uhasxeq r6, r5, r6
+28ae030: strbeq r8, [r0], -r0, asr #25
+28ae034: strbeq r8, [r0], -r8, lsr #25
+
+# Loom.Game.Map.MapFailEventsData::add_OnOutOfTimeFail 0x28ae038 size=160
+28ae038: push {r4, r5, r6, r7, r8, lr}
+28ae03c: ldr r6, [pc, #0x88]
+28ae040: mov r5, r0
+28ae044: mov r4, r1
+28ae048: add r6, pc, r6
+28ae04c: ldrb r0, [r6]
+28ae050: cmp r0, #0
+28ae054: bne #0x28ae06c
+28ae058: ldr r0, [pc, #0x70]
+28ae05c: ldr r0, [pc, r0]
+28ae060: bl #0x236fa00
+28ae064: mov r0, #1
+28ae068: strb r0, [r6]
+28ae06c: ldr r0, [r5, #0x2c]!
+28ae070: ldr r8, [pc, #0x5c]
+28ae074: ldr r8, [pc, r8]
+28ae078: mov r1, r4
+28ae07c: mov r2, #0
+28ae080: mov r6, r0
+28ae084: mov r7, #0
+28ae088: bl #0x345a2e8
+28ae08c: cmp r0, #0
+28ae090: beq #0x28ae0b0
+28ae094: ldr r1, [r8]
+28ae098: ldr r2, [r0]
+28ae09c: cmp r2, r1
+28ae0a0: beq #0x28ae0ac
+28ae0a4: bl #0x2370068
+28ae0a8: b #0x28ae0b0
+28ae0ac: mov r7, r0
+28ae0b0: mov r0, r5
+28ae0b4: mov r1, r7
+28ae0b8: mov r2, r6
+28ae0bc: bl #0x23aa6ac
+28ae0c0: cmp r0, r6
+28ae0c4: bne #0x28ae078
+28ae0c8: pop {r4, r5, r6, r7, r8, pc}
+28ae0cc: uhadd8eq r6, r5, r7
+28ae0d0: strbeq r8, [r0], -r0, lsr #24
+28ae0d4: strbeq r8, [r0], -r8, lsl #24
+
+# Loom.Game.Map.MapFailEventsData::remove_OnOutOfTimeFail 0x28ae0d8 size=160
+28ae0d8: push {r4, r5, r6, r7, r8, lr}
+28ae0dc: ldr r6, [pc, #0x88]
+28ae0e0: mov r5, r0
+28ae0e4: mov r4, r1
+28ae0e8: add r6, pc, r6
+28ae0ec: ldrb r0, [r6]
+28ae0f0: cmp r0, #0
+28ae0f4: bne #0x28ae10c
+28ae0f8: ldr r0, [pc, #0x70]
+28ae0fc: ldr r0, [pc, r0]
+28ae100: bl #0x236fa00
+28ae104: mov r0, #1
+28ae108: strb r0, [r6]
+28ae10c: ldr r0, [r5, #0x2c]!
+28ae110: ldr r8, [pc, #0x5c]
+28ae114: ldr r8, [pc, r8]
+28ae118: mov r1, r4
+28ae11c: mov r2, #0
+28ae120: mov r6, r0
+28ae124: mov r7, #0
+28ae128: bl #0x345a2f8
+28ae12c: cmp r0, #0
+28ae130: beq #0x28ae150
+28ae134: ldr r1, [r8]
+28ae138: ldr r2, [r0]
+28ae13c: cmp r2, r1
+28ae140: beq #0x28ae14c
+28ae144: bl #0x2370068
+28ae148: b #0x28ae150
+28ae14c: mov r7, r0
+28ae150: mov r0, r5
+28ae154: mov r1, r7
+28ae158: mov r2, r6
+28ae15c: bl #0x23aa6ac
+28ae160: cmp r0, r6
+28ae164: bne #0x28ae118
+28ae168: pop {r4, r5, r6, r7, r8, pc}
+28ae16c: uhsub8eq r6, r5, r8
+28ae170: strbeq r8, [r0], -r0, lsl #23
+28ae174: strbeq r8, [r0], -r8, ror #22
+
+# Loom.Game.Map.MapFailEventsData::TriggerOutOfSpaceFail 0x28acdd8 size=28
+28acdd8: ldr r0, [r0, #8]
+28acddc: cmp r0, #0
+28acde0: bxeq lr
+28acde4: ldr r2, [r0, #0xc]
+28acde8: ldr r1, [r0, #0x14]
+28acdec: ldr r0, [r0, #0x20]
+28acdf0: bx r2
+
+# Loom.Game.Map.MapFailEventsData::SubscribeToOutOfSpaceFail 0x28acdf4 size=4
+28acdf4: b #0x28ad4f8 ; Loom.Game.Map.MapFailEventsData::add_OnOutOfSpaceFail
+
+# Loom.Game.Map.MapFailEventsData::UnsubscribeFromOutOfSpaceFail 0x28acdf8 size=4
+28acdf8: b #0x28ad598 ; Loom.Game.Map.MapFailEventsData::remove_OnOutOfSpaceFail
+
+# Loom.Game.Map.MapFailEventsData::TriggerLockedOutFail 0x28acdfc size=28
+28acdfc: ldr r0, [r0, #0xc]
+28ace00: cmp r0, #0
+28ace04: bxeq lr
+28ace08: ldr r2, [r0, #0xc]
+28ace0c: ldr r1, [r0, #0x14]
+28ace10: ldr r0, [r0, #0x20]
+28ace14: bx r2
+
+# Loom.Game.Map.MapFailEventsData::SubscribeToLockedOutFail 0x28ace18 size=4
+28ace18: b #0x28ad638 ; Loom.Game.Map.MapFailEventsData::add_OnLockedOutFail
+
+# Loom.Game.Map.MapFailEventsData::UnsubscribeFromLockedOutFail 0x28ace1c size=4
+28ace1c: b #0x28ad6d8 ; Loom.Game.Map.MapFailEventsData::remove_OnLockedOutFail
+
+# Loom.Game.Map.MapFailEventsData::TriggerFrozenFail 0x28ace20 size=28
+28ace20: ldr r0, [r0, #0x10]
+28ace24: cmp r0, #0
+28ace28: bxeq lr
+28ace2c: ldr r2, [r0, #0xc]
+28ace30: ldr r1, [r0, #0x14]
+28ace34: ldr r0, [r0, #0x20]
+28ace38: bx r2
+
+# Loom.Game.Map.MapFailEventsData::SubscribeToFrozenFail 0x28ace3c size=4
+28ace3c: b #0x28ad778 ; Loom.Game.Map.MapFailEventsData::add_OnFrozenFail
+
+# Loom.Game.Map.MapFailEventsData::UnsubscribeFromFrozenFail 0x28ace40 size=4
+28ace40: b #0x28ad818 ; Loom.Game.Map.MapFailEventsData::remove_OnFrozenFail
+
+# Loom.Game.Map.MapFailEventsData::TriggerUfoFail 0x28ace44 size=28
+28ace44: ldr r0, [r0, #0x14]
+28ace48: cmp r0, #0
+28ace4c: bxeq lr
+28ace50: ldr r2, [r0, #0xc]
+28ace54: ldr r1, [r0, #0x14]
+28ace58: ldr r0, [r0, #0x20]
+28ace5c: bx r2
+
+# Loom.Game.Map.MapFailEventsData::SubscribeToUfoFail 0x28ace60 size=4
+28ace60: b #0x28ad8b8 ; Loom.Game.Map.MapFailEventsData::add_OnUfoFail
+
+# Loom.Game.Map.MapFailEventsData::UnsubscribeFromUfoFail 0x28ace64 size=4
+28ace64: b #0x28ad958 ; Loom.Game.Map.MapFailEventsData::remove_OnUfoFail
+
+# Loom.Game.Map.MapFailEventsData::TriggerCurtainFail 0x28ace68 size=28
+28ace68: ldr r0, [r0, #0x18]
+28ace6c: cmp r0, #0
+28ace70: bxeq lr
+28ace74: ldr r2, [r0, #0xc]
+28ace78: ldr r1, [r0, #0x14]
+28ace7c: ldr r0, [r0, #0x20]
+28ace80: bx r2
+
+# Loom.Game.Map.MapFailEventsData::SubscribeToCurtainFail 0x28ace84 size=4
+28ace84: b #0x28ad9f8 ; Loom.Game.Map.MapFailEventsData::add_OnCurtainFail
+
+# Loom.Game.Map.MapFailEventsData::UnsubscribeFromCurtainFail 0x28ace88 size=4
+28ace88: b #0x28ada98 ; Loom.Game.Map.MapFailEventsData::remove_OnCurtainFail
+
+# Loom.Game.Map.MapFailEventsData::TriggerBullTotemFail 0x28acec0 size=28
+28acec0: ldr r0, [r0, #0x1c]
+28acec4: cmp r0, #0
+28acec8: bxeq lr
+28acecc: ldr r2, [r0, #0xc]
+28aced0: ldr r1, [r0, #0x14]
+28aced4: ldr r0, [r0, #0x20]
+28aced8: bx r2
+
+# Loom.Game.Map.MapFailEventsData::SubscribeToBullTotemFail 0x28acf04 size=4
+28acf04: b #0x28adb38 ; Loom.Game.Map.MapFailEventsData::add_OnBullTotemFail
+
+# Loom.Game.Map.MapFailEventsData::UnsubscribeFromBullTotemFail 0x28acf30 size=4
+28acf30: b #0x28adbd8 ; Loom.Game.Map.MapFailEventsData::remove_OnBullTotemFail
+
+# Loom.Game.Map.MapFailEventsData::TriggerSpaceshipFail 0x28acf34 size=28
+28acf34: ldr r0, [r0, #0x20]
+28acf38: cmp r0, #0
+28acf3c: bxeq lr
+28acf40: ldr r2, [r0, #0xc]
+28acf44: ldr r1, [r0, #0x14]
+28acf48: ldr r0, [r0, #0x20]
+28acf4c: bx r2
+
+# Loom.Game.Map.MapFailEventsData::SubscribeToSpaceshipFail 0x28acf50 size=4
+28acf50: b #0x28adc78 ; Loom.Game.Map.MapFailEventsData::add_OnSpaceshipFail
+
+# Loom.Game.Map.MapFailEventsData::UnsubscribeFromSpaceshipFail 0x28acf54 size=4
+28acf54: b #0x28add18 ; Loom.Game.Map.MapFailEventsData::remove_OnSpaceshipFail
+
+# Loom.Game.Map.MapFailEventsData::TriggerOctopigFail 0x28acf8c size=28
+28acf8c: ldr r0, [r0, #0x24]
+28acf90: cmp r0, #0
+28acf94: bxeq lr
+28acf98: ldr r2, [r0, #0xc]
+28acf9c: ldr r1, [r0, #0x14]
+28acfa0: ldr r0, [r0, #0x20]
+28acfa4: bx r2
+
+# Loom.Game.Map.MapFailEventsData::SubscribeToOctopigFail 0x28acfd0 size=4
+28acfd0: b #0x28addb8 ; Loom.Game.Map.MapFailEventsData::add_OnOctopigFail
+
+# Loom.Game.Map.MapFailEventsData::UnsubscribeFromOctopigFail 0x28acffc size=4
+28acffc: b #0x28ade58 ; Loom.Game.Map.MapFailEventsData::remove_OnOctopigFail
+
+# Loom.Game.Map.MapFailEventsData::TriggerObstacleFail 0x28ad000 size=28
+28ad000: ldr r0, [r0, #0x28]
+28ad004: cmp r0, #0
+28ad008: bxeq lr
+28ad00c: ldr r2, [r0, #0xc]
+28ad010: ldr r1, [r0, #0x14]
+28ad014: ldr r0, [r0, #0x20]
+28ad018: bx r2
+
+# Loom.Game.Map.MapFailEventsData::SubscribeToObstacleFail 0x28ad01c size=4
+28ad01c: b #0x28adef8 ; Loom.Game.Map.MapFailEventsData::add_OnObstacleFail
+
+# Loom.Game.Map.MapFailEventsData::UnsubscribeFromObstacleFail 0x28ad020 size=4
+28ad020: b #0x28adf98 ; Loom.Game.Map.MapFailEventsData::remove_OnObstacleFail
+
+# Loom.Game.Map.MapFailEventsData::TriggerOutOfTimeFail 0x28ad024 size=28
+28ad024: ldr r0, [r0, #0x2c]
+28ad028: cmp r0, #0
+28ad02c: bxeq lr
+28ad030: ldr r2, [r0, #0xc]
+28ad034: ldr r1, [r0, #0x14]
+28ad038: ldr r0, [r0, #0x20]
+28ad03c: bx r2
+
+# Loom.Game.Map.MapFailEventsData::SubscribeToOutOfTimeFail 0x28ad040 size=4
+28ad040: b #0x28ae038 ; Loom.Game.Map.MapFailEventsData::add_OnOutOfTimeFail
+
+# Loom.Game.Map.MapFailEventsData::UnsubscribeFromOutOfTimeFail 0x28ad044 size=4
+28ad044: b #0x28ae0d8 ; Loom.Game.Map.MapFailEventsData::remove_OnOutOfTimeFail
+
+# Loom.Game.Map.MapFailEventsData::Subscribe 0x28ad070 size=556
+28ad070: push {r4, r5, r6, r7, r8, sb, fp, lr}
+28ad074: ldr r6, [pc, #0x20c]
+28ad078: mov r4, r0
+28ad07c: mov r5, r1
+28ad080: add r6, pc, r6
+28ad084: ldrb r0, [r6]
+28ad088: cmp r0, #0
+28ad08c: bne #0x28ad0b0
+28ad090: ldr r0, [pc, #0x1f4]
+28ad094: ldr r0, [pc, r0]
+28ad098: bl #0x236fa00
+28ad09c: ldr r0, [pc, #0x1ec]
+28ad0a0: ldr r0, [pc, r0]
+28ad0a4: bl #0x236fa00
+28ad0a8: mov r0, #1
+28ad0ac: strb r0, [r6]
+28ad0b0: cmp r5, #0
+28ad0b4: bne #0x28ad0bc
+28ad0b8: bl #0x236fcb0
+28ad0bc: ldr r8, [pc, #0x1d0]
+28ad0c0: ldr r8, [pc, r8]
+28ad0c4: ldr r6, [r5, #8]
+28ad0c8: ldr r0, [r8]
+28ad0cc: bl #0x236fca4
+28ad0d0: ldr sb, [pc, #0x1c0]
+28ad0d4: mov r1, r6
+28ad0d8: mov r3, #0
+28ad0dc: mov r7, r0
+28ad0e0: ldr sb, [pc, sb]
+28ad0e4: ldr r2, [sb]
+28ad0e8: bl #0x3459f40
+28ad0ec: mov r0, r4
+28ad0f0: mov r1, r7
+28ad0f4: bl #0x28ad4f8 ; Loom.Game.Map.MapFailEventsData::add_OnOutOfSpaceFail
+28ad0f8: ldr r0, [r8]
+28ad0fc: ldr r6, [r5, #0xc]
+28ad100: bl #0x236fca4
+28ad104: ldr r2, [sb]
+28ad108: mov r1, r6
+28ad10c: mov r3, #0
+28ad110: mov r7, r0
+28ad114: bl #0x3459f40
+28ad118: mov r0, r4
+28ad11c: mov r1, r7
+28ad120: bl #0x28ad638 ; Loom.Game.Map.MapFailEventsData::add_OnLockedOutFail
+28ad124: ldr r0, [r8]
+28ad128: ldr r6, [r5, #0x10]
+28ad12c: bl #0x236fca4
+28ad130: ldr r2, [sb]
+28ad134: mov r1, r6
+28ad138: mov r3, #0
+28ad13c: mov r7, r0
+28ad140: bl #0x3459f40
+28ad144: mov r0, r4
+28ad148: mov r1, r7
+28ad14c: bl #0x28ad778 ; Loom.Game.Map.MapFailEventsData::add_OnFrozenFail
+28ad150: ldr r0, [r8]
+28ad154: ldr r6, [r5, #0x14]
+28ad158: bl #0x236fca4
+28ad15c: ldr r2, [sb]
+28ad160: mov r1, r6
+28ad164: mov r3, #0
+28ad168: mov r7, r0
+28ad16c: bl #0x3459f40
+28ad170: mov r0, r4
+28ad174: mov r1, r7
+28ad178: bl #0x28ad8b8 ; Loom.Game.Map.MapFailEventsData::add_OnUfoFail
+28ad17c: ldr r0, [r8]
+28ad180: ldr r6, [r5, #0x18]
+28ad184: bl #0x236fca4
+28ad188: ldr r2, [sb]
+28ad18c: mov r1, r6
+28ad190: mov r3, #0
+28ad194: mov r7, r0
+28ad198: bl #0x3459f40
+28ad19c: mov r0, r4
+28ad1a0: mov r1, r7
+28ad1a4: bl #0x28ad9f8 ; Loom.Game.Map.MapFailEventsData::add_OnCurtainFail
+28ad1a8: ldr r0, [r8]
+28ad1ac: ldr r6, [r5, #0x1c]
+28ad1b0: bl #0x236fca4
+28ad1b4: ldr r2, [sb]
+28ad1b8: mov r1, r6
+28ad1bc: mov r3, #0
+28ad1c0: mov r7, r0
+28ad1c4: bl #0x3459f40
+28ad1c8: mov r0, r4
+28ad1cc: mov r1, r7
+28ad1d0: bl #0x28adb38 ; Loom.Game.Map.MapFailEventsData::add_OnBullTotemFail
+28ad1d4: ldr r0, [r8]
+28ad1d8: ldr r6, [r5, #0x20]
+28ad1dc: bl #0x236fca4
+28ad1e0: ldr r2, [sb]
+28ad1e4: mov r1, r6
+28ad1e8: mov r3, #0
+28ad1ec: mov r7, r0
+28ad1f0: bl #0x3459f40
+28ad1f4: mov r0, r4
+28ad1f8: mov r1, r7
+28ad1fc: bl #0x28adc78 ; Loom.Game.Map.MapFailEventsData::add_OnSpaceshipFail
+28ad200: ldr r0, [r8]
+28ad204: ldr r6, [r5, #0x24]
+28ad208: bl #0x236fca4
+28ad20c: ldr r2, [sb]
+28ad210: mov r1, r6
+28ad214: mov r3, #0
+28ad218: mov r7, r0
+28ad21c: bl #0x3459f40
+28ad220: mov r0, r4
+28ad224: mov r1, r7
+28ad228: bl #0x28addb8 ; Loom.Game.Map.MapFailEventsData::add_OnOctopigFail
+28ad22c: ldr r0, [r8]
+28ad230: ldr r6, [r5, #0x28]
+28ad234: bl #0x236fca4
+28ad238: ldr r2, [sb]
+28ad23c: mov r1, r6
+28ad240: mov r3, #0
+28ad244: mov r7, r0
+28ad248: bl #0x3459f40
+28ad24c: mov r0, r4
+28ad250: mov r1, r7
+28ad254: bl #0x28adef8 ; Loom.Game.Map.MapFailEventsData::add_OnObstacleFail
+28ad258: ldr r0, [r8]
+28ad25c: ldr r5, [r5, #0x2c]
+28ad260: bl #0x236fca4
+28ad264: ldr r2, [sb]
+28ad268: mov r1, r5
+28ad26c: mov r3, #0
+28ad270: mov r6, r0
+28ad274: bl #0x3459f40
+28ad278: mov r0, r4
+28ad27c: mov r1, r6
+28ad280: pop {r4, r5, r6, r7, r8, sb, fp, lr}
+28ad284: b #0x28ae038 ; Loom.Game.Map.MapFailEventsData::add_OnOutOfTimeFail
+28ad288: ldrbteq r7, [r5], -r1, ror #18
+28ad28c: strbeq sb, [r0], -r8, ror #23
+28ad290: strbeq lr, [r0], -ip, asr #25
+
+# Loom.Game.Map.MapFailEventsData::Unsubscribe 0x28ad2c4 size=556
+28ad2c4: push {r4, r5, r6, r7, r8, sb, fp, lr}
+28ad2c8: ldr r6, [pc, #0x20c]
+28ad2cc: mov r4, r0
+28ad2d0: mov r5, r1
+28ad2d4: add r6, pc, r6
+28ad2d8: ldrb r0, [r6]
+28ad2dc: cmp r0, #0
+28ad2e0: bne #0x28ad304
+28ad2e4: ldr r0, [pc, #0x1f4]
+28ad2e8: ldr r0, [pc, r0]
+28ad2ec: bl #0x236fa00
+28ad2f0: ldr r0, [pc, #0x1ec]
+28ad2f4: ldr r0, [pc, r0]
+28ad2f8: bl #0x236fa00
+28ad2fc: mov r0, #1
+28ad300: strb r0, [r6]
+28ad304: cmp r5, #0
+28ad308: bne #0x28ad310
+28ad30c: bl #0x236fcb0
+28ad310: ldr r8, [pc, #0x1d0]
+28ad314: ldr r8, [pc, r8]
+28ad318: ldr r6, [r5, #8]
+28ad31c: ldr r0, [r8]
+28ad320: bl #0x236fca4
+28ad324: ldr sb, [pc, #0x1c0]
+28ad328: mov r1, r6
+28ad32c: mov r3, #0
+28ad330: mov r7, r0
+28ad334: ldr sb, [pc, sb]
+28ad338: ldr r2, [sb]
+28ad33c: bl #0x3459f40
+28ad340: mov r0, r4
+28ad344: mov r1, r7
+28ad348: bl #0x28ad598 ; Loom.Game.Map.MapFailEventsData::remove_OnOutOfSpaceFail
+28ad34c: ldr r0, [r8]
+28ad350: ldr r6, [r5, #0xc]
+28ad354: bl #0x236fca4
+28ad358: ldr r2, [sb]
+28ad35c: mov r1, r6
+28ad360: mov r3, #0
+28ad364: mov r7, r0
+28ad368: bl #0x3459f40
+28ad36c: mov r0, r4
+28ad370: mov r1, r7
+28ad374: bl #0x28ad6d8 ; Loom.Game.Map.MapFailEventsData::remove_OnLockedOutFail
+28ad378: ldr r0, [r8]
+28ad37c: ldr r6, [r5, #0x10]
+28ad380: bl #0x236fca4
+28ad384: ldr r2, [sb]
+28ad388: mov r1, r6
+28ad38c: mov r3, #0
+28ad390: mov r7, r0
+28ad394: bl #0x3459f40
+28ad398: mov r0, r4
+28ad39c: mov r1, r7
+28ad3a0: bl #0x28ad818 ; Loom.Game.Map.MapFailEventsData::remove_OnFrozenFail
+28ad3a4: ldr r0, [r8]
+28ad3a8: ldr r6, [r5, #0x14]
+28ad3ac: bl #0x236fca4
+28ad3b0: ldr r2, [sb]
+28ad3b4: mov r1, r6
+28ad3b8: mov r3, #0
+28ad3bc: mov r7, r0
+28ad3c0: bl #0x3459f40
+28ad3c4: mov r0, r4
+28ad3c8: mov r1, r7
+28ad3cc: bl #0x28ad958 ; Loom.Game.Map.MapFailEventsData::remove_OnUfoFail
+28ad3d0: ldr r0, [r8]
+28ad3d4: ldr r6, [r5, #0x18]
+28ad3d8: bl #0x236fca4
+28ad3dc: ldr r2, [sb]
+28ad3e0: mov r1, r6
+28ad3e4: mov r3, #0
+28ad3e8: mov r7, r0
+28ad3ec: bl #0x3459f40
+28ad3f0: mov r0, r4
+28ad3f4: mov r1, r7
+28ad3f8: bl #0x28ada98 ; Loom.Game.Map.MapFailEventsData::remove_OnCurtainFail
+28ad3fc: ldr r0, [r8]
+28ad400: ldr r6, [r5, #0x1c]
+28ad404: bl #0x236fca4
+28ad408: ldr r2, [sb]
+28ad40c: mov r1, r6
+28ad410: mov r3, #0
+28ad414: mov r7, r0
+28ad418: bl #0x3459f40
+28ad41c: mov r0, r4
+28ad420: mov r1, r7
+28ad424: bl #0x28adbd8 ; Loom.Game.Map.MapFailEventsData::remove_OnBullTotemFail
+28ad428: ldr r0, [r8]
+28ad42c: ldr r6, [r5, #0x20]
+28ad430: bl #0x236fca4
+28ad434: ldr r2, [sb]
+28ad438: mov r1, r6
+28ad43c: mov r3, #0
+28ad440: mov r7, r0
+28ad444: bl #0x3459f40
+28ad448: mov r0, r4
+28ad44c: mov r1, r7
+28ad450: bl #0x28add18 ; Loom.Game.Map.MapFailEventsData::remove_OnSpaceshipFail
+28ad454: ldr r0, [r8]
+28ad458: ldr r6, [r5, #0x24]
+28ad45c: bl #0x236fca4
+28ad460: ldr r2, [sb]
+28ad464: mov r1, r6
+28ad468: mov r3, #0
+28ad46c: mov r7, r0
+28ad470: bl #0x3459f40
+28ad474: mov r0, r4
+28ad478: mov r1, r7
+28ad47c: bl #0x28ade58 ; Loom.Game.Map.MapFailEventsData::remove_OnOctopigFail
+28ad480: ldr r0, [r8]
+28ad484: ldr r6, [r5, #0x28]
+28ad488: bl #0x236fca4
+28ad48c: ldr r2, [sb]
+28ad490: mov r1, r6
+28ad494: mov r3, #0
+28ad498: mov r7, r0
+28ad49c: bl #0x3459f40
+28ad4a0: mov r0, r4
+28ad4a4: mov r1, r7
+28ad4a8: bl #0x28adf98 ; Loom.Game.Map.MapFailEventsData::remove_OnObstacleFail
+28ad4ac: ldr r0, [r8]
+28ad4b0: ldr r5, [r5, #0x2c]
+28ad4b4: bl #0x236fca4
+28ad4b8: ldr r2, [sb]
+28ad4bc: mov r1, r5
+28ad4c0: mov r3, #0
+28ad4c4: mov r6, r0
+28ad4c8: bl #0x3459f40
+28ad4cc: mov r0, r4
+28ad4d0: mov r1, r6
+28ad4d4: pop {r4, r5, r6, r7, r8, sb, fp, lr}
+28ad4d8: b #0x28ae0d8 ; Loom.Game.Map.MapFailEventsData::remove_OnOutOfTimeFail
+28ad4dc: ldrbteq r7, [r5], -lr, lsl #14
+
+# Loom.Game.Map.MapFailEventsData::.ctor 0x28ae178 size=8
+28ae178: mov r1, #0
+28ae17c: b #0x3459e1c
+
+# Loom.Game.Map.MapFailOutOfSyncData::.ctor 0x28b4de4 size=152
+28b4de4: push {r4, r5, fp, lr}
+28b4de8: ldr r5, [pc, #0x78]
+28b4dec: mov r4, r0
+28b4df0: add r5, pc, r5
+28b4df4: ldrb r0, [r5]
+28b4df8: cmp r0, #0
+28b4dfc: bne #0x28b4e20
+28b4e00: ldr r0, [pc, #0x64]
+28b4e04: ldr r0, [pc, r0]
+28b4e08: bl #0x236fa00
+28b4e0c: ldr r0, [pc, #0x5c]
+28b4e10: ldr r0, [pc, r0]
+28b4e14: bl #0x236fa00
+28b4e18: mov r0, #1
+28b4e1c: strb r0, [r5]
+28b4e20: ldr r0, [pc, #0x4c]
+28b4e24: ldr r0, [pc, r0]
+28b4e28: ldr r0, [r0]
+28b4e2c: bl #0x236fca4
+28b4e30: mov r5, r0
+28b4e34: ldr r0, [pc, #0x3c]
+28b4e38: ldr r0, [pc, r0]
+28b4e3c: ldr r1, [r0]
+28b4e40: mov r0, r5
+28b4e44: bl #0x44ab510
+28b4e48: mov r0, r4
+28b4e4c: mov r1, r5
+28b4e50: str r5, [r0, #8]!
+28b4e54: bl #0x236f99c
+28b4e58: mov r0, r4
+28b4e5c: mov r1, #0
+28b4e60: pop {r4, r5, fp, lr}
+28b4e64: b #0x3459e1c
+28b4e68: uhsaxeq pc, r4, sb
+28b4e6c: strbeq sp, [r0], -ip, lsr #31
+28b4e70: strbeq sp, [r0], -r4, lsr #31
+
+# Loom.Game.Map.MapFailOutOfSyncEntry::.ctor 0x28b4e7c size=44
+28b4e7c: push {r4, r5, r6, r7, fp, lr}
+28b4e80: mov r6, r1
+28b4e84: mov r1, #0
+28b4e88: mov r4, r3
+28b4e8c: mov r5, r2
+28b4e90: mov r7, r0
+28b4e94: bl #0x3459e1c
+28b4e98: str r6, [r7, #8]
+28b4e9c: str r5, [r7, #0xc]
+28b4ea0: str r4, [r7, #0x10]
+28b4ea4: pop {r4, r5, r6, r7, fp, pc}
+
+# Loom.Game.Map.MapFailController::get_BypassFail 0x28c0a14 size=8
+28c0a14: ldrb r0, [r0, #0x5c]
+28c0a18: bx lr
+
+# Loom.Game.Map.MapFailController::set_BypassFail 0x28c0a1c size=8
+28c0a1c: strb r1, [r0, #0x5c]
+28c0a20: bx lr
+
+# Loom.Game.Map.MapFailController::get_HasSuppressedFail 0x28c0a24 size=16
+28c0a24: ldr r0, [r0, #0x58]
+28c0a28: cmp r0, #0
+28c0a2c: movwne r0, #1
+28c0a30: bx lr
+
+# Loom.Game.Map.MapFailController::get_PixelGrid 0x28c0a34 size=100
+28c0a34: push {r4, r5, fp, lr}
+28c0a38: ldr r5, [pc, #0x4c]
+28c0a3c: mov r4, r0
+28c0a40: add r5, pc, r5
+28c0a44: ldrb r0, [r5]
+28c0a48: cmp r0, #0
+28c0a4c: bne #0x28c0a64
+28c0a50: ldr r0, [pc, #0x38]
+28c0a54: ldr r0, [pc, r0]
+28c0a58: bl #0x236fa00
+28c0a5c: mov r0, #1
+28c0a60: strb r0, [r5]
+28c0a64: ldr r4, [r4, #0x14]
+28c0a68: cmp r4, #0
+28c0a6c: bne #0x28c0a74
+28c0a70: bl #0x236fcb0
+28c0a74: ldr r0, [pc, #0x18]
+28c0a78: ldr r0, [pc, r0]
+28c0a7c: ldr r1, [r0]
+28c0a80: mov r0, r4
+28c0a84: pop {r4, r5, fp, lr}
+28c0a88: b #0x345cad8
+28c0a8c: ldrbteq r4, [r4], -fp, asr #32
+28c0a90: shsaxeq ip, pc, ip
+28c0a94: shasxeq ip, pc, r8
+
+# Loom.Game.Map.MapFailController::get_CountdownTimer 0x28c0a98 size=100
+28c0a98: push {r4, r5, fp, lr}
+28c0a9c: ldr r5, [pc, #0x4c]
+28c0aa0: mov r4, r0
+28c0aa4: add r5, pc, r5
+28c0aa8: ldrb r0, [r5]
+28c0aac: cmp r0, #0
+28c0ab0: bne #0x28c0ac8
+28c0ab4: ldr r0, [pc, #0x38]
+28c0ab8: ldr r0, [pc, r0]
+28c0abc: bl #0x236fa00
+28c0ac0: mov r0, #1
+28c0ac4: strb r0, [r5]
+28c0ac8: ldr r4, [r4, #0x18]
+28c0acc: cmp r4, #0
+28c0ad0: bne #0x28c0ad8
+28c0ad4: bl #0x236fcb0
+28c0ad8: ldr r0, [pc, #0x18]
+28c0adc: ldr r0, [pc, r0]
+28c0ae0: ldr r1, [r0]
+28c0ae4: mov r0, r4
+28c0ae8: pop {r4, r5, fp, lr}
+28c0aec: b #0x345cad8
+28c0af0: ldrbteq r3, [r4], -r8, ror #31
+
+# Loom.Game.Map.MapFailController::get_IsRebuildingLevel 0x28c0afc size=128
+28c0afc: push {r4, r5, fp, lr}
+28c0b00: ldr r5, [pc, #0x68]
+28c0b04: mov r4, r0
+28c0b08: add r5, pc, r5
+28c0b0c: ldrb r0, [r5]
+28c0b10: cmp r0, #0
+28c0b14: bne #0x28c0b2c
+28c0b18: ldr r0, [pc, #0x54]
+28c0b1c: ldr r0, [pc, r0]
+28c0b20: bl #0x236fa00
+28c0b24: mov r0, #1
+28c0b28: strb r0, [r5]
+28c0b2c: ldr r4, [r4, #0x1c]
+28c0b30: cmp r4, #0
+28c0b34: bne #0x28c0b3c
+28c0b38: bl #0x236fcb0
+28c0b3c: ldr r0, [pc, #0x34]
+28c0b40: ldr r0, [pc, r0]
+28c0b44: ldr r1, [r0]
+28c0b48: mov r0, r4
+28c0b4c: bl #0x345cad8
+28c0b50: mov r4, r0
+28c0b54: cmp r0, #0
+28c0b58: bne #0x28c0b60
+28c0b5c: bl #0x236fcb0
+28c0b60: ldrb r0, [r4, #0x10]
+28c0b64: clz r0, r0
+28c0b68: lsr r0, r0, #5
+28c0b6c: pop {r4, r5, fp, pc}
+28c0b70: ldrbteq r3, [r4], -r5, lsl #31
+28c0b74: strbeq r2, [r0], -r0, ror #5
+
+# Loom.Game.Map.MapFailController::OnEnable 0x28c0b7c size=1060
+28c0b7c: push {r4, r5, r6, r7, fp, lr}
+28c0b80: ldr r5, [pc, #0x3a4]
+28c0b84: mov r4, r0
+28c0b88: add r5, pc, r5
+28c0b8c: ldrb r0, [r5]
+28c0b90: cmp r0, #0
+28c0b94: bne #0x28c0c48
+28c0b98: ldr r0, [pc, #0x390]
+28c0b9c: ldr r0, [pc, r0]
+28c0ba0: bl #0x236fa00
+28c0ba4: ldr r0, [pc, #0x388]
+28c0ba8: ldr r0, [pc, r0]
+28c0bac: bl #0x236fa00
+28c0bb0: ldr r0, [pc, #0x380]
+28c0bb4: ldr r0, [pc, r0]
+28c0bb8: bl #0x236fa00
+28c0bbc: ldr r0, [pc, #0x378]
+28c0bc0: ldr r0, [pc, r0]
+28c0bc4: bl #0x236fa00
+28c0bc8: ldr r0, [pc, #0x370]
+28c0bcc: ldr r0, [pc, r0]
+28c0bd0: bl #0x236fa00
+28c0bd4: ldr r0, [pc, #0x368]
+28c0bd8: ldr r0, [pc, r0]
+28c0bdc: bl #0x236fa00
+28c0be0: ldr r0, [pc, #0x360]
+28c0be4: ldr r0, [pc, r0]
+28c0be8: bl #0x236fa00
+28c0bec: ldr r0, [pc, #0x358]
+28c0bf0: ldr r0, [pc, r0]
+28c0bf4: bl #0x236fa00
+28c0bf8: ldr r0, [pc, #0x350]
+28c0bfc: ldr r0, [pc, r0]
+28c0c00: bl #0x236fa00
+28c0c04: ldr r0, [pc, #0x348]
+28c0c08: ldr r0, [pc, r0]
+28c0c0c: bl #0x236fa00
+28c0c10: ldr r0, [pc, #0x340]
+28c0c14: ldr r0, [pc, r0]
+28c0c18: bl #0x236fa00
+28c0c1c: ldr r0, [pc, #0x338]
+28c0c20: ldr r0, [pc, r0]
+28c0c24: bl #0x236fa00
+28c0c28: ldr r0, [pc, #0x330]
+28c0c2c: ldr r0, [pc, r0]
+28c0c30: bl #0x236fa00
+28c0c34: ldr r0, [pc, #0x328]
+28c0c38: ldr r0, [pc, r0]
+28c0c3c: bl #0x236fa00
+28c0c40: mov r0, #1
+28c0c44: strb r0, [r5]
+28c0c48: ldr r7, [pc, #0x318]
+28c0c4c: ldr r7, [pc, r7]
+28c0c50: ldr r5, [r4, #0x20]
+28c0c54: ldr r0, [r7]
+28c0c58: bl #0x236fca4
+28c0c5c: mov r6, r0
+28c0c60: ldr r0, [pc, #0x304]
+28c0c64: mov r1, r4
+28c0c68: mov r3, #0
+28c0c6c: ldr r0, [pc, r0]
+28c0c70: ldr r2, [r0]
+28c0c74: mov r0, r6
+28c0c78: bl #0x38e9e48
+28c0c7c: cmp r5, #0
+28c0c80: bne #0x28c0c88
+28c0c84: bl #0x236fcb0
+28c0c88: mov r0, r5
+28c0c8c: mov r1, r6
+28c0c90: mov r2, #0
+28c0c94: bl #0x28b23a8 ; Loom.Game.Map.MapEvents::SubscribeToShooterTapped
+28c0c98: ldr r0, [r7]
+28c0c9c: ldr r5, [r4, #0x20]
+28c0ca0: bl #0x236fca4
+28c0ca4: mov r6, r0
+28c0ca8: ldr r0, [pc, #0x2c0]
+28c0cac: mov r1, r4
+28c0cb0: mov r3, #0
+28c0cb4: ldr r0, [pc, r0]
+28c0cb8: ldr r2, [r0]
+28c0cbc: mov r0, r6
+28c0cc0: bl #0x38e9e48
+28c0cc4: cmp r5, #0
+28c0cc8: bne #0x28c0cd0
+28c0ccc: bl #0x236fcb0
+28c0cd0: mov r0, r5
+28c0cd4: mov r1, r6
+28c0cd8: mov r2, #0
+28c0cdc: bl #0x28b26c0 ; Loom.Game.Map.MapEvents::SubscribeToSlotsFullAtConveyorExit
+28c0ce0: ldr r0, [r7]
+28c0ce4: ldr r5, [r4, #0x20]
+28c0ce8: bl #0x236fca4
+28c0cec: mov r6, r0
+28c0cf0: ldr r0, [pc, #0x27c]
+28c0cf4: mov r1, r4
+28c0cf8: mov r3, #0
+28c0cfc: ldr r0, [pc, r0]
+28c0d00: ldr r2, [r0]
+28c0d04: mov r0, r6
+28c0d08: bl #0x38e9e48
+28c0d0c: cmp r5, #0
+28c0d10: bne #0x28c0d18
+28c0d14: bl #0x236fcb0
+28c0d18: mov r0, r5
+28c0d1c: mov r1, r6
+28c0d20: mov r2, #0
+28c0d24: bl #0x28b1e14 ; Loom.Game.Map.MapEvents::SubscribeToShooterPlacedToEmptySlot
+28c0d28: ldr r0, [r7]
+28c0d2c: ldr r5, [r4, #0x20]
+28c0d30: bl #0x236fca4
+28c0d34: mov r6, r0
+28c0d38: ldr r0, [pc, #0x238]
+28c0d3c: mov r1, r4
+28c0d40: mov r3, #0
+28c0d44: ldr r0, [pc, r0]
+28c0d48: ldr r2, [r0]
+28c0d4c: mov r0, r6
+28c0d50: bl #0x38e9e48
+28c0d54: cmp r5, #0
+28c0d58: bne #0x28c0d60
+28c0d5c: bl #0x236fcb0
+28c0d60: mov r0, r5
+28c0d64: mov r1, r6
+28c0d68: mov r2, #0
+28c0d6c: bl #0x28b21cc ; Loom.Game.Map.MapEvents::SubscribeToShooterWillDisappear
+28c0d70: ldr r5, [r4, #0x20]
+28c0d74: ldr r0, [pc, #0x200]
+28c0d78: ldr r0, [pc, r0]
+28c0d7c: ldr r0, [r0]
+28c0d80: bl #0x236fca4
+28c0d84: mov r6, r0
+28c0d88: ldr r0, [pc, #0x1f0]
+28c0d8c: mov r1, r4
+28c0d90: mov r3, #0
+28c0d94: ldr r0, [pc, r0]
+28c0d98: ldr r2, [r0]
+28c0d9c: mov r0, r6
+28c0da0: bl #0x38eee58
+28c0da4: cmp r5, #0
+28c0da8: bne #0x28c0db0
+28c0dac: bl #0x236fcb0
+28c0db0: mov r0, r5
+28c0db4: mov r1, r6
+28c0db8: mov r2, #0
+28c0dbc: bl #0x28b2534 ; Loom.Game.Map.MapEvents::SubscribeToShootersExitingQueue
+28c0dc0: ldr r5, [r4, #0x2c]
+28c0dc4: ldr r7, [pc, #0x1b8]
+28c0dc8: ldr r7, [pc, r7]
+28c0dcc: ldr r0, [r7]
+28c0dd0: bl #0x236fca4
+28c0dd4: mov r6, r0
+28c0dd8: ldr r0, [pc, #0x1a8]
+28c0ddc: mov r1, r4
+28c0de0: mov r3, #0
+28c0de4: ldr r0, [pc, r0]
+28c0de8: ldr r2, [r0]
+28c0dec: mov r0, r6
+28c0df0: bl #0x3459f40
+28c0df4: cmp r5, #0
+28c0df8: bne #0x28c0e00
+28c0dfc: bl #0x236fcb0
+28c0e00: mov r0, r5
+28c0e04: mov r1, r6
+28c0e08: mov r2, #0
+28c0e0c: bl #0x269b17c ; Loom.Game.Shooters.ProjectilesEvents::SubscribeToLastActiveProjectileDestroyed
+28c0e10: mov r0, r4
+28c0e14: bl #0x28c0a98 ; Loom.Game.Map.MapFailController::get_CountdownTimer
+28c0e18: mov r5, r0
+28c0e1c: ldr r0, [r7]
+28c0e20: bl #0x236fca4
+28c0e24: mov r6, r0
+28c0e28: ldr r0, [pc, #0x15c]
+28c0e2c: mov r1, r4
+28c0e30: mov r3, #0
+28c0e34: ldr r0, [pc, r0]
+28c0e38: ldr r2, [r0]
+28c0e3c: mov r0, r6
+28c0e40: bl #0x3459f40
+28c0e44: cmp r5, #0
+28c0e48: bne #0x28c0e50
+28c0e4c: bl #0x236fcb0
+28c0e50: ldr r0, [pc, #0x138]
+28c0e54: mov r1, r6
+28c0e58: ldr r0, [pc, r0]
+28c0e5c: ldr r2, [r0]
+28c0e60: mov r0, r5
+28c0e64: bl #0x346152c
+28c0e68: ldr r5, [r4, #0x10]
+28c0e6c: cmp r5, #0
+28c0e70: bne #0x28c0e78
+28c0e74: bl #0x236fcb0
+28c0e78: ldr r7, [pc, #0x114]
+28c0e7c: ldr r7, [pc, r7]
+28c0e80: ldr r5, [r5, #0xc]
+28c0e84: ldr r0, [r7]
+28c0e88: bl #0x236fca4
+28c0e8c: mov r6, r0
+28c0e90: ldr r0, [pc, #0x100]
+28c0e94: mov r1, r4
+28c0e98: mov r3, #0
+28c0e9c: ldr r0, [pc, r0]
+28c0ea0: ldr r2, [r0]
+28c0ea4: mov r0, r6
+28c0ea8: bl #0x38e9e48
+28c0eac: cmp r5, #0
+28c0eb0: bne #0x28c0eb8
+28c0eb4: bl #0x236fcb0
+28c0eb8: mov r0, r5
+28c0ebc: mov r1, r6
+28c0ec0: mov r2, #0
+28c0ec4: bl #0x297c258 ; Loom.Attachables.AttachablesSystemEvents::SubscribeToAttached
+28c0ec8: ldr r5, [r4, #0x10]
+28c0ecc: cmp r5, #0
+28c0ed0: bne #0x28c0ed8
+28c0ed4: bl #0x236fcb0
+28c0ed8: ldr r0, [r7]
+28c0edc: ldr r5, [r5, #0xc]
+28c0ee0: bl #0x236fca4
+28c0ee4: mov r6, r0
+28c0ee8: ldr r0, [pc, #0xac]
+28c0eec: mov r1, r4
+28c0ef0: mov r3, #0
+28c0ef4: ldr r0, [pc, r0]
+28c0ef8: ldr r2, [r0]
+28c0efc: mov r0, r6
+28c0f00: bl #0x38e9e48
+28c0f04: cmp r5, #0
+28c0f08: bne #0x28c0f10
+28c0f0c: bl #0x236fcb0
+28c0f10: mov r0, r5
+28c0f14: mov r1, r6
+28c0f18: mov r2, #0
+28c0f1c: bl #0x297c30c ; Loom.Attachables.AttachablesSystemEvents::SubscribeToDetached
+28c0f20: mov r0, r4
+28c0f24: pop {r4, r5, r6, r7, fp, lr}
+28c0f28: b #0x28c0fa0 ; Loom.Game.Map.MapFailController::RebuildIgnoredObstaclesCache
+28c0f2c: ldrbteq r3, [r4], -r6, lsl #30
+28c0f30: shasxeq fp, pc, r8
+28c0f34: shasxeq sb, pc, ip
+28c0f38: ldrteq sb, [pc], -r0, asr #7
+
+# Loom.Game.Map.MapFailController::OnDisable 0x28c1364 size=1188
+28c1364: push {r4, r5, r6, r7, fp, lr}
+28c1368: ldr r5, [pc, #0x414]
+28c136c: mov r4, r0
+28c1370: add r5, pc, r5
+28c1374: ldrb r0, [r5]
+28c1378: cmp r0, #0
+28c137c: bne #0x28c1448
+28c1380: ldr r0, [pc, #0x400]
+28c1384: ldr r0, [pc, r0]
+28c1388: bl #0x236fa00
+28c138c: ldr r0, [pc, #0x3f8]
+28c1390: ldr r0, [pc, r0]
+28c1394: bl #0x236fa00
+28c1398: ldr r0, [pc, #0x3f0]
+28c139c: ldr r0, [pc, r0]
+28c13a0: bl #0x236fa00
+28c13a4: ldr r0, [pc, #0x3e8]
+28c13a8: ldr r0, [pc, r0]
+28c13ac: bl #0x236fa00
+28c13b0: ldr r0, [pc, #0x3e0]
+28c13b4: ldr r0, [pc, r0]
+28c13b8: bl #0x236fa00
+28c13bc: ldr r0, [pc, #0x3d8]
+28c13c0: ldr r0, [pc, r0]
+28c13c4: bl #0x236fa00
+28c13c8: ldr r0, [pc, #0x3d0]
+28c13cc: ldr r0, [pc, r0]
+28c13d0: bl #0x236fa00
+28c13d4: ldr r0, [pc, #0x3c8]
+28c13d8: ldr r0, [pc, r0]
+28c13dc: bl #0x236fa00
+28c13e0: ldr r0, [pc, #0x3c0]
+28c13e4: ldr r0, [pc, r0]
+28c13e8: bl #0x236fa00
+28c13ec: ldr r0, [pc, #0x3b8]
+28c13f0: ldr r0, [pc, r0]
+28c13f4: bl #0x236fa00
+28c13f8: ldr r0, [pc, #0x3b0]
+28c13fc: ldr r0, [pc, r0]
+28c1400: bl #0x236fa00
+28c1404: ldr r0, [pc, #0x3a8]
+28c1408: ldr r0, [pc, r0]
+28c140c: bl #0x236fa00
+28c1410: ldr r0, [pc, #0x3a0]
+28c1414: ldr r0, [pc, r0]
+28c1418: bl #0x236fa00
+28c141c: ldr r0, [pc, #0x398]
+28c1420: ldr r0, [pc, r0]
+28c1424: bl #0x236fa00
+28c1428: ldr r0, [pc, #0x390]
+28c142c: ldr r0, [pc, r0]
+28c1430: bl #0x236fa00
+28c1434: ldr r0, [pc, #0x388]
+28c1438: ldr r0, [pc, r0]
+28c143c: bl #0x236fa00
+28c1440: mov r0, #1
+28c1444: strb r0, [r5]
+28c1448: ldr r7, [pc, #0x378]
+28c144c: ldr r7, [pc, r7]
+28c1450: ldr r5, [r4, #0x20]
+28c1454: ldr r0, [r7]
+28c1458: bl #0x236fca4
+28c145c: mov r6, r0
+28c1460: ldr r0, [pc, #0x364]
+28c1464: mov r1, r4
+28c1468: mov r3, #0
+28c146c: ldr r0, [pc, r0]
+28c1470: ldr r2, [r0]
+28c1474: mov r0, r6
+28c1478: bl #0x38e9e48
+28c147c: cmp r5, #0
+28c1480: bne #0x28c1488
+28c1484: bl #0x236fcb0
+28c1488: mov r0, r5
+28c148c: mov r1, r6
+28c1490: mov r2, #0
+28c1494: bl #0x28b23d4 ; Loom.Game.Map.MapEvents::UnsubscribeFromShooterTapped
+28c1498: ldr r0, [r7]
+28c149c: ldr r5, [r4, #0x20]
+28c14a0: bl #0x236fca4
+28c14a4: mov r6, r0
+28c14a8: ldr r0, [pc, #0x320]
+28c14ac: mov r1, r4
+28c14b0: mov r3, #0
+28c14b4: ldr r0, [pc, r0]
+28c14b8: ldr r2, [r0]
+28c14bc: mov r0, r6
+28c14c0: bl #0x38e9e48
+28c14c4: cmp r5, #0
+28c14c8: bne #0x28c14d0
+28c14cc: bl #0x236fcb0
+28c14d0: mov r0, r5
+28c14d4: mov r1, r6
+28c14d8: mov r2, #0
+28c14dc: bl #0x28b26ec ; Loom.Game.Map.MapEvents::UnsubscribeFromSlotsFullAtConveyorExit
+28c14e0: ldr r0, [r7]
+28c14e4: ldr r5, [r4, #0x20]
+28c14e8: bl #0x236fca4
+28c14ec: mov r6, r0
+28c14f0: ldr r0, [pc, #0x2dc]
+28c14f4: mov r1, r4
+28c14f8: mov r3, #0
+28c14fc: ldr r0, [pc, r0]
+28c1500: ldr r2, [r0]
+28c1504: mov r0, r6
+28c1508: bl #0x38e9e48
+28c150c: cmp r5, #0
+28c1510: bne #0x28c1518
+28c1514: bl #0x236fcb0
+28c1518: mov r0, r5
+28c151c: mov r1, r6
+28c1520: mov r2, #0
+28c1524: bl #0x28b1e7c ; Loom.Game.Map.MapEvents::UnsubscribeFromShooterPlacedToEmptySlot
+28c1528: ldr r0, [r7]
+28c152c: ldr r5, [r4, #0x20]
+28c1530: bl #0x236fca4
+28c1534: mov r6, r0
+28c1538: ldr r0, [pc, #0x298]
+28c153c: mov r1, r4
+28c1540: mov r3, #0
+28c1544: ldr r0, [pc, r0]
+28c1548: ldr r2, [r0]
+28c154c: mov r0, r6
+28c1550: bl #0x38e9e48
+28c1554: cmp r5, #0
+28c1558: bne #0x28c1560
+28c155c: bl #0x236fcb0
+28c1560: mov r0, r5
+28c1564: mov r1, r6
+28c1568: mov r2, #0
+28c156c: bl #0x28b2234 ; Loom.Game.Map.MapEvents::UnsubscribeFromShooterWillDisappear
+28c1570: ldr r5, [r4, #0x20]
+28c1574: ldr r0, [pc, #0x260]
+28c1578: ldr r0, [pc, r0]
+28c157c: ldr r0, [r0]
+28c1580: bl #0x236fca4
+28c1584: mov r6, r0
+28c1588: ldr r0, [pc, #0x250]
+28c158c: mov r1, r4
+28c1590: mov r3, #0
+28c1594: ldr r0, [pc, r0]
+28c1598: ldr r2, [r0]
+28c159c: mov r0, r6
+28c15a0: bl #0x38eee58
+28c15a4: cmp r5, #0
+28c15a8: bne #0x28c15b0
+28c15ac: bl #0x236fcb0
+28c15b0: mov r0, r5
+28c15b4: mov r1, r6
+28c15b8: mov r2, #0
+28c15bc: bl #0x28b2560 ; Loom.Game.Map.MapEvents::UnsubscribeFromShootersExitingQueue
+28c15c0: ldr r5, [r4, #0x2c]
+28c15c4: ldr r7, [pc, #0x218]
+28c15c8: ldr r7, [pc, r7]
+28c15cc: ldr r0, [r7]
+28c15d0: bl #0x236fca4
+28c15d4: mov r6, r0
+28c15d8: ldr r0, [pc, #0x208]
+28c15dc: mov r1, r4
+28c15e0: mov r3, #0
+28c15e4: ldr r0, [pc, r0]
+28c15e8: ldr r2, [r0]
+28c15ec: mov r0, r6
+28c15f0: bl #0x3459f40
+28c15f4: cmp r5, #0
+28c15f8: bne #0x28c1600
+28c15fc: bl #0x236fcb0
+28c1600: mov r0, r5
+28c1604: mov r1, r6
+28c1608: mov r2, #0
+28c160c: bl #0x269b1a8 ; Loom.Game.Shooters.ProjectilesEvents::UnsubscribeFromLastActiveProjectileDestroyed
+28c1610: mov r0, r4
+28c1614: bl #0x28c0a98 ; Loom.Game.Map.MapFailController::get_CountdownTimer
+28c1618: mov r5, r0
+28c161c: ldr r0, [pc, #0x1c8]
+28c1620: ldr r0, [pc, r0]
+28c1624: ldr r0, [r0]
+28c1628: ldr r1, [r0, #0x74]
+28c162c: cmp r1, #0
+28c1630: bne #0x28c1638
+28c1634: bl #0x236fb74
+28c1638: mov r0, r5
+28c163c: mov r1, #0
+28c1640: bl #0x243825c
+28c1644: cmp r0, #0
+28c1648: beq #0x28c16a4
+28c164c: mov r0, r4
+28c1650: bl #0x28c0a98 ; Loom.Game.Map.MapFailController::get_CountdownTimer
+28c1654: mov r5, r0
+28c1658: ldr r0, [r7]
+28c165c: bl #0x236fca4
+28c1660: mov r6, r0
+28c1664: ldr r0, [pc, #0x184]
+28c1668: mov r1, r4
+28c166c: mov r3, #0
+28c1670: ldr r0, [pc, r0]
+28c1674: ldr r2, [r0]
+28c1678: mov r0, r6
+28c167c: bl #0x3459f40
+28c1680: cmp r5, #0
+28c1684: bne #0x28c168c
+28c1688: bl #0x236fcb0
+28c168c: ldr r0, [pc, #0x160]
+28c1690: mov r1, r6
+28c1694: ldr r0, [pc, r0]
+28c1698: ldr r2, [r0]
+28c169c: mov r0, r5
+28c16a0: bl #0x3461530
+28c16a4: ldr r5, [r4, #0x10]
+28c16a8: cmp r5, #0
+28c16ac: bne #0x28c16b4
+28c16b0: bl #0x236fcb0
+28c16b4: ldr r7, [pc, #0x13c]
+28c16b8: ldr r7, [pc, r7]
+28c16bc: ldr r5, [r5, #0xc]
+28c16c0: ldr r0, [r7]
+28c16c4: bl #0x236fca4
+28c16c8: mov r6, r0
+28c16cc: ldr r0, [pc, #0x128]
+28c16d0: mov r1, r4
+28c16d4: mov r3, #0
+28c16d8: ldr r0, [pc, r0]
+28c16dc: ldr r2, [r0]
+28c16e0: mov r0, r6
+28c16e4: bl #0x38e9e48
+28c16e8: cmp r5, #0
+28c16ec: bne #0x28c16f4
+28c16f0: bl #0x236fcb0
+28c16f4: mov r0, r5
+28c16f8: mov r1, r6
+28c16fc: mov r2, #0
+28c1700: bl #0x297c284 ; Loom.Attachables.AttachablesSystemEvents::UnsubscribeFromAttached
+28c1704: ldr r5, [r4, #0x10]
+28c1708: cmp r5, #0
+28c170c: bne #0x28c1714
+28c1710: bl #0x236fcb0
+28c1714: ldr r0, [r7]
+28c1718: ldr r5, [r5, #0xc]
+28c171c: bl #0x236fca4
+28c1720: mov r6, r0
+28c1724: ldr r0, [pc, #0xd4]
+28c1728: mov r1, r4
+28c172c: mov r3, #0
+28c1730: ldr r0, [pc, r0]
+28c1734: ldr r2, [r0]
+28c1738: mov r0, r6
+28c173c: bl #0x38e9e48
+28c1740: cmp r5, #0
+28c1744: bne #0x28c174c
+28c1748: bl #0x236fcb0
+28c174c: mov r0, r5
+28c1750: mov r1, r6
+28c1754: mov r2, #0
+28c1758: bl #0x297c338 ; Loom.Attachables.AttachablesSystemEvents::UnsubscribeFromDetached
+28c175c: ldr r4, [r4, #0x54]
+28c1760: cmp r4, #0
+28c1764: bne #0x28c176c
+28c1768: bl #0x236fcb0
+28c176c: ldr r0, [pc, #0x90]
+28c1770: ldr r0, [pc, r0]
+28c1774: ldr r1, [r0]
+28c1778: mov r0, r4
+28c177c: pop {r4, r5, r6, r7, fp, lr}
+28c1780: b #0x3fc7d70
+28c1784: uhadd16eq r3, r4, pc
+28c1788: shsaxeq sl, pc, r0
+28c178c: shsaxeq r8, pc, r4
+
+# Loom.Game.Map.MapFailController::OnShooterTapped 0x28c1808 size=4
+28c1808: b #0x28c180c ; Loom.Game.Map.MapFailController::TryCheckForCannotShootFail
+
+# Loom.Game.Map.MapFailController::OnSlotsFullAtConveyorExit 0x28c185c size=44
+28c185c: push {r4, lr}
+28c1860: mov r4, r0
+28c1864: bl #0x28c1888 ; Loom.Game.Map.MapFailController::CanShootAnyTargetNew
+28c1868: cmp r0, #0
+28c186c: beq #0x28c187c
+28c1870: mov r0, r4
+28c1874: pop {r4, lr}
+28c1878: b #0x28c1b98 ; Loom.Game.Map.MapFailController::TriggerOutOfSpaceFail
+28c187c: mov r0, r4
+28c1880: pop {r4, lr}
+28c1884: b #0x28c180c ; Loom.Game.Map.MapFailController::TryCheckForCannotShootFail
+
+# Loom.Game.Map.MapFailController::OnShooterPlacedToEmptySlot 0x28c1c58 size=4
+28c1c58: b #0x28c180c ; Loom.Game.Map.MapFailController::TryCheckForCannotShootFail
+
+# Loom.Game.Map.MapFailController::OnShooterWillDisappear 0x28c1c5c size=4
+28c1c5c: b #0x28c180c ; Loom.Game.Map.MapFailController::TryCheckForCannotShootFail
+
+# Loom.Game.Map.MapFailController::OnShootersExitingQueue 0x28c1c60 size=4
+28c1c60: b #0x28c180c ; Loom.Game.Map.MapFailController::TryCheckForCannotShootFail
+
+# Loom.Game.Map.MapFailController::OnLastActiveProjectileDestroyed 0x28c1c64 size=4
+28c1c64: b #0x28c180c ; Loom.Game.Map.MapFailController::TryCheckForCannotShootFail
+
+# Loom.Game.Map.MapFailController::OnCountdownTimerStop 0x28c1c68 size=64
+28c1c68: push {r4, r5, fp, lr}
+28c1c6c: ldr r5, [r0, #0x40]
+28c1c70: mov r4, r0
+28c1c74: cmp r5, #0
+28c1c78: bne #0x28c1c80
+28c1c7c: bl #0x236fcb0
+28c1c80: ldr r0, [r5]
+28c1c84: ldr r2, [r0, #0x100]
+28c1c88: ldr r1, [r0, #0x104]
+28c1c8c: mov r0, r5
+28c1c90: blx r2
+28c1c94: cmp r0, #0
+28c1c98: popeq {r4, r5, fp, pc}
+28c1c9c: mov r0, r4
+28c1ca0: pop {r4, r5, fp, lr}
+28c1ca4: b #0x28c1ca8 ; Loom.Game.Map.MapFailController::TriggerOutOfTimeFail
+
+# Loom.Game.Map.MapFailController::RebuildIgnoredObstaclesCache 0x28c0fa0 size=964
+28c0fa0: push {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+28c0fa4: sub sp, sp, #0xc
+28c0fa8: ldr r4, [pc, #0x370]
+28c0fac: mov sl, r0
+28c0fb0: add r4, pc, r4
+28c0fb4: ldrb r0, [r4]
+28c0fb8: cmp r0, #0
+28c0fbc: bne #0x28c1028
+28c0fc0: ldr r0, [pc, #0x35c]
+28c0fc4: ldr r0, [pc, r0]
+28c0fc8: bl #0x236fa00
+28c0fcc: ldr r0, [pc, #0x354]
+28c0fd0: ldr r0, [pc, r0]
+28c0fd4: bl #0x236fa00
+28c0fd8: ldr r0, [pc, #0x34c]
+28c0fdc: ldr r0, [pc, r0]
+28c0fe0: bl #0x236fa00
+28c0fe4: ldr r0, [pc, #0x344]
+28c0fe8: ldr r0, [pc, r0]
+28c0fec: bl #0x236fa00
+28c0ff0: ldr r0, [pc, #0x33c]
+28c0ff4: ldr r0, [pc, r0]
+28c0ff8: bl #0x236fa00
+28c0ffc: ldr r0, [pc, #0x334]
+28c1000: ldr r0, [pc, r0]
+28c1004: bl #0x236fa00
+28c1008: ldr r0, [pc, #0x32c]
+28c100c: ldr r0, [pc, r0]
+28c1010: bl #0x236fa00
+28c1014: ldr r0, [pc, #0x324]
+28c1018: ldr r0, [pc, r0]
+28c101c: bl #0x236fa00
+28c1020: mov r0, #1
+28c1024: strb r0, [r4]
+28c1028: ldr r5, [sl, #0x54]
+28c102c: cmp r5, #0
+28c1030: bne #0x28c1038
+28c1034: bl #0x236fcb0
+28c1038: ldr r0, [pc, #0x304]
+28c103c: ldr r0, [pc, r0]
+28c1040: ldr r1, [r0]
+28c1044: mov r0, r5
+28c1048: bl #0x3fc7d70
+28c104c: ldr r4, [sl, #0x10]
+28c1050: cmp r4, #0
+28c1054: bne #0x28c105c
+28c1058: bl #0x236fcb0
+28c105c: ldr r6, [r4, #0x14]
+28c1060: mov r4, #0
+28c1064: ldr fp, [pc, #0x2dc]
+28c1068: ldr fp, [pc, fp]
+28c106c: ldr r8, [pc, #0x2d8]
+28c1070: ldr r8, [pc, r8]
+28c1074: ldr sb, [pc, #0x2d4]
+28c1078: ldr sb, [pc, sb]
+28c107c: str r6, [sp, #4]
+28c1080: cmp r6, #0
+28c1084: bne #0x28c108c
+28c1088: bl #0x236fcb0
+28c108c: ldr r0, [r6]
+28c1090: ldr r1, [pc, #0x2c8]
+28c1094: ldr r1, [pc, r1]
+28c1098: ldrh r2, [r0, #0xb6]
+28c109c: ldr r1, [r1]
+28c10a0: cmp r2, #0
+28c10a4: beq #0x28c10c8
+28c10a8: ldr r3, [r0, #0x58]
+28c10ac: add r3, r3, #4
+28c10b0: ldr r7, [r3, #-4]
+28c10b4: cmp r7, r1
+28c10b8: beq #0x28c10d8
+28c10bc: subs r2, r2, #1
+28c10c0: add r3, r3, #8
+28c10c4: bne #0x28c10b0
+28c10c8: mov r0, r6
+28c10cc: mov r2, #0
+28c10d0: bl #0x23ab0bc
+28c10d4: b #0x28c10e4
+28c10d8: ldr r1, [r3]
+28c10dc: add r0, r0, r1, lsl #3
+28c10e0: add r0, r0, #0xc0
+28c10e4: ldrd r2, r3, [r0]
+28c10e8: mov r0, r6
+28c10ec: mov r1, r3
+28c10f0: blx r2
+28c10f4: cmp r4, r0
+28c10f8: str r4, [sp, #8]
+28c10fc: bge #0x28c1318
+28c1100: ldr r0, [r6]
+28c1104: ldr r1, [pc, #0x248]
+28c1108: ldr r1, [pc, r1]
+28c110c: ldrh r2, [r0, #0xb6]
+28c1110: ldr r1, [r1]
+28c1114: cmp r2, #0
+28c1118: beq #0x28c113c
+28c111c: ldr r3, [r0, #0x58]
+28c1120: add r3, r3, #4
+28c1124: ldr r7, [r3, #-4]
+28c1128: cmp r7, r1
+28c112c: beq #0x28c114c
+28c1130: subs r2, r2, #1
+28c1134: add r3, r3, #8
+28c1138: bne #0x28c1124
+28c113c: mov r0, r6
+28c1140: mov r2, #0
+28c1144: bl #0x23ab0bc
+28c1148: b #0x28c1158
+28c114c: ldr r1, [r3]
+28c1150: add r0, r0, r1, lsl #3
+28c1154: add r0, r0, #0xc0
+28c1158: ldrd r4, r5, [r0]
+28c115c: mov r0, r6
+28c1160: ldr r1, [sp, #8]
+28c1164: mov r2, r5
+28c1168: blx r4
+28c116c: mov r6, r0
+28c1170: cmp r0, #0
+28c1174: bne #0x28c117c
+28c1178: bl #0x236fcb0
+28c117c: ldr r0, [r6]
+28c1180: ldr r1, [pc, #0x1d0]
+28c1184: ldr r1, [pc, r1]
+28c1188: ldrh r2, [r0, #0xb6]
+28c118c: ldr r1, [r1]
+28c1190: cmp r2, #0
+28c1194: beq #0x28c11b8
+28c1198: ldr r3, [r0, #0x58]
+28c119c: add r3, r3, #4
+28c11a0: ldr r7, [r3, #-4]
+28c11a4: cmp r7, r1
+28c11a8: beq #0x28c11c8
+28c11ac: subs r2, r2, #1
+28c11b0: add r3, r3, #8
+28c11b4: bne #0x28c11a0
+28c11b8: mov r0, r6
+28c11bc: mov r2, #1
+28c11c0: bl #0x23ab0bc
+28c11c4: b #0x28c11d4
+28c11c8: ldr r1, [r3]
+28c11cc: add r0, r0, r1, lsl #3
+28c11d0: add r0, r0, #0xc8
+28c11d4: ldrd r2, r3, [r0]
+28c11d8: mov r0, r6
+28c11dc: mov r1, r3
+28c11e0: blx r2
+28c11e4: mov r7, r0
+28c11e8: mov r6, #0
+28c11ec: cmp r7, #0
+28c11f0: bne #0x28c11f8
+28c11f4: bl #0x236fcb0
+28c11f8: ldr r0, [r7]
+28c11fc: ldr r1, [fp]
+28c1200: ldrh r2, [r0, #0xb6]
+28c1204: cmp r2, #0
+28c1208: beq #0x28c122c
+28c120c: ldr r3, [r0, #0x58]
+28c1210: add r3, r3, #4
+28c1214: ldr r5, [r3, #-4]
+28c1218: cmp r5, r1
+28c121c: beq #0x28c123c
+28c1220: subs r2, r2, #1
+28c1224: add r3, r3, #8
+28c1228: bne #0x28c1214
+28c122c: mov r0, r7
+28c1230: mov r2, #0
+28c1234: bl #0x23ab0bc
+28c1238: b #0x28c1248
+28c123c: ldr r1, [r3]
+28c1240: add r0, r0, r1, lsl #3
+28c1244: add r0, r0, #0xc0
+28c1248: ldrd r2, r3, [r0]
+28c124c: mov r0, r7
+28c1250: mov r1, r3
+28c1254: blx r2
+28c1258: cmp r6, r0
+28c125c: bge #0x28c1308
+28c1260: ldr r0, [r7]
+28c1264: ldr r1, [r8]
+28c1268: ldrh r2, [r0, #0xb6]
+28c126c: cmp r2, #0
+28c1270: beq #0x28c1294
+28c1274: ldr r3, [r0, #0x58]
+28c1278: add r3, r3, #4
+28c127c: ldr r5, [r3, #-4]
+28c1280: cmp r5, r1
+28c1284: beq #0x28c12a4
+28c1288: subs r2, r2, #1
+28c128c: add r3, r3, #8
+28c1290: bne #0x28c127c
+28c1294: mov r0, r7
+28c1298: mov r2, #0
+28c129c: bl #0x23ab0bc
+28c12a0: b #0x28c12b0
+28c12a4: ldr r1, [r3]
+28c12a8: add r0, r0, r1, lsl #3
+28c12ac: add r0, r0, #0xc0
+28c12b0: ldrd r4, r5, [r0]
+28c12b4: mov r0, r7
+28c12b8: mov r1, r6
+28c12bc: mov r2, r5
+28c12c0: blx r4
+28c12c4: ldr r1, [sb]
+28c12c8: bl #0x236fb78
+28c12cc: cmp r0, #0
+28c12d0: beq #0x28c1300
+28c12d4: ldr r4, [sl, #0x54]
+28c12d8: mov r5, r0
+28c12dc: cmp r4, #0
+28c12e0: bne #0x28c12e8
+28c12e4: bl #0x236fcb0
+28c12e8: ldr r0, [pc, #0x6c]
+28c12ec: mov r1, r5
+28c12f0: ldr r0, [pc, r0]
+28c12f4: ldr r2, [r0]
+28c12f8: mov r0, r4
+28c12fc: bl #0x3fc8ad8
+28c1300: add r6, r6, #1
+28c1304: b #0x28c11ec
+28c1308: ldr r4, [sp, #8]
+28c130c: ldr r6, [sp, #4]
+28c1310: add r4, r4, #1
+28c1314: b #0x28c1080
+28c1318: add sp, sp, #0xc
+28c131c: pop {r4, r5, r6, r7, r8, sb, sl, fp, pc}
+28c1320: ldrbteq r3, [r4], -r0, ror #21
+
+# Loom.Game.Map.MapFailController::OnAttachableAttachedForCache 0x28c1d68 size=176
+28c1d68: push {r4, r5, r6, lr}
+28c1d6c: ldr r6, [pc, #0x90]
+28c1d70: mov r4, r0
+28c1d74: mov r5, r1
+28c1d78: add r6, pc, r6
+28c1d7c: ldrb r0, [r6]
+28c1d80: cmp r0, #0
+28c1d84: bne #0x28c1da8
+28c1d88: ldr r0, [pc, #0x78]
+28c1d8c: ldr r0, [pc, r0]
+28c1d90: bl #0x236fa00
+28c1d94: ldr r0, [pc, #0x70]
+28c1d98: ldr r0, [pc, r0]
+28c1d9c: bl #0x236fa00
+28c1da0: mov r0, #1
+28c1da4: strb r0, [r6]
+28c1da8: cmp r5, #0
+28c1dac: bne #0x28c1db4
+28c1db0: bl #0x236fcb0
+28c1db4: ldr r0, [pc, #0x54]
+28c1db8: ldr r0, [pc, r0]
+28c1dbc: ldr r1, [r0]
+28c1dc0: ldr r0, [r5, #0xc]
+28c1dc4: bl #0x236fb78
+28c1dc8: cmp r0, #0
+28c1dcc: beq #0x28c1e00
+28c1dd0: ldr r4, [r4, #0x54]
+28c1dd4: mov r5, r0
+28c1dd8: cmp r4, #0
+28c1ddc: bne #0x28c1de4
+28c1de0: bl #0x236fcb0
+28c1de4: ldr r0, [pc, #0x28]
+28c1de8: mov r1, r5
+28c1dec: ldr r0, [pc, r0]
+28c1df0: ldr r2, [r0]
+28c1df4: mov r0, r4
+28c1df8: pop {r4, r5, r6, lr}
+28c1dfc: b #0x3fc8ad8
+28c1e00: pop {r4, r5, r6, pc}
+28c1e04: uhadd16eq r2, r4, sb
+28c1e08: strbeq r1, [r0], -r8, lsr #4
+28c1e0c: strbeq r1, [r0], -r4, lsr #4
+28c1e10: strbeq r1, [r0], -r4, lsl #4
+28c1e14: strbeq r1, [r0], -r8, asr #3
+
+# Loom.Game.Map.MapFailController::OnAttachableDetachedForCache 0x28c1e18 size=176
+28c1e18: push {r4, r5, r6, lr}
+28c1e1c: ldr r6, [pc, #0x90]
+28c1e20: mov r4, r0
+28c1e24: mov r5, r1
+28c1e28: add r6, pc, r6
+28c1e2c: ldrb r0, [r6]
+28c1e30: cmp r0, #0
+28c1e34: bne #0x28c1e58
+28c1e38: ldr r0, [pc, #0x78]
+28c1e3c: ldr r0, [pc, r0]
+28c1e40: bl #0x236fa00
+28c1e44: ldr r0, [pc, #0x70]
+28c1e48: ldr r0, [pc, r0]
+28c1e4c: bl #0x236fa00
+28c1e50: mov r0, #1
+28c1e54: strb r0, [r6]
+28c1e58: cmp r5, #0
+28c1e5c: bne #0x28c1e64
+28c1e60: bl #0x236fcb0
+28c1e64: ldr r0, [pc, #0x54]
+28c1e68: ldr r0, [pc, r0]
+28c1e6c: ldr r1, [r0]
+28c1e70: ldr r0, [r5, #0xc]
+28c1e74: bl #0x236fb78
+28c1e78: cmp r0, #0
+28c1e7c: beq #0x28c1eb0
+28c1e80: ldr r4, [r4, #0x54]
+28c1e84: mov r5, r0
+28c1e88: cmp r4, #0
+28c1e8c: bne #0x28c1e94
+28c1e90: bl #0x236fcb0
+28c1e94: ldr r0, [pc, #0x28]
+28c1e98: mov r1, r5
+28c1e9c: ldr r0, [pc, r0]
+28c1ea0: ldr r2, [r0]
+28c1ea4: mov r0, r4
+28c1ea8: pop {r4, r5, r6, lr}
+28c1eac: b #0x3fc8034
+28c1eb0: pop {r4, r5, r6, pc}
+28c1eb4: ldrbteq r2, [r4], -sl, ror #24
+
+# Loom.Game.Map.MapFailController::TryCheckForCannotShootFail 0x28c180c size=80
+28c180c: push {r4, r5, fp, lr}
+28c1810: mov r4, r0
+28c1814: mov r5, r0
+28c1818: ldr r1, [r4, #0x50]!
+28c181c: cmp r1, #0
+28c1820: beq #0x28c1830
+28c1824: mov r0, r5
+28c1828: mov r2, #0
+28c182c: bl #0x345ce00
+28c1830: mov r0, r5
+28c1834: bl #0x28c1ec8 ; Loom.Game.Map.MapFailController::CheckForCannotShootFail
+28c1838: mov r1, r0
+28c183c: mov r0, r5
+28c1840: mov r2, #0
+28c1844: bl #0x345afc8
+28c1848: mov r1, r0
+28c184c: str r0, [r5, #0x50]
+28c1850: mov r0, r4
+28c1854: pop {r4, r5, fp, lr}
+28c1858: b #0x236f99c
+
+# Loom.Game.Map.MapFailController::CheckForCannotShootFail 0x28c1ec8 size=120
+28c1ec8: push {r4, r5, r6, lr}
+28c1ecc: ldr r5, [pc, #0x60]
+28c1ed0: mov r4, r0
+28c1ed4: add r5, pc, r5
+28c1ed8: ldrb r0, [r5]
+28c1edc: cmp r0, #0
+28c1ee0: bne #0x28c1ef8
+28c1ee4: ldr r0, [pc, #0x4c]
+28c1ee8: ldr r0, [pc, r0]
+28c1eec: bl #0x236fa00
+28c1ef0: mov r0, #1
+28c1ef4: strb r0, [r5]
+28c1ef8: ldr r0, [pc, #0x3c]
+28c1efc: ldr r0, [pc, r0]
+28c1f00: ldr r0, [r0]
+28c1f04: bl #0x236fca4
+28c1f08: mov r1, #0
+28c1f0c: mov r5, r0
+28c1f10: mov r6, #0
+28c1f14: bl #0x3459e1c
+28c1f18: mov r0, r5
+28c1f1c: mov r1, r4
+28c1f20: str r4, [r0, #0x10]!
+28c1f24: str r6, [r5, #8]
+28c1f28: bl #0x236f99c
+28c1f2c: mov r0, r5
+28c1f30: pop {r4, r5, r6, pc}
+
+# Loom.Game.Map.MapFailController::CheckShootersAndPixelsInSync 0x28c1f5c size=1156
+28c1f5c: push {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+28c1f60: sub sp, sp, #0x54
+28c1f64: str r0, [sp, #0xc]
+28c1f68: mov r5, r1
+28c1f6c: ldr r4, [pc, #0x408]
+28c1f70: add r4, pc, r4
+28c1f74: ldrb r0, [r4]
+28c1f78: cmp r0, #0
+28c1f7c: bne #0x28c2018
+28c1f80: ldr r0, [pc, #0x3f8]
+28c1f84: ldr r0, [pc, r0]
+28c1f88: bl #0x236fa00
+28c1f8c: ldr r0, [pc, #0x3f0]
+28c1f90: ldr r0, [pc, r0]
+28c1f94: bl #0x236fa00
+28c1f98: ldr r0, [pc, #0x3e8]
+28c1f9c: ldr r0, [pc, r0]
+28c1fa0: bl #0x236fa00
+28c1fa4: ldr r0, [pc, #0x3e0]
+28c1fa8: ldr r0, [pc, r0]
+28c1fac: bl #0x236fa00
+28c1fb0: ldr r0, [pc, #0x3d8]
+28c1fb4: ldr r0, [pc, r0]
+28c1fb8: bl #0x236fa00
+28c1fbc: ldr r0, [pc, #0x3d0]
+28c1fc0: ldr r0, [pc, r0]
+28c1fc4: bl #0x236fa00
+28c1fc8: ldr r0, [pc, #0x3c8]
+28c1fcc: ldr r0, [pc, r0]
+28c1fd0: bl #0x236fa00
+28c1fd4: ldr r0, [pc, #0x3c0]
+28c1fd8: ldr r0, [pc, r0]
+28c1fdc: bl #0x236fa00
+28c1fe0: ldr r0, [pc, #0x3b8]
+28c1fe4: ldr r0, [pc, r0]
+28c1fe8: bl #0x236fa00
+28c1fec: ldr r0, [pc, #0x3b0]
+28c1ff0: ldr r0, [pc, r0]
+28c1ff4: bl #0x236fa00
+28c1ff8: ldr r0, [pc, #0x3a8]
+28c1ffc: ldr r0, [pc, r0]
+28c2000: bl #0x236fa00
+28c2004: ldr r0, [pc, #0x3a0]
+28c2008: ldr r0, [pc, r0]
+28c200c: bl #0x236fa00
+28c2010: mov r0, #1
+28c2014: strb r0, [r4]
+28c2018: ldr r0, [pc, #0x390]
+28c201c: vmov.i32 q8, #0
+28c2020: add r1, sp, #0x38
+28c2024: mov r2, #0
+28c2028: ldr r0, [pc, r0]
+28c202c: vst1.64 {d16, d17}, [r1]!
+28c2030: ldr r0, [r0]
+28c2034: str r2, [r1]
+28c2038: str r2, [sp, #0x4c]
+28c203c: str r2, [sp, #0x34]
+28c2040: str r2, [sp, #0x30]
+28c2044: str r2, [sp, #0x2c]
+28c2048: str r2, [sp, #0x28]
+28c204c: bl #0x236fca4
+28c2050: mov r4, r0
+28c2054: bl #0x28b4de4 ; Loom.Game.Map.MapFailOutOfSyncData::.ctor
+28c2058: mov r0, r5
+28c205c: mov r1, r4
+28c2060: str r4, [r5]
+28c2064: bl #0x236f99c
+28c2068: ldr r0, [sp, #0xc]
+28c206c: ldr r4, [r0, #0x34]
+28c2070: cmp r4, #0
+28c2074: bne #0x28c207c
+28c2078: bl #0x236fcb0
+28c207c: mov r0, r4
+28c2080: str r5, [sp, #8]
+28c2084: bl #0x28bc994 ; Loom.Game.Map.ShooterProvider::GetAllShootersByMaterial
+28c2088: mov r4, r0
+28c208c: cmp r0, #0
+28c2090: bne #0x28c2098
+28c2094: bl #0x236fcb0
+28c2098: ldr r0, [pc, #0x314]
+28c209c: add r5, sp, #0x10
+28c20a0: mov r1, r4
+28c20a4: ldr r0, [pc, r0]
+28c20a8: ldr r2, [r0]
+28c20ac: mov r0, r5
+28c20b0: bl #0x345e774
+28c20b4: add r1, sp, #0x38
+28c20b8: vld1.64 {d16, d17}, [r5]!
+28c20bc: add fp, r1, #0xc
+28c20c0: mov sb, #1
+28c20c4: mov r0, r1
+28c20c8: vldr d18, [r5]
+28c20cc: vst1.64 {d16, d17}, [r0]!
+28c20d0: vstr d18, [r0]
+28c20d4: mov r0, #0
+28c20d8: str r1, [sp, #0x14]
+28c20dc: str r0, [sp, #0x10]
+28c20e0: ldr r8, [pc, #0x2d0]
+28c20e4: ldr r8, [pc, r8]
+28c20e8: ldr r0, [pc, #0x2e4]
+28c20ec: ldr r0, [pc, r0]
+28c20f0: ldr r1, [r0]
+28c20f4: add r0, sp, #0x38
+28c20f8: bl #0x3a26dec
+28c20fc: cmp r0, #0
+28c2100: beq #0x28c22dc
+28c2104: ldrd r0, r1, [fp]
+28c2108: ldr r2, [pc, #0x2ac]
+28c210c: ldr r2, [pc, r2]
+28c2110: str r1, [sp, #0x34]
+28c2114: str r0, [sp, #0x30]
+28c2118: ldr r3, [r2]
+28c211c: add r0, sp, #0x30
+28c2120: add r1, sp, #0x2c
+28c2124: add r2, sp, #0x28
+28c2128: bl #0x4214934
+28c212c: ldr r0, [r8]
+28c2130: ldr r4, [sp, #0x28]
+28c2134: ldr r7, [sp, #0x2c]
+28c2138: ldr r1, [r0, #0x74]
+28c213c: cmp r1, #0
+28c2140: bne #0x28c214c
+28c2144: bl #0x236fb74
+28c2148: ldr r0, [r8]
+28c214c: ldr r1, [r0, #0x5c]
+28c2150: ldr r6, [r1, #4]
+28c2154: cmp r6, #0
+28c2158: bne #0x28c21bc
+28c215c: ldr r2, [r0, #0x74]
+28c2160: cmp r2, #0
+28c2164: bne #0x28c2174
+28c2168: bl #0x236fb74
+28c216c: ldr r0, [r8]
+28c2170: ldr r1, [r0, #0x5c]
+28c2174: ldr r5, [r1]
+28c2178: ldr r0, [pc, #0x240]
+28c217c: ldr r0, [pc, r0]
+28c2180: ldr r0, [r0]
+28c2184: bl #0x236fca4
+28c2188: mov r6, r0
+28c218c: ldr r0, [pc, #0x230]
+28c2190: ldr r0, [pc, r0]
+28c2194: ldr r2, [r0]
+28c2198: mov r0, r6
+28c219c: mov r1, r5
+28c21a0: mov r3, #0
+28c21a4: bl #0x3ee6df0
+28c21a8: ldr r0, [r8]
+28c21ac: ldr r0, [r0, #0x5c]
+28c21b0: str r6, [r0, #4]!
+28c21b4: mov r1, r6
+28c21b8: bl #0x236f99c
+28c21bc: ldr r0, [pc, #0x204]
+28c21c0: ldr r0, [pc, r0]
+28c21c4: ldr r2, [r0]
+28c21c8: mov r0, r4
+28c21cc: mov r1, r6
+28c21d0: bl #0x33fc994
+28c21d4: mov r4, r0
+28c21d8: ldr r0, [sp, #0xc]
+28c21dc: bl #0x28c0a34 ; Loom.Game.Map.MapFailController::get_PixelGrid
+28c21e0: mov r6, r0
+28c21e4: cmp r0, #0
+28c21e8: bne #0x28c21f0
+28c21ec: bl #0x236fcb0
+28c21f0: mov r0, #0
+28c21f4: mov r1, r7
+28c21f8: str r0, [sp]
+28c21fc: mov r0, r6
+28c2200: mov r2, #0
+28c2204: mov r3, #0
+28c2208: bl #0x26b1158 ; Loom.Game.PixelImages.PixelGridController::GetPixelCountByMaterial
+28c220c: mov sl, r0
+28c2210: cmp r4, r0
+28c2214: ble #0x28c20e8
+28c2218: ldr r0, [sp, #8]
+28c221c: ldr r5, [r0]
+28c2220: cmp r5, #0
+28c2224: bne #0x28c222c
+28c2228: bl #0x236fcb0
+28c222c: ldr sb, [r5, #8]
+28c2230: ldr r0, [pc, #0x194]
+28c2234: ldr r0, [pc, r0]
+28c2238: ldr r0, [r0]
+28c223c: bl #0x236fca4
+28c2240: mov r1, #0
+28c2244: mov r5, r0
+28c2248: bl #0x3459e1c
+28c224c: cmp sb, #0
+28c2250: str r7, [r5, #8]
+28c2254: str r4, [r5, #0xc]
+28c2258: str sl, [r5, #0x10]
+28c225c: bne #0x28c2264
+28c2260: bl #0x236fcb0
+28c2264: ldr r0, [sb, #0x10]
+28c2268: ldr r4, [sb, #8]
+28c226c: ldr r6, [sb, #0xc]
+28c2270: add r0, r0, #1
+28c2274: ldr r1, [pc, #0x154]
+28c2278: cmp r4, #0
+28c227c: ldr r1, [pc, r1]
+28c2280: str r0, [sb, #0x10]
+28c2284: ldr r7, [r1]
+28c2288: bne #0x28c2290
+28c228c: bl #0x236fcb0
+28c2290: ldr r0, [r4, #0xc]
+28c2294: cmp r6, r0
+28c2298: bhs #0x28c22bc
+28c229c: add r0, r6, #1
+28c22a0: str r0, [sb, #0xc]
+28c22a4: add r0, r4, r6, lsl #2
+28c22a8: mov sb, #0
+28c22ac: str r5, [r0, #0x10]!
+28c22b0: mov r1, r5
+28c22b4: bl #0x236f99c
+28c22b8: b #0x28c20e8
+28c22bc: ldr r0, [r7, #0x10]
+28c22c0: ldr r0, [r0, #0x60]
+28c22c4: ldr r2, [r0, #0x38]
+28c22c8: mov r0, sb
+28c22cc: mov r1, r5
+28c22d0: mov sb, #0
+28c22d4: bl #0x44abd7c
+28c22d8: b #0x28c20e8
+28c22dc: ldr r0, [pc, #0xf4]
+28c22e0: ldr r0, [pc, r0]
+28c22e4: ldr r1, [r0]
+28c22e8: add r0, sp, #0x38
+28c22ec: bl #0x3a26f34
+28c22f0: and r0, sb, #1
+28c22f4: add sp, sp, #0x54
+28c22f8: pop {r4, r5, r6, r7, r8, sb, sl, fp, pc}
+28c22fc: b #0x28c2300
+28c2300: mov sb, #0
+28c2304: b #0x28c232c
+28c2308: b #0x28c232c
+28c230c: b #0x28c232c
+28c2310: b #0x28c232c
+28c2314: b #0x28c232c
+28c2318: b #0x28c232c
+28c231c: b #0x28c232c
+28c2320: b #0x28c232c
+28c2324: b #0x28c232c
+28c2328: b #0x28c232c
+28c232c: cmp r1, #1
+28c2330: bne #0x28c236c
+28c2334: bl #0x2438188
+28c2338: ldr r4, [r0]
+28c233c: str r4, [sp, #0x10]
+28c2340: bl #0x24989c0
+28c2344: ldr r0, [pc, #0x90]
+28c2348: ldr r0, [pc, r0]
+28c234c: ldr r1, [r0]
+28c2350: ldr r0, [sp, #0x14]
+28c2354: bl #0x3a26f34
+28c2358: cmp r4, #0
+28c235c: beq #0x28c22f0
+28c2360: mov r0, r4
+28c2364: bl #0x236fcac
+28c2368: b #0x28c22f0
+28c236c: add r0, sp, #0x10
+28c2370: bl #0x1b7ee8c
+28c2374: bl #0x2438344
+28c2378: bl #0x1b76114
+28c237c: ldrbteq r2, [r4], -r4, lsr #22
+
+# Loom.Game.Map.MapFailController::SuppressIfBypassed 0x28c23e0 size=40
+28c23e0: push {r4, lr}
+28c23e4: ldrb r4, [r0, #0x5c]
+28c23e8: cmp r4, #0
+28c23ec: beq #0x28c23f8
+28c23f0: str r1, [r0, #0x58]!
+28c23f4: bl #0x236f99c
+28c23f8: cmp r4, #0
+28c23fc: movwne r4, #1
+28c2400: mov r0, r4
+28c2404: pop {r4, pc}
+
+# Loom.Game.Map.MapFailController::TriggerOutOfSpaceFail 0x28c1b98 size=192
+28c1b98: push {r4, r5, fp, lr}
+28c1b9c: ldr r5, [pc, #0xa0]
+28c1ba0: mov r4, r0
+28c1ba4: add r5, pc, r5
+28c1ba8: ldrb r0, [r5]
+28c1bac: cmp r0, #0
+28c1bb0: bne #0x28c1bd4
+28c1bb4: ldr r0, [pc, #0x8c]
+28c1bb8: ldr r0, [pc, r0]
+28c1bbc: bl #0x236fa00
+28c1bc0: ldr r0, [pc, #0x84]
+28c1bc4: ldr r0, [pc, r0]
+28c1bc8: bl #0x236fa00
+28c1bcc: mov r0, #1
+28c1bd0: strb r0, [r5]
+28c1bd4: ldr r0, [pc, #0x74]
+28c1bd8: ldr r0, [pc, r0]
+28c1bdc: ldr r0, [r0]
+28c1be0: bl #0x236fca4
+28c1be4: mov r5, r0
+28c1be8: ldr r0, [pc, #0x64]
+28c1bec: mov r1, r4
+28c1bf0: mov r3, #0
+28c1bf4: ldr r0, [pc, r0]
+28c1bf8: ldr r2, [r0]
+28c1bfc: mov r0, r5
+28c1c00: bl #0x3459f40
+28c1c04: ldrb r0, [r4, #0x5c]
+28c1c08: cmp r0, #0
+28c1c0c: beq #0x28c1c24
+28c1c10: str r5, [r4, #0x58]!
+28c1c14: mov r1, r5
+28c1c18: mov r0, r4
+28c1c1c: pop {r4, r5, fp, lr}
+28c1c20: b #0x236f99c
+28c1c24: ldr r4, [r4, #0x28]
+28c1c28: cmp r4, #0
+28c1c2c: bne #0x28c1c34
+28c1c30: bl #0x236fcb0
+28c1c34: mov r0, r4
+28c1c38: mov r1, #0
+28c1c3c: pop {r4, r5, fp, lr}
+28c1c40: b #0x28ac908 ; Loom.Game.Map.MapFailEvents::TriggerOutOfSpaceFail
+28c1c44: uhsub8eq r2, r4, r1
+28c1c48: ldrteq r5, [pc], -r4, asr #1
+28c1c4c: strbeq r1, [r0], -r0, lsr #8
+28c1c50: ldrteq r5, [pc], -r4, lsr #1
+
+# Loom.Game.Map.MapFailController::TriggerOctopigFail 0x28c2408 size=296
+28c2408: push {r4, r5, fp, lr}
+28c240c: ldr r5, [pc, #0xf8]
+28c2410: mov r4, r0
+28c2414: add r5, pc, r5
+28c2418: ldrb r0, [r5]
+28c241c: cmp r0, #0
+28c2420: bne #0x28c245c
+28c2424: ldr r0, [pc, #0xe4]
+28c2428: ldr r0, [pc, r0]
+28c242c: bl #0x236fa00
+28c2430: ldr r0, [pc, #0xdc]
+28c2434: ldr r0, [pc, r0]
+28c2438: bl #0x236fa00
+28c243c: ldr r0, [pc, #0xd4]
+28c2440: ldr r0, [pc, r0]
+28c2444: bl #0x236fa00
+28c2448: ldr r0, [pc, #0xcc]
+28c244c: ldr r0, [pc, r0]
+28c2450: bl #0x236fa00
+28c2454: mov r0, #1
+28c2458: strb r0, [r5]
+28c245c: ldr r0, [pc, #0xbc]
+28c2460: ldr r0, [pc, r0]
+28c2464: ldr r0, [r0]
+28c2468: bl #0x236fca4
+28c246c: mov r5, r0
+28c2470: ldr r0, [pc, #0xac]
+28c2474: mov r1, r4
+28c2478: mov r3, #0
+28c247c: ldr r0, [pc, r0]
+28c2480: ldr r2, [r0]
+28c2484: mov r0, r5
+28c2488: bl #0x3459f40
+28c248c: ldrb r0, [r4, #0x5c]
+28c2490: cmp r0, #0
+28c2494: beq #0x28c24ac
+28c2498: str r5, [r4, #0x58]!
+28c249c: mov r1, r5
+28c24a0: mov r0, r4
+28c24a4: pop {r4, r5, fp, lr}
+28c24a8: b #0x236f99c
+28c24ac: ldr r5, [r4, #0x28]
+28c24b0: cmp r5, #0
+28c24b4: bne #0x28c24bc
+28c24b8: bl #0x236fcb0
+28c24bc: mov r0, r5
+28c24c0: mov r1, #0
+28c24c4: bl #0x28acf58 ; Loom.Game.Map.MapFailEvents::TriggerOctopigFail
+28c24c8: ldrb r0, [r4, #0x44]
+28c24cc: cmp r0, #0
+28c24d0: beq #0x28c2508
+28c24d4: ldr r0, [pc, #0x4c]
+28c24d8: ldr r0, [pc, r0]
+28c24dc: ldr r0, [r0]
+28c24e0: ldr r1, [r0, #0x74]
+28c24e4: cmp r1, #0
+28c24e8: bne #0x28c24f0
+28c24ec: bl #0x236fb74
+28c24f0: ldr r0, [pc, #0x34]
+28c24f4: mov r1, #0
+28c24f8: ldr r0, [pc, r0]
+28c24fc: ldr r0, [r0]
+28c2500: pop {r4, r5, fp, lr}
+28c2504: b #0x3459e58
+28c2508: pop {r4, r5, fp, pc}
+28c250c: ldrbteq r2, [r4], -r2, lsl #13
+28c2510: shsaxeq r4, pc, r4
+28c2514: ldrteq r4, [pc], -r4, asr #9
+28c2518: strbeq r0, [r0], -r4, asr #23
+
+# Loom.Game.Map.MapFailController::TriggerOutOfTimeFail 0x28c1ca8 size=192
+28c1ca8: push {r4, r5, fp, lr}
+28c1cac: ldr r5, [pc, #0xa0]
+28c1cb0: mov r4, r0
+28c1cb4: add r5, pc, r5
+28c1cb8: ldrb r0, [r5]
+28c1cbc: cmp r0, #0
+28c1cc0: bne #0x28c1ce4
+28c1cc4: ldr r0, [pc, #0x8c]
+28c1cc8: ldr r0, [pc, r0]
+28c1ccc: bl #0x236fa00
+28c1cd0: ldr r0, [pc, #0x84]
+28c1cd4: ldr r0, [pc, r0]
+28c1cd8: bl #0x236fa00
+28c1cdc: mov r0, #1
+28c1ce0: strb r0, [r5]
+28c1ce4: ldr r0, [pc, #0x74]
+28c1ce8: ldr r0, [pc, r0]
+28c1cec: ldr r0, [r0]
+28c1cf0: bl #0x236fca4
+28c1cf4: mov r5, r0
+28c1cf8: ldr r0, [pc, #0x64]
+28c1cfc: mov r1, r4
+28c1d00: mov r3, #0
+28c1d04: ldr r0, [pc, r0]
+28c1d08: ldr r2, [r0]
+28c1d0c: mov r0, r5
+28c1d10: bl #0x3459f40
+28c1d14: ldrb r0, [r4, #0x5c]
+28c1d18: cmp r0, #0
+28c1d1c: beq #0x28c1d34
+28c1d20: str r5, [r4, #0x58]!
+28c1d24: mov r1, r5
+28c1d28: mov r0, r4
+28c1d2c: pop {r4, r5, fp, lr}
+28c1d30: b #0x236f99c
+28c1d34: ldr r4, [r4, #0x28]
+28c1d38: cmp r4, #0
+28c1d3c: bne #0x28c1d44
+28c1d40: bl #0x236fcb0
+28c1d44: mov r0, r4
+28c1d48: mov r1, #0
+28c1d4c: pop {r4, r5, fp, lr}
+28c1d50: b #0x28aca70 ; Loom.Game.Map.MapFailEvents::TriggerOutOfTimeFail
+28c1d54: ldrbteq r2, [r4], -r3, ror #27
+
+# Loom.Game.Map.MapFailController::TriggerCannotShootFail 0x28c2530 size=540
+28c2530: push {r4, r5, r6, r7, fp, lr}
+28c2534: ldr r5, [pc, #0x1d4]
+28c2538: mov r4, r0
+28c253c: add r5, pc, r5
+28c2540: ldrb r0, [r5]
+28c2544: cmp r0, #0
+28c2548: bne #0x28c25b4
+28c254c: ldr r0, [pc, #0x1c0]
+28c2550: ldr r0, [pc, r0]
+28c2554: bl #0x236fa00
+28c2558: ldr r0, [pc, #0x1b8]
+28c255c: ldr r0, [pc, r0]
+28c2560: bl #0x236fa00
+28c2564: ldr r0, [pc, #0x1b0]
+28c2568: ldr r0, [pc, r0]
+28c256c: bl #0x236fa00
+28c2570: ldr r0, [pc, #0x1a8]
+28c2574: ldr r0, [pc, r0]
+28c2578: bl #0x236fa00
+28c257c: ldr r0, [pc, #0x1a0]
+28c2580: ldr r0, [pc, r0]
+28c2584: bl #0x236fa00
+28c2588: ldr r0, [pc, #0x198]
+28c258c: ldr r0, [pc, r0]
+28c2590: bl #0x236fa00
+28c2594: ldr r0, [pc, #0x190]
+28c2598: ldr r0, [pc, r0]
+28c259c: bl #0x236fa00
+28c25a0: ldr r0, [pc, #0x188]
+28c25a4: ldr r0, [pc, r0]
+28c25a8: bl #0x236fa00
+28c25ac: mov r0, #1
+28c25b0: strb r0, [r5]
+28c25b4: ldr r0, [pc, #0x178]
+28c25b8: ldr r0, [pc, r0]
+28c25bc: ldr r0, [r0]
+28c25c0: bl #0x236fca4
+28c25c4: mov r5, r0
+28c25c8: ldr r0, [pc, #0x168]
+28c25cc: mov r1, r4
+28c25d0: mov r3, #0
+28c25d4: ldr r0, [pc, r0]
+28c25d8: ldr r2, [r0]
+28c25dc: mov r0, r5
+28c25e0: bl #0x3459f40
+28c25e4: ldrb r0, [r4, #0x5c]
+28c25e8: cmp r0, #0
+28c25ec: beq #0x28c2604
+28c25f0: str r5, [r4, #0x58]!
+28c25f4: mov r1, r5
+28c25f8: mov r0, r4
+28c25fc: pop {r4, r5, r6, r7, fp, lr}
+28c2600: b #0x236f99c
+28c2604: ldr r5, [r4, #0x34]
+28c2608: cmp r5, #0
+28c260c: bne #0x28c2614
+28c2610: bl #0x236fcb0
+28c2614: mov r0, r5
+28c2618: bl #0x28c274c ; Loom.Game.Map.ShooterProvider::GetAllFirstInQueueShooters
+28c261c: mov r5, r0
+28c2620: ldr r0, [pc, #0x114]
+28c2624: ldr r0, [pc, r0]
+28c2628: ldr r1, [r0]
+28c262c: mov r0, r5
+28c2630: bl #0x32c9f24
+28c2634: mov r6, r0
+28c2638: ldr r0, [pc, #0x100]
+28c263c: ldr r0, [pc, r0]
+28c2640: ldr r1, [r0]
+28c2644: mov r0, r5
+28c2648: bl #0x32c9f24
+28c264c: mov r5, r0
+28c2650: cmp r6, #0
+28c2654: bne #0x28c265c
+28c2658: bl #0x236fcb0
+28c265c: ldr r7, [r6, #0xc]
+28c2660: cmp r7, #0
+28c2664: beq #0x28c2678
+28c2668: cmp r5, #0
+28c266c: bne #0x28c2694
+28c2670: bl #0x236fcb0
+28c2674: b #0x28c2694
+28c2678: cmp r5, #0
+28c267c: bne #0x28c2684
+28c2680: bl #0x236fcb0
+28c2684: ldr r0, [r5, #0xc]
+28c2688: cmp r0, #0
+28c268c: beq #0x28c26dc
+28c2690: ldr r7, [r6, #0xc]
+28c2694: ldr r0, [r5, #0xc]
+28c2698: ldr r4, [r4, #0x28]
+28c269c: cmp r7, r0
+28c26a0: bge #0x28c26c0
+28c26a4: cmp r4, #0
+28c26a8: bne #0x28c26b0
+28c26ac: bl #0x236fcb0
+28c26b0: mov r0, r4
+28c26b4: mov r1, #0
+28c26b8: pop {r4, r5, r6, r7, fp, lr}
+28c26bc: b #0x28ac4d0 ; Loom.Game.Map.MapFailEvents::TriggerFrozenFail
+28c26c0: cmp r4, #0
+28c26c4: bne #0x28c26cc
+28c26c8: bl #0x236fcb0
+28c26cc: mov r0, r4
+28c26d0: mov r1, #0
+28c26d4: pop {r4, r5, r6, r7, fp, lr}
+28c26d8: b #0x28ac638 ; Loom.Game.Map.MapFailEvents::TriggerLockedOutFail
+28c26dc: ldr r0, [pc, #0x60]
+28c26e0: ldr r0, [pc, r0]
+28c26e4: ldr r0, [r0]
+28c26e8: ldr r1, [r0, #0x74]
+28c26ec: cmp r1, #0
+28c26f0: bne #0x28c26f8
+28c26f4: bl #0x236fb74
+28c26f8: ldr r0, [pc, #0x48]
+28c26fc: mov r1, #0
+28c2700: ldr r0, [pc, r0]
+28c2704: ldr r0, [r0]
+28c2708: pop {r4, r5, r6, r7, fp, lr}
+28c270c: b #0x345aeb8
+28c2710: uhsaxeq r2, r4, ip
+28c2714: ldrteq r4, [pc], -ip, lsr #14
+
+# Loom.Game.Map.MapFailController::CanShootAnyTarget 0x28c2844 size=1344
+28c2844: push {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+28c2848: sub sp, sp, #0x2c
+28c284c: ldr r5, [pc, #0x498]
+28c2850: mov r4, r0
+28c2854: add r5, pc, r5
+28c2858: ldrb r0, [r5]
+28c285c: cmp r0, #0
+28c2860: bne #0x28c2950
+28c2864: ldr r0, [pc, #0x484]
+28c2868: ldr r0, [pc, r0]
+28c286c: bl #0x236fa00
+28c2870: ldr r0, [pc, #0x47c]
+28c2874: ldr r0, [pc, r0]
+28c2878: bl #0x236fa00
+28c287c: ldr r0, [pc, #0x474]
+28c2880: ldr r0, [pc, r0]
+28c2884: bl #0x236fa00
+28c2888: ldr r0, [pc, #0x46c]
+28c288c: ldr r0, [pc, r0]
+28c2890: bl #0x236fa00
+28c2894: ldr r0, [pc, #0x464]
+28c2898: ldr r0, [pc, r0]
+28c289c: bl #0x236fa00
+28c28a0: ldr r0, [pc, #0x45c]
+28c28a4: ldr r0, [pc, r0]
+28c28a8: bl #0x236fa00
+28c28ac: ldr r0, [pc, #0x454]
+28c28b0: ldr r0, [pc, r0]
+28c28b4: bl #0x236fa00
+28c28b8: ldr r0, [pc, #0x44c]
+28c28bc: ldr r0, [pc, r0]
+28c28c0: bl #0x236fa00
+28c28c4: ldr r0, [pc, #0x444]
+28c28c8: ldr r0, [pc, r0]
+28c28cc: bl #0x236fa00
+28c28d0: ldr r0, [pc, #0x43c]
+28c28d4: ldr r0, [pc, r0]
+28c28d8: bl #0x236fa00
+28c28dc: ldr r0, [pc, #0x434]
+28c28e0: ldr r0, [pc, r0]
+28c28e4: bl #0x236fa00
+28c28e8: ldr r0, [pc, #0x42c]
+28c28ec: ldr r0, [pc, r0]
+28c28f0: bl #0x236fa00
+28c28f4: ldr r0, [pc, #0x424]
+28c28f8: ldr r0, [pc, r0]
+28c28fc: bl #0x236fa00
+28c2900: ldr r0, [pc, #0x41c]
+28c2904: ldr r0, [pc, r0]
+28c2908: bl #0x236fa00
+28c290c: ldr r0, [pc, #0x414]
+28c2910: ldr r0, [pc, r0]
+28c2914: bl #0x236fa00
+28c2918: ldr r0, [pc, #0x40c]
+28c291c: ldr r0, [pc, r0]
+28c2920: bl #0x236fa00
+28c2924: ldr r0, [pc, #0x404]
+28c2928: ldr r0, [pc, r0]
+28c292c: bl #0x236fa00
+28c2930: ldr r0, [pc, #0x3fc]
+28c2934: ldr r0, [pc, r0]
+28c2938: bl #0x236fa00
+28c293c: ldr r0, [pc, #0x3f4]
+28c2940: ldr r0, [pc, r0]
+28c2944: bl #0x236fa00
+28c2948: mov r0, #1
+28c294c: strb r0, [r5]
+28c2950: ldr r5, [r4, #0x34]
+28c2954: vmov.i32 q8, #0
+28c2958: add r0, sp, #0x18
+28c295c: cmp r5, #0
+28c2960: vst1.64 {d16, d17}, [r0]
+28c2964: bne #0x28c296c
+28c2968: bl #0x236fcb0
+28c296c: mov r0, r5
+28c2970: bl #0x28c274c ; Loom.Game.Map.ShooterProvider::GetAllFirstInQueueShooters
+28c2974: mov r6, r0
+28c2978: ldr r0, [pc, #0x3bc]
+28c297c: ldr r0, [pc, r0]
+28c2980: ldr r0, [r0]
+28c2984: bl #0x236fca4
+28c2988: mov r5, r0
+28c298c: ldr r0, [pc, #0x3ac]
+28c2990: mov r1, r4
+28c2994: mov r3, #0
+28c2998: ldr r0, [pc, r0]
+28c299c: ldr r2, [r0]
+28c29a0: mov r0, r5
+28c29a4: bl #0x345c5a4
+28c29a8: cmp r6, #0
+28c29ac: bne #0x28c29b4
+28c29b0: bl #0x236fcb0
+28c29b4: ldr r0, [pc, #0x388]
+28c29b8: mov r1, r5
+28c29bc: ldr r0, [pc, r0]
+28c29c0: ldr r2, [r0]
+28c29c4: mov r0, r6
+28c29c8: bl #0x44ac42c
+28c29cc: mov r7, #1
+28c29d0: cmp r0, #0
+28c29d4: bne #0x28c2c50
+28c29d8: ldr r5, [r4, #0x34]
+28c29dc: cmp r5, #0
+28c29e0: bne #0x28c29e8
+28c29e4: bl #0x236fcb0
+28c29e8: mov r0, r5
+28c29ec: str r6, [sp, #4]
+28c29f0: bl #0x28c2d84 ; Loom.Game.Map.ShooterProvider::GetShootersOutsideOfQueue
+28c29f4: mov r5, r0
+28c29f8: ldr r0, [pc, #0x348]
+28c29fc: ldr r0, [pc, r0]
+28c2a00: ldr r0, [r0]
+28c2a04: ldr r1, [r0, #0x74]
+28c2a08: cmp r1, #0
+28c2a0c: bne #0x28c2a14
+28c2a10: bl #0x236fb74
+28c2a14: ldr r0, [pc, #0x330]
+28c2a18: ldr r0, [pc, r0]
+28c2a1c: ldr r0, [r0]
+28c2a20: bl #0x4250ae0
+28c2a24: mov fp, r0
+28c2a28: mov r0, r4
+28c2a2c: bl #0x28c0a34 ; Loom.Game.Map.MapFailController::get_PixelGrid
+28c2a30: mov r4, r0
+28c2a34: cmp r0, #0
+28c2a38: bne #0x28c2a40
+28c2a3c: bl #0x236fcb0
+28c2a40: ldr r0, [pc, #0x308]
+28c2a44: mov r1, fp
+28c2a48: mov r2, #0
+28c2a4c: mov r6, #0
+28c2a50: ldr r0, [pc, r0]
+28c2a54: ldr r3, [r0]
+28c2a58: mov r0, r4
+28c2a5c: bl #0x35bfafc
+28c2a60: cmp r5, #0
+28c2a64: bne #0x28c2a6c
+28c2a68: bl #0x236fcb0
+28c2a6c: ldr r0, [pc, #0x2e0]
+28c2a70: add r4, sp, #8
+28c2a74: mov r1, r5
+28c2a78: ldr r0, [pc, r0]
+28c2a7c: ldr r2, [r0]
+28c2a80: mov r0, r4
+28c2a84: bl #0x44aca44
+28c2a88: vld1.64 {d16, d17}, [r4]
+28c2a8c: add r0, sp, #0x18
+28c2a90: vst1.64 {d16, d17}, [r0]
+28c2a94: str r0, [sp, #0xc]
+28c2a98: str r6, [sp, #8]
+28c2a9c: ldr sb, [pc, #0x2b4]
+28c2aa0: ldr sb, [pc, sb]
+28c2aa4: ldr sl, [pc, #0x2b0]
+28c2aa8: ldr sl, [pc, sl]
+28c2aac: ldr r1, [sb]
+28c2ab0: add r0, sp, #0x18
+28c2ab4: bl #0x3992e2c
+28c2ab8: mov r4, r0
+28c2abc: cmp r0, #0
+28c2ac0: beq #0x28c2bb0
+28c2ac4: ldr r7, [sp, #0x24]
+28c2ac8: ldr r0, [sl]
+28c2acc: bl #0x236fca4
+28c2ad0: mov r1, #0
+28c2ad4: mov r6, r0
+28c2ad8: bl #0x3459e1c
+28c2adc: cmp r7, #0
+28c2ae0: bne #0x28c2ae8
+28c2ae4: bl #0x236fcb0
+28c2ae8: mov r0, r7
+28c2aec: mov r1, #0
+28c2af0: bl #0x26a6604 ; Loom.Game.Shooters.Shooter::get_Material
+28c2af4: mov r8, r0
+28c2af8: cmp r6, #0
+28c2afc: bne #0x28c2b04
+28c2b00: bl #0x236fcb0
+28c2b04: mov r5, r6
+28c2b08: str r8, [r5, #8]!
+28c2b0c: mov r0, r5
+28c2b10: mov r1, r8
+28c2b14: bl #0x236f99c
+28c2b18: cmp r7, #0
+28c2b1c: bne #0x28c2b24
+28c2b20: bl #0x236fcb0
+28c2b24: mov r0, r7
+28c2b28: mov r1, #0
+28c2b2c: bl #0x26a6500 ; Loom.Game.Shooters.Shooter::get_Ammo
+28c2b30: mov r7, r0
+28c2b34: ldr r0, [r5]
+28c2b38: mov r1, #0
+28c2b3c: bl #0x2abd884 ; Crescive.Extensions.NullCheckExtensions::IsNull
+28c2b40: cmp r7, #1
+28c2b44: mov r1, #0
+28c2b48: movwlt r1, #1
+28c2b4c: orrs r0, r0, r1
+28c2b50: bne #0x28c2aac
+28c2b54: ldr r0, [pc, #0x204]
+28c2b58: ldr r0, [pc, r0]
+28c2b5c: ldr r0, [r0]
+28c2b60: bl #0x236fca4
+28c2b64: mov r5, r0
+28c2b68: ldr r0, [pc, #0x1f4]
+28c2b6c: ldr r0, [pc, r0]
+28c2b70: ldr r2, [r0]
+28c2b74: mov r0, r5
+28c2b78: mov r1, r6
+28c2b7c: mov r3, #0
+28c2b80: bl #0x345c5a4
+28c2b84: cmp fp, #0
+28c2b88: bne #0x28c2b90
+28c2b8c: bl #0x236fcb0
+28c2b90: ldr r0, [pc, #0x1d0]
+28c2b94: ldr r0, [pc, r0]
+28c2b98: ldr r2, [r0]
+28c2b9c: mov r0, fp
+28c2ba0: mov r1, r5
+28c2ba4: bl #0x44ac42c
+28c2ba8: cmp r0, #0
+28c2bac: beq #0x28c2aac
+28c2bb0: ldr r0, [pc, #0x1b4]
+28c2bb4: ldr r0, [pc, r0]
+28c2bb8: ldr r1, [r0]
+28c2bbc: add r0, sp, #0x18
+28c2bc0: bl #0x3992e28
+28c2bc4: ldr r0, [pc, #0x1a8]
+28c2bc8: mov r7, #1
+28c2bcc: ldr r0, [pc, r0]
+28c2bd0: ldr r0, [r0]
+28c2bd4: ldr r1, [r0, #0x74]
+28c2bd8: cmp r1, #0
+28c2bdc: bne #0x28c2be4
+28c2be0: bl #0x236fb74
+28c2be4: ldr r0, [pc, #0x18c]
+28c2be8: ldr r0, [pc, r0]
+28c2bec: ldr r1, [r0]
+28c2bf0: mov r0, fp
+28c2bf4: bl #0x4250c80
+28c2bf8: cmp r4, #0
+28c2bfc: bne #0x28c2c4c
+28c2c00: ldr r0, [pc, #0x174]
+28c2c04: ldr r0, [pc, r0]
+28c2c08: ldr r5, [sp, #4]
+28c2c0c: ldr r1, [r0]
+28c2c10: mov r0, r5
+28c2c14: bl #0x32c9f24
+28c2c18: mov r6, r0
+28c2c1c: ldr r0, [pc, #0x15c]
+28c2c20: ldr r0, [pc, r0]
+28c2c24: ldr r1, [r0]
+28c2c28: mov r0, r5
+28c2c2c: bl #0x32c9f24
+28c2c30: mov r5, r0
+28c2c34: cmp r6, #0
+28c2c38: bne #0x28c2c40
+28c2c3c: bl #0x236fcb0
+28c2c40: ldr r0, [r6, #0xc]
+28c2c44: cmp r0, #0
+28c2c48: beq #0x28c2c5c
+28c2c4c: mov r7, r4
+28c2c50: mov r0, r7
+28c2c54: add sp, sp, #0x2c
+28c2c58: pop {r4, r5, r6, r7, r8, sb, sl, fp, pc}
+28c2c5c: cmp r5, #0
+28c2c60: bne #0x28c2c68
+28c2c64: bl #0x236fcb0
+28c2c68: ldr r0, [r5, #0xc]
+28c2c6c: cmp r0, #0
+28c2c70: movne r7, r4
+28c2c74: b #0x28c2c50
+28c2c78: b #0x28c2c98
+28c2c7c: b #0x28c2c98
+28c2c80: b #0x28c2c98
+28c2c84: b #0x28c2c98
+28c2c88: b #0x28c2c98
+28c2c8c: b #0x28c2c98
+28c2c90: b #0x28c2c98
+28c2c94: b #0x28c2c98
+28c2c98: cmp r1, #1
+28c2c9c: bne #0x28c2cdc
+28c2ca0: bl #0x2438188
+28c2ca4: ldr r5, [r0]
+28c2ca8: str r5, [sp, #8]
+28c2cac: bl #0x24989c0
+28c2cb0: ldr r0, [pc, #0xb8]
+28c2cb4: ldr r0, [pc, r0]
+28c2cb8: ldr r1, [r0]
+28c2cbc: ldr r0, [sp, #0xc]
+28c2cc0: bl #0x3992e28
+28c2cc4: mov r4, #0
+28c2cc8: cmp r5, #0
+28c2ccc: beq #0x28c2bc4
+28c2cd0: mov r0, r5
+28c2cd4: bl #0x236fcac
+28c2cd8: b #0x28c2bc4
+28c2cdc: add r0, sp, #8
+28c2ce0: bl #0x1b7799c
+28c2ce4: bl #0x2438344
+28c2ce8: bl #0x1b76114
+28c2cec: ldrbteq r2, [r4], -r5, asr #4
+28c2cf0: strbeq r0, [r0], -r4, lsr #15
+
+# Loom.Game.Map.MapFailController::TriggerBlockerFail 0x28c2e84 size=1944
+28c2e84: push {r4, r5, r6, r7, r8, sb, fp, lr}
+28c2e88: ldr r5, [pc, #0x6a8]
+28c2e8c: mov r4, r0
+28c2e90: add r5, pc, r5
+28c2e94: ldrb r0, [r5]
+28c2e98: cmp r0, #0
+28c2e9c: bne #0x28c2ff8
+28c2ea0: ldr r0, [pc, #0x694]
+28c2ea4: ldr r0, [pc, r0]
+28c2ea8: bl #0x236fa00
+28c2eac: ldr r0, [pc, #0x68c]
+28c2eb0: ldr r0, [pc, r0]
+28c2eb4: bl #0x236fa00
+28c2eb8: ldr r0, [pc, #0x684]
+28c2ebc: ldr r0, [pc, r0]
+28c2ec0: bl #0x236fa00
+28c2ec4: ldr r0, [pc, #0x67c]
+28c2ec8: ldr r0, [pc, r0]
+28c2ecc: bl #0x236fa00
+28c2ed0: ldr r0, [pc, #0x674]
+28c2ed4: ldr r0, [pc, r0]
+28c2ed8: bl #0x236fa00
+28c2edc: ldr r0, [pc, #0x66c]
+28c2ee0: ldr r0, [pc, r0]
+28c2ee4: bl #0x236fa00
+28c2ee8: ldr r0, [pc, #0x664]
+28c2eec: ldr r0, [pc, r0]
+28c2ef0: bl #0x236fa00
+28c2ef4: ldr r0, [pc, #0x65c]
+28c2ef8: ldr r0, [pc, r0]
+28c2efc: bl #0x236fa00
+28c2f00: ldr r0, [pc, #0x654]
+28c2f04: ldr r0, [pc, r0]
+28c2f08: bl #0x236fa00
+28c2f0c: ldr r0, [pc, #0x64c]
+28c2f10: ldr r0, [pc, r0]
+28c2f14: bl #0x236fa00
+28c2f18: ldr r0, [pc, #0x644]
+28c2f1c: ldr r0, [pc, r0]
+28c2f20: bl #0x236fa00
+28c2f24: ldr r0, [pc, #0x63c]
+28c2f28: ldr r0, [pc, r0]
+28c2f2c: bl #0x236fa00
+28c2f30: ldr r0, [pc, #0x634]
+28c2f34: ldr r0, [pc, r0]
+28c2f38: bl #0x236fa00
+28c2f3c: ldr r0, [pc, #0x62c]
+28c2f40: ldr r0, [pc, r0]
+28c2f44: bl #0x236fa00
+28c2f48: ldr r0, [pc, #0x624]
+28c2f4c: ldr r0, [pc, r0]
+28c2f50: bl #0x236fa00
+28c2f54: ldr r0, [pc, #0x61c]
+28c2f58: ldr r0, [pc, r0]
+28c2f5c: bl #0x236fa00
+28c2f60: ldr r0, [pc, #0x614]
+28c2f64: ldr r0, [pc, r0]
+28c2f68: bl #0x236fa00
+28c2f6c: ldr r0, [pc, #0x60c]
+28c2f70: ldr r0, [pc, r0]
+28c2f74: bl #0x236fa00
+28c2f78: ldr r0, [pc, #0x604]
+28c2f7c: ldr r0, [pc, r0]
+28c2f80: bl #0x236fa00
+28c2f84: ldr r0, [pc, #0x5fc]
+28c2f88: ldr r0, [pc, r0]
+28c2f8c: bl #0x236fa00
+28c2f90: ldr r0, [pc, #0x5f4]
+28c2f94: ldr r0, [pc, r0]
+28c2f98: bl #0x236fa00
+28c2f9c: ldr r0, [pc, #0x5ec]
+28c2fa0: ldr r0, [pc, r0]
+28c2fa4: bl #0x236fa00
+28c2fa8: ldr r0, [pc, #0x5e4]
+28c2fac: ldr r0, [pc, r0]
+28c2fb0: bl #0x236fa00
+28c2fb4: ldr r0, [pc, #0x5dc]
+28c2fb8: ldr r0, [pc, r0]
+28c2fbc: bl #0x236fa00
+28c2fc0: ldr r0, [pc, #0x5d4]
+28c2fc4: ldr r0, [pc, r0]
+28c2fc8: bl #0x236fa00
+28c2fcc: ldr r0, [pc, #0x5cc]
+28c2fd0: ldr r0, [pc, r0]
+28c2fd4: bl #0x236fa00
+28c2fd8: ldr r0, [pc, #0x5c4]
+28c2fdc: ldr r0, [pc, r0]
+28c2fe0: bl #0x236fa00
+28c2fe4: ldr r0, [pc, #0x5bc]
+28c2fe8: ldr r0, [pc, r0]
+28c2fec: bl #0x236fa00
+28c2ff0: mov r0, #1
+28c2ff4: strb r0, [r5]
+28c2ff8: ldr r0, [pc, #0x5ac]
+28c2ffc: ldr r0, [pc, r0]
+28c3000: ldr r0, [r0]
+28c3004: bl #0x236fca4
+28c3008: mov r5, r0
+28c300c: ldr r0, [pc, #0x59c]
+28c3010: mov r1, r4
+28c3014: mov r3, #0
+28c3018: ldr r0, [pc, r0]
+28c301c: ldr r2, [r0]
+28c3020: mov r0, r5
+28c3024: bl #0x3459f40
+28c3028: ldrb r0, [r4, #0x5c]
+28c302c: cmp r0, #0
+28c3030: beq #0x28c3048
+28c3034: str r5, [r4, #0x58]!
+28c3038: mov r1, r5
+28c303c: mov r0, r4
+28c3040: pop {r4, r5, r6, r7, r8, sb, fp, lr}
+28c3044: b #0x236f99c
+28c3048: mov r0, r4
+28c304c: bl #0x28c361c ; Loom.Game.Map.MapFailController::NormallyTappableFirstShooterExists
+28c3050: cmp r0, #0
+28c3054: bne #0x28c3250
+28c3058: ldr r5, [r4, #0x34]
+28c305c: cmp r5, #0
+28c3060: bne #0x28c3068
+28c3064: bl #0x236fcb0
+28c3068: mov r0, r5
+28c306c: bl #0x28c274c ; Loom.Game.Map.ShooterProvider::GetAllFirstInQueueShooters
+28c3070: mov r5, r0
+28c3074: ldr r0, [pc, #0x538]
+28c3078: ldr r0, [pc, r0]
+28c307c: ldr r1, [r0]
+28c3080: mov r0, r5
+28c3084: bl #0x32c9f24
+28c3088: mov r7, r0
+28c308c: ldr r0, [pc, #0x524]
+28c3090: ldr r0, [pc, r0]
+28c3094: ldr r1, [r0]
+28c3098: mov r0, r5
+28c309c: bl #0x32c9f24
+28c30a0: mov r6, r0
+28c30a4: ldr r0, [pc, #0x510]
+28c30a8: ldr r0, [pc, r0]
+28c30ac: ldr r1, [r0]
+28c30b0: mov r0, r5
+28c30b4: bl #0x32c9f24
+28c30b8: mov r8, r0
+28c30bc: cmp r7, #0
+28c30c0: bne #0x28c30c8
+28c30c4: bl #0x236fcb0
+28c30c8: ldr r5, [r7, #0xc]
+28c30cc: cmp r5, #0
+28c30d0: beq #0x28c30ec
+28c30d4: mov sb, #0
+28c30d8: cmp r6, #0
+28c30dc: bne #0x28c3124
+28c30e0: bl #0x236fcb0
+28c30e4: mov sb, #1
+28c30e8: b #0x28c3124
+28c30ec: cmp r6, #0
+28c30f0: bne #0x28c30f8
+28c30f4: bl #0x236fcb0
+28c30f8: ldr r0, [r6, #0xc]
+28c30fc: cmp r0, #0
+28c3100: bne #0x28c311c
+28c3104: cmp r8, #0
+28c3108: bne #0x28c3110
+28c310c: bl #0x236fcb0
+28c3110: ldr r0, [r8, #0xc]
+28c3114: cmp r0, #0
+28c3118: beq #0x28c3250
+28c311c: ldr r5, [r7, #0xc]
+28c3120: mov sb, #0
+28c3124: ldr r0, [r6, #0xc]
+28c3128: cmp r5, r0
+28c312c: blt #0x28c314c
+28c3130: ldr r5, [r7, #0xc]
+28c3134: cmp r8, #0
+28c3138: bne #0x28c3140
+28c313c: bl #0x236fcb0
+28c3140: ldr r0, [r8, #0xc]
+28c3144: cmp r5, r0
+28c3148: bge #0x28c31f8
+28c314c: cmp sb, #0
+28c3150: beq #0x28c3158
+28c3154: bl #0x236fcb0
+28c3158: ldr r5, [r6, #0xc]
+28c315c: cmp r8, #0
+28c3160: bne #0x28c3168
+28c3164: bl #0x236fcb0
+28c3168: ldr r0, [r8, #0xc]
+28c316c: ldr r6, [r4, #0x28]
+28c3170: cmp r5, r0
+28c3174: bge #0x28c31b8
+28c3178: cmp r6, #0
+28c317c: bne #0x28c3184
+28c3180: bl #0x236fcb0
+28c3184: mov r0, r6
+28c3188: mov r1, #0
+28c318c: bl #0x28ace8c ; Loom.Game.Map.MapFailEvents::TriggerBullTotemFail
+28c3190: ldrb r0, [r4, #0x44]
+28c3194: cmp r0, #0
+28c3198: beq #0x28c3250
+28c319c: ldr r0, [pc, #0x42c]
+28c31a0: ldr r0, [pc, r0]
+28c31a4: ldr r0, [r0]
+28c31a8: ldr r1, [r0, #0x74]
+28c31ac: ldr r5, [pc, #0x420]
+28c31b0: ldr r5, [pc, r5]
+28c31b4: b #0x28c3238
+28c31b8: cmp r6, #0
+28c31bc: bne #0x28c31c4
+28c31c0: bl #0x236fcb0
+28c31c4: mov r0, r6
+28c31c8: mov r1, #0
+28c31cc: bl #0x28ac4d0 ; Loom.Game.Map.MapFailEvents::TriggerFrozenFail
+28c31d0: ldrb r0, [r4, #0x44]
+28c31d4: cmp r0, #0
+28c31d8: beq #0x28c3250
+28c31dc: ldr r0, [pc, #0x3e4]
+28c31e0: ldr r0, [pc, r0]
+28c31e4: ldr r0, [r0]
+28c31e8: ldr r1, [r0, #0x74]
+28c31ec: ldr r5, [pc, #0x3d8]
+28c31f0: ldr r5, [pc, r5]
+28c31f4: b #0x28c3238
+28c31f8: ldr r5, [r4, #0x28]
+28c31fc: cmp r5, #0
+28c3200: bne #0x28c3208
+28c3204: bl #0x236fcb0
+28c3208: mov r0, r5
+28c320c: mov r1, #0
+28c3210: bl #0x28ac638 ; Loom.Game.Map.MapFailEvents::TriggerLockedOutFail
+28c3214: ldrb r0, [r4, #0x44]
+28c3218: cmp r0, #0
+28c321c: beq #0x28c3250
+28c3220: ldr r0, [pc, #0x398]
+28c3224: ldr r0, [pc, r0]
+28c3228: ldr r0, [r0]
+28c322c: ldr r1, [r0, #0x74]
+28c3230: ldr r5, [pc, #0x38c]
+28c3234: ldr r5, [pc, r5]
+28c3238: cmp r1, #0
+28c323c: bne #0x28c3244
+28c3240: bl #0x236fb74
+28c3244: ldr r0, [r5]
+28c3248: mov r1, #0
+28c324c: bl #0x3459e58
+28c3250: ldr r0, [pc, #0x380]
+28c3254: ldr r0, [pc, r0]
+28c3258: ldr r0, [r0]
+28c325c: ldr r1, [r0, #0x74]
+28c3260: cmp r1, #0
+28c3264: bne #0x28c326c
+28c3268: bl #0x236fb74
+28c326c: ldr r0, [pc, #0x368]
+28c3270: ldr r0, [pc, r0]
+28c3274: ldr r0, [r0]
+28c3278: bl #0x4250ae0
+28c327c: mov r8, r0
+28c3280: ldr r0, [pc, #0x358]
+28c3284: ldr r0, [pc, r0]
+28c3288: ldr r0, [r0]
+28c328c: ldr r1, [r0, #0x74]
+28c3290: cmp r1, #0
+28c3294: bne #0x28c329c
+28c3298: bl #0x236fb74
+28c329c: ldr r0, [pc, #0x340]
+28c32a0: ldr r0, [pc, r0]
+28c32a4: ldr r0, [r0]
+28c32a8: bl #0x4250ae0
+28c32ac: mov r5, r0
+28c32b0: ldr r0, [pc, #0x330]
+28c32b4: ldr r0, [pc, r0]
+28c32b8: ldr r0, [r0]
+28c32bc: ldr r1, [r0, #0x74]
+28c32c0: cmp r1, #0
+28c32c4: bne #0x28c32cc
+28c32c8: bl #0x236fb74
+28c32cc: ldr r0, [pc, #0x318]
+28c32d0: ldr r0, [pc, r0]
+28c32d4: ldr r0, [r0]
+28c32d8: bl #0x4250ae0
+28c32dc: mov sb, r0
+28c32e0: mov r0, r4
+28c32e4: bl #0x28c0a34 ; Loom.Game.Map.MapFailController::get_PixelGrid
+28c32e8: ldr r1, [pc, #0x300]
+28c32ec: ldr r1, [pc, r1]
+28c32f0: ldr r2, [r1]
+28c32f4: mov r1, r8
+28c32f8: bl #0x32c92e4
+28c32fc: mov r0, r4
+28c3300: bl #0x28c0a34 ; Loom.Game.Map.MapFailController::get_PixelGrid
+28c3304: ldr r1, [pc, #0x2e8]
+28c3308: ldr r1, [pc, r1]
+28c330c: ldr r2, [r1]
+28c3310: mov r1, r5
+28c3314: bl #0x32c92e4
+28c3318: mov r0, r4
+28c331c: bl #0x28c0a34 ; Loom.Game.Map.MapFailController::get_PixelGrid
+28c3320: ldr r1, [pc, #0x2d0]
+28c3324: ldr r1, [pc, r1]
+28c3328: ldr r2, [r1]
+28c332c: mov r1, sb
+28c3330: bl #0x32c92e4
+28c3334: cmp r8, #0
+28c3338: bne #0x28c3340
+28c333c: bl #0x236fcb0
+28c3340: ldr r7, [r8, #0xc]
+28c3344: cmp r7, #0
+28c3348: beq #0x28c3364
+28c334c: mov r6, #0
+28c3350: cmp r5, #0
+28c3354: bne #0x28c339c
+28c3358: bl #0x236fcb0
+28c335c: mov r6, #1
+28c3360: b #0x28c339c
+28c3364: cmp r5, #0
+28c3368: bne #0x28c3370
+28c336c: bl #0x236fcb0
+28c3370: ldr r0, [r5, #0xc]
+28c3374: cmp r0, #0
+28c3378: bne #0x28c3394
+28c337c: cmp sb, #0
+28c3380: bne #0x28c3388
+28c3384: bl #0x236fcb0
+28c3388: ldr r0, [sb, #0xc]
+28c338c: cmp r0, #0
+28c3390: beq #0x28c34e4
+28c3394: ldr r7, [r8, #0xc]
+28c3398: mov r6, #0
+28c339c: ldr r0, [r5, #0xc]
+28c33a0: cmp r7, r0
+28c33a4: blt #0x28c33c4
+28c33a8: ldr r7, [r8, #0xc]
+28c33ac: cmp sb, #0
+28c33b0: bne #0x28c33b8
+28c33b4: bl #0x236fcb0
+28c33b8: ldr r0, [sb, #0xc]
+28c33bc: cmp r7, r0
+28c33c0: bge #0x28c3488
+28c33c4: cmp r6, #0
+28c33c8: beq #0x28c33d0
+28c33cc: bl #0x236fcb0
+28c33d0: ldr r6, [r5, #0xc]
+28c33d4: cmp sb, #0
+28c33d8: bne #0x28c33e0
+28c33dc: bl #0x236fcb0
+28c33e0: ldr r0, [sb, #0xc]
+28c33e4: ldr r5, [r4, #0x28]
+28c33e8: cmp r6, r0
+28c33ec: bge #0x28c343c
+28c33f0: cmp r5, #0
+28c33f4: bne #0x28c33fc
+28c33f8: bl #0x236fcb0
+28c33fc: mov r0, r5
+28c3400: mov r1, #0
+28c3404: bl #0x28acbd8 ; Loom.Game.Map.MapFailEvents::TriggerSpaceshipFail
+28c3408: ldrb r0, [r4, #0x44]
+28c340c: cmp r0, #0
+28c3410: beq #0x28c3534
+28c3414: ldr r0, [pc, #0x1f8]
+28c3418: ldr r0, [pc, r0]
+28c341c: ldr r0, [r0]
+28c3420: ldr r1, [r0, #0x74]
+28c3424: cmp r1, #0
+28c3428: bne #0x28c3430
+28c342c: bl #0x236fb74
+28c3430: ldr r0, [pc, #0x1e0]
+28c3434: ldr r0, [pc, r0]
+28c3438: b #0x28c34d4
+28c343c: cmp r5, #0
+28c3440: bne #0x28c3448
+28c3444: bl #0x236fcb0
+28c3448: mov r0, r5
+28c344c: mov r1, #0
+28c3450: bl #0x28ac368 ; Loom.Game.Map.MapFailEvents::TriggerCurtainFail
+28c3454: ldrb r0, [r4, #0x44]
+28c3458: cmp r0, #0
+28c345c: beq #0x28c3534
+28c3460: ldr r0, [pc, #0x1a4]
+28c3464: ldr r0, [pc, r0]
+28c3468: ldr r0, [r0]
+28c346c: ldr r1, [r0, #0x74]
+28c3470: cmp r1, #0
+28c3474: bne #0x28c347c
+28c3478: bl #0x236fb74
+28c347c: ldr r0, [pc, #0x18c]
+28c3480: ldr r0, [pc, r0]
+28c3484: b #0x28c34d4
+28c3488: ldr r5, [r4, #0x28]
+28c348c: cmp r5, #0
+28c3490: bne #0x28c3498
+28c3494: bl #0x236fcb0
+28c3498: mov r0, r5
+28c349c: mov r1, #0
+28c34a0: bl #0x28acd40 ; Loom.Game.Map.MapFailEvents::TriggerUfoFail
+28c34a4: ldrb r0, [r4, #0x44]
+28c34a8: cmp r0, #0
+28c34ac: beq #0x28c3534
+28c34b0: ldr r0, [pc, #0x14c]
+28c34b4: ldr r0, [pc, r0]
+28c34b8: ldr r0, [r0]
+28c34bc: ldr r1, [r0, #0x74]
+28c34c0: cmp r1, #0
+28c34c4: bne #0x28c34cc
+28c34c8: bl #0x236fb74
+28c34cc: ldr r0, [pc, #0x134]
+28c34d0: ldr r0, [pc, r0]
+28c34d4: ldr r0, [r0]
+28c34d8: mov r1, #0
+28c34dc: pop {r4, r5, r6, r7, r8, sb, fp, lr}
+28c34e0: b #0x3459e58
+28c34e4: ldr r5, [r4, #0x28]
+28c34e8: cmp r5, #0
+28c34ec: bne #0x28c34f4
+28c34f0: bl #0x236fcb0
+28c34f4: mov r0, r5
+28c34f8: mov r1, #0
+28c34fc: bl #0x28ac7a0 ; Loom.Game.Map.MapFailEvents::TriggerObstacleFail
+28c3500: ldrb r0, [r4, #0x44]
+28c3504: cmp r0, #0
+28c3508: beq #0x28c3534
+28c350c: ldr r0, [pc, #0xe8]
+28c3510: ldr r0, [pc, r0]
+28c3514: ldr r0, [r0]
+28c3518: ldr r1, [r0, #0x74]
+28c351c: cmp r1, #0
+28c3520: bne #0x28c3528
+28c3524: bl #0x236fb74
+28c3528: ldr r0, [pc, #0xd0]
+28c352c: ldr r0, [pc, r0]
+28c3530: b #0x28c34d4
+28c3534: pop {r4, r5, r6, r7, r8, sb, fp, pc}
+28c3538: ldrbteq r1, [r4], -sl, lsl #24
+
+# Loom.Game.Map.MapFailController::CanShootAnyTargetNew 0x28c1888 size=784
+28c1888: push {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+28c188c: sub sp, sp, #4
+28c1890: ldr r5, [pc, #0x2a0]
+28c1894: mov r4, r0
+28c1898: add r5, pc, r5
+28c189c: ldrb r0, [r5]
+28c18a0: cmp r0, #0
+28c18a4: bne #0x28c1940
+28c18a8: ldr r0, [pc, #0x28c]
+28c18ac: ldr r0, [pc, r0]
+28c18b0: bl #0x236fa00
+28c18b4: ldr r0, [pc, #0x284]
+28c18b8: ldr r0, [pc, r0]
+28c18bc: bl #0x236fa00
+28c18c0: ldr r0, [pc, #0x27c]
+28c18c4: ldr r0, [pc, r0]
+28c18c8: bl #0x236fa00
+28c18cc: ldr r0, [pc, #0x274]
+28c18d0: ldr r0, [pc, r0]
+28c18d4: bl #0x236fa00
+28c18d8: ldr r0, [pc, #0x26c]
+28c18dc: ldr r0, [pc, r0]
+28c18e0: bl #0x236fa00
+28c18e4: ldr r0, [pc, #0x264]
+28c18e8: ldr r0, [pc, r0]
+28c18ec: bl #0x236fa00
+28c18f0: ldr r0, [pc, #0x25c]
+28c18f4: ldr r0, [pc, r0]
+28c18f8: bl #0x236fa00
+28c18fc: ldr r0, [pc, #0x254]
+28c1900: ldr r0, [pc, r0]
+28c1904: bl #0x236fa00
+28c1908: ldr r0, [pc, #0x24c]
+28c190c: ldr r0, [pc, r0]
+28c1910: bl #0x236fa00
+28c1914: ldr r0, [pc, #0x244]
+28c1918: ldr r0, [pc, r0]
+28c191c: bl #0x236fa00
+28c1920: ldr r0, [pc, #0x23c]
+28c1924: ldr r0, [pc, r0]
+28c1928: bl #0x236fa00
+28c192c: ldr r0, [pc, #0x234]
+28c1930: ldr r0, [pc, r0]
+28c1934: bl #0x236fa00
+28c1938: mov r0, #1
+28c193c: strb r0, [r5]
+28c1940: ldr sl, [pc, #0x224]
+28c1944: ldr sl, [pc, sl]
+28c1948: ldr r0, [sl]
+28c194c: ldr r1, [r0, #0x74]
+28c1950: cmp r1, #0
+28c1954: bne #0x28c195c
+28c1958: bl #0x236fb74
+28c195c: ldr r0, [pc, #0x20c]
+28c1960: ldr r0, [pc, r0]
+28c1964: ldr r0, [r0]
+28c1968: bl #0x4250ae0
+28c196c: mov r5, r0
+28c1970: mov r0, r4
+28c1974: bl #0x28c0a34 ; Loom.Game.Map.MapFailController::get_PixelGrid
+28c1978: ldr r6, [r4, #0x54]
+28c197c: mov r7, r0
+28c1980: cmp r0, #0
+28c1984: bne #0x28c198c
+28c1988: bl #0x236fcb0
+28c198c: ldr r0, [pc, #0x1e0]
+28c1990: mov r1, r5
+28c1994: mov r2, r6
+28c1998: ldr r0, [pc, r0]
+28c199c: ldr r3, [r0]
+28c19a0: mov r0, r7
+28c19a4: bl #0x35bfafc
+28c19a8: ldrb r0, [r4, #0x44]
+28c19ac: cmp r0, #0
+28c19b0: beq #0x28c1ab4
+28c19b4: ldr fp, [pc, #0x1bc]
+28c19b8: ldr fp, [pc, fp]
+28c19bc: ldr r0, [fp]
+28c19c0: ldr r1, [r0, #0x74]
+28c19c4: cmp r1, #0
+28c19c8: bne #0x28c19d4
+28c19cc: bl #0x236fb74
+28c19d0: ldr r0, [fp]
+28c19d4: ldr r1, [r0, #0x5c]
+28c19d8: ldr r2, [pc, #0x19c]
+28c19dc: ldr r2, [pc, r2]
+28c19e0: ldr r8, [r2]
+28c19e4: ldr r2, [pc, #0x194]
+28c19e8: ldr r2, [pc, r2]
+28c19ec: ldr r6, [r1, #8]
+28c19f0: ldr r7, [r2]
+28c19f4: cmp r6, #0
+28c19f8: bne #0x28c1a5c
+28c19fc: ldr r2, [r0, #0x74]
+28c1a00: cmp r2, #0
+28c1a04: bne #0x28c1a14
+28c1a08: bl #0x236fb74
+28c1a0c: ldr r0, [fp]
+28c1a10: ldr r1, [r0, #0x5c]
+28c1a14: ldr r0, [pc, #0x168]
+28c1a18: ldr r0, [pc, r0]
+28c1a1c: ldr sb, [r1]
+28c1a20: ldr r0, [r0]
+28c1a24: bl #0x236fca4
+28c1a28: mov r6, r0
+28c1a2c: ldr r0, [pc, #0x154]
+28c1a30: mov r1, sb
+28c1a34: mov r3, #0
+28c1a38: ldr r0, [pc, r0]
+28c1a3c: ldr r2, [r0]
+28c1a40: mov r0, r6
+28c1a44: bl #0x3ef52b8
+28c1a48: ldr r0, [fp]
+28c1a4c: mov r1, r6
+28c1a50: ldr r0, [r0, #0x5c]
+28c1a54: str r6, [r0, #8]!
+28c1a58: bl #0x236f99c
+28c1a5c: ldr r0, [pc, #0x128]
+28c1a60: mov r1, r7
+28c1a64: mov r2, r6
+28c1a68: ldr r0, [pc, r0]
+28c1a6c: ldr r3, [r0]
+28c1a70: mov r0, r5
+28c1a74: bl #0x33ba948
+28c1a78: mov r1, r0
+28c1a7c: mov r0, r8
+28c1a80: mov r2, #0
+28c1a84: bl #0x3459fb0
+28c1a88: mov r6, r0
+28c1a8c: ldr r0, [pc, #0xfc]
+28c1a90: ldr r0, [pc, r0]
+28c1a94: ldr r0, [r0]
+28c1a98: ldr r1, [r0, #0x74]
+28c1a9c: cmp r1, #0
+28c1aa0: bne #0x28c1aa8
+28c1aa4: bl #0x236fb74
+28c1aa8: mov r0, r6
+28c1aac: mov r1, #0
+28c1ab0: bl #0x3459e58
+28c1ab4: mov r0, r4
+28c1ab8: bl #0x28c3718 ; Loom.Game.Map.MapFailController::GetShootersToCheck
+28c1abc: mov r6, r0
+28c1ac0: mov r1, #0
+28c1ac4: mov r4, r1
+28c1ac8: cmp r6, #0
+28c1acc: bne #0x28c1ad4
+28c1ad0: bl #0x236fcb0
+28c1ad4: ldr r7, [r6, #0xc]
+28c1ad8: cmp r4, r7
+28c1adc: bge #0x28c1afc
+28c1ae0: mov r0, r6
+28c1ae4: mov r1, r5
+28c1ae8: mov r2, r4
+28c1aec: bl #0x28c3790 ; Loom.Game.Map.MapFailController::CanShoot
+28c1af0: add r1, r4, #1
+28c1af4: cmp r0, #0
+28c1af8: beq #0x28c1ac4
+28c1afc: ldr r0, [sl]
+28c1b00: ldr r1, [r0, #0x74]
+28c1b04: cmp r1, #0
+28c1b08: bne #0x28c1b10
+28c1b0c: bl #0x236fb74
+28c1b10: ldr r0, [pc, #0x7c]
+28c1b14: ldr r0, [pc, r0]
+28c1b18: ldr r1, [r0]
+28c1b1c: mov r0, r5
+28c1b20: bl #0x4250c80
+28c1b24: mov r0, #0
+28c1b28: cmp r4, r7
+28c1b2c: movwlt r0, #1
+28c1b30: add sp, sp, #4
+28c1b34: pop {r4, r5, r6, r7, r8, sb, sl, fp, pc}
+28c1b38: ldrbteq r3, [r4], -r3, lsl #4
+28c1b3c: ldrteq r5, [pc], -ip, asr #32
+
+# Loom.Game.Map.MapFailController::GetShootersToCheck 0x28c3718 size=120
+28c3718: push {r4, lr}
+28c371c: sub sp, sp, #8
+28c3720: mov r4, r0
+28c3724: mov r0, #0
+28c3728: add r1, sp, #4
+28c372c: str r0, [sp, #4]
+28c3730: mov r0, r4
+28c3734: bl #0x28c393c ; Loom.Game.Map.MapFailController::TryGetShootersLoopingOnFullConveyor
+28c3738: cmp r0, #0
+28c373c: beq #0x28c3748
+28c3740: ldr r0, [sp, #4]
+28c3744: b #0x28c3788
+28c3748: mov r0, r4
+28c374c: bl #0x28c361c ; Loom.Game.Map.MapFailController::NormallyTappableFirstShooterExists
+28c3750: ldr r4, [r4, #0x34]
+28c3754: cmp r0, #0
+28c3758: beq #0x28c3774
+28c375c: cmp r4, #0
+28c3760: bne #0x28c3768
+28c3764: bl #0x236fcb0
+28c3768: mov r0, r4
+28c376c: bl #0x28c3e24 ; Loom.Game.Map.ShooterProvider::GetNotDisabledShooters
+28c3770: b #0x28c3788
+28c3774: cmp r4, #0
+28c3778: bne #0x28c3780
+28c377c: bl #0x236fcb0
+28c3780: mov r0, r4
+28c3784: bl #0x28c2d84 ; Loom.Game.Map.ShooterProvider::GetShootersOutsideOfQueue
+28c3788: add sp, sp, #8
+28c378c: pop {r4, pc}
+
+# Loom.Game.Map.MapFailController::TryGetShootersLoopingOnFullConveyor 0x28c393c size=1256
+28c393c: push {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+28c3940: sub sp, sp, #0x34
+28c3944: ldr r5, [pc, #0x468]
+28c3948: mov r4, r0
+28c394c: mov r7, r1
+28c3950: add r5, pc, r5
+28c3954: ldrb r0, [r5]
+28c3958: cmp r0, #0
+28c395c: bne #0x28c3a10
+28c3960: ldr r0, [pc, #0x450]
+28c3964: ldr r0, [pc, r0]
+28c3968: bl #0x236fa00
+28c396c: ldr r0, [pc, #0x448]
+28c3970: ldr r0, [pc, r0]
+28c3974: bl #0x236fa00
+28c3978: ldr r0, [pc, #0x440]
+28c397c: ldr r0, [pc, r0]
+28c3980: bl #0x236fa00
+28c3984: ldr r0, [pc, #0x438]
+28c3988: ldr r0, [pc, r0]
+28c398c: bl #0x236fa00
+28c3990: ldr r0, [pc, #0x430]
+28c3994: ldr r0, [pc, r0]
+28c3998: bl #0x236fa00
+28c399c: ldr r0, [pc, #0x428]
+28c39a0: ldr r0, [pc, r0]
+28c39a4: bl #0x236fa00
+28c39a8: ldr r0, [pc, #0x420]
+28c39ac: ldr r0, [pc, r0]
+28c39b0: bl #0x236fa00
+28c39b4: ldr r0, [pc, #0x418]
+28c39b8: ldr r0, [pc, r0]
+28c39bc: bl #0x236fa00
+28c39c0: ldr r0, [pc, #0x410]
+28c39c4: ldr r0, [pc, r0]
+28c39c8: bl #0x236fa00
+28c39cc: ldr r0, [pc, #0x408]
+28c39d0: ldr r0, [pc, r0]
+28c39d4: bl #0x236fa00
+28c39d8: ldr r0, [pc, #0x400]
+28c39dc: ldr r0, [pc, r0]
+28c39e0: bl #0x236fa00
+28c39e4: ldr r0, [pc, #0x3f8]
+28c39e8: ldr r0, [pc, r0]
+28c39ec: bl #0x236fa00
+28c39f0: ldr r0, [pc, #0x3f0]
+28c39f4: ldr r0, [pc, r0]
+28c39f8: bl #0x236fa00
+28c39fc: ldr r0, [pc, #0x3e8]
+28c3a00: ldr r0, [pc, r0]
+28c3a04: bl #0x236fa00
+28c3a08: mov r0, #1
+28c3a0c: strb r0, [r5]
+28c3a10: vmov.i32 q8, #0
+28c3a14: add r0, sp, #0x20
+28c3a18: mov r5, #0
+28c3a1c: mov r1, #0
+28c3a20: str r5, [r7]
+28c3a24: vst1.64 {d16, d17}, [r0]
+28c3a28: mov r0, r7
+28c3a2c: str r5, [sp, #0x1c]
+28c3a30: bl #0x236f99c
+28c3a34: ldr r6, [r4, #0x30]
+28c3a38: cmp r6, #0
+28c3a3c: bne #0x28c3a44
+28c3a40: bl #0x236fcb0
+28c3a44: mov r0, r6
+28c3a48: mov r1, #1
+28c3a4c: bl #0x28c3f1c ; Loom.Game.Map.MapProvider::CanConveyorReceiveItemCount
+28c3a50: cmp r0, #0
+28c3a54: bne #0x28c3d40
+28c3a58: ldr r0, [pc, #0x390]
+28c3a5c: ldr r0, [pc, r0]
+28c3a60: ldr r0, [r0]
+28c3a64: ldr r1, [r0, #0x74]
+28c3a68: cmp r1, #0
+28c3a6c: bne #0x28c3a74
+28c3a70: bl #0x236fb74
+28c3a74: ldr r0, [pc, #0x378]
+28c3a78: ldr r0, [pc, r0]
+28c3a7c: ldr r0, [r0]
+28c3a80: bl #0x4250ae0
+28c3a84: ldr r4, [r4, #0x30]
+28c3a88: add r6, sp, #0x20
+28c3a8c: mov r5, r0
+28c3a90: cmp r4, #0
+28c3a94: bne #0x28c3a9c
+28c3a98: bl #0x236fcb0
+28c3a9c: mov r0, r4
+28c3aa0: mov r1, r5
+28c3aa4: str r7, [sp, #4]
+28c3aa8: bl #0x28c3fcc ; Loom.Game.Map.MapProvider::GetConveyorOccupants
+28c3aac: cmp r5, #0
+28c3ab0: bne #0x28c3ab8
+28c3ab4: bl #0x236fcb0
+28c3ab8: ldr r0, [pc, #0x338]
+28c3abc: ldr r0, [pc, r0]
+28c3ac0: ldr r4, [r5, #0xc]
+28c3ac4: ldr r0, [r0]
+28c3ac8: bl #0x236fca4
+28c3acc: mov r8, r0
+28c3ad0: ldr r0, [pc, #0x324]
+28c3ad4: mov r1, r4
+28c3ad8: ldr r0, [pc, r0]
+28c3adc: ldr r2, [r0]
+28c3ae0: mov r0, r8
+28c3ae4: bl #0x44ab584
+28c3ae8: ldr r0, [pc, #0x310]
+28c3aec: add r4, sp, #8
+28c3af0: mov r1, r5
+28c3af4: ldr r0, [pc, r0]
+28c3af8: str r5, [sp]
+28c3afc: ldr r2, [r0]
+28c3b00: mov r0, r4
+28c3b04: bl #0x44aca44
+28c3b08: vld1.64 {d16, d17}, [r4]
+28c3b0c: mov r0, #0
+28c3b10: vst1.64 {d16, d17}, [r6]
+28c3b14: str r6, [sp, #0xc]
+28c3b18: str r0, [sp, #8]
+28c3b1c: ldr fp, [pc, #0x2e0]
+28c3b20: ldr fp, [pc, fp]
+28c3b24: ldr r4, [pc, #0x2dc]
+28c3b28: ldr r4, [pc, r4]
+28c3b2c: ldr r1, [fp]
+28c3b30: mov r0, r6
+28c3b34: bl #0x3992e2c
+28c3b38: cmp r0, #0
+28c3b3c: beq #0x28c3c9c
+28c3b40: ldr r5, [sp, #0x2c]
+28c3b44: cmp r5, #0
+28c3b48: bne #0x28c3b50
+28c3b4c: bl #0x236fcb0
+28c3b50: ldr r2, [r4]
+28c3b54: add r1, sp, #0x1c
+28c3b58: mov r0, r5
+28c3b5c: bl #0x3481994
+28c3b60: cmp r0, #0
+28c3b64: beq #0x28c3b2c
+28c3b68: mov sb, r4
+28c3b6c: ldr r4, [sp, #0x1c]
+28c3b70: cmp r4, #0
+28c3b74: bne #0x28c3b7c
+28c3b78: bl #0x236fcb0
+28c3b7c: ldr r5, [r4, #0x30]
+28c3b80: cmp r5, #0
+28c3b84: bne #0x28c3b8c
+28c3b88: bl #0x236fcb0
+28c3b8c: ldr r0, [pc, #0x278]
+28c3b90: ldr r0, [pc, r0]
+28c3b94: ldr r7, [r0]
+28c3b98: ldr r0, [r5]
+28c3b9c: ldrh r2, [r7, #0x2c]
+28c3ba0: ldrh r3, [r0, #0xb6]
+28c3ba4: ldr r1, [r7, #0x10]
+28c3ba8: cmp r3, #0
+28c3bac: beq #0x28c3bd0
+28c3bb0: ldr r4, [r0, #0x58]
+28c3bb4: add r4, r4, #4
+28c3bb8: ldr r6, [r4, #-4]
+28c3bbc: cmp r6, r1
+28c3bc0: beq #0x28c3be0
+28c3bc4: subs r3, r3, #1
+28c3bc8: add r4, r4, #8
+28c3bcc: bne #0x28c3bb8
+28c3bd0: mov r0, r5
+28c3bd4: bl #0x23ab0bc
+28c3bd8: add r6, sp, #0x20
+28c3bdc: b #0x28c3bf4
+28c3be0: ldr r1, [r4]
+28c3be4: add r6, sp, #0x20
+28c3be8: add r1, r1, r2
+28c3bec: add r0, r0, r1, lsl #3
+28c3bf0: add r0, r0, #0xc0
+28c3bf4: ldr r0, [r0, #4]
+28c3bf8: mov r4, sb
+28c3bfc: mov r1, r7
+28c3c00: bl #0x236fb70
+28c3c04: mov r1, r0
+28c3c08: ldr r2, [r1, #4]
+28c3c0c: mov r0, r5
+28c3c10: blx r2
+28c3c14: cmp r0, #0
+28c3c18: beq #0x28c3b2c
+28c3c1c: ldr r5, [sp, #0x1c]
+28c3c20: cmp r8, #0
+28c3c24: bne #0x28c3c2c
+28c3c28: bl #0x236fcb0
+28c3c2c: ldr r0, [r8, #0x10]
+28c3c30: ldr r7, [r8, #8]
+28c3c34: ldr sb, [r8, #0xc]
+28c3c38: add r0, r0, #1
+28c3c3c: ldr r1, [pc, #0x1cc]
+28c3c40: cmp r7, #0
+28c3c44: ldr r1, [pc, r1]
+28c3c48: str r0, [r8, #0x10]
+28c3c4c: ldr sl, [r1]
+28c3c50: bne #0x28c3c58
+28c3c54: bl #0x236fcb0
+28c3c58: ldr r0, [r7, #0xc]
+28c3c5c: cmp sb, r0
+28c3c60: bhs #0x28c3c80
+28c3c64: add r0, sb, #1
+28c3c68: str r0, [r8, #0xc]
+28c3c6c: add r0, r7, sb, lsl #2
+28c3c70: str r5, [r0, #0x10]!
+28c3c74: mov r1, r5
+28c3c78: bl #0x236f99c
+28c3c7c: b #0x28c3b2c
+28c3c80: ldr r0, [sl, #0x10]
+28c3c84: ldr r0, [r0, #0x60]
+28c3c88: ldr r2, [r0, #0x38]
+28c3c8c: mov r0, r8
+28c3c90: mov r1, r5
+28c3c94: bl #0x44abd7c
+28c3c98: b #0x28c3b2c
+28c3c9c: ldr r0, [pc, #0x170]
+28c3ca0: ldr r0, [pc, r0]
+28c3ca4: ldr r1, [r0]
+28c3ca8: add r0, sp, #0x20
+28c3cac: bl #0x3992e28
+28c3cb0: cmp r8, #0
+28c3cb4: ldm sp, {r5, r6}
+28c3cb8: bne #0x28c3cc0
+28c3cbc: bl #0x236fcb0
+28c3cc0: ldr r4, [r8, #0xc]
+28c3cc4: cmp r4, #1
+28c3cc8: blt #0x28c3cec
+28c3ccc: cmp r5, #0
+28c3cd0: bne #0x28c3cd8
+28c3cd4: bl #0x236fcb0
+28c3cd8: ldr r0, [r5, #0xc]
+28c3cdc: sub r0, r4, r0
+28c3ce0: clz r0, r0
+28c3ce4: lsr r4, r0, #5
+28c3ce8: b #0x28c3cf0
+28c3cec: mov r4, #0
+28c3cf0: ldr r0, [pc, #0x124]
+28c3cf4: ldr r0, [pc, r0]
+28c3cf8: ldr r0, [r0]
+28c3cfc: ldr r1, [r0, #0x74]
+28c3d00: cmp r1, #0
+28c3d04: bne #0x28c3d0c
+28c3d08: bl #0x236fb74
+28c3d0c: ldr r0, [pc, #0x10c]
+28c3d10: ldr r0, [pc, r0]
+28c3d14: ldr r1, [r0]
+28c3d18: mov r0, r5
+28c3d1c: bl #0x4250c80
+28c3d20: mov r5, #0
+28c3d24: cmp r4, #0
+28c3d28: beq #0x28c3d40
+28c3d2c: mov r0, r6
+28c3d30: mov r1, r8
+28c3d34: str r8, [r6]
+28c3d38: bl #0x236f99c
+28c3d3c: mov r5, #1
+28c3d40: mov r0, r5
+28c3d44: add sp, sp, #0x34
+28c3d48: pop {r4, r5, r6, r7, r8, sb, sl, fp, pc}
+28c3d4c: b #0x28c3d64
+28c3d50: b #0x28c3d64
+28c3d54: b #0x28c3d64
+28c3d58: b #0x28c3d64
+28c3d5c: b #0x28c3d64
+28c3d60: b #0x28c3d64
+28c3d64: cmp r1, #1
+28c3d68: bne #0x28c3da4
+28c3d6c: bl #0x2438188
+28c3d70: ldr r4, [r0]
+28c3d74: str r4, [sp, #8]
+28c3d78: bl #0x24989c0
+28c3d7c: ldr r0, [pc, #0x94]
+28c3d80: ldr r0, [pc, r0]
+28c3d84: ldr r1, [r0]
+28c3d88: ldr r0, [sp, #0xc]
+28c3d8c: bl #0x3992e28
+28c3d90: cmp r4, #0
+28c3d94: beq #0x28c3cb0
+28c3d98: mov r0, r4
+28c3d9c: bl #0x236fcac
+28c3da0: b #0x28c3cb0
+28c3da4: add r0, sp, #8
+28c3da8: bl #0x1b77ed8
+28c3dac: bl #0x2438344
+28c3db0: bl #0x1b76114
+28c3db4: ldrbteq r1, [r4], -ip, asr #2
+28c3db8: shadd16eq r5, pc, r4
+28c3dbc: ldrteq r5, [pc], -ip, lsl #22
+28c3dc0: ldrteq r5, [pc], -r4, lsl #22
+28c3dc4: ldrteq sl, [pc], -r0
+28c3dc8: ldrteq r7, [pc], -r8, ror #19
+
+# Loom.Game.Map.MapFailController::NormallyTappableFirstShooterExists 0x28c361c size=252
+28c361c: push {r4, r5, r6, lr}
+28c3620: ldr r5, [pc, #0xd0]
+28c3624: mov r4, r0
+28c3628: add r5, pc, r5
+28c362c: ldrb r0, [r5]
+28c3630: cmp r0, #0
+28c3634: bne #0x28c3670
+28c3638: ldr r0, [pc, #0xbc]
+28c363c: ldr r0, [pc, r0]
+28c3640: bl #0x236fa00
+28c3644: ldr r0, [pc, #0xb4]
+28c3648: ldr r0, [pc, r0]
+28c364c: bl #0x236fa00
+28c3650: ldr r0, [pc, #0xac]
+28c3654: ldr r0, [pc, r0]
+28c3658: bl #0x236fa00
+28c365c: ldr r0, [pc, #0xa4]
+28c3660: ldr r0, [pc, r0]
+28c3664: bl #0x236fa00
+28c3668: mov r0, #1
+28c366c: strb r0, [r5]
+28c3670: ldr r5, [r4, #0x34]
+28c3674: cmp r5, #0
+28c3678: bne #0x28c3680
+28c367c: bl #0x236fcb0
+28c3680: mov r0, r5
+28c3684: bl #0x28c274c ; Loom.Game.Map.ShooterProvider::GetAllFirstInQueueShooters
+28c3688: mov r5, r0
+28c368c: cmp r0, #0
+28c3690: bne #0x28c3698
+28c3694: bl #0x236fcb0
+28c3698: ldr r0, [r5, #0xc]
+28c369c: cmp r0, #1
+28c36a0: blt #0x28c36f0
+28c36a4: ldr r0, [pc, #0x60]
+28c36a8: ldr r0, [pc, r0]
+28c36ac: ldr r0, [r0]
+28c36b0: bl #0x236fca4
+28c36b4: mov r6, r0
+28c36b8: ldr r0, [pc, #0x50]
+28c36bc: mov r1, r4
+28c36c0: mov r3, #0
+28c36c4: ldr r0, [pc, r0]
+28c36c8: ldr r2, [r0]
+28c36cc: mov r0, r6
+28c36d0: bl #0x345c5a4
+28c36d4: ldr r0, [pc, #0x38]
+28c36d8: mov r1, r6
+28c36dc: ldr r0, [pc, r0]
+28c36e0: ldr r2, [r0]
+28c36e4: mov r0, r5
+28c36e8: pop {r4, r5, r6, lr}
+28c36ec: b #0x44ac42c
+28c36f0: mov r0, #1
+28c36f4: pop {r4, r5, r6, pc}
+28c36f8: uhsub16eq r1, r4, r5
+28c36fc: shsub16eq ip, pc, ip
+28c3700: shasxeq r5, pc, r0
+28c3704: shasxeq pc, pc, ip
+28c3708: ldrteq r8, [pc], -ip, lsr #4
+28c370c: ldrteq r8, [pc], -r4, ror #3
+28c3710: ldrteq pc, [pc], -ip, asr #19
+
+# Loom.Game.Map.MapFailController::AreAllQueuesBlockedByInputOnlyBlockers 0x28c4074 size=308
+28c4074: push {r4, r5, r6, lr}
+28c4078: ldr r4, [pc, #0x108]
+28c407c: mov r5, r0
+28c4080: add r4, pc, r4
+28c4084: ldrb r0, [r4]
+28c4088: cmp r0, #0
+28c408c: bne #0x28c40d4
+28c4090: ldr r0, [pc, #0xf4]
+28c4094: ldr r0, [pc, r0]
+28c4098: bl #0x236fa00
+28c409c: ldr r0, [pc, #0xec]
+28c40a0: ldr r0, [pc, r0]
+28c40a4: bl #0x236fa00
+28c40a8: ldr r0, [pc, #0xe4]
+28c40ac: ldr r0, [pc, r0]
+28c40b0: bl #0x236fa00
+28c40b4: ldr r0, [pc, #0xdc]
+28c40b8: ldr r0, [pc, r0]
+28c40bc: bl #0x236fa00
+28c40c0: ldr r0, [pc, #0xd4]
+28c40c4: ldr r0, [pc, r0]
+28c40c8: bl #0x236fa00
+28c40cc: mov r0, #1
+28c40d0: strb r0, [r4]
+28c40d4: mov r0, r5
+28c40d8: bl #0x28c361c ; Loom.Game.Map.MapFailController::NormallyTappableFirstShooterExists
+28c40dc: mov r4, #0
+28c40e0: cmp r0, #0
+28c40e4: bne #0x28c4180
+28c40e8: ldr r5, [r5, #0x34]
+28c40ec: cmp r5, #0
+28c40f0: bne #0x28c40f8
+28c40f4: bl #0x236fcb0
+28c40f8: mov r0, r5
+28c40fc: bl #0x28c274c ; Loom.Game.Map.ShooterProvider::GetAllFirstInQueueShooters
+28c4100: mov r5, r0
+28c4104: cmp r0, #0
+28c4108: bne #0x28c4110
+28c410c: bl #0x236fcb0
+28c4110: ldr r0, [r5, #0xc]
+28c4114: cmp r0, #1
+28c4118: blt #0x28c4180
+28c411c: ldr r0, [pc, #0x7c]
+28c4120: ldr r0, [pc, r0]
+28c4124: ldr r1, [r0]
+28c4128: mov r0, r5
+28c412c: bl #0x32c9f24
+28c4130: mov r6, r0
+28c4134: ldr r0, [pc, #0x68]
+28c4138: ldr r0, [pc, r0]
+28c413c: ldr r1, [r0]
+28c4140: mov r0, r5
+28c4144: bl #0x32c9f24
+28c4148: mov r5, r0
+28c414c: cmp r6, #0
+28c4150: bne #0x28c4158
+28c4154: bl #0x236fcb0
+28c4158: ldr r6, [r6, #0xc]
+28c415c: cmp r6, #1
+28c4160: blt #0x28c4180
+28c4164: cmp r5, #0
+28c4168: bne #0x28c4170
+28c416c: bl #0x236fcb0
+28c4170: ldr r0, [r5, #0xc]
+28c4174: sub r0, r6, r0
+28c4178: clz r0, r0
+28c417c: lsr r4, r0, #5
+28c4180: mov r0, r4
+28c4184: pop {r4, r5, r6, pc}
+28c4188: uhadd16eq r0, r4, lr
+
+# Loom.Game.Map.MapFailController::CanShoot 0x28c3790 size=428
+28c3790: push {r4, r5, r6, r7, r8, lr}
+28c3794: ldr r4, [pc, #0x174]
+28c3798: mov r7, r0
+28c379c: mov r6, r2
+28c37a0: mov r8, r1
+28c37a4: add r4, pc, r4
+28c37a8: ldrb r0, [r4]
+28c37ac: cmp r0, #0
+28c37b0: bne #0x28c37f8
+28c37b4: ldr r0, [pc, #0x158]
+28c37b8: ldr r0, [pc, r0]
+28c37bc: bl #0x236fa00
+28c37c0: ldr r0, [pc, #0x150]
+28c37c4: ldr r0, [pc, r0]
+28c37c8: bl #0x236fa00
+28c37cc: ldr r0, [pc, #0x148]
+28c37d0: ldr r0, [pc, r0]
+28c37d4: bl #0x236fa00
+28c37d8: ldr r0, [pc, #0x140]
+28c37dc: ldr r0, [pc, r0]
+28c37e0: bl #0x236fa00
+28c37e4: ldr r0, [pc, #0x138]
+28c37e8: ldr r0, [pc, r0]
+28c37ec: bl #0x236fa00
+28c37f0: mov r0, #1
+28c37f4: strb r0, [r4]
+28c37f8: ldr r0, [pc, #0x128]
+28c37fc: ldr r0, [pc, r0]
+28c3800: ldr r0, [r0]
+28c3804: bl #0x236fca4
+28c3808: mov r1, #0
+28c380c: mov r5, r0
+28c3810: bl #0x3459e1c
+28c3814: cmp r7, #0
+28c3818: bne #0x28c3820
+28c381c: bl #0x236fcb0
+28c3820: ldr r0, [pc, #0x104]
+28c3824: mov r1, r6
+28c3828: ldr r0, [pc, r0]
+28c382c: ldr r2, [r0]
+28c3830: mov r0, r7
+28c3834: bl #0x44abab0
+28c3838: mov r6, r0
+28c383c: cmp r0, #0
+28c3840: bne #0x28c3848
+28c3844: bl #0x236fcb0
+28c3848: mov r0, r6
+28c384c: mov r1, #0
+28c3850: bl #0x26a6604 ; Loom.Game.Shooters.Shooter::get_Material
+28c3854: mov r4, r0
+28c3858: cmp r5, #0
+28c385c: bne #0x28c3864
+28c3860: bl #0x236fcb0
+28c3864: mov r7, r5
+28c3868: mov r1, r4
+28c386c: str r4, [r7, #8]!
+28c3870: mov r0, r7
+28c3874: bl #0x236f99c
+28c3878: cmp r6, #0
+28c387c: bne #0x28c3884
+28c3880: bl #0x236fcb0
+28c3884: mov r0, r6
+28c3888: mov r1, #0
+28c388c: bl #0x26a6500 ; Loom.Game.Shooters.Shooter::get_Ammo
+28c3890: mov r4, r0
+28c3894: ldr r0, [r7]
+28c3898: mov r1, #0
+28c389c: bl #0x2abd884 ; Crescive.Extensions.NullCheckExtensions::IsNull
+28c38a0: cmp r0, #0
+28c38a4: bne #0x28c3908
+28c38a8: cmp r4, #1
+28c38ac: blt #0x28c3908
+28c38b0: ldr r0, [pc, #0x78]
+28c38b4: ldr r0, [pc, r0]
+28c38b8: ldr r0, [r0]
+28c38bc: bl #0x236fca4
+28c38c0: mov r6, r0
+28c38c4: ldr r0, [pc, #0x68]
+28c38c8: mov r1, r5
+28c38cc: mov r3, #0
+28c38d0: ldr r0, [pc, r0]
+28c38d4: ldr r2, [r0]
+28c38d8: mov r0, r6
+28c38dc: bl #0x345c5a4
+28c38e0: cmp r8, #0
+28c38e4: bne #0x28c38ec
+28c38e8: bl #0x236fcb0
+28c38ec: ldr r0, [pc, #0x44]
+28c38f0: mov r1, r6
+28c38f4: ldr r0, [pc, r0]
+28c38f8: ldr r2, [r0]
+28c38fc: mov r0, r8
+28c3900: pop {r4, r5, r6, r7, r8, lr}
+28c3904: b #0x44ac42c
+28c3908: mov r0, #0
+28c390c: pop {r4, r5, r6, r7, r8, pc}
+28c3910: uhsub8eq r1, r4, fp
+28c3914: ldrteq pc, [pc], -ip, ror #16
+28c3918: ldrteq r7, [pc], -ip, lsl #11
+28c391c: shsaxeq pc, pc, ip
+
+# Loom.Game.Map.MapFailController::FlushSuppressedFail 0x28c41b0 size=48
+28c41b0: push {r4, lr}
+28c41b4: ldr r4, [r0, #0x58]!
+28c41b8: mov r1, #0
+28c41bc: str r1, [r0]
+28c41c0: bl #0x236f99c
+28c41c4: cmp r4, #0
+28c41c8: popeq {r4, pc}
+28c41cc: ldr r2, [r4, #0xc]
+28c41d0: ldr r1, [r4, #0x14]
+28c41d4: ldr r0, [r4, #0x20]
+28c41d8: pop {r4, lr}
+28c41dc: bx r2
+
+# Loom.Game.Map.MapFailController::DiscardSuppressedFail 0x28c41e0 size=12
+28c41e0: mov r1, #0
+28c41e4: str r1, [r0, #0x58]!
+28c41e8: b #0x236f99c
+
+# Loom.Game.Map.MapFailController::.ctor 0x28c41ec size=176
+28c41ec: push {r4, r5, fp, lr}
+28c41f0: ldr r5, [pc, #0x90]
+28c41f4: mov r4, r0
+28c41f8: add r5, pc, r5
+28c41fc: ldrb r0, [r5]
+28c4200: cmp r0, #0
+28c4204: bne #0x28c4228
+28c4208: ldr r0, [pc, #0x7c]
+28c420c: ldr r0, [pc, r0]
+28c4210: bl #0x236fa00
+28c4214: ldr r0, [pc, #0x74]
+28c4218: ldr r0, [pc, r0]
+28c421c: bl #0x236fa00
+28c4220: mov r0, #1
+28c4224: strb r0, [r5]
+28c4228: ldr r0, [pc, #0x64]
+28c422c: movw r1, #0xcccd
+28c4230: movw r2, #0xcccd
+28c4234: movt r1, #0x3e4c
+28c4238: movt r2, #0x3dcc
+28c423c: ldr r0, [pc, r0]
+28c4240: str r2, [r4, #0x48]
+28c4244: str r1, [r4, #0x4c]
+28c4248: ldr r0, [r0]
+28c424c: bl #0x236fca4
+28c4250: mov r5, r0
+28c4254: ldr r0, [pc, #0x3c]
+28c4258: ldr r0, [pc, r0]
+28c425c: ldr r1, [r0]
+28c4260: mov r0, r5
+28c4264: bl #0x3fc7644
+28c4268: mov r0, r4
+28c426c: mov r1, r5
+28c4270: str r5, [r0, #0x54]!
+28c4274: bl #0x236f99c
+28c4278: mov r0, r4
+28c427c: mov r1, #0
+28c4280: pop {r4, r5, fp, lr}
+28c4284: b #0x3459df8
+28c4288: ldrbteq r0, [r4], -r8, lsr #17
+28c428c: ldrteq lr, [pc], -r0, lsr #29
+28c4290: shadd8eq lr, pc, r8
+28c4294: shsub16eq lr, pc, r4
+28c4298: shsaxeq lr, pc, r4
+
+# Loom.Game.Map.MapFailController::<CheckForCannotShootFail>b__44_0 0x28c429c size=48
+28c429c: push {r4, lr}
+28c42a0: ldr r4, [r0, #0x3c]
+28c42a4: cmp r4, #0
+28c42a8: bne #0x28c42b0
+28c42ac: bl #0x236fcb0
+28c42b0: ldr r0, [r4]
+28c42b4: ldr r2, [r0, #0x100]
+28c42b8: ldr r1, [r0, #0x104]
+28c42bc: mov r0, r4
+28c42c0: blx r2
+28c42c4: eor r0, r0, #1
+28c42c8: pop {r4, pc}
+
+# Loom.Game.Map.MapFailController::<CanShootAnyTarget>b__51_0 0x28c42cc size=56
+28c42cc: push {r4, r5, r7, lr}
+28c42d0: ldr r5, [r0, #0x38]
+28c42d4: mov r4, r1
+28c42d8: cmp r5, #0
+28c42dc: bne #0x28c42e4
+28c42e0: bl #0x236fcb0
+28c42e4: ldr r0, [r5]
+28c42e8: mov r1, r4
+28c42ec: ldr r7, [r0, #0xec]
+28c42f0: ldr r3, [r0, #0xe8]
+28c42f4: mov r0, r5
+28c42f8: mov r2, r7
+28c42fc: pop {r4, r5, r7, lr}
+28c4300: bx r3
+
+# Loom.Game.Map.MapFailController::<NormallyTappableFirstShooterExists>b__56_0 0x28c4304 size=56
+28c4304: push {r4, r5, r7, lr}
+28c4308: ldr r5, [r0, #0x38]
+28c430c: mov r4, r1
+28c4310: cmp r5, #0
+28c4314: bne #0x28c431c
+28c4318: bl #0x236fcb0
+28c431c: ldr r0, [r5]
+28c4320: mov r1, r4
+28c4324: ldr r7, [r0, #0xec]
+28c4328: ldr r3, [r0, #0xe8]
+28c432c: mov r0, r5
+28c4330: mov r2, r7
+28c4334: pop {r4, r5, r7, lr}
+28c4338: bx r3
+
+# Loom.Game.Map.MapFailUnityEventsData::.ctor 0x28d0608 size=8
+28d0608: mov r1, #0
+28d060c: b #0x3459e1c

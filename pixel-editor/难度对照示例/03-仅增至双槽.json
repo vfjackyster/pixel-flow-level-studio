@@ -1,0 +1,253 @@
+{
+  "Difficulty": "Easy",
+  "HasTimeLimit": false,
+  "TimeLimit": 0.0,
+  "SlotCount": 2,
+  "ConveyorLimit": 5,
+  "QueueGroup": {
+    "shooterQueues": [
+      {
+        "shooters": [
+          {
+            "id": 0,
+            "ammo": 1,
+            "material": 0
+          },
+          {
+            "id": 1,
+            "ammo": 1,
+            "material": 0
+          },
+          {
+            "id": 2,
+            "ammo": 10,
+            "material": 7
+          }
+        ]
+      },
+      {
+        "shooters": []
+      }
+    ]
+  },
+  "SurpriseShooters": {
+    "Shooters": []
+  },
+  "ConnectedShooters": {
+    "Connections": []
+  },
+  "Locks": {
+    "Shooters": []
+  },
+  "ShooterPipes": {
+    "Pipes": []
+  },
+  "Hammers": {
+    "Shooters": []
+  },
+  "ShooterIceBlocks": {
+    "IceBlocks": []
+  },
+  "ChainedShooters": {
+    "Chains": []
+  },
+  "BullTotems": {
+    "Totems": []
+  },
+  "MusicToyMallets": {
+    "Mallets": []
+  },
+  "SlotCages": {
+    "Cages": []
+  },
+  "AstronautShooters": {
+    "Shooters": []
+  },
+  "LoopShooters": {
+    "Shooters": []
+  },
+  "ConveyorDoors": {
+    "Doors": []
+  },
+  "PixelImageData": {
+    "width": 4,
+    "height": 4,
+    "physicalWidth": 5.0,
+    "physicalHeight": 5.0,
+    "pixels": [
+      {
+        "x": 0,
+        "y": 0,
+        "material": 7,
+        "areaX": 1,
+        "areaY": 1
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "material": 7,
+        "areaX": 1,
+        "areaY": 1
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "material": 7,
+        "areaX": 1,
+        "areaY": 1
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "material": 7,
+        "areaX": 1,
+        "areaY": 1
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "material": 7,
+        "areaX": 1,
+        "areaY": 1
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "material": 0,
+        "areaX": 1,
+        "areaY": 1
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "material": 0,
+        "areaX": 1,
+        "areaY": 1
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "material": 7,
+        "areaX": 1,
+        "areaY": 1
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "material": 7,
+        "areaX": 1,
+        "areaY": 1
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "material": 7,
+        "areaX": 1,
+        "areaY": 1
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "material": 7,
+        "areaX": 1,
+        "areaY": 1
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "material": 7,
+        "areaX": 1,
+        "areaY": 1
+      }
+    ],
+    "pixelHealths": [],
+    "keys": {
+      "Keys": []
+    },
+    "surprisePixels": {
+      "Pixels": []
+    },
+    "pixelPipes": {
+      "Pipes": []
+    },
+    "gates": {
+      "Gates": []
+    },
+    "walls": {
+      "Walls": []
+    },
+    "snakes": {
+      "Snakes": []
+    },
+    "eggBoxes": {
+      "EggBoxes": []
+    },
+    "pixelIceBlocks": {
+      "IceBlocks": []
+    },
+    "pixelWoodBlocks": {
+      "WoodBlocks": []
+    },
+    "pixelColorDoors": {
+      "Doors": []
+    },
+    "goldenEggs": {
+      "Eggs": []
+    },
+    "biscuits": {
+      "Biscuits": []
+    },
+    "splitObjects": {
+      "SplitObjects": []
+    },
+    "ufos": {
+      "Ufos": []
+    },
+    "pumpkins": {
+      "Pumpkins": []
+    },
+    "curtains": {
+      "Curtains": []
+    },
+    "shooterCages": {
+      "Cages": []
+    },
+    "coloredShooterCages": {
+      "Cages": []
+    },
+    "beadGroups": {
+      "BeadGroups": []
+    },
+    "multiSnakes": {
+      "MultiSnakes": []
+    },
+    "beanBoxes": {
+      "BeanBoxes": []
+    },
+    "musicToys": {
+      "MusicToys": []
+    },
+    "crossbows": {
+      "Crossbows": []
+    },
+    "accordions": {
+      "Accordions": []
+    },
+    "matryoshkas": {
+      "Matryoshkas": []
+    },
+    "pixelMixers": {
+      "Mixers": []
+    },
+    "spaceships": {
+      "Spaceships": []
+    },
+    "Preview": {
+      "instanceID": 158274
+    },
+    "contentHash": 0
+  },
+  "contentHash": 0,
+  "isValid": false,
+  "validationErrors": ""
+}

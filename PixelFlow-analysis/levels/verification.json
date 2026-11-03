@@ -1,0 +1,175 @@
+{
+  "baseMeaning": "2700关完整基础集合，不表示每位玩家实际主线均选择此集合",
+  "baseId": "3db5681ee587345ad9a3cf8400a692d1",
+  "variantCount": 800,
+  "meaningfulPixelDataChanged": 637,
+  "onlyPixelMetadataChanged": 163,
+  "capacityChanged": 0,
+  "isValidFalseCount": 521,
+  "funnels": [
+    {
+      "funnel": "2b9f8b3a170d641beb588c95eec7f92c",
+      "count": 12,
+      "min": 499.0,
+      "max": 592.0
+    },
+    {
+      "funnel": "31aa5bd03c0da46cf896b656e3fe3ad5",
+      "count": 3,
+      "min": 499.0,
+      "max": 555.0
+    },
+    {
+      "funnel": "34f390a30a78e434a8de91fc7b7334ee",
+      "count": 94,
+      "min": 1.0,
+      "max": 105.0
+    },
+    {
+      "funnel": "3661123b18c1748e296ee62b280fcbfa",
+      "count": 14,
+      "min": 1515.0,
+      "max": 1597.0
+    },
+    {
+      "funnel": "378b1ff67fdc84cc7b304cc8417b8b5f",
+      "count": 19,
+      "min": 1653.0,
+      "max": 1700.0
+    },
+    {
+      "funnel": "3db5681ee587345ad9a3cf8400a692d1",
+      "count": 2700,
+      "min": 1.0,
+      "max": 2700.0
+    },
+    {
+      "funnel": "40f0de0d9bdd74bb29d006cce51d7b75",
+      "count": 185,
+      "min": 1.0,
+      "max": 202.0
+    },
+    {
+      "funnel": "4993c259c62d74a3ba5d9181a133db87",
+      "count": 1,
+      "min": 121.0,
+      "max": 121.0
+    },
+    {
+      "funnel": "51be4bae1ed214e9187f2a96a9f87797",
+      "count": 1,
+      "min": 875.0,
+      "max": 875.0
+    },
+    {
+      "funnel": "60435ea4f63ee4f3c9a806f0701ae6ed",
+      "count": 17,
+      "min": 1707.0,
+      "max": 1745.0
+    },
+    {
+      "funnel": "65481f3d2aec1414bab0b5f12cb45881",
+      "count": 9,
+      "min": 57.0,
+      "max": 555.0
+    },
+    {
+      "funnel": "6a7c19cfe9ad342beada13ef95f2ec9e",
+      "count": 1,
+      "min": 316.0,
+      "max": 316.0
+    },
+    {
+      "funnel": "71ea942f560f945d787946e964353a61",
+      "count": 1,
+      "min": 284.0,
+      "max": 284.0
+    },
+    {
+      "funnel": "7a0c86a65109447cb914164500052eb4",
+      "count": 1,
+      "min": 504.0,
+      "max": 504.0
+    },
+    {
+      "funnel": "7b40b27989a354589b73f9423597ecd1",
+      "count": 2,
+      "min": 1150.0,
+      "max": 1160.0
+    },
+    {
+      "funnel": "88773a585becb435c8fde1a7b7119e07",
+      "count": 13,
+      "min": 1607.0,
+      "max": 1650.0
+    },
+    {
+      "funnel": "959213cba04524949976d086c8780024",
+      "count": 88,
+      "min": 2.0,
+      "max": 99.0
+    },
+    {
+      "funnel": "959360f6ec28f44d29a50a7ca06a406a",
+      "count": 26,
+      "min": 22.0,
+      "max": 195.0
+    },
+    {
+      "funnel": "acd1edd476df7404b836a333b77aec47",
+      "count": 1,
+      "min": 693.0,
+      "max": 693.0
+    },
+    {
+      "funnel": "ad827fabe1686465a89a5ac237734d6e",
+      "count": 2,
+      "min": 615.0,
+      "max": 639.0
+    },
+    {
+      "funnel": "c56f7c5f890174060bf24c313b5d4e7f",
+      "count": 193,
+      "min": 9.0,
+      "max": 1400.0
+    },
+    {
+      "funnel": "cb49e38d0962543138429ae2d43e33e3",
+      "count": 82,
+      "min": 2.0,
+      "max": 99.0
+    },
+    {
+      "funnel": "d0988b396252c4bcf822ff249245dccb",
+      "count": 1,
+      "min": 555.0,
+      "max": 555.0
+    },
+    {
+      "funnel": "dd9f09021153c49e981fc64998b69651",
+      "count": 27,
+      "min": 19.0,
+      "max": 195.0
+    },
+    {
+      "funnel": "e27fce0eaa0254b0bbec260fd9029d01",
+      "count": 5,
+      "min": 524.0,
+      "max": 555.0
+    },
+    {
+      "funnel": "f4bdfa99d06e04e01a8e3443b2984f0d",
+      "count": 1,
+      "min": 305.0,
+      "max": 305.0
+    },
+    {
+      "funnel": "f514093fd82534cd494efd9fb8fdc9c3",
+      "count": 1,
+      "min": 659.0,
+      "max": 659.0
+    }
+  ],
+  "sourcePackageSha256": "35f62418a54c81ef6b596587af98f1d0cee4627315b45b043656838e62efe4ba",
+  "reaExtractionEvidence": "ev_14d4e3d3d58091c95252c86c83dec964d2cedbd67f86848f39d10e98cf843d6a"
+}

@@ -1,0 +1,1091 @@
+{
+  "synthetic": true,
+  "seed": 20261027,
+  "agentPRNG": "Mulberry32",
+  "testResults": {
+    "synthetic": true,
+    "ruleVersion": "queue-lab-v1",
+    "levelCount": 1620,
+    "solved": 1044,
+    "unsolvable": 576,
+    "checkedTransitions": 43830,
+    "solverAgreement": "BFS / memo DFS / A* / independent exhaustive oracle",
+    "boundaryCases": [
+      "instant-match-win",
+      "full-buffer-loss",
+      "invalid-action",
+      "color-balance",
+      "color-type",
+      "zero-budget-three-solvers",
+      "cascade-release"
+    ]
+  },
+  "benchmark": {
+    "levels": 72,
+    "structuralFamilies": 69,
+    "seedsPerLevel": 40,
+    "exactRandomWinRate": 0.09595467059137328,
+    "exactRandomSolvableWinRate": 0.18672260223186152,
+    "solvableLevels": 37,
+    "rows": [
+      {
+        "policy": "random",
+        "games": 2880,
+        "wins": 258,
+        "winRate": 0.08958333333333333,
+        "solvableGames": 1480,
+        "solvableWinRate": 0.17432432432432432,
+        "evaluations": 0,
+        "repeatEvaluations": 0,
+        "meanEvaluations": 0,
+        "irreversibleErrors": 1222,
+        "meanObservedFailureDelay": 0.983633387888707
+      },
+      {
+        "policy": "greedy",
+        "games": 2880,
+        "wins": 690,
+        "winRate": 0.23958333333333334,
+        "solvableGames": 1480,
+        "solvableWinRate": 0.46621621621621623,
+        "evaluations": 41788,
+        "repeatEvaluations": 0,
+        "meanEvaluations": 14.509722222222223,
+        "irreversibleErrors": 790,
+        "meanObservedFailureDelay": 1.6734177215189874
+      },
+      {
+        "policy": "lookahead2",
+        "games": 2880,
+        "wins": 1031,
+        "winRate": 0.3579861111111111,
+        "solvableGames": 1480,
+        "solvableWinRate": 0.6966216216216217,
+        "evaluations": 136410,
+        "repeatEvaluations": 29377,
+        "meanEvaluations": 47.364583333333336,
+        "irreversibleErrors": 449,
+        "meanObservedFailureDelay": 2.0645879732739423
+      },
+      {
+        "policy": "lookahead4",
+        "games": 2880,
+        "wins": 1357,
+        "winRate": 0.47118055555555555,
+        "solvableGames": 1480,
+        "solvableWinRate": 0.9168918918918919,
+        "evaluations": 623517,
+        "repeatEvaluations": 388009,
+        "meanEvaluations": 216.49895833333332,
+        "irreversibleErrors": 123,
+        "meanObservedFailureDelay": 3.1707317073170733
+      },
+      {
+        "policy": "attention",
+        "games": 2880,
+        "wins": 617,
+        "winRate": 0.2142361111111111,
+        "solvableGames": 1480,
+        "solvableWinRate": 0.4168918918918919,
+        "evaluations": 29026,
+        "repeatEvaluations": 0,
+        "meanEvaluations": 10.078472222222222,
+        "irreversibleErrors": 863,
+        "meanObservedFailureDelay": 1.5469293163383546
+      }
+    ]
+  },
+  "counterexample": [
+    {
+      "id": "benchmark-2",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 1280,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.655349794238683,
+      "uniqueStates": 62,
+      "forcedStates": 8
+    },
+    {
+      "id": "benchmark-7",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 100,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.03056412894375857,
+      "uniqueStates": 52,
+      "forcedStates": 10
+    }
+  ],
+  "example": {
+    "level": {
+      "id": "benchmark-0",
+      "synthetic": true,
+      "rule_version": "queue-lab-v1",
+      "capacity": 2,
+      "lanes": [
+        [
+          "G",
+          "B",
+          "R"
+        ],
+        [
+          "R",
+          "B",
+          "R"
+        ],
+        [
+          "B",
+          "G",
+          "G"
+        ]
+      ],
+      "buses": [
+        {
+          "color": "G",
+          "seats": 3
+        },
+        {
+          "color": "B",
+          "seats": 3
+        },
+        {
+          "color": "R",
+          "seats": 3
+        }
+      ]
+    },
+    "solution": [
+      0,
+      2,
+      2,
+      2,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "replay": [
+      {
+        "action": 0,
+        "state": {
+          "pos": [
+            1,
+            0,
+            0
+          ],
+          "bus": 0,
+          "load": 1,
+          "buffer": []
+        }
+      },
+      {
+        "action": 2,
+        "state": {
+          "pos": [
+            1,
+            0,
+            1
+          ],
+          "bus": 0,
+          "load": 1,
+          "buffer": [
+            "B"
+          ]
+        }
+      },
+      {
+        "action": 2,
+        "state": {
+          "pos": [
+            1,
+            0,
+            2
+          ],
+          "bus": 0,
+          "load": 2,
+          "buffer": [
+            "B"
+          ]
+        }
+      },
+      {
+        "action": 2,
+        "state": {
+          "pos": [
+            1,
+            0,
+            3
+          ],
+          "bus": 1,
+          "load": 1,
+          "buffer": []
+        }
+      },
+      {
+        "action": 0,
+        "state": {
+          "pos": [
+            2,
+            0,
+            3
+          ],
+          "bus": 1,
+          "load": 2,
+          "buffer": []
+        }
+      },
+      {
+        "action": 1,
+        "state": {
+          "pos": [
+            2,
+            1,
+            3
+          ],
+          "bus": 1,
+          "load": 2,
+          "buffer": [
+            "R"
+          ]
+        }
+      },
+      {
+        "action": 1,
+        "state": {
+          "pos": [
+            2,
+            2,
+            3
+          ],
+          "bus": 2,
+          "load": 1,
+          "buffer": []
+        }
+      },
+      {
+        "action": 0,
+        "state": {
+          "pos": [
+            3,
+            2,
+            3
+          ],
+          "bus": 2,
+          "load": 2,
+          "buffer": []
+        }
+      },
+      {
+        "action": 1,
+        "state": {
+          "pos": [
+            3,
+            3,
+            3
+          ],
+          "bus": 3,
+          "load": 0,
+          "buffer": []
+        }
+      }
+    ]
+  },
+  "levelRows": [
+    {
+      "id": "benchmark-0",
+      "capacity": 2,
+      "solvable": true,
+      "paths": 24,
+      "safe": 2,
+      "legal": 3,
+      "randomWin": 0.020833333333333332,
+      "uniqueStates": 33,
+      "forcedStates": 7
+    },
+    {
+      "id": "benchmark-1",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 29,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-2",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 1280,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.655349794238683,
+      "uniqueStates": 62,
+      "forcedStates": 8
+    },
+    {
+      "id": "benchmark-3",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 30,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-4",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 39,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-5",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 20,
+      "safe": 2,
+      "legal": 3,
+      "randomWin": 0.05246913580246914,
+      "uniqueStates": 49,
+      "forcedStates": 6
+    },
+    {
+      "id": "benchmark-6",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 10,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-7",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 100,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.03056412894375857,
+      "uniqueStates": 52,
+      "forcedStates": 10
+    },
+    {
+      "id": "benchmark-8",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 380,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.29218106995884774,
+      "uniqueStates": 59,
+      "forcedStates": 10
+    },
+    {
+      "id": "benchmark-9",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 15,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-10",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 200,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.06112825788751714,
+      "uniqueStates": 52,
+      "forcedStates": 14
+    },
+    {
+      "id": "benchmark-11",
+      "capacity": 4,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 52,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-12",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 16,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-13",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 390,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.24374142661179699,
+      "uniqueStates": 57,
+      "forcedStates": 11
+    },
+    {
+      "id": "benchmark-14",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 20,
+      "safe": 2,
+      "legal": 3,
+      "randomWin": 0.05246913580246914,
+      "uniqueStates": 52,
+      "forcedStates": 6
+    },
+    {
+      "id": "benchmark-15",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 15,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-16",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 60,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.052469135802469126,
+      "uniqueStates": 50,
+      "forcedStates": 7
+    },
+    {
+      "id": "benchmark-17",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 200,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.17232510288065842,
+      "uniqueStates": 56,
+      "forcedStates": 8
+    },
+    {
+      "id": "benchmark-18",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 23,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-19",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 49,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-20",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 200,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.17232510288065842,
+      "uniqueStates": 54,
+      "forcedStates": 8
+    },
+    {
+      "id": "benchmark-21",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 19,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-22",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 580,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.2983110425240055,
+      "uniqueStates": 57,
+      "forcedStates": 12
+    },
+    {
+      "id": "benchmark-23",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 20,
+      "safe": 2,
+      "legal": 3,
+      "randomWin": 0.05246913580246914,
+      "uniqueStates": 52,
+      "forcedStates": 6
+    },
+    {
+      "id": "benchmark-24",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 18,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-25",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 35,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-26",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 200,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.17232510288065842,
+      "uniqueStates": 56,
+      "forcedStates": 8
+    },
+    {
+      "id": "benchmark-27",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 21,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-28",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 30,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-29",
+      "capacity": 4,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 47,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-30",
+      "capacity": 2,
+      "solvable": true,
+      "paths": 12,
+      "safe": 2,
+      "legal": 3,
+      "randomWin": 0.027777777777777776,
+      "uniqueStates": 31,
+      "forcedStates": 6
+    },
+    {
+      "id": "benchmark-31",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 34,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-32",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 200,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.17232510288065842,
+      "uniqueStates": 54,
+      "forcedStates": 8
+    },
+    {
+      "id": "benchmark-33",
+      "capacity": 2,
+      "solvable": true,
+      "paths": 360,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.14814814814814817,
+      "uniqueStates": 53,
+      "forcedStates": 11
+    },
+    {
+      "id": "benchmark-34",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 120,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.10493827160493825,
+      "uniqueStates": 50,
+      "forcedStates": 5
+    },
+    {
+      "id": "benchmark-35",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 920,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.41563786008230447,
+      "uniqueStates": 61,
+      "forcedStates": 8
+    },
+    {
+      "id": "benchmark-36",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 21,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-37",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 160,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.1574074074074074,
+      "uniqueStates": 46,
+      "forcedStates": 7
+    },
+    {
+      "id": "benchmark-38",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 200,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.17232510288065842,
+      "uniqueStates": 57,
+      "forcedStates": 8
+    },
+    {
+      "id": "benchmark-39",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 18,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-40",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 34,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-41",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 200,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.17232510288065842,
+      "uniqueStates": 56,
+      "forcedStates": 8
+    },
+    {
+      "id": "benchmark-42",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 13,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-43",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 35,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-44",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 380,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.29218106995884774,
+      "uniqueStates": 57,
+      "forcedStates": 10
+    },
+    {
+      "id": "benchmark-45",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 18,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-46",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 70,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.05902777777777777,
+      "uniqueStates": 46,
+      "forcedStates": 10
+    },
+    {
+      "id": "benchmark-47",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 180,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.11985596707818928,
+      "uniqueStates": 58,
+      "forcedStates": 6
+    },
+    {
+      "id": "benchmark-48",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 16,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-49",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 60,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.052469135802469126,
+      "uniqueStates": 50,
+      "forcedStates": 7
+    },
+    {
+      "id": "benchmark-50",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 1260,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.602880658436214,
+      "uniqueStates": 63,
+      "forcedStates": 10
+    },
+    {
+      "id": "benchmark-51",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 18,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-52",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 49,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-53",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 1260,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.602880658436214,
+      "uniqueStates": 63,
+      "forcedStates": 10
+    },
+    {
+      "id": "benchmark-54",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 30,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-55",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 30,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-56",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 360,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.2397119341563786,
+      "uniqueStates": 60,
+      "forcedStates": 8
+    },
+    {
+      "id": "benchmark-57",
+      "capacity": 2,
+      "solvable": true,
+      "paths": 12,
+      "safe": 2,
+      "legal": 3,
+      "randomWin": 0.027777777777777776,
+      "uniqueStates": 35,
+      "forcedStates": 6
+    },
+    {
+      "id": "benchmark-58",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 30,
+      "safe": 2,
+      "legal": 3,
+      "randomWin": 0.0459104938271605,
+      "uniqueStates": 45,
+      "forcedStates": 6
+    },
+    {
+      "id": "benchmark-59",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 380,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.29218106995884774,
+      "uniqueStates": 57,
+      "forcedStates": 10
+    },
+    {
+      "id": "benchmark-60",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 23,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-61",
+      "capacity": 3,
+      "solvable": true,
+      "paths": 70,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.05902777777777777,
+      "uniqueStates": 46,
+      "forcedStates": 10
+    },
+    {
+      "id": "benchmark-62",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 180,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.11985596707818928,
+      "uniqueStates": 58,
+      "forcedStates": 6
+    },
+    {
+      "id": "benchmark-63",
+      "capacity": 2,
+      "solvable": true,
+      "paths": 72,
+      "safe": 2,
+      "legal": 3,
+      "randomWin": 0.05829903978052126,
+      "uniqueStates": 39,
+      "forcedStates": 6
+    },
+    {
+      "id": "benchmark-64",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 30,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-65",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 380,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.2921810699588477,
+      "uniqueStates": 57,
+      "forcedStates": 10
+    },
+    {
+      "id": "benchmark-66",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 21,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-67",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 29,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-68",
+      "capacity": 4,
+      "solvable": true,
+      "paths": 400,
+      "safe": 3,
+      "legal": 3,
+      "randomWin": 0.34465020576131683,
+      "uniqueStates": 55,
+      "forcedStates": 12
+    },
+    {
+      "id": "benchmark-69",
+      "capacity": 2,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 18,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-70",
+      "capacity": 3,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 39,
+      "forcedStates": 0
+    },
+    {
+      "id": "benchmark-71",
+      "capacity": 4,
+      "solvable": false,
+      "paths": 0,
+      "safe": 0,
+      "legal": 3,
+      "randomWin": 0,
+      "uniqueStates": 47,
+      "forcedStates": 0
+    }
+  ]
+}

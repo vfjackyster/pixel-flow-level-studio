@@ -1,0 +1,110 @@
+{
+  "baseFunnel": "3db5681ee587345ad9a3cf8400a692d1",
+  "materials": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "widthMax": [
+    {
+      "level": 1185,
+      "width": 123,
+      "height": 105,
+      "ordinaryPixels": 2520
+    },
+    {
+      "level": 1082,
+      "width": 119,
+      "height": 140,
+      "ordinaryPixels": 2950
+    }
+  ],
+  "heightMax": [
+    {
+      "level": 1082,
+      "width": 119,
+      "height": 140,
+      "ordinaryPixels": 2950
+    },
+    {
+      "level": 1055,
+      "width": 110,
+      "height": 110,
+      "ordinaryPixels": 3260
+    }
+  ],
+  "dimensionModes": [
+    {
+      "Name": "36, 44",
+      "Count": 927
+    },
+    {
+      "Name": "36, 42",
+      "Count": 306
+    },
+    {
+      "Name": "40, 44",
+      "Count": 285
+    },
+    {
+      "Name": "32, 36",
+      "Count": 122
+    },
+    {
+      "Name": "36, 40",
+      "Count": 94
+    },
+    {
+      "Name": "40, 40",
+      "Count": 79
+    },
+    {
+      "Name": "40, 48",
+      "Count": 44
+    },
+    {
+      "Name": "32, 40",
+      "Count": 42
+    },
+    {
+      "Name": "44, 44",
+      "Count": 36
+    },
+    {
+      "Name": "25, 28",
+      "Count": 32
+    }
+  ],
+  "note": "Grid dimensions, not texture dimensions; per-axis maxima do not imply an actual 123x140 board."
+}

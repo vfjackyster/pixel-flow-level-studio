@@ -1,0 +1,175 @@
+{
+  "level": {
+    "id": "benchmark-0",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "G",
+        "B",
+        "R"
+      ],
+      [
+        "R",
+        "B",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  "solution": [
+    0,
+    2,
+    2,
+    2,
+    0,
+    1,
+    1,
+    0,
+    1
+  ],
+  "replay": [
+    {
+      "action": 0,
+      "state": {
+        "pos": [
+          1,
+          0,
+          0
+        ],
+        "bus": 0,
+        "load": 1,
+        "buffer": []
+      }
+    },
+    {
+      "action": 2,
+      "state": {
+        "pos": [
+          1,
+          0,
+          1
+        ],
+        "bus": 0,
+        "load": 1,
+        "buffer": [
+          "B"
+        ]
+      }
+    },
+    {
+      "action": 2,
+      "state": {
+        "pos": [
+          1,
+          0,
+          2
+        ],
+        "bus": 0,
+        "load": 2,
+        "buffer": [
+          "B"
+        ]
+      }
+    },
+    {
+      "action": 2,
+      "state": {
+        "pos": [
+          1,
+          0,
+          3
+        ],
+        "bus": 1,
+        "load": 1,
+        "buffer": []
+      }
+    },
+    {
+      "action": 0,
+      "state": {
+        "pos": [
+          2,
+          0,
+          3
+        ],
+        "bus": 1,
+        "load": 2,
+        "buffer": []
+      }
+    },
+    {
+      "action": 1,
+      "state": {
+        "pos": [
+          2,
+          1,
+          3
+        ],
+        "bus": 1,
+        "load": 2,
+        "buffer": [
+          "R"
+        ]
+      }
+    },
+    {
+      "action": 1,
+      "state": {
+        "pos": [
+          2,
+          2,
+          3
+        ],
+        "bus": 2,
+        "load": 1,
+        "buffer": []
+      }
+    },
+    {
+      "action": 0,
+      "state": {
+        "pos": [
+          3,
+          2,
+          3
+        ],
+        "bus": 2,
+        "load": 2,
+        "buffer": []
+      }
+    },
+    {
+      "action": 1,
+      "state": {
+        "pos": [
+          3,
+          3,
+          3
+        ],
+        "bus": 3,
+        "load": 0,
+        "buffer": []
+      }
+    }
+  ]
+}

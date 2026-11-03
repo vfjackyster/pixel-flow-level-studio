@@ -1,0 +1,126 @@
+{
+  "passes": 12,
+  "model": "schedule-v1",
+  "fixture": {
+    "hard": 100,
+    "reordered": 0,
+    "extraSlot": 0
+  },
+  "example": {
+    "version": "schedule-v1",
+    "diagnostics": {
+      "pixels": 180,
+      "front": 58,
+      "exposure": 0.32222222222222224,
+      "layers": 4,
+      "activeHeads": 2,
+      "productiveHeads": 2,
+      "mismatch": 0,
+      "shortage": [],
+      "surplus": 0,
+      "shooters": 6
+    },
+    "policies": [
+      {
+        "policy": "random",
+        "trials": 128,
+        "wins": 128,
+        "fails": 0,
+        "overflow": 0,
+        "stalled": 0,
+        "risk": 0,
+        "interval": [
+          0,
+          2.913695627350686
+        ],
+        "meanPeak": 0,
+        "witness": [
+          {
+            "kind": "queue",
+            "index": 0,
+            "id": 0
+          },
+          {
+            "kind": "queue",
+            "index": 0,
+            "id": 1
+          },
+          {
+            "kind": "queue",
+            "index": 0,
+            "id": 2
+          },
+          {
+            "kind": "queue",
+            "index": 1,
+            "id": 3
+          },
+          {
+            "kind": "queue",
+            "index": 1,
+            "id": 4
+          },
+          {
+            "kind": "queue",
+            "index": 1,
+            "id": 5
+          }
+        ]
+      },
+      {
+        "policy": "greedy",
+        "trials": 128,
+        "wins": 128,
+        "fails": 0,
+        "overflow": 0,
+        "stalled": 0,
+        "risk": 0,
+        "interval": [
+          0,
+          2.913695627350686
+        ],
+        "meanPeak": 0,
+        "witness": [
+          {
+            "kind": "queue",
+            "index": 0,
+            "id": 0
+          },
+          {
+            "kind": "queue",
+            "index": 0,
+            "id": 1
+          },
+          {
+            "kind": "queue",
+            "index": 1,
+            "id": 3
+          },
+          {
+            "kind": "queue",
+            "index": 1,
+            "id": 4
+          },
+          {
+            "kind": "queue",
+            "index": 1,
+            "id": 5
+          },
+          {
+            "kind": "queue",
+            "index": 0,
+            "id": 2
+          }
+        ]
+      }
+    ],
+    "ignored": [
+      "ConveyorLimit",
+      "physicalWidth",
+      "physicalHeight",
+      "Difficulty"
+    ],
+    "status": "sampled",
+    "work": 2944
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "version": "perimeter-play-v1",
+  "tests": 16,
+  "scope": "Local reconstruction, not frame-accurate original game"
+}

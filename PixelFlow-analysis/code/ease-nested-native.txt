@@ -1,0 +1,1643 @@
+
+# .<>c::.cctor 0x26277b0 size=116
+26277b0: push {r4, r5, fp, lr}
+26277b4: ldr r4, [pc, #0x5c]
+26277b8: add r4, pc, r4
+26277bc: ldrb r0, [r4]
+26277c0: cmp r0, #0
+26277c4: bne #0x26277dc
+26277c8: ldr r0, [pc, #0x4c]
+26277cc: ldr r0, [pc, r0]
+26277d0: bl #0x236fa00
+26277d4: mov r0, #1
+26277d8: strb r0, [r4]
+26277dc: ldr r5, [pc, #0x3c]
+26277e0: ldr r5, [pc, r5]
+26277e4: ldr r0, [r5]
+26277e8: bl #0x236fca4
+26277ec: mov r1, #0
+26277f0: mov r4, r0
+26277f4: bl #0x3459e1c
+26277f8: ldr r0, [r5]
+26277fc: mov r1, r4
+2627800: ldr r0, [r0, #0x5c]
+2627804: str r4, [r0]
+2627808: ldr r0, [r5]
+262780c: ldr r0, [r0, #0x5c]
+2627810: pop {r4, r5, fp, lr}
+2627814: b #0x236f99c
+
+# .<>c::.ctor 0x2627824 size=8
+2627824: mov r1, #0
+2627828: b #0x3459e1c
+
+# .<>c::<.ctor>b__15_0 0x262782c size=164
+262782c: push {r4, r5, fp, lr}
+2627830: ldr r5, [pc, #0x8c]
+2627834: mov r4, r1
+2627838: add r5, pc, r5
+262783c: ldrb r0, [r5]
+2627840: cmp r0, #0
+2627844: bne #0x262785c
+2627848: ldr r0, [pc, #0x78]
+262784c: ldr r0, [pc, r0]
+2627850: bl #0x236fa00
+2627854: mov r0, #1
+2627858: strb r0, [r5]
+262785c: cmp r4, #0
+2627860: bne #0x2627868
+2627864: bl #0x236fcb0
+2627868: mov r0, r4
+262786c: bl #0x26278d0 ; Loom.Game.LevelEase.LevelEaseConfigByLevelInterval::Clone
+2627870: mov r4, #0
+2627874: cmp r0, #0
+2627878: beq #0x26278b4
+262787c: ldr r1, [pc, #0x48]
+2627880: ldr r1, [pc, r1]
+2627884: ldr r2, [r0]
+2627888: ldr r1, [r1]
+262788c: ldrb r5, [r2, #0xb8]
+2627890: ldrb r3, [r1, #0xb8]
+2627894: cmp r5, r3
+2627898: blo #0x26278b0
+262789c: ldr r2, [r2, #0x64]
+26278a0: add r2, r2, r3, lsl #2
+26278a4: ldr r2, [r2, #-4]
+26278a8: cmp r2, r1
+26278ac: beq #0x26278bc
+26278b0: bl #0x2370068
+26278b4: mov r0, r4
+26278b8: pop {r4, r5, fp, pc}
+26278bc: mov r4, r0
+26278c0: b #0x26278b4
+
+# .<>c__DisplayClass16_0::.ctor 0x2627488 size=8
+2627488: mov r1, #0
+262748c: b #0x3459e1c
+
+# .<>c__DisplayClass16_0::<GetIntervalConfig>b__0 0x2627930 size=56
+2627930: push {r4, r5, fp, lr}
+2627934: ldr r5, [r0, #8]
+2627938: mov r4, r1
+262793c: cmp r1, #0
+2627940: bne #0x2627948
+2627944: bl #0x236fcb0
+2627948: ldr r1, [r4, #8]
+262794c: mov r0, #0
+2627950: cmp r1, r5
+2627954: bgt #0x2627964
+2627958: ldr r1, [r4, #0xc]
+262795c: cmp r1, r5
+2627960: movwge r0, #1
+2627964: pop {r4, r5, fp, pc}
+
+# .<>c__DisplayClass10_0::.ctor 0x26288e8 size=8
+26288e8: mov r1, #0
+26288ec: b #0x3459e1c
+
+# .<>c__DisplayClass10_0::<BuildPrimary>b__0 0x2629c7c size=428
+2629c7c: push {r4, r5, r6, r7, r8, lr}
+2629c80: ldr r4, [pc, #0x18c]
+2629c84: mov r6, r0
+2629c88: mov r8, r1
+2629c8c: add r4, pc, r4
+2629c90: ldrb r0, [r4]
+2629c94: cmp r0, #0
+2629c98: bne #0x2629cbc
+2629c9c: ldr r0, [pc, #0x174]
+2629ca0: ldr r0, [pc, r0]
+2629ca4: bl #0x236fa00
+2629ca8: ldr r0, [pc, #0x16c]
+2629cac: ldr r0, [pc, r0]
+2629cb0: bl #0x236fa00
+2629cb4: mov r0, #1
+2629cb8: strb r0, [r4]
+2629cbc: mov r5, r6
+2629cc0: ldr r0, [r5, #8]!
+2629cc4: cmp r0, #0
+2629cc8: bne #0x2629e08
+2629ccc: ldr r4, [r6, #0xc]
+2629cd0: cmp r4, #0
+2629cd4: mov r0, r4
+2629cd8: bne #0x2629cec
+2629cdc: bl #0x236fcb0
+2629ce0: ldr r0, [r6, #0xc]
+2629ce4: cmp r0, #0
+2629ce8: beq #0x2629e10
+2629cec: ldr r4, [r4, #0xc]
+2629cf0: ldr r7, [r0, #0x14]
+2629cf4: cmp r4, #0
+2629cf8: bne #0x2629d00
+2629cfc: bl #0x236fcb0
+2629d00: mov r0, r4
+2629d04: mov r1, r7
+2629d08: bl #0x2627380 ; Loom.Game.LevelEase.LevelEaseConfig::GetIntervalConfig
+2629d0c: mov r1, r0
+2629d10: str r0, [r5]
+2629d14: mov r0, r5
+2629d18: bl #0x236f99c
+2629d1c: ldr r0, [r5]
+2629d20: cmp r0, #0
+2629d24: bne #0x2629e08
+2629d28: ldr r0, [pc, #0xf0]
+2629d2c: ldr r0, [pc, r0]
+2629d30: ldr r0, [r0]
+2629d34: bl #0x236fca4
+2629d38: mov r7, r0
+2629d3c: mov r0, #0xf
+2629d40: movw r1, #0x31f
+2629d44: mov r2, #1
+2629d48: str r1, [r7, #0xc]
+2629d4c: mov r1, #0
+2629d50: str r0, [r7, #0x10]
+2629d54: mov r0, r7
+2629d58: str r2, [r7, #8]
+2629d5c: bl #0x3459e1c
+2629d60: ldr r0, [r6, #0xc]
+2629d64: cmp r0, #0
+2629d68: beq #0x2629d78
+2629d6c: ldr r0, [r0, #0x14]
+2629d70: str r0, [r7, #8]
+2629d74: b #0x2629d98
+2629d78: bl #0x236fcb0
+2629d7c: ldr r0, [r6, #0xc]
+2629d80: mov r1, #0x14
+2629d84: ldr r1, [r1]
+2629d88: cmp r0, #0
+2629d8c: str r1, [r7, #8]
+2629d90: beq #0x2629e10
+2629d94: ldr r0, [r0, #0x14]
+2629d98: str r0, [r7, #0xc]
+2629d9c: mov r0, r5
+2629da0: mov r1, r7
+2629da4: str r7, [r6, #8]
+2629da8: bl #0x236f99c
+2629dac: ldr r4, [r6, #0xc]
+2629db0: cmp r4, #0
+2629db4: bne #0x2629dbc
+2629db8: bl #0x236fcb0
+2629dbc: ldr r4, [r4, #0xc]
+2629dc0: cmp r4, #0
+2629dc4: bne #0x2629dcc
+2629dc8: bl #0x236fcb0
+2629dcc: ldr r7, [r4, #0x3c]
+2629dd0: ldr r6, [r5]
+2629dd4: cmp r7, #0
+2629dd8: bne #0x2629de0
+2629ddc: bl #0x236fcb0
+2629de0: ldr r0, [pc, #0x3c]
+2629de4: mov r1, #0
+2629de8: mov r2, r6
+2629dec: ldr r0, [pc, r0]
+2629df0: ldr r3, [r0]
+2629df4: mov r0, r7
+2629df8: bl #0x44acd00
+2629dfc: ldr r0, [r5]
+2629e00: cmp r0, #0
+2629e04: beq #0x2629e10
+2629e08: str r8, [r0, #0x10]
+2629e0c: pop {r4, r5, r6, r7, r8, pc}
+2629e10: bl #0x236fcb0
+
+# .<>c__DisplayClass10_0::<BuildPrimary>b__1 0x2629e28 size=48
+2629e28: push {r4, r5, fp, lr}
+2629e2c: ldr r5, [r0, #0xc]
+2629e30: mov r4, r1
+2629e34: cmp r5, #0
+2629e38: bne #0x2629e40
+2629e3c: bl #0x236fcb0
+2629e40: ldr r5, [r5, #0xc]
+2629e44: cmp r5, #0
+2629e48: bne #0x2629e50
+2629e4c: bl #0x236fcb0
+2629e50: str r4, [r5, #0xc]
+2629e54: pop {r4, r5, fp, pc}
+
+# .<>c__DisplayClass10_0::<BuildPrimary>b__2 0x2629e58 size=60
+2629e58: push {r4, r5, fp, lr}
+2629e5c: vpush {d8}
+2629e60: ldr r5, [r0, #0xc]
+2629e64: mov r4, r1
+2629e68: cmp r5, #0
+2629e6c: bne #0x2629e74
+2629e70: bl #0x236fcb0
+2629e74: vmov s16, r4
+2629e78: ldr r4, [r5, #0xc]
+2629e7c: cmp r4, #0
+2629e80: bne #0x2629e88
+2629e84: bl #0x236fcb0
+2629e88: vstr s16, [r4, #0x14]
+2629e8c: vpop {d8}
+2629e90: pop {r4, r5, fp, pc}
+
+# .<>c__DisplayClass10_0::<BuildPrimary>b__3 0x2629e94 size=60
+2629e94: push {r4, r5, fp, lr}
+2629e98: vpush {d8}
+2629e9c: ldr r5, [r0, #0xc]
+2629ea0: mov r4, r1
+2629ea4: cmp r5, #0
+2629ea8: bne #0x2629eb0
+2629eac: bl #0x236fcb0
+2629eb0: vmov s16, r4
+2629eb4: ldr r4, [r5, #0xc]
+2629eb8: cmp r4, #0
+2629ebc: bne #0x2629ec4
+2629ec0: bl #0x236fcb0
+2629ec4: vstr s16, [r4, #0x18]
+2629ec8: vpop {d8}
+2629ecc: pop {r4, r5, fp, pc}
+
+# .<>c__DisplayClass12_0::.ctor 0x2629508 size=8
+2629508: mov r1, #0
+262950c: b #0x3459e1c
+
+# .<>c__DisplayClass12_0::<Integer>b__0 0x2629ed0 size=400
+2629ed0: push {r4, r5, r6, r7, fp, lr}
+2629ed4: vpush {d8, d9}
+2629ed8: sub sp, sp, #8
+2629edc: ldr r7, [pc, #0x164]
+2629ee0: mov r4, r0
+2629ee4: mov r5, r3
+2629ee8: mov r6, r2
+2629eec: add r7, pc, r7
+2629ef0: ldrb r0, [r7]
+2629ef4: cmp r0, #0
+2629ef8: bne #0x2629f10
+2629efc: ldr r0, [pc, #0x148]
+2629f00: ldr r0, [pc, r0]
+2629f04: bl #0x236fa00
+2629f08: mov r0, #1
+2629f0c: strb r0, [r7]
+2629f10: ldr r0, [pc, #0x138]
+2629f14: ldr r0, [pc, r0]
+2629f18: ldr r7, [r4, #8]
+2629f1c: ldr r0, [r0]
+2629f20: ldr r1, [r0, #0x74]
+2629f24: cmp r1, #0
+2629f28: bne #0x2629f30
+2629f2c: bl #0x236fb74
+2629f30: vmov s0, r7
+2629f34: vmov d9, r6, r5
+2629f38: ldr r5, [pc, #0x114]
+2629f3c: vcvt.f64.s32 d8, s0
+2629f40: add r5, pc, r5
+2629f44: ldrb r0, [r5]
+2629f48: cmp r0, #0
+2629f4c: bne #0x2629f70
+2629f50: ldr r0, [pc, #0x100]
+2629f54: ldr r0, [pc, r0]
+2629f58: bl #0x236fa00
+2629f5c: ldr r0, [pc, #0xf8]
+2629f60: ldr r0, [pc, r0]
+2629f64: bl #0x236fa00
+2629f68: mov r0, #1
+2629f6c: strb r0, [r5]
+2629f70: vcmp.f64 d8, d9
+2629f74: vmrs apsr_nzcv, fpscr
+2629f78: bgt #0x2629f8c
+2629f7c: vldr d8, [pc, #0xb4]
+2629f80: vcmp.f64 d9, d8
+2629f84: vmrs apsr_nzcv, fpscr
+2629f88: vmovle.f64 d8, d9
+2629f8c: vldr d16, [pc, #0xac]
+2629f90: vcvt.s32.f64 s0, d8
+2629f94: ldr r6, [r4, #0xc]
+2629f98: vcmp.f64 d8, d16
+2629f9c: vmrs apsr_nzcv, fpscr
+2629fa0: vmov r5, s0
+2629fa4: moveq r5, #0x80000000
+2629fa8: cmp r6, #0
+2629fac: bne #0x2629fb4
+2629fb0: bl #0x236fcb0
+2629fb4: ldr r3, [r6, #0xc]
+2629fb8: mov r1, r5
+2629fbc: ldr r2, [r6, #0x14]
+2629fc0: ldr r0, [r6, #0x20]
+2629fc4: blx r3
+2629fc8: ldr r6, [r4, #0x10]
+2629fcc: cmp r6, #0
+2629fd0: bne #0x2629fd8
+2629fd4: bl #0x236fcb0
+2629fd8: vmov s0, r5
+2629fdc: mov r0, #0
+2629fe0: str r0, [sp]
+2629fe4: vcvt.f64.s32 d16, s0
+2629fe8: str r0, [sp, #4]
+2629fec: mov r0, r6
+2629ff0: vmov r2, r3, d16
+2629ff4: bl #0x345e09c
+2629ff8: ldr r4, [r4, #0x14]
+2629ffc: cmp r4, #0
+262a000: bne #0x262a008
+262a004: bl #0x236fcb0
+262a008: ldr r4, [r4, #0x10]
+262a00c: cmp r4, #0
+262a010: bne #0x262a018
+262a014: bl #0x236fcb0
+262a018: ldr r2, [r4, #0xc]
+262a01c: ldr r1, [r4, #0x14]
+262a020: ldr r0, [r4, #0x20]
+262a024: add sp, sp, #8
+262a028: vpop {d8, d9}
+262a02c: pop {r4, r5, r6, r7, fp, lr}
+262a030: bx r2
+262a034: nop 
+
+# .<>c__DisplayClass13_0::.ctor 0x2629510 size=8
+2629510: mov r1, #0
+2629514: b #0x3459e1c
+
+# .<>c__DisplayClass13_0::<Ratio>b__0 0x262a060 size=228
+262a060: push {r4, r5, fp, lr}
+262a064: vpush {d8, d9}
+262a068: sub sp, sp, #8
+262a06c: vmov d9, r2, r3
+262a070: vldr s2, [pc, #0xc8]
+262a074: vmov.f32 s0, #1.000000e+00
+262a078: ldr r5, [r0, #8]
+262a07c: vcvt.f32.f64 s16, d9
+262a080: mov r4, r0
+262a084: vcmp.f32 s16, s0
+262a088: vmrs apsr_nzcv, fpscr
+262a08c: vcmp.f32 s16, #0
+262a090: vmovgt.f32 s16, s0
+262a094: vmrs apsr_nzcv, fpscr
+262a098: vmovmi.f32 s16, s2
+262a09c: cmp r5, #0
+262a0a0: bne #0x262a0a8
+262a0a4: bl #0x236fcb0
+262a0a8: vmov r1, s16
+262a0ac: ldr r3, [r5, #0xc]
+262a0b0: ldr r2, [r5, #0x14]
+262a0b4: ldr r0, [r5, #0x20]
+262a0b8: blx r3
+262a0bc: vcmp.f64 d9, #0
+262a0c0: vmrs apsr_nzcv, fpscr
+262a0c4: bmi #0x262a0d8
+262a0c8: vmov.f64 d16, #1.000000e+00
+262a0cc: vcmp.f64 d9, d16
+262a0d0: vmrs apsr_nzcv, fpscr
+262a0d4: ble #0x262a104
+262a0d8: ldr r5, [r4, #0xc]
+262a0dc: cmp r5, #0
+262a0e0: bne #0x262a0e8
+262a0e4: bl #0x236fcb0
+262a0e8: vcvt.f64.f32 d16, s16
+262a0ec: mov r0, #0
+262a0f0: str r0, [sp]
+262a0f4: str r0, [sp, #4]
+262a0f8: mov r0, r5
+262a0fc: vmov r2, r3, d16
+262a100: bl #0x345e09c
+262a104: ldr r4, [r4, #0x10]
+262a108: cmp r4, #0
+262a10c: bne #0x262a114
+262a110: bl #0x236fcb0
+262a114: ldr r4, [r4, #0x10]
+262a118: cmp r4, #0
+262a11c: bne #0x262a124
+262a120: bl #0x236fcb0
+262a124: ldr r2, [r4, #0xc]
+262a128: ldr r1, [r4, #0x14]
+262a12c: ldr r0, [r4, #0x20]
+262a130: add sp, sp, #8
+262a134: vpop {d8, d9}
+262a138: pop {r4, r5, fp, lr}
+262a13c: bx r2
+262a140: andeq r0, r0, r0
+
+# .<>c__DisplayClass19_0::.ctor 0x262a794 size=8
+262a794: mov r1, #0
+262a798: b #0x3459e1c
+
+# .<>c__DisplayClass19_0::<BuildContent>b__0 0x262c73c size=52
+262c73c: push {r4, r5, r6, lr}
+262c740: ldr r6, [r0, #8]
+262c744: mov r4, r1
+262c748: ldr r5, [r0, #0xc]
+262c74c: cmp r6, #0
+262c750: bne #0x262c758
+262c754: bl #0x236fcb0
+262c758: mov r0, r6
+262c75c: mov r1, r4
+262c760: mov r2, r5
+262c764: pop {r4, r5, r6, lr}
+262c768: b #0x262b1c4 ; Loom.Game.LevelEase.LevelEaseDebugPage::SetCustomConfig
+262c76c: nop 
+
+# .<>c__DisplayClass19_0::<BuildContent>b__1 0x262c770 size=80
+262c770: push {r4, lr}
+262c774: vpush {d8}
+262c778: ldr r4, [r0, #8]
+262c77c: vmov d8, r2, r3
+262c780: cmp r4, #0
+262c784: bne #0x262c78c
+262c788: bl #0x236fcb0
+262c78c: vcvt.s32.f64 s0, d8
+262c790: vmov r0, s0
+262c794: vldr d16, [pc, #0x1c]
+262c798: vcmp.f64 d8, d16
+262c79c: cmp r0, #1
+262c7a0: movle r0, #1
+262c7a4: vmrs apsr_nzcv, fpscr
+262c7a8: movweq r0, #1
+262c7ac: str r0, [r4, #0x28]
+262c7b0: vpop {d8}
+262c7b4: pop {r4, pc}
+262c7b8: andeq r0, r0, r0
+262c7bc: svcvc #0xf00000
+
+# .<>c::.cctor 0x262cbe8 size=116
+262cbe8: push {r4, r5, fp, lr}
+262cbec: ldr r4, [pc, #0x5c]
+262cbf0: add r4, pc, r4
+262cbf4: ldrb r0, [r4]
+262cbf8: cmp r0, #0
+262cbfc: bne #0x262cc14
+262cc00: ldr r0, [pc, #0x4c]
+262cc04: ldr r0, [pc, r0]
+262cc08: bl #0x236fa00
+262cc0c: mov r0, #1
+262cc10: strb r0, [r4]
+262cc14: ldr r5, [pc, #0x3c]
+262cc18: ldr r5, [pc, r5]
+262cc1c: ldr r0, [r5]
+262cc20: bl #0x236fca4
+262cc24: mov r1, #0
+262cc28: mov r4, r0
+262cc2c: bl #0x3459e1c
+262cc30: ldr r0, [r5]
+262cc34: mov r1, r4
+262cc38: ldr r0, [r0, #0x5c]
+262cc3c: str r4, [r0]
+262cc40: ldr r0, [r5]
+262cc44: ldr r0, [r0, #0x5c]
+262cc48: pop {r4, r5, fp, lr}
+262cc4c: b #0x236f99c
+262cc50: ldreq r6, [sp], r6, ror #19
+262cc54: uqsaxeq pc, r8, ip
+262cc58: strbteq pc, [r8], -r8, asr #6
+
+# .<>c::.ctor 0x262cc5c size=8
+262cc5c: mov r1, #0
+262cc60: b #0x3459e1c
+
+# .<>c::<Ease>b__1_0 0x262cc64 size=28
+262cc64: push {r4, lr}
+262cc68: mov r4, r1
+262cc6c: cmp r1, #0
+262cc70: bne #0x262cc78
+262cc74: bl #0x236fcb0
+262cc78: ldr r0, [r4, #8]
+262cc7c: pop {r4, pc}
+
+# .<>c::.cctor 0x262d0d8 size=116
+262d0d8: push {r4, r5, fp, lr}
+262d0dc: ldr r4, [pc, #0x5c]
+262d0e0: add r4, pc, r4
+262d0e4: ldrb r0, [r4]
+262d0e8: cmp r0, #0
+262d0ec: bne #0x262d104
+262d0f0: ldr r0, [pc, #0x4c]
+262d0f4: ldr r0, [pc, r0]
+262d0f8: bl #0x236fa00
+262d0fc: mov r0, #1
+262d100: strb r0, [r4]
+262d104: ldr r5, [pc, #0x3c]
+262d108: ldr r5, [pc, r5]
+262d10c: ldr r0, [r5]
+262d110: bl #0x236fca4
+262d114: mov r1, #0
+262d118: mov r4, r0
+262d11c: bl #0x3459e1c
+262d120: ldr r0, [r5]
+262d124: mov r1, r4
+262d128: ldr r0, [r0, #0x5c]
+262d12c: str r4, [r0]
+262d130: ldr r0, [r5]
+262d134: ldr r0, [r0, #0x5c]
+262d138: pop {r4, r5, fp, lr}
+262d13c: b #0x236f99c
+
+# .<>c::.ctor 0x262d14c size=8
+262d14c: mov r1, #0
+262d150: b #0x3459e1c
+
+# .<>c::<Ease>b__1_0 0x262d154 size=28
+262d154: push {r4, lr}
+262d158: mov r4, r1
+262d15c: cmp r1, #0
+262d160: bne #0x262d168
+262d164: bl #0x236fcb0
+262d168: ldr r0, [r4, #8]
+262d16c: pop {r4, pc}
+
+# .<>c::.cctor 0x262d79c size=116
+262d79c: push {r4, r5, fp, lr}
+262d7a0: ldr r4, [pc, #0x5c]
+262d7a4: add r4, pc, r4
+262d7a8: ldrb r0, [r4]
+262d7ac: cmp r0, #0
+262d7b0: bne #0x262d7c8
+262d7b4: ldr r0, [pc, #0x4c]
+262d7b8: ldr r0, [pc, r0]
+262d7bc: bl #0x236fa00
+262d7c0: mov r0, #1
+262d7c4: strb r0, [r4]
+262d7c8: ldr r5, [pc, #0x3c]
+262d7cc: ldr r5, [pc, r5]
+262d7d0: ldr r0, [r5]
+262d7d4: bl #0x236fca4
+262d7d8: mov r1, #0
+262d7dc: mov r4, r0
+262d7e0: bl #0x3459e1c
+262d7e4: ldr r0, [r5]
+262d7e8: mov r1, r4
+262d7ec: ldr r0, [r0, #0x5c]
+262d7f0: str r4, [r0]
+262d7f4: ldr r0, [r5]
+262d7f8: ldr r0, [r0, #0x5c]
+262d7fc: pop {r4, r5, fp, lr}
+262d800: b #0x236f99c
+
+# .<>c::.ctor 0x262d810 size=8
+262d810: mov r1, #0
+262d814: b #0x3459e1c
+
+# .<>c::<Ease>b__1_0 0x262d818 size=28
+262d818: push {r4, lr}
+262d81c: mov r4, r1
+262d820: cmp r1, #0
+262d824: bne #0x262d82c
+262d828: bl #0x236fcb0
+262d82c: ldr r0, [r4, #8]
+262d830: pop {r4, pc}
+
+# .<>c::.cctor 0x262e160 size=116
+262e160: push {r4, r5, fp, lr}
+262e164: ldr r4, [pc, #0x5c]
+262e168: add r4, pc, r4
+262e16c: ldrb r0, [r4]
+262e170: cmp r0, #0
+262e174: bne #0x262e18c
+262e178: ldr r0, [pc, #0x4c]
+262e17c: ldr r0, [pc, r0]
+262e180: bl #0x236fa00
+262e184: mov r0, #1
+262e188: strb r0, [r4]
+262e18c: ldr r5, [pc, #0x3c]
+262e190: ldr r5, [pc, r5]
+262e194: ldr r0, [r5]
+262e198: bl #0x236fca4
+262e19c: mov r1, #0
+262e1a0: mov r4, r0
+262e1a4: bl #0x3459e1c
+262e1a8: ldr r0, [r5]
+262e1ac: mov r1, r4
+262e1b0: ldr r0, [r0, #0x5c]
+262e1b4: str r4, [r0]
+262e1b8: ldr r0, [r5]
+262e1bc: ldr r0, [r0, #0x5c]
+262e1c0: pop {r4, r5, fp, lr}
+262e1c4: b #0x236f99c
+
+# .<>c::.ctor 0x262e1d4 size=8
+262e1d4: mov r1, #0
+262e1d8: b #0x3459e1c
+
+# .<>c::<Ease>b__2_0 0x262e1dc size=28
+262e1dc: push {r4, lr}
+262e1e0: mov r4, r1
+262e1e4: cmp r1, #0
+262e1e8: bne #0x262e1f0
+262e1ec: bl #0x236fcb0
+262e1f0: ldr r0, [r4, #8]
+262e1f4: pop {r4, pc}
+
+# .<>c::.cctor 0x262e5d0 size=116
+262e5d0: push {r4, r5, fp, lr}
+262e5d4: ldr r4, [pc, #0x5c]
+262e5d8: add r4, pc, r4
+262e5dc: ldrb r0, [r4]
+262e5e0: cmp r0, #0
+262e5e4: bne #0x262e5fc
+262e5e8: ldr r0, [pc, #0x4c]
+262e5ec: ldr r0, [pc, r0]
+262e5f0: bl #0x236fa00
+262e5f4: mov r0, #1
+262e5f8: strb r0, [r4]
+262e5fc: ldr r5, [pc, #0x3c]
+262e600: ldr r5, [pc, r5]
+262e604: ldr r0, [r5]
+262e608: bl #0x236fca4
+262e60c: mov r1, #0
+262e610: mov r4, r0
+262e614: bl #0x3459e1c
+262e618: ldr r0, [r5]
+262e61c: mov r1, r4
+262e620: ldr r0, [r0, #0x5c]
+262e624: str r4, [r0]
+262e628: ldr r0, [r5]
+262e62c: ldr r0, [r0, #0x5c]
+262e630: pop {r4, r5, fp, lr}
+262e634: b #0x236f99c
+262e638: ldreq r5, [sp], fp
+262e63c: strbteq sp, [r8], -r4, lsr #19
+262e640: uqadd8eq sp, r8, r0
+
+# .<>c::.ctor 0x262e644 size=8
+262e644: mov r1, #0
+262e648: b #0x3459e1c
+
+# .<>c::<Ease>b__1_0 0x262e64c size=28
+262e64c: push {r4, lr}
+262e650: mov r4, r1
+262e654: cmp r1, #0
+262e658: bne #0x262e660
+262e65c: bl #0x236fcb0
+262e660: ldr r0, [r4, #8]
+262e664: pop {r4, pc}
+
+# .<>c::<Ease>b__2_0 0x262e668 size=28
+262e668: push {r4, lr}
+262e66c: mov r4, r1
+262e670: cmp r1, #0
+262e674: bne #0x262e67c
+262e678: bl #0x236fcb0
+262e67c: ldr r0, [r4, #8]
+262e680: pop {r4, pc}
+
+# .<>c::.cctor 0x262eb2c size=116
+262eb2c: push {r4, r5, fp, lr}
+262eb30: ldr r4, [pc, #0x5c]
+262eb34: add r4, pc, r4
+262eb38: ldrb r0, [r4]
+262eb3c: cmp r0, #0
+262eb40: bne #0x262eb58
+262eb44: ldr r0, [pc, #0x4c]
+262eb48: ldr r0, [pc, r0]
+262eb4c: bl #0x236fa00
+262eb50: mov r0, #1
+262eb54: strb r0, [r4]
+262eb58: ldr r5, [pc, #0x3c]
+262eb5c: ldr r5, [pc, r5]
+262eb60: ldr r0, [r5]
+262eb64: bl #0x236fca4
+262eb68: mov r1, #0
+262eb6c: mov r4, r0
+262eb70: bl #0x3459e1c
+262eb74: ldr r0, [r5]
+262eb78: mov r1, r4
+262eb7c: ldr r0, [r0, #0x5c]
+262eb80: str r4, [r0]
+262eb84: ldr r0, [r5]
+262eb88: ldr r0, [r0, #0x5c]
+262eb8c: pop {r4, r5, fp, lr}
+262eb90: b #0x236f99c
+
+# .<>c::.ctor 0x262eba0 size=8
+262eba0: mov r1, #0
+262eba4: b #0x3459e1c
+
+# .<>c::<Ease>b__2_0 0x262eba8 size=28
+262eba8: push {r4, lr}
+262ebac: mov r4, r1
+262ebb0: cmp r1, #0
+262ebb4: bne #0x262ebbc
+262ebb8: bl #0x236fcb0
+262ebbc: ldr r0, [r4, #8]
+262ebc0: pop {r4, pc}
+
+# .<>c::.cctor 0x262ee90 size=116
+262ee90: push {r4, r5, fp, lr}
+262ee94: ldr r4, [pc, #0x5c]
+262ee98: add r4, pc, r4
+262ee9c: ldrb r0, [r4]
+262eea0: cmp r0, #0
+262eea4: bne #0x262eebc
+262eea8: ldr r0, [pc, #0x4c]
+262eeac: ldr r0, [pc, r0]
+262eeb0: bl #0x236fa00
+262eeb4: mov r0, #1
+262eeb8: strb r0, [r4]
+262eebc: ldr r5, [pc, #0x3c]
+262eec0: ldr r5, [pc, r5]
+262eec4: ldr r0, [r5]
+262eec8: bl #0x236fca4
+262eecc: mov r1, #0
+262eed0: mov r4, r0
+262eed4: bl #0x3459e1c
+262eed8: ldr r0, [r5]
+262eedc: mov r1, r4
+262eee0: ldr r0, [r0, #0x5c]
+262eee4: str r4, [r0]
+262eee8: ldr r0, [r5]
+262eeec: ldr r0, [r0, #0x5c]
+262eef0: pop {r4, r5, fp, lr}
+262eef4: b #0x236f99c
+
+# .<>c::.ctor 0x262ef04 size=8
+262ef04: mov r1, #0
+262ef08: b #0x3459e1c
+
+# .<>c::<Ease>b__1_0 0x262ef0c size=28
+262ef0c: push {r4, lr}
+262ef10: mov r4, r1
+262ef14: cmp r1, #0
+262ef18: bne #0x262ef20
+262ef1c: bl #0x236fcb0
+262ef20: ldr r0, [r4, #8]
+262ef24: pop {r4, pc}
+
+# .Rule::.ctor 0x26304c0 size=8
+26304c0: mov r1, #0
+26304c4: b #0x3459e1c
+
+# .<>c::.cctor 0x26310d0 size=116
+26310d0: push {r4, r5, fp, lr}
+26310d4: ldr r4, [pc, #0x5c]
+26310d8: add r4, pc, r4
+26310dc: ldrb r0, [r4]
+26310e0: cmp r0, #0
+26310e4: bne #0x26310fc
+26310e8: ldr r0, [pc, #0x4c]
+26310ec: ldr r0, [pc, r0]
+26310f0: bl #0x236fa00
+26310f4: mov r0, #1
+26310f8: strb r0, [r4]
+26310fc: ldr r5, [pc, #0x3c]
+2631100: ldr r5, [pc, r5]
+2631104: ldr r0, [r5]
+2631108: bl #0x236fca4
+263110c: mov r1, #0
+2631110: mov r4, r0
+2631114: bl #0x3459e1c
+2631118: ldr r0, [r5]
+263111c: mov r1, r4
+2631120: ldr r0, [r0, #0x5c]
+2631124: str r4, [r0]
+2631128: ldr r0, [r5]
+263112c: ldr r0, [r0, #0x5c]
+2631130: pop {r4, r5, fp, lr}
+2631134: b #0x236f99c
+
+# .<>c::.ctor 0x2631144 size=8
+2631144: mov r1, #0
+2631148: b #0x3459e1c
+
+# .<>c::<CaptureValues>b__1_1 0x263114c size=28
+263114c: push {r4, lr}
+2631150: mov r4, r1
+2631154: cmp r1, #0
+2631158: bne #0x2631160
+263115c: bl #0x236fcb0
+2631160: ldr r0, [r4, #8]
+2631164: pop {r4, pc}
+
+# .<>c::<Apply>b__5_0 0x2631168 size=8
+2631168: mov r0, r1
+263116c: bx lr
+
+# .<>c__DisplayClass1_0::.ctor 0x262feec size=8
+262feec: mov r1, #0
+262fef0: b #0x3459e1c
+
+# .<>c__DisplayClass1_0::<CaptureValues>b__0 0x2631170 size=100
+2631170: push {r4, r5, r6, r7, fp, lr}
+2631174: ldr r6, [r0, #8]
+2631178: mov r5, r1
+263117c: mov r4, r0
+2631180: cmp r6, #0
+2631184: bne #0x263118c
+2631188: bl #0x236fcb0
+263118c: ldr r7, [r4, #0xc]
+2631190: cmp r5, #0
+2631194: ldr r6, [r6, #0x14]
+2631198: bne #0x26311a0
+263119c: bl #0x236fcb0
+26311a0: ldr r5, [r5, #8]
+26311a4: cmp r6, #0
+26311a8: bne #0x26311b0
+26311ac: bl #0x236fcb0
+26311b0: ldr r4, [r6, #0xc]
+26311b4: mov r1, r7
+26311b8: ldr r3, [r6, #0x14]
+26311bc: mov r2, r5
+26311c0: ldr r0, [r6, #0x20]
+26311c4: blx r4
+26311c8: mvn r0, r0
+26311cc: lsr r0, r0, #0x1f
+26311d0: pop {r4, r5, r6, r7, fp, pc}
+
+# .<>c__DisplayClass1_0::<CaptureValues>b__2 0x26311d4 size=92
+26311d4: push {r4, r5, r6, lr}
+26311d8: ldr r6, [r0, #8]
+26311dc: mov r5, r1
+26311e0: mov r4, r0
+26311e4: cmp r6, #0
+26311e8: bne #0x26311f0
+26311ec: bl #0x236fcb0
+26311f0: ldr r4, [r4, #0xc]
+26311f4: cmp r5, #0
+26311f8: ldr r6, [r6, #0x14]
+26311fc: bne #0x2631204
+2631200: bl #0x236fcb0
+2631204: ldr r5, [r5, #8]
+2631208: cmp r6, #0
+263120c: bne #0x2631214
+2631210: bl #0x236fcb0
+2631214: ldr ip, [r6, #0xc]
+2631218: mov r1, r4
+263121c: ldr r3, [r6, #0x14]
+2631220: mov r2, r5
+2631224: ldr r0, [r6, #0x20]
+2631228: pop {r4, r5, r6, lr}
+263122c: bx ip
+
+# .<>c__DisplayClass3_0::.ctor 0x26304b8 size=8
+26304b8: mov r1, #0
+26304bc: b #0x3459e1c
+
+# .<>c__DisplayClass3_0::<Add>b__0 0x2631230 size=48
+2631230: push {r4, r5, fp, lr}
+2631234: mov r4, r1
+2631238: mov r5, r0
+263123c: cmp r1, #0
+2631240: bne #0x2631248
+2631244: bl #0x236fcb0
+2631248: ldr r0, [r5, #8]
+263124c: ldr r1, [r4, #0xc]
+2631250: sub r0, r1, r0
+2631254: clz r0, r0
+2631258: lsr r0, r0, #5
+263125c: pop {r4, r5, fp, pc}
+
+# .<>c__DisplayClass4_0::.ctor 0x26307d0 size=8
+26307d0: mov r1, #0
+26307d4: b #0x3459e1c
+
+# .<>c__DisplayClass4_1::.ctor 0x26307d8 size=8
+26307d8: mov r1, #0
+26307dc: b #0x3459e1c
+
+# .<>c__DisplayClass4_1::<CaptureOriginal>b__0 0x2631260 size=116
+2631260: push {r4, r5, r6, r7, fp, lr}
+2631264: ldr r6, [r0, #8]
+2631268: mov r4, r1
+263126c: mov r5, r0
+2631270: cmp r6, #0
+2631274: bne #0x263127c
+2631278: bl #0x236fcb0
+263127c: ldr r5, [r5, #0xc]
+2631280: ldr r6, [r6, #0x14]
+2631284: cmp r5, #0
+2631288: bne #0x2631290
+263128c: bl #0x236fcb0
+2631290: ldr r7, [r5, #8]
+2631294: cmp r4, #0
+2631298: bne #0x26312a0
+263129c: bl #0x236fcb0
+26312a0: ldr r4, [r4, #8]
+26312a4: cmp r6, #0
+26312a8: bne #0x26312b0
+26312ac: bl #0x236fcb0
+26312b0: ldr r5, [r6, #0xc]
+26312b4: mov r1, r7
+26312b8: ldr r3, [r6, #0x14]
+26312bc: mov r2, r4
+26312c0: ldr r0, [r6, #0x20]
+26312c4: blx r5
+26312c8: mvn r0, r0
+26312cc: lsr r0, r0, #0x1f
+26312d0: pop {r4, r5, r6, r7, fp, pc}
+
+# .<>c__DisplayClass5_0::.ctor 0x2631028 size=8
+2631028: mov r1, #0
+263102c: b #0x3459e1c
+
+# .<>c__DisplayClass5_0::<Apply>b__1 0x26312d4 size=8
+26312d4: ldr r0, [r0, #8]
+26312d8: b #0x262fc6c ; Loom.Game.LevelEase.LevelEaseFeaturePipeline::CaptureValues
+
+# .<>c__DisplayClass5_1::.ctor 0x2631030 size=8
+2631030: mov r1, #0
+2631034: b #0x3459e1c
+
+# .<>c__DisplayClass5_1::<Apply>b__2 0x26312dc size=168
+26312dc: push {r4, r5, r6, r7, r8, lr}
+26312e0: ldr r7, [pc, #0x90]
+26312e4: mov r6, r0
+26312e8: mov r8, r2
+26312ec: mov r5, r1
+26312f0: add r7, pc, r7
+26312f4: ldrb r0, [r7]
+26312f8: cmp r0, #0
+26312fc: bne #0x2631320
+2631300: ldr r0, [pc, #0x74]
+2631304: ldr r0, [pc, r0]
+2631308: bl #0x236fa00
+263130c: ldr r0, [pc, #0x6c]
+2631310: ldr r0, [pc, r0]
+2631314: bl #0x236fa00
+2631318: mov r0, #1
+263131c: strb r0, [r7]
+2631320: ldr r7, [r6, #8]
+2631324: cmp r7, #0
+2631328: bne #0x2631330
+263132c: bl #0x236fcb0
+2631330: ldr r6, [r6, #0xc]
+2631334: ldr r7, [r7, #0x14]
+2631338: cmp r6, #0
+263133c: bne #0x2631344
+2631340: bl #0x236fcb0
+2631344: ldr r6, [r6, #8]
+2631348: cmp r7, #0
+263134c: bne #0x2631354
+2631350: bl #0x236fcb0
+2631354: ldr r4, [r7, #0xc]
+2631358: mov r1, r6
+263135c: ldr r3, [r7, #0x14]
+2631360: mov r2, r5
+2631364: ldr r0, [r7, #0x20]
+2631368: blx r4
+263136c: subs r0, r0, r8
+2631370: movwne r0, #1
+2631374: pop {r4, r5, r6, r7, r8, pc}
+
+# .<>c::.cctor 0x2632508 size=116
+2632508: push {r4, r5, fp, lr}
+263250c: ldr r4, [pc, #0x5c]
+2632510: add r4, pc, r4
+2632514: ldrb r0, [r4]
+2632518: cmp r0, #0
+263251c: bne #0x2632534
+2632520: ldr r0, [pc, #0x4c]
+2632524: ldr r0, [pc, r0]
+2632528: bl #0x236fa00
+263252c: mov r0, #1
+2632530: strb r0, [r4]
+2632534: ldr r5, [pc, #0x3c]
+2632538: ldr r5, [pc, r5]
+263253c: ldr r0, [r5]
+2632540: bl #0x236fca4
+2632544: mov r1, #0
+2632548: mov r4, r0
+263254c: bl #0x3459e1c
+2632550: ldr r0, [r5]
+2632554: mov r1, r4
+2632558: ldr r0, [r0, #0x5c]
+263255c: str r4, [r0]
+2632560: ldr r0, [r5]
+2632564: ldr r0, [r0, #0x5c]
+2632568: pop {r4, r5, fp, lr}
+263256c: b #0x236f99c
+2632570: ldreq r1, [sp], r3, lsl #2
+2632574: uqadd8eq sb, r8, ip
+2632578: strbteq sb, [r8], -r8, lsl #23
+
+# .<>c::.ctor 0x263257c size=8
+263257c: mov r1, #0
+2632580: b #0x3459e1c
+
+# .<>c::<RecordFailure>b__10_0 0x2632584 size=180
+2632584: push {r4, r5, fp, lr}
+2632588: ldr r5, [pc, #0x9c]
+263258c: mov r4, r1
+2632590: add r5, pc, r5
+2632594: ldrb r0, [r5]
+2632598: cmp r0, #0
+263259c: bne #0x26325b4
+26325a0: ldr r0, [pc, #0x88]
+26325a4: ldr r0, [pc, r0]
+26325a8: bl #0x236fa00
+26325ac: mov r0, #1
+26325b0: strb r0, [r5]
+26325b4: cmp r4, #0
+26325b8: bne #0x26325c0
+26325bc: bl #0x236fcb0
+26325c0: ldr r0, [r4]
+26325c4: ldr r1, [pc, #0x68]
+26325c8: ldr r1, [pc, r1]
+26325cc: ldrh r2, [r0, #0xb6]
+26325d0: ldr r1, [r1]
+26325d4: cmp r2, #0
+26325d8: beq #0x26325fc
+26325dc: ldr r3, [r0, #0x58]
+26325e0: add r3, r3, #4
+26325e4: ldr r5, [r3, #-4]
+26325e8: cmp r5, r1
+26325ec: beq #0x263260c
+26325f0: subs r2, r2, #1
+26325f4: add r3, r3, #8
+26325f8: bne #0x26325e4
+26325fc: mov r0, r4
+2632600: mov r2, #8
+2632604: bl #0x23ab0bc
+2632608: b #0x2632618
+263260c: ldr r1, [r3]
+2632610: add r0, r0, r1, lsl #3
+2632614: add r0, r0, #0x100
+2632618: ldrd r2, r3, [r0]
+263261c: mov r0, r4
+2632620: mov r1, r3
+2632624: pop {r4, r5, fp, lr}
+2632628: bx r2
+263262c: ldreq r1, [sp], r4, lsl #1
+2632630: strbteq r7, [r8], -ip, lsr #18
+2632634: strbteq r7, [r8], -r8, lsl #18
+
+# .<>c::<RecordFailure>b__10_1 0x2632638 size=28
+2632638: push {r4, lr}
+263263c: mov r4, r1
+2632640: cmp r1, #0
+2632644: bne #0x263264c
+2632648: bl #0x236fcb0
+263264c: ldr r0, [r4, #0x38]
+2632650: pop {r4, pc}
+
+# .<>c::.cctor 0x26334c8 size=116
+26334c8: push {r4, r5, fp, lr}
+26334cc: ldr r4, [pc, #0x5c]
+26334d0: add r4, pc, r4
+26334d4: ldrb r0, [r4]
+26334d8: cmp r0, #0
+26334dc: bne #0x26334f4
+26334e0: ldr r0, [pc, #0x4c]
+26334e4: ldr r0, [pc, r0]
+26334e8: bl #0x236fa00
+26334ec: mov r0, #1
+26334f0: strb r0, [r4]
+26334f4: ldr r5, [pc, #0x3c]
+26334f8: ldr r5, [pc, r5]
+26334fc: ldr r0, [r5]
+2633500: bl #0x236fca4
+2633504: mov r1, #0
+2633508: mov r4, r0
+263350c: bl #0x3459e1c
+2633510: ldr r0, [r5]
+2633514: mov r1, r4
+2633518: ldr r0, [r0, #0x5c]
+263351c: str r4, [r0]
+2633520: ldr r0, [r5]
+2633524: ldr r0, [r0, #0x5c]
+2633528: pop {r4, r5, fp, lr}
+263352c: b #0x236f99c
+2633530: ldreq r0, [sp], fp, asr #2
+2633534: strbteq r8, [r8], -ip, lsr #20
+2633538: uqadd16eq r8, r8, r8
+
+# .<>c::.ctor 0x263353c size=8
+263353c: mov r1, #0
+2633540: b #0x3459e1c
+
+# .<>c::<IncludePipeContents>b__0_0 0x2633544 size=28
+2633544: push {r4, lr}
+2633548: mov r4, r1
+263354c: cmp r1, #0
+2633550: bne #0x2633558
+2633554: bl #0x236fcb0
+2633558: ldr r0, [r4, #8]
+263355c: pop {r4, pc}
+
+# .<>c::<GetRowCount>b__2_0 0x2633560 size=92
+2633560: push {r4, r5, fp, lr}
+2633564: ldr r5, [pc, #0x48]
+2633568: mov r4, r1
+263356c: add r5, pc, r5
+2633570: ldrb r0, [r5]
+2633574: cmp r0, #0
+2633578: bne #0x2633590
+263357c: ldr r0, [pc, #0x34]
+2633580: ldr r0, [pc, r0]
+2633584: bl #0x236fa00
+2633588: mov r0, #1
+263358c: strb r0, [r5]
+2633590: cmp r4, #0
+2633594: bne #0x263359c
+2633598: bl #0x236fcb0
+263359c: ldr r4, [r4, #8]
+26335a0: cmp r4, #0
+26335a4: bne #0x26335ac
+26335a8: bl #0x236fcb0
+26335ac: ldr r0, [r4, #0xc]
+26335b0: pop {r4, r5, fp, pc}
+
+# .<>c__DisplayClass0_0::.ctor 0x2632edc size=8
+2632edc: mov r1, #0
+2632ee0: b #0x3459e1c
+
+# .<>c__DisplayClass0_0::<IncludePipeContents>b__1 0x26335bc size=124
+26335bc: push {r4, r5, r6, lr}
+26335c0: ldr r6, [pc, #0x64]
+26335c4: mov r5, r0
+26335c8: mov r4, r1
+26335cc: add r6, pc, r6
+26335d0: ldrb r0, [r6]
+26335d4: cmp r0, #0
+26335d8: bne #0x26335f0
+26335dc: ldr r0, [pc, #0x4c]
+26335e0: ldr r0, [pc, r0]
+26335e4: bl #0x236fa00
+26335e8: mov r0, #1
+26335ec: strb r0, [r6]
+26335f0: ldr r5, [r5, #8]
+26335f4: cmp r4, #0
+26335f8: bne #0x2633600
+26335fc: bl #0x236fcb0
+2633600: ldr r4, [r4, #8]
+2633604: cmp r5, #0
+2633608: bne #0x2633610
+263360c: bl #0x236fcb0
+2633610: ldr r0, [pc, #0x1c]
+2633614: mov r1, r4
+2633618: ldr r0, [pc, r0]
+263361c: ldr r2, [r0]
+2633620: mov r0, r5
+2633624: pop {r4, r5, r6, lr}
+2633628: b #0x3fbc394
+
+# .<>c__DisplayClass3_0::.ctor 0x2633224 size=8
+2633224: mov r1, #0
+2633228: b #0x3459e1c
+
+# .<>c__DisplayClass3_0::<SelectFromRow>b__0 0x2633638 size=108
+2633638: push {r4, r5, r6, lr}
+263363c: ldr r6, [pc, #0x54]
+2633640: mov r5, r0
+2633644: mov r4, r1
+2633648: add r6, pc, r6
+263364c: ldrb r0, [r6]
+2633650: cmp r0, #0
+2633654: bne #0x263366c
+2633658: ldr r0, [pc, #0x3c]
+263365c: ldr r0, [pc, r0]
+2633660: bl #0x236fa00
+2633664: mov r0, #1
+2633668: strb r0, [r6]
+263366c: cmp r4, #0
+2633670: bne #0x2633678
+2633674: bl #0x236fcb0
+2633678: ldr r1, [r5, #8]
+263367c: ldr r0, [pc, #0x1c]
+2633680: sub r1, r1, #1
+2633684: ldr r0, [pc, r0]
+2633688: ldr r2, [r0]
+263368c: ldr r0, [r4, #8]
+2633690: pop {r4, r5, r6, lr}
+2633694: b #0x33fc6f4
+
+# .<>c__DisplayClass4_0::.ctor 0x26334c0 size=8
+26334c0: mov r1, #0
+26334c4: b #0x3459e1c
+
+# .<>c__DisplayClass4_0::<GetQueueRow>b__0 0x26336a4 size=48
+26336a4: push {r4, r5, fp, lr}
+26336a8: mov r4, r1
+26336ac: mov r5, r0
+26336b0: cmp r1, #0
+26336b4: bne #0x26336bc
+26336b8: bl #0x236fcb0
+26336bc: ldr r0, [r5, #8]
+26336c0: ldr r1, [r4, #8]
+26336c4: sub r0, r1, r0
+26336c8: clz r0, r0
+26336cc: lsr r0, r0, #5
+26336d0: pop {r4, r5, fp, pc}
+
+# .<>c::.cctor 0x2634694 size=116
+2634694: push {r4, r5, fp, lr}
+2634698: ldr r4, [pc, #0x5c]
+263469c: add r4, pc, r4
+26346a0: ldrb r0, [r4]
+26346a4: cmp r0, #0
+26346a8: bne #0x26346c0
+26346ac: ldr r0, [pc, #0x4c]
+26346b0: ldr r0, [pc, r0]
+26346b4: bl #0x236fa00
+26346b8: mov r0, #1
+26346bc: strb r0, [r4]
+26346c0: ldr r5, [pc, #0x3c]
+26346c4: ldr r5, [pc, r5]
+26346c8: ldr r0, [r5]
+26346cc: bl #0x236fca4
+26346d0: mov r1, #0
+26346d4: mov r4, r0
+26346d8: bl #0x3459e1c
+26346dc: ldr r0, [r5]
+26346e0: mov r1, r4
+26346e4: ldr r0, [r0, #0x5c]
+26346e8: str r4, [r0]
+26346ec: ldr r0, [r5]
+26346f0: ldr r0, [r0, #0x5c]
+26346f4: pop {r4, r5, fp, lr}
+26346f8: b #0x236f99c
+26346fc: ldreq lr, [ip], fp, lsl #31
+2634700: strbteq r7, [r8], -ip, lsr #21
+2634704: uqadd8eq r7, r8, r8
+
+# .<>c::.ctor 0x2634708 size=8
+2634708: mov r1, #0
+263470c: b #0x3459e1c
+
+# .<>c::<CreatePipeline>b__25_0 0x2634710 size=144
+2634710: push {r4, r5, r6, lr}
+2634714: ldr r6, [pc, #0x7c]
+2634718: mov r4, r2
+263471c: mov r5, r1
+2634720: add r6, pc, r6
+2634724: ldrb r0, [r6]
+2634728: cmp r0, #0
+263472c: bne #0x2634744
+2634730: ldr r0, [pc, #0x64]
+2634734: ldr r0, [pc, r0]
+2634738: bl #0x236fa00
+263473c: mov r0, #1
+2634740: strb r0, [r6]
+2634744: cmp r5, #0
+2634748: bne #0x2634750
+263474c: bl #0x236fcb0
+2634750: ldr r5, [r5, #0x24]
+2634754: cmp r5, #0
+2634758: bne #0x2634760
+263475c: bl #0x236fcb0
+2634760: mov r0, r5
+2634764: mov r1, r4
+2634768: mov r2, #0
+263476c: bl #0x276753c ; Loom.Game.LevelFeatures.ConnectedShootersData::GetConnectedShooterData
+2634770: cmp r0, #0
+2634774: beq #0x2634790
+2634778: ldr r4, [r0, #0xc]
+263477c: cmp r4, #0
+2634780: bne #0x2634788
+2634784: bl #0x236fcb0
+2634788: ldr r0, [r4, #0xc]
+263478c: pop {r4, r5, r6, pc}
+2634790: mvn r0, #0
+2634794: pop {r4, r5, r6, pc}
+2634798: ldreq lr, [ip], r8, lsl #30
+263479c: strbteq r2, [r8], -r0, ror #28
+
+# .<>c::<CreatePipeline>b__25_1 0x26347a0 size=88
+26347a0: push {r4, r5, r6, lr}
+26347a4: mov r4, r2
+26347a8: mov r5, r1
+26347ac: cmp r1, #0
+26347b0: bne #0x26347b8
+26347b4: bl #0x236fcb0
+26347b8: ldr r6, [r5, #0x30]
+26347bc: cmp r6, #0
+26347c0: bne #0x26347c8
+26347c4: bl #0x236fcb0
+26347c8: mov r0, r6
+26347cc: mov r1, r4
+26347d0: mov r2, #0
+26347d4: bl #0x2873ce0 ; Loom.Game.LevelFeatures.HammersData::Contains
+26347d8: cmp r0, #0
+26347dc: beq #0x26347f0
+26347e0: mov r0, r5
+26347e4: mov r1, r4
+26347e8: pop {r4, r5, r6, lr}
+26347ec: b #0x263322c ; Loom.Game.LevelEase.LevelEaseSelection::GetQueueRow
+26347f0: mvn r0, #0
+26347f4: pop {r4, r5, r6, pc}
+
+# .<>c::<CreatePipeline>b__25_2 0x26347f8 size=300
+26347f8: push {r4, r5, r6, lr}
+26347fc: ldr r6, [pc, #0xfc]
+2634800: mov r5, r2
+2634804: mov r4, r1
+2634808: add r6, pc, r6
+263480c: ldrb r0, [r6]
+2634810: cmp r0, #0
+2634814: bne #0x2634850
+2634818: ldr r0, [pc, #0xe4]
+263481c: ldr r0, [pc, r0]
+2634820: bl #0x236fa00
+2634824: ldr r0, [pc, #0xdc]
+2634828: ldr r0, [pc, r0]
+263482c: bl #0x236fa00
+2634830: ldr r0, [pc, #0xd4]
+2634834: ldr r0, [pc, r0]
+2634838: bl #0x236fa00
+263483c: ldr r0, [pc, #0xcc]
+2634840: ldr r0, [pc, r0]
+2634844: bl #0x236fa00
+2634848: mov r0, #1
+263484c: strb r0, [r6]
+2634850: ldr r0, [pc, #0xbc]
+2634854: ldr r0, [pc, r0]
+2634858: ldr r0, [r0]
+263485c: bl #0x236fca4
+2634860: mov r1, #0
+2634864: mov r6, r0
+2634868: bl #0x3459e1c
+263486c: cmp r6, #0
+2634870: bne #0x2634878
+2634874: bl #0x236fcb0
+2634878: cmp r4, #0
+263487c: str r5, [r6, #8]
+2634880: bne #0x2634888
+2634884: bl #0x236fcb0
+2634888: ldr r4, [r4, #0x34]
+263488c: cmp r4, #0
+2634890: bne #0x2634898
+2634894: bl #0x236fcb0
+2634898: ldr r0, [pc, #0x78]
+263489c: ldr r0, [pc, r0]
+26348a0: ldr r4, [r4, #8]
+26348a4: ldr r0, [r0]
+26348a8: bl #0x236fca4
+26348ac: mov r5, r0
+26348b0: ldr r0, [pc, #0x64]
+26348b4: mov r1, r6
+26348b8: mov r3, #0
+26348bc: ldr r0, [pc, r0]
+26348c0: ldr r2, [r0]
+26348c4: mov r0, r5
+26348c8: bl #0x345c5a4
+26348cc: cmp r4, #0
+26348d0: bne #0x26348d8
+26348d4: bl #0x236fcb0
+26348d8: ldr r0, [pc, #0x40]
+26348dc: mov r1, r5
+26348e0: ldr r0, [pc, r0]
+26348e4: ldr r2, [r0]
+26348e8: mov r0, r4
+26348ec: bl #0x44ac458
+26348f0: cmp r0, #0
+26348f4: ldrne r0, [r0, #0xc]
+26348f8: mvneq r0, #0
+26348fc: pop {r4, r5, r6, pc}
+2634900: ldreq lr, [ip], r1, lsr #28
+2634904: strbteq r7, [r8], -r4, asr #18
+2634908: uqasxeq r7, r8, ip
+263490c: uqasxeq r7, r8, r4
+2634910: strbteq r7, [r8], -ip, lsr #18
+2634914: uqadd16eq r7, r8, r8
+2634918: strbteq r7, [r8], -r8, asr #17
+263491c: strbteq r7, [r8], -ip, lsr #17
+2634920: strbteq r7, [r8], -r0, lsl #17
+
+# .<>c::<CreatePipeline>b__25_3 0x263492c size=76
+263492c: push {r4, r5, fp, lr}
+2634930: mov r4, r2
+2634934: mov r5, r1
+2634938: cmp r1, #0
+263493c: bne #0x2634944
+2634940: bl #0x236fcb0
+2634944: ldr r5, [r5, #0x20]
+2634948: cmp r5, #0
+263494c: bne #0x2634954
+2634950: bl #0x236fcb0
+2634954: mov r0, r5
+2634958: mov r1, r4
+263495c: mov r2, #0
+2634960: bl #0x283fdd8 ; Loom.Game.LevelFeatures.SurpriseShootersData::Contains
+2634964: mvn r1, #0
+2634968: cmp r0, #0
+263496c: movwne r1, #1
+2634970: mov r0, r1
+2634974: pop {r4, r5, fp, pc}
+
+# .<>c::<CreatePipeline>b__25_4 0x2634978 size=144
+2634978: push {r4, r5, r6, lr}
+263497c: ldr r6, [pc, #0x7c]
+2634980: mov r4, r2
+2634984: mov r5, r1
+2634988: add r6, pc, r6
+263498c: ldrb r0, [r6]
+2634990: cmp r0, #0
+2634994: bne #0x26349ac
+2634998: ldr r0, [pc, #0x64]
+263499c: ldr r0, [pc, r0]
+26349a0: bl #0x236fa00
+26349a4: mov r0, #1
+26349a8: strb r0, [r6]
+26349ac: cmp r5, #0
+26349b0: bne #0x26349b8
+26349b4: bl #0x236fcb0
+26349b8: ldr r5, [r5, #0x38]
+26349bc: cmp r5, #0
+26349c0: bne #0x26349c8
+26349c4: bl #0x236fcb0
+26349c8: mov r0, r5
+26349cc: mov r1, r4
+26349d0: mov r2, #0
+26349d4: bl #0x2761fec ; Loom.Game.LevelFeatures.ChainedShootersData::GetChainedShooterData
+26349d8: cmp r0, #0
+26349dc: beq #0x26349f8
+26349e0: ldr r4, [r0, #0xc]
+26349e4: cmp r4, #0
+26349e8: bne #0x26349f0
+26349ec: bl #0x236fcb0
+26349f0: ldr r0, [r4, #0xc]
+26349f4: pop {r4, r5, r6, pc}
+26349f8: mvn r0, #0
+26349fc: pop {r4, r5, r6, pc}
+2634a00: ldreq lr, [ip], r2, lsr #25
+2634a04: uqsub8eq r2, r8, r8
+
+# .<>c::<CreatePipeline>b__25_5 0x2634a08 size=88
+2634a08: push {r4, r5, r6, lr}
+2634a0c: mov r4, r2
+2634a10: mov r5, r1
+2634a14: cmp r1, #0
+2634a18: bne #0x2634a20
+2634a1c: bl #0x236fcb0
+2634a20: ldr r6, [r5, #0x40]
+2634a24: cmp r6, #0
+2634a28: bne #0x2634a30
+2634a2c: bl #0x236fcb0
+2634a30: mov r0, r6
+2634a34: mov r1, r4
+2634a38: mov r2, #0
+2634a3c: bl #0x27c0a9c ; Loom.Game.LevelFeatures.MusicToyMalletsData::Contains
+2634a40: cmp r0, #0
+2634a44: beq #0x2634a58
+2634a48: mov r0, r5
+2634a4c: mov r1, r4
+2634a50: pop {r4, r5, r6, lr}
+2634a54: b #0x263322c ; Loom.Game.LevelEase.LevelEaseSelection::GetQueueRow
+2634a58: mvn r0, #0
+2634a5c: pop {r4, r5, r6, pc}
+
+# .<>c::<CreatePipeline>b__25_6 0x2634a60 size=300
+2634a60: push {r4, r5, r6, lr}
+2634a64: ldr r6, [pc, #0xfc]
+2634a68: mov r5, r2
+2634a6c: mov r4, r1
+2634a70: add r6, pc, r6
+2634a74: ldrb r0, [r6]
+2634a78: cmp r0, #0
+2634a7c: bne #0x2634ab8
+2634a80: ldr r0, [pc, #0xe4]
+2634a84: ldr r0, [pc, r0]
+2634a88: bl #0x236fa00
+2634a8c: ldr r0, [pc, #0xdc]
+2634a90: ldr r0, [pc, r0]
+2634a94: bl #0x236fa00
+2634a98: ldr r0, [pc, #0xd4]
+2634a9c: ldr r0, [pc, r0]
+2634aa0: bl #0x236fa00
+2634aa4: ldr r0, [pc, #0xcc]
+2634aa8: ldr r0, [pc, r0]
+2634aac: bl #0x236fa00
+2634ab0: mov r0, #1
+2634ab4: strb r0, [r6]
+2634ab8: ldr r0, [pc, #0xbc]
+2634abc: ldr r0, [pc, r0]
+2634ac0: ldr r0, [r0]
+2634ac4: bl #0x236fca4
+2634ac8: mov r1, #0
+2634acc: mov r6, r0
+2634ad0: bl #0x3459e1c
+2634ad4: cmp r6, #0
+2634ad8: bne #0x2634ae0
+2634adc: bl #0x236fcb0
+2634ae0: cmp r4, #0
+2634ae4: str r5, [r6, #8]
+2634ae8: bne #0x2634af0
+2634aec: bl #0x236fcb0
+2634af0: ldr r4, [r4, #0x3c]
+2634af4: cmp r4, #0
+2634af8: bne #0x2634b00
+2634afc: bl #0x236fcb0
+2634b00: ldr r0, [pc, #0x78]
+2634b04: ldr r0, [pc, r0]
+2634b08: ldr r4, [r4, #8]
+2634b0c: ldr r0, [r0]
+2634b10: bl #0x236fca4
+2634b14: mov r5, r0
+2634b18: ldr r0, [pc, #0x64]
+2634b1c: mov r1, r6
+2634b20: mov r3, #0
+2634b24: ldr r0, [pc, r0]
+2634b28: ldr r2, [r0]
+2634b2c: mov r0, r5
+2634b30: bl #0x345c5a4
+2634b34: cmp r4, #0
+2634b38: bne #0x2634b40
+2634b3c: bl #0x236fcb0
+2634b40: ldr r0, [pc, #0x40]
+2634b44: mov r1, r5
+2634b48: ldr r0, [pc, r0]
+2634b4c: ldr r2, [r0]
+2634b50: mov r0, r4
+2634b54: bl #0x44ac458
+2634b58: cmp r0, #0
+2634b5c: ldrne r0, [r0, #0xc]
+2634b60: mvneq r0, #0
+2634b64: pop {r4, r5, r6, pc}
+
+# .<>c__DisplayClass25_0::.ctor 0x2634924 size=8
+2634924: mov r1, #0
+2634928: b #0x3459e1c
+
+# .<>c__DisplayClass25_0::<CreatePipeline>b__7 0x2634b94 size=48
+2634b94: push {r4, r5, fp, lr}
+2634b98: mov r4, r1
+2634b9c: mov r5, r0
+2634ba0: cmp r1, #0
+2634ba4: bne #0x2634bac
+2634ba8: bl #0x236fcb0
+2634bac: ldr r0, [r5, #8]
+2634bb0: ldr r1, [r4, #8]
+2634bb4: sub r0, r1, r0
+2634bb8: clz r0, r0
+2634bbc: lsr r0, r0, #5
+2634bc0: pop {r4, r5, fp, pc}
+
+# .<>c__DisplayClass25_1::.ctor 0x2634b8c size=8
+2634b8c: mov r1, #0
+2634b90: b #0x3459e1c
+
+# .<>c__DisplayClass25_1::<CreatePipeline>b__8 0x2634bc4 size=48
+2634bc4: push {r4, r5, fp, lr}
+2634bc8: mov r4, r1
+2634bcc: mov r5, r0
+2634bd0: cmp r1, #0
+2634bd4: bne #0x2634bdc
+2634bd8: bl #0x236fcb0
+2634bdc: ldr r0, [r5, #8]
+2634be0: ldr r1, [r4, #8]
+2634be4: sub r0, r1, r0
+2634be8: clz r0, r0
+2634bec: lsr r0, r0, #5
+2634bf0: pop {r4, r5, fp, pc}
+
+# .unknown::unknown 0x38097f4 size=300
+38097f4: push {r4, r5, r6, lr}
+38097f8: mov r5, r0
+38097fc: ldr r0, [r2, #0x1c]
+3809800: mov r6, r2
+3809804: mov r4, r1
+3809808: cmp r0, #0
+380980c: bne #0x3809830
+3809810: ldr r0, [pc, #0x4c]
+3809814: ldr r0, [pc, r0]
+3809818: bl #0x236fa00
+380981c: ldr r0, [r6, #0x1c]
+3809820: cmp r0, #0
+3809824: bne #0x3809830
+3809828: mov r0, r6
+380982c: bl #0x23aad3c
+3809830: ldr r0, [pc, #0x30]
+3809834: ldr r0, [pc, r0]
+3809838: ldr r0, [r0]
+380983c: ldr r1, [r0, #0x74]
+3809840: cmp r1, #0
+3809844: bne #0x380984c
+3809848: bl #0x236fb74
+380984c: ldr r0, [r6, #0x1c]
+3809850: mov r1, r4
+3809854: ldr r2, [r0, #4]
+3809858: mov r0, r5
+380985c: pop {r4, r5, r6, lr}
+3809860: b #0x3637794
+3809864: strbeq pc, [sl, #-0xb90]
+3809868: strbeq pc, [sl, #-0xb70]
+380986c: push {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+3809870: add fp, sp, #0x1c
+3809874: sub sp, sp, #0x24
+3809878: str r2, [fp, #-0x38]
+380987c: mov sl, r3
+3809880: str r0, [fp, #-0x3c]
+3809884: mov r7, r1
+3809888: ldr r0, [pc, #0x114]
+380988c: add r0, pc, r0
+3809890: ldr r0, [r0]
+3809894: ldr r0, [r0]
+3809898: str r0, [fp, #-0x24]
+380989c: ldr r8, [r3, #0x1c]
+38098a0: str r1, [fp, #-0x34]
+38098a4: cmp r8, #0
+38098a8: bne #0x38098d0
+38098ac: ldr r0, [pc, #0xf4]
+38098b0: ldr r0, [pc, r0]
+38098b4: bl #0x236fa00
+38098b8: ldr r8, [sl, #0x1c]
+38098bc: cmp r8, #0
+38098c0: bne #0x38098d0
+38098c4: mov r0, sl
+38098c8: bl #0x23aad3c
+38098cc: ldr r8, [sl, #0x1c]
+38098d0: ldr r0, [r8]
+38098d4: ldr r6, [r0, #0x84]
+38098d8: add r1, r6, #7
+38098dc: bic r1, r1, #7
+38098e0: sub r5, sp, r1
+38098e4: mov sp, r5
+38098e8: sub r4, sp, r1
+38098ec: mov sp, r4
+38098f0: ldr sb, [r0, #0x14]
+38098f4: sub r1, fp, #0x34
+38098f8: mov r0, r5
+38098fc: mov r2, r6
+3809900: cmp sb, #0
+3809904: movmi r1, r7
+3809908: bl #0x24355b4
+380990c: ldr r0, [pc, #0x98]
+3809910: ldr r0, [pc, r0]
+3809914: ldr r0, [r0]
+3809918: ldr r1, [r0, #0x74]
+380991c: cmp r1, #0

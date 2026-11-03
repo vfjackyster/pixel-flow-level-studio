@@ -1,0 +1,2054 @@
+[
+  {
+    "type": "LevelSessionInfoData",
+    "method": ".ctor",
+    "address": "0x25b78dc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelCreator",
+    "method": "get_PixelImageCreator",
+    "address": "0x25c07f0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelCreator",
+    "method": "ClearLevel",
+    "address": "0x25c0854",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelCreator",
+    "method": "CreateLevelInternal",
+    "address": "0x25c091c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelCreator",
+    "method": "CreateAttachables",
+    "address": "0x25c09f8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelCreator",
+    "method": ".ctor",
+    "address": "0x25c0e28",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseAttemptData",
+    "method": ".ctor",
+    "address": "0x262694c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseAttemptData",
+    "method": ".ctor",
+    "address": "0x26269b8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseAttemptData",
+    "method": ".ctor",
+    "address": "0x2626cf8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseAttemptData",
+    "method": "Clone",
+    "address": "0x2626db0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfig",
+    "method": ".ctor",
+    "address": "0x2626e10",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfig",
+    "method": ".ctor",
+    "address": "0x2627000",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfig",
+    "method": "GetIntervalConfig",
+    "address": "0x2627380",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfig",
+    "method": "Clone",
+    "address": "0x2627490",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfig",
+    "method": "Validate",
+    "address": "0x26274f0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigByLevelInterval",
+    "method": ".ctor",
+    "address": "0x2626fdc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigByLevelInterval",
+    "method": ".ctor",
+    "address": "0x262798c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigByLevelInterval",
+    "method": "IsLevelInInterval",
+    "address": "0x2627968",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigByLevelInterval",
+    "method": "Clone",
+    "address": "0x26278d0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDataHelper",
+    "method": "IsStartRowOverrideEnabled",
+    "address": "0x26279dc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDataHelper",
+    "method": "LoadStartRowOverride",
+    "address": "0x2627a7c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDataHelper",
+    "method": "SetStartRowOverrideEnabled",
+    "address": "0x2627b20",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDataHelper",
+    "method": "SaveStartRowOverride",
+    "address": "0x2627bc4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDataHelper",
+    "method": "IsDebugOverrideEnabled",
+    "address": "0x2627c68",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDataHelper",
+    "method": "SetDebugOverrideEnabled",
+    "address": "0x2627db8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDataHelper",
+    "method": "LoadDebugOverride",
+    "address": "0x2627d18",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDataHelper",
+    "method": "SaveDebugOverride",
+    "address": "0x2627e5c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDataHelper",
+    "method": "ClearDebugOverride",
+    "address": "0x2627f08",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigHelper",
+    "method": "GetConfig",
+    "address": "0x2627fb0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigHelper",
+    "method": "GetInitialConfig",
+    "address": "0x262805c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgressData",
+    "method": ".ctor",
+    "address": "0x2628090",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgressData",
+    "method": ".ctor",
+    "address": "0x2628148",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgressData",
+    "method": "Matches",
+    "address": "0x262829c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgressData",
+    "method": "Clone",
+    "address": "0x26282c0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "get_StartRowControls",
+    "address": "0x2628320",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "set_StartRowControls",
+    "address": "0x2628328",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": ".ctor",
+    "address": "0x2628330",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": ".ctor",
+    "address": "0x262834c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "BuildPrimary",
+    "address": "0x26283a4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "BuildFeatureWeights",
+    "address": "0x2628e40",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "Integer",
+    "address": "0x26288f0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "Ratio",
+    "address": "0x2628b74",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "Build",
+    "address": "0x2629518",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "<BuildFeatureWeights>b__11_0",
+    "address": "0x2629b14",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "<BuildFeatureWeights>b__11_1",
+    "address": "0x2629b3c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "<BuildFeatureWeights>b__11_2",
+    "address": "0x2629b64",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "<BuildFeatureWeights>b__11_3",
+    "address": "0x2629b8c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "<BuildFeatureWeights>b__11_4",
+    "address": "0x2629bb4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "<BuildFeatureWeights>b__11_5",
+    "address": "0x2629bdc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "<BuildFeatureWeights>b__11_6",
+    "address": "0x2629c04",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "<Build>b__14_0",
+    "address": "0x2629c2c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseConfigDebugEditor",
+    "method": "<Build>b__14_1",
+    "address": "0x2629c54",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "get_DisplayName",
+    "address": "0x262a144",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "get_Section",
+    "address": "0x262a18c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "BuildContent",
+    "address": "0x262a1d4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "BuildConfigFields",
+    "address": "0x262a79c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "BuildStartRowControls",
+    "address": "0x262a94c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "RefreshStartRow",
+    "address": "0x262ace0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "SetCustomConfig",
+    "address": "0x262b1c4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "ValidateDraft",
+    "address": "0x262b944",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "SaveCustomConfig",
+    "address": "0x262b488",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "ShowStatus",
+    "address": "0x262b70c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "Preview",
+    "address": "0x262bd20",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "Build",
+    "address": "0x262bfec",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": ".ctor",
+    "address": "0x262c57c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "<BuildStartRowControls>b__21_0",
+    "address": "0x262c584",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseDebugPage",
+    "method": "<BuildStartRowControls>b__21_1",
+    "address": "0x262c5a8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "BullTotemFeatureEaser",
+    "method": "Ease",
+    "address": "0x262c7c0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "BullTotemFeatureEaser",
+    "method": "Ease",
+    "address": "0x262ca7c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "BullTotemFeatureEaser",
+    "method": ".ctor",
+    "address": "0x262cbe0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ChainedShooterFeatureEaser",
+    "method": "Ease",
+    "address": "0x262cc80",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ChainedShooterFeatureEaser",
+    "method": "Ease",
+    "address": "0x262cf6c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ChainedShooterFeatureEaser",
+    "method": ".ctor",
+    "address": "0x262d0d0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ConnectedShooterFeatureEaser",
+    "method": "Ease",
+    "address": "0x262d170",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ConnectedShooterFeatureEaser",
+    "method": "Ease",
+    "address": "0x262d62c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ConnectedShooterFeatureEaser",
+    "method": "GetDistinctShooters",
+    "address": "0x262d268",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ConnectedShooterFeatureEaser",
+    "method": ".ctor",
+    "address": "0x262d794",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "HammerFeatureEaser",
+    "method": "Ease",
+    "address": "0x262d834",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "HammerFeatureEaser",
+    "method": "Ease",
+    "address": "0x262dfe8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "HammerFeatureEaser",
+    "method": ".ctor",
+    "address": "0x262e150",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "MalletFeatureEaser",
+    "method": "Ease",
+    "address": "0x262e1f8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "MalletFeatureEaser",
+    "method": "Ease",
+    "address": "0x262e458",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "MalletFeatureEaser",
+    "method": ".ctor",
+    "address": "0x262e5c0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShooterIceBlockFeatureEaser",
+    "method": "Ease",
+    "address": "0x262e684",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShooterIceBlockFeatureEaser",
+    "method": "Ease",
+    "address": "0x262e9a8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShooterIceBlockFeatureEaser",
+    "method": ".ctor",
+    "address": "0x262eb18",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShooterQueueEaseHelper",
+    "method": "Advance",
+    "address": "0x262d98c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "SurpriseShooterFeatureEaser",
+    "method": "Ease",
+    "address": "0x262ebc4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "SurpriseShooterFeatureEaser",
+    "method": "Ease",
+    "address": "0x262ed24",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "SurpriseShooterFeatureEaser",
+    "method": ".ctor",
+    "address": "0x262ee88",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "CreatorLevelSettingsEaseProcessor",
+    "method": "Process",
+    "address": "0x262ef28",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "CreatorLevelSettingsEaseProcessor",
+    "method": ".ctor",
+    "address": "0x262f19c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_Reason",
+    "address": "0x262f1f0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "set_Reason",
+    "address": "0x262f1f8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_StartRow",
+    "address": "0x262f200",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "set_StartRow",
+    "address": "0x262f208",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_FailureCount",
+    "address": "0x262f210",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "set_FailureCount",
+    "address": "0x262f218",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_TotalEasedCount",
+    "address": "0x262f220",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_OriginalConnectedShooterCount",
+    "address": "0x262f28c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_OriginalHammerCount",
+    "address": "0x262f368",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_OriginalIceBlockCount",
+    "address": "0x262f3bc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_OriginalSurpriseShooterCount",
+    "address": "0x262f410",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_OriginalChainedShooterCount",
+    "address": "0x262f464",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_OriginalMalletCount",
+    "address": "0x262f4b8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_OriginalBullTotemCount",
+    "address": "0x262f50c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_EasedConnectedShooterCount",
+    "address": "0x2626aac",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_EasedHammerCount",
+    "address": "0x2626b00",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_EasedIceBlockCount",
+    "address": "0x2626b54",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_EasedSurpriseShooterCount",
+    "address": "0x2626ba8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_EasedChainedShooterCount",
+    "address": "0x2626bfc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_EasedMalletCount",
+    "address": "0x2626c50",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "get_EasedBullTotemCount",
+    "address": "0x2626ca4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "Get",
+    "address": "0x262f2e0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "Restore",
+    "address": "0x262f560",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "Record",
+    "address": "0x262f7e8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "Reset",
+    "address": "0x262f884",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "ToString",
+    "address": "0x262f93c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": ".ctor",
+    "address": "0x262faac",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "EaseReport",
+    "method": "<ToString>b__48_0",
+    "address": "0x262fb98",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseFeaturePipeline",
+    "method": "CaptureValues",
+    "address": "0x262fc6c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseFeaturePipeline",
+    "method": "SelectTargets",
+    "address": "0x262fef4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseFeaturePipeline",
+    "method": "Add",
+    "address": "0x2630218",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseFeaturePipeline",
+    "method": "CaptureOriginal",
+    "address": "0x26304c8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseFeaturePipeline",
+    "method": "Apply",
+    "address": "0x26307e0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseFeaturePipeline",
+    "method": ".ctor",
+    "address": "0x2631038",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseLog",
+    "method": "Log",
+    "address": "0x2631384",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseLog",
+    "method": "Warn",
+    "address": "0x2627718",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgress",
+    "method": "get_HasAttempt",
+    "address": "0x263141c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgress",
+    "method": "get_IsRecorded",
+    "address": "0x263142c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgress",
+    "method": "Read",
+    "address": "0x2631434",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgress",
+    "method": "BeginAttempt",
+    "address": "0x26315a4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgress",
+    "method": "RecordFailure",
+    "address": "0x2631b98",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgress",
+    "method": "RecordFailure",
+    "address": "0x2631de0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgress",
+    "method": "Clear",
+    "address": "0x2632330",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseProgress",
+    "method": ".ctor",
+    "address": "0x2632470",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSaveHandler",
+    "method": "TryGetSystem",
+    "address": "0x2632654",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSaveHandler",
+    "method": "Collect",
+    "address": "0x26327a8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSaveHandler",
+    "method": "Restore",
+    "address": "0x263288c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSelection",
+    "method": "IncludePipeContents",
+    "address": "0x2632a58",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSelection",
+    "method": "Select",
+    "address": "0x2632ee4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSelection",
+    "method": "GetRowCount",
+    "address": "0x262af7c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSelection",
+    "method": "SelectFromRow",
+    "address": "0x2633044",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSelection",
+    "method": "GetQueueRow",
+    "address": "0x263322c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "get_Config",
+    "address": "0x262b6d8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "get_IsEnabled",
+    "address": "0x26336fc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "get_HasCustomConfig",
+    "address": "0x262c518",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "get_TryCount",
+    "address": "0x262c52c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "get_LevelNumber",
+    "address": "0x262c554",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "get_LastEaseReport",
+    "address": "0x263371c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "get_LastPreviewReport",
+    "address": "0x2633724",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": ".ctor",
+    "address": "0x263372c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "LoadInitialConfig",
+    "address": "0x26336d4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "EaseWithConfig",
+    "address": "0x2633824",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "EaseWithStartRow",
+    "address": "0x2633858",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "CreatePipeline",
+    "address": "0x2633ca4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "Skip",
+    "address": "0x2633c58",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "GetIntervalConfig",
+    "address": "0x2634520",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "SetupConfig",
+    "address": "0x262b694",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "OverrideConfig",
+    "address": "0x262bbf8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "EaseLevel",
+    "address": "0x262f000",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "EaseLevel",
+    "address": "0x263454c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "GetDynamicStartRow",
+    "address": "0x262b104",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "PreviewLevel",
+    "address": "0x262bf80",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "CaptureAttempt",
+    "address": "0x26327f0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "RestoreAttempt",
+    "address": "0x26328e4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "RecordFailure",
+    "address": "0x263463c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystem",
+    "method": "ClearProgress",
+    "address": "0x263466c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystemController",
+    "method": "Awake",
+    "address": "0x2634bf4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystemController",
+    "method": "OnEnable",
+    "address": "0x2634db4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystemController",
+    "method": "OnDisable",
+    "address": "0x2634ed0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystemController",
+    "method": "OnDestroy",
+    "address": "0x2634fec",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystemController",
+    "method": "RecordFailure",
+    "address": "0x26350a0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystemController",
+    "method": "ClearProgress",
+    "address": "0x2635158",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystemController",
+    "method": "CreateSystem",
+    "address": "0x2634cbc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystemController",
+    "method": ".ctor",
+    "address": "0x26351b4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystemController",
+    "method": "<CreateSystem>b__11_0",
+    "address": "0x26351bc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseSystemController",
+    "method": "<CreateSystem>b__11_1",
+    "address": "0x2635220",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "add_OnShooterAmmoDepleted",
+    "address": "0x2690de4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "remove_OnShooterAmmoDepleted",
+    "address": "0x2690e94",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "get_RawShotsPerSecond",
+    "address": "0x2690f44",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "get_ShootSpeedMultiplier",
+    "address": "0x2690f4c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "get_FinalShotsPerSecond",
+    "address": "0x2690f70",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "Update",
+    "address": "0x2690fac",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "OnDisable",
+    "address": "0x2694254",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "CleanupDeadTargets",
+    "address": "0x26928f0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "CleanupShooterTargetReservations",
+    "address": "0x2692e34",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "GetAvailableShooters",
+    "address": "0x2693774",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "EnsureConveyorSubscriptions",
+    "address": "0x26914b0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "UnsubscribeFromConveyor",
+    "address": "0x269453c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "HydrateShootersInConveyor",
+    "address": "0x2694ab8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "OnConveyorItemEntered",
+    "address": "0x2694dc0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "OnConveyorItemRemoved",
+    "address": "0x2694dc4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "AddShooterFromGameObject",
+    "address": "0x2694c3c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "TickShooter",
+    "address": "0x2693a34",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "FilterObstacleTargets",
+    "address": "0x26965a0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "FindFrontTargetBest",
+    "address": "0x2695190",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "TargetsContainObstacle",
+    "address": "0x2696778",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "IsTargetObstacle",
+    "address": "0x2696830",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "CheckTargetIsDead",
+    "address": "0x2697388",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "CheckShooterTargetIsReserved",
+    "address": "0x2697530",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "GatherAlignedRows",
+    "address": "0x269691c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "GatherAlignedCols",
+    "address": "0x26978c0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "InsertionSortByRowAlignment",
+    "address": "0x2697e30",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "InsertionSortByColAlignment",
+    "address": "0x2697fec",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "MarkDepleted",
+    "address": "0x2694ec8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "ProcessDepletions",
+    "address": "0x2694068",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "ClearFirstSolidsCacheIfNewFrame",
+    "address": "0x26926d4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "PackCacheKey",
+    "address": "0x26981a8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "FirstSolidsFromSideAxis",
+    "address": "0x2696b00",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "TryToFillSolidTargetDataListOnPoint",
+    "address": "0x26981b8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "IsValidTarget",
+    "address": "0x2697108",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "RowCenterZ",
+    "address": "0x269777c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "ColCenterX",
+    "address": "0x2697aa4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "RebuildGridCenterCacheIfNeeded",
+    "address": "0x269165c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "RebuildActiveAxisCacheIfNeeded",
+    "address": "0x2691aac",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "EnsureGridSubscriptions",
+    "address": "0x2691154",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "UnsubscribeFromGrid",
+    "address": "0x269426c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "OnGridStructureChanged",
+    "address": "0x269851c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "OnGridPixelChanged",
+    "address": "0x2698528",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "OnGridPixelSet",
+    "address": "0x2698534",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "ReleaseTargetClaims",
+    "address": "0x269869c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "OnGridAttachablesChanged",
+    "address": "0x2698cfc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "LookAtDirection",
+    "address": "0x2695f74",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "TargetPointFor",
+    "address": "0x2696298",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "MarkTargetDead",
+    "address": "0x2698d08",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "ClaimTargetDead",
+    "address": "0x269599c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "ClaimTargetForShooter",
+    "address": "0x2695b2c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "GetShooterSide",
+    "address": "0x2695048",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "GetNextFire",
+    "address": "0x2694fe8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "SetNextFire",
+    "address": "0x269652c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "IsTravelSideEmpty",
+    "address": "0x2699054",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "TravelAxisCenter",
+    "address": "0x2699654",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "FindTravelAxisStart",
+    "address": "0x269966c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "IsTravelAxisEmpty",
+    "address": "0x2699714",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "TravelSide",
+    "address": "0x2699cf4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": "IsEmptyTravelSegment",
+    "address": "0x2699d3c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "ShootersOffenseController",
+    "method": ".ctor",
+    "address": "0x269a170",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_Animation",
+    "address": "0x26a6340",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "set_Animation",
+    "address": "0x26a6348",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_Model",
+    "address": "0x26a6350",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "set_Model",
+    "address": "0x26a6358",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_Weapon",
+    "address": "0x26a6360",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "set_Weapon",
+    "address": "0x26a6368",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_Shadow",
+    "address": "0x26a6370",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "set_Shadow",
+    "address": "0x26a6378",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_QueueVisuals",
+    "address": "0x26a6380",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "set_QueueVisuals",
+    "address": "0x26a6388",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "add_OnChanged",
+    "address": "0x26a6390",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "remove_OnChanged",
+    "address": "0x26a6440",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_Id",
+    "address": "0x26a64f0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "set_Id",
+    "address": "0x26a64f8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_Ammo",
+    "address": "0x26a6500",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "set_Ammo",
+    "address": "0x26a65d8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_Material",
+    "address": "0x26a6604",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "set_Material",
+    "address": "0x26a6620",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_IsDisappearing",
+    "address": "0x26a664c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "set_IsDisappearing",
+    "address": "0x26a6654",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_IsMoving",
+    "address": "0x26a665c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "set_IsMoving",
+    "address": "0x26a6664",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_IsBusy",
+    "address": "0x26a666c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_IsDeactivated",
+    "address": "0x26a6690",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "set_IsDeactivated",
+    "address": "0x26a6698",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "get_AttachmentSource",
+    "address": "0x26a66a0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "OnEnable",
+    "address": "0x26a66a8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "OnDisable",
+    "address": "0x26a69c0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "OnMaterialChangedCallback",
+    "address": "0x26a6cd8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "OnAmmoChangedCallback",
+    "address": "0x26a6cf8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "OnAttachablesChanged",
+    "address": "0x26a6d18",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "Setup",
+    "address": "0x269d444",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "SetMaterialById",
+    "address": "0x26a6f04",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "ResetToDefault",
+    "address": "0x269d16c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "DestroySelf",
+    "address": "0x26a3e70",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "UpdateName",
+    "address": "0x26a6d38",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "GetCapacity",
+    "address": "0x26a7424",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": "SetCapacity",
+    "address": "0x26a7444",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "Shooter",
+    "method": ".ctor",
+    "address": "0x26a7478",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_IsGeneratingGrid",
+    "address": "0x26bdb54",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "set_IsGeneratingGrid",
+    "address": "0x26bdb5c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "add__onGridGenerated",
+    "address": "0x26bdb64",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "remove__onGridGenerated",
+    "address": "0x26bdc04",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "add_OnGridGenerated",
+    "address": "0x26bdca4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "remove_OnGridGenerated",
+    "address": "0x26bdce4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_PhysicalSize",
+    "address": "0x26bdce8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_PhysicalScale",
+    "address": "0x26bdcf0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_CalculatedPixelSize",
+    "address": "0x26bdd08",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_Spacing",
+    "address": "0x26bdd10",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_MaterialPalette",
+    "address": "0x26bdd18",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_AttachmentSource",
+    "address": "0x26bdd7c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "Awake",
+    "address": "0x26bdd84",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "GenerateGrid",
+    "address": "0x26bdfbc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "GenerateGridAsync",
+    "address": "0x26be0a4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "CalculatePixelSize",
+    "address": "0x26be188",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "CalculateCenterOffset",
+    "address": "0x26be4ac",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "ResolveFactory",
+    "address": "0x26be4f8",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "CreatePixel",
+    "address": "0x26be594",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "CreatePixel",
+    "address": "0x26beac0",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "CreateEmptyPixel",
+    "address": "0x26beb00",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "SetPixelPosition",
+    "address": "0x26be984",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "GetData",
+    "address": "0x26bec14",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "CreateNewPixel",
+    "address": "0x26be6b4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "GetPixelPosition",
+    "address": "0x26beb24",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "IsCellSolid",
+    "address": "0x26bf184",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "InvalidateSpatialIndex",
+    "address": "0x26bfc34",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "EnsureCellCacheCapacity",
+    "address": "0x26bfc40",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "RebuildCellCacheIfNeeded",
+    "address": "0x26bf340",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "GridToWorldPoint",
+    "address": "0x26bfe2c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "GridPointsToWorldPoint",
+    "address": "0x26bfefc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "TryGetWorldToGridPoint",
+    "address": "0x26c0140",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "TryEnqueueReach",
+    "address": "0x26c0400",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "EnsureReachBufferCapacity",
+    "address": "0x26c053c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "EnsureExposedBuffersCapacity",
+    "address": "0x26c05c4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "CanAnyPointReachOutside",
+    "address": "0x26c068c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "add_OnPixelChanged",
+    "address": "0x26c0a54",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "remove_OnPixelChanged",
+    "address": "0x26c0b14",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "add_OnPixelSet",
+    "address": "0x26c0bd4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "remove_OnPixelSet",
+    "address": "0x26c0c94",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_Pixels",
+    "address": "0x26bef5c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_Width",
+    "address": "0x26bf014",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_Height",
+    "address": "0x26bf0cc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_Center",
+    "address": "0x26c0d54",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_BoundsMin",
+    "address": "0x26c0e24",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "get_BoundsMax",
+    "address": "0x26c0ef4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "Initialize",
+    "address": "0x26bdefc",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "SetupGrid",
+    "address": "0x26c0fc4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "GetPixel",
+    "address": "0x26bfb6c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "SetPixel",
+    "address": "0x26c108c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "SetPixelMaterial",
+    "address": "0x26c1178",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "IsValidCoordinate",
+    "address": "0x26bf278",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "GetPixelCluster",
+    "address": "0x26c1264",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "Clear",
+    "address": "0x26c1350",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "GetPixelCount",
+    "address": "0x26c1630",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "GetPixelCountByMaterial",
+    "address": "0x26b1158",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "ScanDirectionalPixels",
+    "address": "0x26c194c",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": ".ctor",
+    "address": "0x26c1db4",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "PixelGridController",
+    "method": "<Awake>b__47_0",
+    "address": "0x26c1f74",
+    "image": "Assembly-CSharp.dll"
+  },
+  {
+    "type": "LevelEaseLogic",
+    "method": "HasEnoughFailures",
+    "address": "0x67d4524",
+    "image": "Loom.LevelEase.Logic.dll"
+  },
+  {
+    "type": "LevelEaseLogic",
+    "method": "GetEaseProgress",
+    "address": "0x67d453c",
+    "image": "Loom.LevelEase.Logic.dll"
+  },
+  {
+    "type": "LevelEaseLogic",
+    "method": "TryGetStartRow",
+    "address": "0x67d45b8",
+    "image": "Loom.LevelEase.Logic.dll"
+  },
+  {
+    "type": "LevelEaseLogic",
+    "method": "GetPositionPercent",
+    "address": "0x67d4970",
+    "image": "Loom.LevelEase.Logic.dll"
+  },
+  {
+    "type": "LevelEaseLogic",
+    "method": "GetEaseProbability",
+    "address": "0x67d49a0",
+    "image": "Loom.LevelEase.Logic.dll"
+  },
+  {
+    "type": "LevelEaseLogic",
+    "method": "GetRandomSeed",
+    "address": "0x67d49e0",
+    "image": "Loom.LevelEase.Logic.dll"
+  }
+]

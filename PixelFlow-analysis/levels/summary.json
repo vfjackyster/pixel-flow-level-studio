@@ -1,0 +1,312 @@
+{
+  "sourceRoot": "C:\\Users\\Admin\\AppData\\Local\\Temp\\rea-extracted-c32f2da8-4c2d-4d9a-ab63-2a218f53a32f\\assets\\Levels",
+  "funnelCount": 27,
+  "recordCount": 3500,
+  "baseFunnel": "3db5681ee587345ad9a3cf8400a692d1",
+  "baseCount": 2700,
+  "difficulty": [
+    {
+      "Name": "Easy",
+      "Count": 1314
+    },
+    {
+      "Name": "Hard",
+      "Count": 509
+    },
+    {
+      "Name": "Medium",
+      "Count": 571
+    },
+    {
+      "Name": "Very Easy",
+      "Count": 10
+    },
+    {
+      "Name": "Very Hard",
+      "Count": 296
+    }
+  ],
+  "slotCount": [
+    {
+      "Name": "5",
+      "Count": 2700
+    }
+  ],
+  "conveyorLimit": [
+    {
+      "Name": "5",
+      "Count": 2699
+    },
+    {
+      "Name": "6",
+      "Count": 1
+    }
+  ],
+  "hasTimeLimit": [
+    {
+      "Name": "False",
+      "Count": 2700
+    }
+  ],
+  "ranges": [
+    {
+      "field": "width",
+      "min": 16.0,
+      "max": 123.0,
+      "mean": 36.79962962962963
+    },
+    {
+      "field": "height",
+      "min": 15.0,
+      "max": 140.0,
+      "mean": 42.54148148148148
+    },
+    {
+      "field": "physicalWidth",
+      "min": 4.5,
+      "max": 13.5,
+      "mean": 6.263444446810969
+    },
+    {
+      "field": "physicalHeight",
+      "min": 4.5,
+      "max": 13.5,
+      "mean": 6.263407409809254
+    },
+    {
+      "field": "queueCount",
+      "min": 2.0,
+      "max": 5.0,
+      "mean": 4.102222222222222
+    },
+    {
+      "field": "shooterCount",
+      "min": 4.0,
+      "max": 157.0,
+      "mean": 68.08296296296297
+    },
+    {
+      "field": "queueAmmo",
+      "min": 80.0,
+      "max": 3410.0,
+      "mean": 1321.0677777777778
+    },
+    {
+      "field": "ordinaryPixels",
+      "min": 0.0,
+      "max": 3530.0,
+      "mean": 1208.5596296296296
+    }
+  ],
+  "variantChangedFields": [
+    {
+      "Name": "BullTotems",
+      "Count": 1
+    },
+    {
+      "Name": "ChainedShooters",
+      "Count": 3
+    },
+    {
+      "Name": "ConnectedShooters",
+      "Count": 486
+    },
+    {
+      "Name": "contentHash",
+      "Count": 745
+    },
+    {
+      "Name": "Difficulty",
+      "Count": 462
+    },
+    {
+      "Name": "Hammers",
+      "Count": 15
+    },
+    {
+      "Name": "isValid",
+      "Count": 521
+    },
+    {
+      "Name": "Locks",
+      "Count": 150
+    },
+    {
+      "Name": "MusicToyMallets",
+      "Count": 10
+    },
+    {
+      "Name": "PixelImageData",
+      "Count": 800
+    },
+    {
+      "Name": "QueueGroup",
+      "Count": 671
+    },
+    {
+      "Name": "ShooterIceBlocks",
+      "Count": 6
+    },
+    {
+      "Name": "ShooterPipes",
+      "Count": 20
+    },
+    {
+      "Name": "SurpriseShooters",
+      "Count": 479
+    }
+  ],
+  "variantChangedPixelFields": [
+    {
+      "Name": "accordions",
+      "Count": 8
+    },
+    {
+      "Name": "biscuits",
+      "Count": 2
+    },
+    {
+      "Name": "coloredShooterCages",
+      "Count": 3
+    },
+    {
+      "Name": "crossbows",
+      "Count": 4
+    },
+    {
+      "Name": "curtains",
+      "Count": 7
+    },
+    {
+      "Name": "eggBoxes",
+      "Count": 51
+    },
+    {
+      "Name": "gates",
+      "Count": 156
+    },
+    {
+      "Name": "height",
+      "Count": 533
+    },
+    {
+      "Name": "keys",
+      "Count": 150
+    },
+    {
+      "Name": "multiSnakes",
+      "Count": 2
+    },
+    {
+      "Name": "musicToys",
+      "Count": 8
+    },
+    {
+      "Name": "physicalHeight",
+      "Count": 495
+    },
+    {
+      "Name": "physicalWidth",
+      "Count": 495
+    },
+    {
+      "Name": "pixelColorDoors",
+      "Count": 11
+    },
+    {
+      "Name": "pixelHealths",
+      "Count": 148
+    },
+    {
+      "Name": "pixelIceBlocks",
+      "Count": 19
+    },
+    {
+      "Name": "pixelPipes",
+      "Count": 83
+    },
+    {
+      "Name": "pixels",
+      "Count": 626
+    },
+    {
+      "Name": "pixelWoodBlocks",
+      "Count": 15
+    },
+    {
+      "Name": "Preview",
+      "Count": 800
+    },
+    {
+      "Name": "pumpkins",
+      "Count": 4
+    },
+    {
+      "Name": "shooterCages",
+      "Count": 2
+    },
+    {
+      "Name": "snakes",
+      "Count": 71
+    },
+    {
+      "Name": "splitObjects",
+      "Count": 9
+    },
+    {
+      "Name": "surprisePixels",
+      "Count": 80
+    },
+    {
+      "Name": "ufos",
+      "Count": 2
+    },
+    {
+      "Name": "walls",
+      "Count": 45
+    },
+    {
+      "Name": "width",
+      "Count": 525
+    }
+  ],
+  "capacityExceptions": [
+    {
+      "funnel": "3db5681ee587345ad9a3cf8400a692d1",
+      "level": 2314,
+      "sourceRelativePath": "assets/Levels/3db5681ee587345ad9a3cf8400a692d1/2314.json",
+      "difficulty": "Easy",
+      "hasTimeLimit": false,
+      "timeLimit": 0.0,
+      "slotCount": 5,
+      "conveyorLimit": 6,
+      "queueCount": 4,
+      "shooterCount": 52,
+      "queueAmmo": 980.0,
+      "ordinaryPixels": 970,
+      "width": 36,
+      "height": 44,
+      "physicalWidth": 7.0,
+      "physicalHeight": 7.0,
+      "pixelMaterials": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        19,
+        20
+      ],
+      "isValid": true
+    }
+  ],
+  "limitations": [
+    "Static packaged data only. Funnel selection and priority are not established by this script.",
+    "Queue ammo excludes shooters embedded inside ShooterPipes and other mechanics. Ordinary pixel count excludes mechanic targets.",
+    "Difficulty is a stored label, not a proved solver score. First level means first within the base funnel; active funnel may differ.",
+    "isValid and validationErrors are authoring data and do not prove actual solvability.",
+    "Preview.instanceID and contentHash differences are metadata; changedPixelFields lists them explicitly."
+  ]
+}

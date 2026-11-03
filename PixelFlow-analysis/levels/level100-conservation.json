@@ -1,0 +1,36 @@
+{
+  "source": "3db5681ee587345ad9a3cf8400a692d1-100.decoded.json",
+  "rows": [
+    {
+      "material": 6,
+      "queueAmmo": 30.0,
+      "ordinaryPixels": 30,
+      "snakeCount": null
+    },
+    {
+      "material": 8,
+      "queueAmmo": 30.0,
+      "ordinaryPixels": 30,
+      "snakeCount": null
+    },
+    {
+      "material": 9,
+      "queueAmmo": 50.0,
+      "ordinaryPixels": 50,
+      "snakeCount": null
+    },
+    {
+      "material": 13,
+      "queueAmmo": 30.0,
+      "ordinaryPixels": 30,
+      "snakeCount": null
+    },
+    {
+      "material": 16,
+      "queueAmmo": 100.0,
+      "ordinaryPixels": 38,
+      "snakeCount": 62.0
+    }
+  ],
+  "limitation": "Static configured correspondence; runtime consumption and target spawning require code verification."
+}

@@ -1,0 +1,2666 @@
+[
+  {
+    "id": "benchmark-0",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "G",
+        "B",
+        "R"
+      ],
+      [
+        "R",
+        "B",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-1",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "B",
+        "G",
+        "R"
+      ],
+      [
+        "B",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "G",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-2",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "G",
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "B",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-3",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "G",
+        "G"
+      ],
+      [
+        "B",
+        "B",
+        "R"
+      ],
+      [
+        "R",
+        "B",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-4",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "B",
+        "R",
+        "R"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ],
+      [
+        "G",
+        "B",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-5",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "R"
+      ],
+      [
+        "B",
+        "B",
+        "G"
+      ],
+      [
+        "R",
+        "G",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-6",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "R",
+        "G"
+      ],
+      [
+        "R",
+        "B",
+        "G"
+      ],
+      [
+        "B",
+        "B",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-7",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "R",
+        "R",
+        "G"
+      ],
+      [
+        "B",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-8",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "G",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "R",
+        "G"
+      ],
+      [
+        "R",
+        "B",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-9",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "G",
+        "B",
+        "G"
+      ],
+      [
+        "G",
+        "R",
+        "R"
+      ],
+      [
+        "B",
+        "B",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-10",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "B",
+        "R",
+        "G"
+      ],
+      [
+        "B",
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "R",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-11",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "B",
+        "G",
+        "R"
+      ],
+      [
+        "R",
+        "R",
+        "G"
+      ],
+      [
+        "B",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-12",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "G",
+        "R",
+        "B"
+      ],
+      [
+        "B",
+        "R",
+        "G"
+      ],
+      [
+        "B",
+        "G",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-13",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "B",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "G",
+        "R"
+      ],
+      [
+        "G",
+        "B",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-14",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "B",
+        "G",
+        "B"
+      ],
+      [
+        "G",
+        "R",
+        "B"
+      ],
+      [
+        "R",
+        "R",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-15",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "R",
+        "B"
+      ],
+      [
+        "B",
+        "R",
+        "G"
+      ],
+      [
+        "B",
+        "G",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-16",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "B"
+      ],
+      [
+        "B",
+        "G",
+        "R"
+      ],
+      [
+        "R",
+        "G",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-17",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "B",
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "R",
+        "G"
+      ],
+      [
+        "B",
+        "G",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-18",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "G"
+      ],
+      [
+        "B",
+        "R",
+        "B"
+      ],
+      [
+        "R",
+        "G",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-19",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "G",
+        "R",
+        "G"
+      ],
+      [
+        "B",
+        "B",
+        "R"
+      ],
+      [
+        "G",
+        "B",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-20",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "B",
+        "R",
+        "R"
+      ],
+      [
+        "B",
+        "B",
+        "G"
+      ],
+      [
+        "G",
+        "R",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-21",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "B",
+        "G",
+        "R"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-22",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "R",
+        "G",
+        "G"
+      ],
+      [
+        "B",
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "R",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-23",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "G",
+        "G",
+        "G"
+      ],
+      [
+        "B",
+        "R",
+        "B"
+      ],
+      [
+        "R",
+        "R",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-24",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "B",
+        "R",
+        "R"
+      ],
+      [
+        "G",
+        "B",
+        "B"
+      ],
+      [
+        "G",
+        "R",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-25",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "B",
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "G",
+        "R"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-26",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "R"
+      ],
+      [
+        "G",
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "B",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-27",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "G"
+      ],
+      [
+        "G",
+        "G",
+        "R"
+      ],
+      [
+        "B",
+        "R",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-28",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "G",
+        "B",
+        "G"
+      ],
+      [
+        "B",
+        "R",
+        "R"
+      ],
+      [
+        "G",
+        "B",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-29",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "B",
+        "R",
+        "G"
+      ],
+      [
+        "G",
+        "G",
+        "R"
+      ],
+      [
+        "B",
+        "B",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-30",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "B"
+      ],
+      [
+        "G",
+        "R",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-31",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "G",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "G",
+        "R"
+      ],
+      [
+        "B",
+        "R",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-32",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "G"
+      ],
+      [
+        "R",
+        "B",
+        "B"
+      ],
+      [
+        "R",
+        "G",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-33",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "G"
+      ],
+      [
+        "R",
+        "G",
+        "G"
+      ],
+      [
+        "R",
+        "B",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-34",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "G"
+      ],
+      [
+        "G",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "R",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-35",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "G",
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "R",
+        "B"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-36",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "B"
+      ],
+      [
+        "G",
+        "B",
+        "R"
+      ],
+      [
+        "G",
+        "R",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-37",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "R",
+        "G",
+        "G"
+      ],
+      [
+        "B",
+        "B",
+        "G"
+      ],
+      [
+        "B",
+        "R",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-38",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "B",
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "R",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-39",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "G",
+        "G",
+        "R"
+      ],
+      [
+        "G",
+        "B",
+        "R"
+      ],
+      [
+        "R",
+        "B",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-40",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "G",
+        "G",
+        "B"
+      ],
+      [
+        "G",
+        "B",
+        "R"
+      ],
+      [
+        "R",
+        "B",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-41",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "G"
+      ],
+      [
+        "G",
+        "G",
+        "R"
+      ],
+      [
+        "R",
+        "B",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-42",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "G",
+        "B",
+        "G"
+      ],
+      [
+        "R",
+        "R",
+        "B"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-43",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "R",
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "R",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-44",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "B"
+      ],
+      [
+        "G",
+        "R",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-45",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "G",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "R"
+      ],
+      [
+        "B",
+        "B",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-46",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "R",
+        "G",
+        "G"
+      ],
+      [
+        "B",
+        "R",
+        "R"
+      ],
+      [
+        "G",
+        "B",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-47",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "G",
+        "B",
+        "R"
+      ],
+      [
+        "B",
+        "B",
+        "G"
+      ],
+      [
+        "R",
+        "G",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-48",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "G"
+      ],
+      [
+        "G",
+        "B",
+        "R"
+      ],
+      [
+        "G",
+        "B",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-49",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "R",
+        "G",
+        "G"
+      ],
+      [
+        "B",
+        "B",
+        "R"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-50",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "G"
+      ],
+      [
+        "R",
+        "B",
+        "B"
+      ],
+      [
+        "G",
+        "R",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-51",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "B",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "G",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-52",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "R",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "B",
+        "G"
+      ],
+      [
+        "G",
+        "R",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-53",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "G",
+        "R",
+        "B"
+      ],
+      [
+        "G",
+        "R",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-54",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "B",
+        "G",
+        "B"
+      ],
+      [
+        "R",
+        "G",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-55",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "G",
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "R",
+        "R"
+      ],
+      [
+        "G",
+        "B",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-56",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "R",
+        "R",
+        "B"
+      ],
+      [
+        "B",
+        "G",
+        "G"
+      ],
+      [
+        "B",
+        "G",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-57",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "R",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "G"
+      ],
+      [
+        "B",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-58",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "G",
+        "G",
+        "G"
+      ],
+      [
+        "R",
+        "R",
+        "B"
+      ],
+      [
+        "B",
+        "B",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-59",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "G",
+        "B",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "G"
+      ],
+      [
+        "R",
+        "B",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-60",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "G",
+        "G",
+        "G"
+      ],
+      [
+        "R",
+        "B",
+        "R"
+      ],
+      [
+        "B",
+        "R",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-61",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "G",
+        "R",
+        "R"
+      ],
+      [
+        "R",
+        "G",
+        "G"
+      ],
+      [
+        "B",
+        "B",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-62",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "G",
+        "B",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "R"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-63",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "R",
+        "R",
+        "B"
+      ],
+      [
+        "B",
+        "G",
+        "G"
+      ],
+      [
+        "B",
+        "R",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-64",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "G",
+        "R",
+        "R"
+      ],
+      [
+        "G",
+        "B",
+        "B"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-65",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "G",
+        "B",
+        "B"
+      ],
+      [
+        "G",
+        "G",
+        "R"
+      ],
+      [
+        "B",
+        "R",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-66",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "B",
+        "G",
+        "G"
+      ],
+      [
+        "G",
+        "B",
+        "R"
+      ],
+      [
+        "R",
+        "R",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-67",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "R",
+        "R",
+        "B"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ],
+      [
+        "G",
+        "B",
+        "G"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-68",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "R",
+        "R",
+        "G"
+      ],
+      [
+        "R",
+        "G",
+        "G"
+      ],
+      [
+        "B",
+        "B",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-69",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 2,
+    "lanes": [
+      [
+        "B",
+        "B",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "G"
+      ],
+      [
+        "R",
+        "G",
+        "R"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-70",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 3,
+    "lanes": [
+      [
+        "R",
+        "B",
+        "R"
+      ],
+      [
+        "B",
+        "G",
+        "G"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "B",
+        "seats": 3
+      },
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      }
+    ]
+  },
+  {
+    "id": "benchmark-71",
+    "synthetic": true,
+    "rule_version": "queue-lab-v1",
+    "capacity": 4,
+    "lanes": [
+      [
+        "B",
+        "R",
+        "G"
+      ],
+      [
+        "R",
+        "B",
+        "G"
+      ],
+      [
+        "R",
+        "G",
+        "B"
+      ]
+    ],
+    "buses": [
+      {
+        "color": "G",
+        "seats": 3
+      },
+      {
+        "color": "R",
+        "seats": 3
+      },
+      {
+        "color": "B",
+        "seats": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "rule_version": "queue-lab-v1",
+  "seed": 27102026,
+  "count": 8,
+  "capacity": 3,
+  "initial_safe_ratio": [
+    0.3,
+    0.7
+  ],
+  "min_forced_states": 1,
+  "candidate_budget": 1000,
+  "solver_node_budget": 10000
+}

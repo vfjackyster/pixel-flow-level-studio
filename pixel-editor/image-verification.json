@@ -1,0 +1,19 @@
+{
+  "width": 32,
+  "height": 21,
+  "pixels": 672,
+  "colors": 12,
+  "shooters": 28,
+  "balanced": true,
+  "validatedInBrowser": [
+    "clipboard decode",
+    "aspect ratio lock",
+    "contain and cover",
+    "color limit",
+    "invalid size disables generation",
+    "generated level",
+    "undo",
+    "difficulty refresh",
+    "JSON export"
+  ]
+}

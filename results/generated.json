@@ -1,0 +1,1561 @@
+{
+  "synthetic": true,
+  "status": "TARGET_MET",
+  "specification": {
+    "rule_version": "queue-lab-v1",
+    "seed": 27102026,
+    "count": 8,
+    "capacity": 3,
+    "initial_safe_ratio": [
+      0.3,
+      0.7
+    ],
+    "min_forced_states": 1,
+    "candidate_budget": 1000,
+    "solver_node_budget": 10000
+  },
+  "trials": 53,
+  "rejects": {
+    "unsolvable": 23,
+    "unknown": 0,
+    "duplicate": 6,
+    "target": 16
+  },
+  "accepted": [
+    {
+      "level": {
+        "id": "generated-4",
+        "synthetic": true,
+        "rule_version": "queue-lab-v1",
+        "capacity": 3,
+        "lanes": [
+          [
+            "G",
+            "G",
+            "R"
+          ],
+          [
+            "R",
+            "B",
+            "R"
+          ],
+          [
+            "G",
+            "B",
+            "B"
+          ]
+        ],
+        "buses": [
+          {
+            "color": "B",
+            "seats": 3
+          },
+          {
+            "color": "G",
+            "seats": 3
+          },
+          {
+            "color": "R",
+            "seats": 3
+          }
+        ]
+      },
+      "canonical": "[3,[\"100\",\"112\",\"202\"]]",
+      "certificate": {
+        "path": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "replay": [
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                0,
+                1,
+                0
+              ],
+              "bus": 0,
+              "load": 0,
+              "buffer": [
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                0,
+                2,
+                0
+              ],
+              "bus": 0,
+              "load": 1,
+              "buffer": [
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                0,
+                2,
+                1
+              ],
+              "bus": 0,
+              "load": 1,
+              "buffer": [
+                "G",
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                0,
+                2,
+                2
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "G",
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                0,
+                2,
+                3
+              ],
+              "bus": 1,
+              "load": 1,
+              "buffer": [
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                1,
+                2,
+                3
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": [
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                2,
+                2,
+                3
+              ],
+              "bus": 2,
+              "load": 1,
+              "buffer": []
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                3,
+                2,
+                3
+              ],
+              "bus": 2,
+              "load": 2,
+              "buffer": []
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                3,
+                3,
+                3
+              ],
+              "bus": 3,
+              "load": 0,
+              "buffer": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "initialSafeRatio": 0.6666666666666666,
+        "forcedStates": 5,
+        "exactRandomPolicyWinRate": 0.052469135802469126
+      }
+    },
+    {
+      "level": {
+        "id": "generated-5",
+        "synthetic": true,
+        "rule_version": "queue-lab-v1",
+        "capacity": 3,
+        "lanes": [
+          [
+            "R",
+            "R",
+            "B"
+          ],
+          [
+            "G",
+            "B",
+            "G"
+          ],
+          [
+            "B",
+            "G",
+            "R"
+          ]
+        ],
+        "buses": [
+          {
+            "color": "G",
+            "seats": 3
+          },
+          {
+            "color": "R",
+            "seats": 3
+          },
+          {
+            "color": "B",
+            "seats": 3
+          }
+        ]
+      },
+      "canonical": "[3,[\"020\",\"112\",\"201\"]]",
+      "certificate": {
+        "path": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0,
+          2,
+          0
+        ],
+        "replay": [
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                0,
+                1,
+                0
+              ],
+              "bus": 0,
+              "load": 1,
+              "buffer": []
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                0,
+                2,
+                0
+              ],
+              "bus": 0,
+              "load": 1,
+              "buffer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                0,
+                3,
+                0
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                0,
+                3,
+                1
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "B",
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                0,
+                3,
+                2
+              ],
+              "bus": 1,
+              "load": 0,
+              "buffer": [
+                "B",
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                1,
+                3,
+                2
+              ],
+              "bus": 1,
+              "load": 1,
+              "buffer": [
+                "B",
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                2,
+                3,
+                2
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": [
+                "B",
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                2,
+                3,
+                3
+              ],
+              "bus": 2,
+              "load": 2,
+              "buffer": []
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                3,
+                3,
+                3
+              ],
+              "bus": 3,
+              "load": 0,
+              "buffer": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "initialSafeRatio": 0.6666666666666666,
+        "forcedStates": 6,
+        "exactRandomPolicyWinRate": 0.0459104938271605
+      }
+    },
+    {
+      "level": {
+        "id": "generated-11",
+        "synthetic": true,
+        "rule_version": "queue-lab-v1",
+        "capacity": 3,
+        "lanes": [
+          [
+            "R",
+            "G",
+            "B"
+          ],
+          [
+            "G",
+            "R",
+            "G"
+          ],
+          [
+            "B",
+            "B",
+            "R"
+          ]
+        ],
+        "buses": [
+          {
+            "color": "B",
+            "seats": 3
+          },
+          {
+            "color": "R",
+            "seats": 3
+          },
+          {
+            "color": "G",
+            "seats": 3
+          }
+        ]
+      },
+      "canonical": "[3,[\"001\",\"120\",\"212\"]]",
+      "certificate": {
+        "path": [
+          0,
+          0,
+          0,
+          2,
+          2,
+          1,
+          1,
+          2,
+          1
+        ],
+        "replay": [
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                1,
+                0,
+                0
+              ],
+              "bus": 0,
+              "load": 0,
+              "buffer": [
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                2,
+                0,
+                0
+              ],
+              "bus": 0,
+              "load": 0,
+              "buffer": [
+                "G",
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                3,
+                0,
+                0
+              ],
+              "bus": 0,
+              "load": 1,
+              "buffer": [
+                "G",
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                3,
+                0,
+                1
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "G",
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                3,
+                0,
+                2
+              ],
+              "bus": 1,
+              "load": 1,
+              "buffer": [
+                "G"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                3,
+                1,
+                2
+              ],
+              "bus": 1,
+              "load": 1,
+              "buffer": [
+                "G",
+                "G"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                3,
+                2,
+                2
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": [
+                "G",
+                "G"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                3,
+                2,
+                3
+              ],
+              "bus": 2,
+              "load": 2,
+              "buffer": []
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                3,
+                3,
+                3
+              ],
+              "bus": 3,
+              "load": 0,
+              "buffer": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "initialSafeRatio": 0.6666666666666666,
+        "forcedStates": 6,
+        "exactRandomPolicyWinRate": 0.0459104938271605
+      }
+    },
+    {
+      "level": {
+        "id": "generated-19",
+        "synthetic": true,
+        "rule_version": "queue-lab-v1",
+        "capacity": 3,
+        "lanes": [
+          [
+            "G",
+            "R",
+            "B"
+          ],
+          [
+            "B",
+            "G",
+            "G"
+          ],
+          [
+            "R",
+            "B",
+            "R"
+          ]
+        ],
+        "buses": [
+          {
+            "color": "R",
+            "seats": 3
+          },
+          {
+            "color": "G",
+            "seats": 3
+          },
+          {
+            "color": "B",
+            "seats": 3
+          }
+        ]
+      },
+      "canonical": "[3,[\"020\",\"102\",\"211\"]]",
+      "certificate": {
+        "path": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0
+        ],
+        "replay": [
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                1,
+                0,
+                0
+              ],
+              "bus": 0,
+              "load": 0,
+              "buffer": [
+                "G"
+              ]
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                2,
+                0,
+                0
+              ],
+              "bus": 0,
+              "load": 1,
+              "buffer": [
+                "G"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                2,
+                0,
+                1
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "G"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                2,
+                0,
+                2
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "B",
+                "G"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                2,
+                0,
+                3
+              ],
+              "bus": 1,
+              "load": 1,
+              "buffer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                2,
+                1,
+                3
+              ],
+              "bus": 1,
+              "load": 1,
+              "buffer": [
+                "B",
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                2,
+                2,
+                3
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": [
+                "B",
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                2,
+                3,
+                3
+              ],
+              "bus": 2,
+              "load": 2,
+              "buffer": []
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                3,
+                3,
+                3
+              ],
+              "bus": 3,
+              "load": 0,
+              "buffer": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "initialSafeRatio": 0.6666666666666666,
+        "forcedStates": 8,
+        "exactRandomPolicyWinRate": 0.006558641975308641
+      }
+    },
+    {
+      "level": {
+        "id": "generated-30",
+        "synthetic": true,
+        "rule_version": "queue-lab-v1",
+        "capacity": 3,
+        "lanes": [
+          [
+            "G",
+            "G",
+            "R"
+          ],
+          [
+            "B",
+            "R",
+            "B"
+          ],
+          [
+            "R",
+            "B",
+            "G"
+          ]
+        ],
+        "buses": [
+          {
+            "color": "G",
+            "seats": 3
+          },
+          {
+            "color": "B",
+            "seats": 3
+          },
+          {
+            "color": "R",
+            "seats": 3
+          }
+        ]
+      },
+      "canonical": "[3,[\"002\",\"121\",\"210\"]]",
+      "certificate": {
+        "path": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0
+        ],
+        "replay": [
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                1,
+                0,
+                0
+              ],
+              "bus": 0,
+              "load": 1,
+              "buffer": []
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                2,
+                0,
+                0
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": []
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                2,
+                0,
+                1
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                2,
+                0,
+                2
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "B",
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                2,
+                0,
+                3
+              ],
+              "bus": 1,
+              "load": 1,
+              "buffer": [
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                2,
+                1,
+                3
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": [
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                2,
+                2,
+                3
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": [
+                "R",
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                2,
+                3,
+                3
+              ],
+              "bus": 2,
+              "load": 2,
+              "buffer": []
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                3,
+                3,
+                3
+              ],
+              "bus": 3,
+              "load": 0,
+              "buffer": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "initialSafeRatio": 0.6666666666666666,
+        "forcedStates": 8,
+        "exactRandomPolicyWinRate": 0.006558641975308641
+      }
+    },
+    {
+      "level": {
+        "id": "generated-33",
+        "synthetic": true,
+        "rule_version": "queue-lab-v1",
+        "capacity": 3,
+        "lanes": [
+          [
+            "G",
+            "G",
+            "R"
+          ],
+          [
+            "R",
+            "R",
+            "B"
+          ],
+          [
+            "B",
+            "B",
+            "G"
+          ]
+        ],
+        "buses": [
+          {
+            "color": "B",
+            "seats": 3
+          },
+          {
+            "color": "R",
+            "seats": 3
+          },
+          {
+            "color": "G",
+            "seats": 3
+          }
+        ]
+      },
+      "canonical": "[3,[\"002\",\"110\",\"221\"]]",
+      "certificate": {
+        "path": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        "replay": [
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                0,
+                1,
+                0
+              ],
+              "bus": 0,
+              "load": 0,
+              "buffer": [
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                0,
+                2,
+                0
+              ],
+              "bus": 0,
+              "load": 0,
+              "buffer": [
+                "R",
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                0,
+                3,
+                0
+              ],
+              "bus": 0,
+              "load": 1,
+              "buffer": [
+                "R",
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                0,
+                3,
+                1
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "R",
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                0,
+                3,
+                2
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": []
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                1,
+                3,
+                2
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": [
+                "G"
+              ]
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                2,
+                3,
+                2
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": [
+                "G",
+                "G"
+              ]
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                3,
+                3,
+                2
+              ],
+              "bus": 2,
+              "load": 2,
+              "buffer": []
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                3,
+                3,
+                3
+              ],
+              "bus": 3,
+              "load": 0,
+              "buffer": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "initialSafeRatio": 0.6666666666666666,
+        "forcedStates": 8,
+        "exactRandomPolicyWinRate": 0.006558641975308641
+      }
+    },
+    {
+      "level": {
+        "id": "generated-42",
+        "synthetic": true,
+        "rule_version": "queue-lab-v1",
+        "capacity": 3,
+        "lanes": [
+          [
+            "R",
+            "B",
+            "R"
+          ],
+          [
+            "B",
+            "G",
+            "G"
+          ],
+          [
+            "B",
+            "G",
+            "R"
+          ]
+        ],
+        "buses": [
+          {
+            "color": "G",
+            "seats": 3
+          },
+          {
+            "color": "B",
+            "seats": 3
+          },
+          {
+            "color": "R",
+            "seats": 3
+          }
+        ]
+      },
+      "canonical": "[3,[\"100\",\"102\",\"212\"]]",
+      "certificate": {
+        "path": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        "replay": [
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                0,
+                1,
+                0
+              ],
+              "bus": 0,
+              "load": 0,
+              "buffer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                0,
+                2,
+                0
+              ],
+              "bus": 0,
+              "load": 1,
+              "buffer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                0,
+                3,
+                0
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                0,
+                3,
+                1
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "B",
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                0,
+                3,
+                2
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": []
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                1,
+                3,
+                2
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": [
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                2,
+                3,
+                2
+              ],
+              "bus": 2,
+              "load": 1,
+              "buffer": []
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                3,
+                3,
+                2
+              ],
+              "bus": 2,
+              "load": 2,
+              "buffer": []
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                3,
+                3,
+                3
+              ],
+              "bus": 3,
+              "load": 0,
+              "buffer": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "initialSafeRatio": 0.6666666666666666,
+        "forcedStates": 5,
+        "exactRandomPolicyWinRate": 0.052469135802469126
+      }
+    },
+    {
+      "level": {
+        "id": "generated-53",
+        "synthetic": true,
+        "rule_version": "queue-lab-v1",
+        "capacity": 3,
+        "lanes": [
+          [
+            "G",
+            "B",
+            "G"
+          ],
+          [
+            "R",
+            "B",
+            "R"
+          ],
+          [
+            "R",
+            "G",
+            "B"
+          ]
+        ],
+        "buses": [
+          {
+            "color": "G",
+            "seats": 3
+          },
+          {
+            "color": "R",
+            "seats": 3
+          },
+          {
+            "color": "B",
+            "seats": 3
+          }
+        ]
+      },
+      "canonical": "[3,[\"020\",\"102\",\"121\"]]",
+      "certificate": {
+        "path": [
+          0,
+          0,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "replay": [
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                1,
+                0,
+                0
+              ],
+              "bus": 0,
+              "load": 1,
+              "buffer": []
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                2,
+                0,
+                0
+              ],
+              "bus": 0,
+              "load": 1,
+              "buffer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 0,
+            "state": {
+              "pos": [
+                3,
+                0,
+                0
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                3,
+                0,
+                1
+              ],
+              "bus": 0,
+              "load": 2,
+              "buffer": [
+                "B",
+                "R"
+              ]
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                3,
+                0,
+                2
+              ],
+              "bus": 1,
+              "load": 1,
+              "buffer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                3,
+                1,
+                2
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                3,
+                2,
+                2
+              ],
+              "bus": 1,
+              "load": 2,
+              "buffer": [
+                "B",
+                "B"
+              ]
+            }
+          },
+          {
+            "action": 1,
+            "state": {
+              "pos": [
+                3,
+                3,
+                2
+              ],
+              "bus": 2,
+              "load": 2,
+              "buffer": []
+            }
+          },
+          {
+            "action": 2,
+            "state": {
+              "pos": [
+                3,
+                3,
+                3
+              ],
+              "bus": 3,
+              "load": 0,
+              "buffer": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "initialSafeRatio": 0.6666666666666666,
+        "forcedStates": 8,
+        "exactRandomPolicyWinRate": 0.006558641975308641
+      }
+    }
+  ]
+}

@@ -1,0 +1,1977 @@
+{
+  "AdjustSdk.Scripts.dll": [
+    144427716,
+    668,
+    148349360
+  ],
+  "AnnulusGames.SceneSystem.dll": [
+    144427784,
+    225,
+    148352032
+  ],
+  "Antlr4.Runtime.Standard.dll": [
+    144433156,
+    1828,
+    148353036
+  ],
+  "Assembly-CSharp-firstpass.dll": [
+    144433416,
+    535,
+    148360484
+  ],
+  "Assembly-CSharp.dll": [
+    144442900,
+    17249,
+    148362632
+  ],
+  "Backend.dll": [
+    144446184,
+    912,
+    148436740
+  ],
+  "BrunoMikoski.AnimationSequencer.dll": [
+    144446332,
+    446,
+    148440844
+  ],
+  "CloudKitHelper.Runtime.dll": [
+    144446400,
+    29,
+    148442644
+  ],
+  "Coffee.UIEffect.dll": [
+    144448280,
+    681,
+    148442880
+  ],
+  "Coffee.UIParticle.dll": [
+    144449864,
+    284,
+    148445604
+  ],
+  "Crescive.Animation.Objects.dll": [
+    144449932,
+    33,
+    148446740
+  ],
+  "Crescive.AssetDatabaseUtils.dll": [
+    144450128,
+    17,
+    148446872
+  ],
+  "Crescive.Collections.dll": [
+    144453572,
+    86,
+    148446940
+  ],
+  "Crescive.ColorUtils.dll": [
+    144453640,
+    14,
+    148447284
+  ],
+  "Crescive.ContentLock.dll": [
+    144453708,
+    20,
+    148447340
+  ],
+  "Crescive.Data.Claimables.Gift.Extended.dll": [
+    144453776,
+    44,
+    148447420
+  ],
+  "Crescive.Data.Claimables.Gift.dll": [
+    144453844,
+    442,
+    148447596
+  ],
+  "Crescive.Data.Claimables.Resources.dll": [
+    144453912,
+    16,
+    148449364
+  ],
+  "Crescive.Data.Claimables.UI.Chest.dll": [
+    144453980,
+    77,
+    148449428
+  ],
+  "Crescive.Data.Claimables.UI.IAP.Navigation.dll": [
+    144454048,
+    24,
+    148449800
+  ],
+  "Crescive.Data.Claimables.UI.IAP.dll": [
+    144454116,
+    52,
+    148449896
+  ],
+  "Crescive.Data.Claimables.UI.dll": [
+    144456448,
+    719,
+    148450136
+  ],
+  "Crescive.Data.Claimables.dll": [
+    144456548,
+    138,
+    148453244
+  ],
+  "Crescive.Data.Conditioning.Extended.dll": [
+    144456616,
+    20,
+    148453796
+  ],
+  "Crescive.Data.Conditioning.dll": [
+    144458660,
+    121,
+    148453876
+  ],
+  "Crescive.Data.HelperTypes.dll": [
+    144458864,
+    82,
+    148454360
+  ],
+  "Crescive.Data.Json.dll": [
+    144459540,
+    61,
+    148454688
+  ],
+  "Crescive.Data.Persistence.dll": [
+    144459800,
+    105,
+    148454932
+  ],
+  "Crescive.Data.PersistentVariables.BuiltInTypes.dll": [
+    144459868,
+    8,
+    148455400
+  ],
+  "Crescive.Data.PersistentVariables.dll": [
+    144460896,
+    215,
+    148455432
+  ],
+  "Crescive.Data.Resources.Extended.dll": [
+    144460964,
+    196,
+    148456308
+  ],
+  "Crescive.Data.Resources.UI.dll": [
+    144461032,
+    159,
+    148457132
+  ],
+  "Crescive.Data.Resources.dll": [
+    144461148,
+    88,
+    148457768
+  ],
+  "Crescive.Data.Services.Remote.dll": [
+    144461376,
+    13,
+    148458184
+  ],
+  "Crescive.Data.Services.dll": [
+    144464692,
+    131,
+    148458236
+  ],
+  "Crescive.Data.Transactions.Claimables.Gift.dll": [
+    144464760,
+    7,
+    148458760
+  ],
+  "Crescive.Data.Transactions.Sequencer.dll": [
+    144464828,
+    7,
+    148458804
+  ],
+  "Crescive.Data.Transactions.dll": [
+    144464896,
+    101,
+    148458848
+  ],
+  "Crescive.Data.Unyverse.dll": [
+    144464964,
+    22,
+    148459308
+  ],
+  "Crescive.DataUtils.dll": [
+    144465232,
+    34,
+    148459404
+  ],
+  "Crescive.Debugging.dll": [
+    144465300,
+    33,
+    148459540
+  ],
+  "Crescive.DOTweenUtils.dll": [
+    144465368,
+    15,
+    148459672
+  ],
+  "Crescive.Events.dll": [
+    144465436,
+    8,
+    148459748
+  ],
+  "Crescive.Extensions.dll": [
+    144466592,
+    623,
+    148459780
+  ],
+  "Crescive.External.DOTween.dll": [
+    144466660,
+    4,
+    148462320
+  ],
+  "Crescive.FXUtils.dll": [
+    144466728,
+    313,
+    148462336
+  ],
+  "Crescive.GameObjectUtils.dll": [
+    144467332,
+    226,
+    148463764
+  ],
+  "Crescive.GameStateSystem.dll": [
+    144467400,
+    66,
+    148464684
+  ],
+  "Crescive.Guid.dll": [
+    144467468,
+    16,
+    148464948
+  ],
+  "Crescive.IAP.Gifts.dll": [
+    144467536,
+    105,
+    148465108
+  ],
+  "Crescive.IAP.dll": [
+    144467684,
+    881,
+    148465528
+  ],
+  "Crescive.InGameOffer.Extended.dll": [
+    144467752,
+    33,
+    148469420
+  ],
+  "Crescive.InGameOffer.dll": [
+    144467820,
+    162,
+    148469552
+  ],
+  "Crescive.Inputs.dll": [
+    144468032,
+    174,
+    148470232
+  ],
+  "Crescive.Interstitials.dll": [
+    144468100,
+    146,
+    148470952
+  ],
+  "Crescive.LevelCreator.Extended.dll": [
+    144468344,
+    20,
+    148471552
+  ],
+  "Crescive.LevelCreator.dll": [
+    144469172,
+    123,
+    148471632
+  ],
+  "Crescive.LevelDifficulties.dll": [
+    144469240,
+    55,
+    148472188
+  ],
+  "Crescive.LevelFeatures.dll": [
+    144469308,
+    116,
+    148472408
+  ],
+  "Crescive.LevelRewards.dll": [
+    144469376,
+    38,
+    148472936
+  ],
+  "Crescive.LiveOffers.IAP.dll": [
+    144469444,
+    16,
+    148473096
+  ],
+  "Crescive.LiveOffers.Sequencer.dll": [
+    144469512,
+    9,
+    148473160
+  ],
+  "Crescive.LiveOffers.TimeInterval.dll": [
+    144469580,
+    14,
+    148473212
+  ],
+  "Crescive.LiveOffers.UI.dll": [
+    144469648,
+    8,
+    148473268
+  ],
+  "Crescive.LiveOffers.dll": [
+    144469812,
+    198,
+    148473300
+  ],
+  "Crescive.LoadSystem.Levels.DebugMenu.dll": [
+    144469880,
+    96,
+    148474140
+  ],
+  "Crescive.LoadSystem.Levels.dll": [
+    144470924,
+    526,
+    148474524
+  ],
+  "Crescive.LoadSystem.Scenes.dll": [
+    144470992,
+    21,
+    148476868
+  ],
+  "Crescive.LoadSystem.UI.dll": [
+    144471060,
+    9,
+    148476968
+  ],
+  "Crescive.LoadSystem.dll": [
+    144471168,
+    60,
+    148477004
+  ],
+  "Crescive.Localization.dll": [
+    144471596,
+    135,
+    148477276
+  ],
+  "Crescive.Offerwall.dll": [
+    144471664,
+    228,
+    148477816
+  ],
+  "Crescive.PackageManager.Data.dll": [
+    144471732,
+    46,
+    148478792
+  ],
+  "Crescive.PlatformUtils.dll": [
+    144471800,
+    9,
+    148478976
+  ],
+  "Crescive.Powerups.UI.dll": [
+    144471868,
+    131,
+    148479012
+  ],
+  "Crescive.Powerups.dll": [
+    144471936,
+    401,
+    148479536
+  ],
+  "Crescive.PrefabLoaders.Extended.Sequencer.dll": [
+    144472004,
+    6,
+    148481140
+  ],
+  "Crescive.PrefabLoaders.dll": [
+    144472072,
+    27,
+    148481180
+  ],
+  "Crescive.Randomness.dll": [
+    144472140,
+    38,
+    148481288
+  ],
+  "Crescive.Reflection.dll": [
+    144472208,
+    8,
+    148481440
+  ],
+  "Crescive.RendererUtils.dll": [
+    144472276,
+    30,
+    148481472
+  ],
+  "Crescive.RewardedVideos.UI.dll": [
+    144472344,
+    6,
+    148481592
+  ],
+  "Crescive.RewardedVideos.dll": [
+    144472516,
+    231,
+    148481616
+  ],
+  "Crescive.Scheduler.Core.dll": [
+    144472584,
+    394,
+    148482540
+  ],
+  "Crescive.ScriptableUtils.Sequencer.dll": [
+    144472652,
+    11,
+    148484132
+  ],
+  "Crescive.ScriptableUtils.dll": [
+    144473232,
+    122,
+    148484192
+  ],
+  "Crescive.Sequencer.Extended.dll": [
+    144473300,
+    51,
+    148484696
+  ],
+  "Crescive.Sequencer.dll": [
+    144473480,
+    222,
+    148484932
+  ],
+  "Crescive.ServiceLocator.dll": [
+    144473892,
+    64,
+    148485884
+  ],
+  "Crescive.Shop.dll": [
+    144473960,
+    11,
+    148486228
+  ],
+  "Crescive.Singletons.dll": [
+    144474084,
+    10,
+    148486272
+  ],
+  "Crescive.Sirenix.Odin.dll": [
+    144474152,
+    4,
+    148486312
+  ],
+  "Crescive.TapBlocker.dll": [
+    144474220,
+    23,
+    148486328
+  ],
+  "Crescive.TemporaryItems.Claimables.dll": [
+    144474288,
+    18,
+    148486420
+  ],
+  "Crescive.TemporaryItems.dll": [
+    144474548,
+    85,
+    148486492
+  ],
+  "Crescive.TimeInterval.dll": [
+    144474616,
+    39,
+    148486832
+  ],
+  "Crescive.Timers.dll": [
+    144474724,
+    83,
+    148486988
+  ],
+  "Crescive.Trackers.Application.dll": [
+    144474792,
+    7,
+    148487320
+  ],
+  "Crescive.Trackers.InGame.dll": [
+    144474860,
+    80,
+    148487348
+  ],
+  "Crescive.TransformAutoLayout.dll": [
+    144474928,
+    104,
+    148487668
+  ],
+  "Crescive.Tutorials.dll": [
+    144475972,
+    68,
+    148488084
+  ],
+  "Crescive.UGUIUtils.dll": [
+    144476040,
+    107,
+    148488356
+  ],
+  "Crescive.UI.Animations.dll": [
+    144476156,
+    296,
+    148488792
+  ],
+  "Crescive.UI.Audio.dll": [
+    144476224,
+    30,
+    148489976
+  ],
+  "Crescive.UI.Binding.DOTween.dll": [
+    144476292,
+    10,
+    148490096
+  ],
+  "Crescive.UI.Binding.dll": [
+    144477584,
+    115,
+    148490136
+  ],
+  "Crescive.UI.FXtended.dll": [
+    144477652,
+    36,
+    148490596
+  ],
+  "Crescive.UI.Haptic.dll": [
+    144477720,
+    30,
+    148490740
+  ],
+  "Crescive.UI.Indicator.dll": [
+    144477788,
+    12,
+    148490860
+  ],
+  "Crescive.UI.Layouts.dll": [
+    144477984,
+    217,
+    148490908
+  ],
+  "Crescive.UI.Modals.dll": [
+    144478052,
+    101,
+    148491776
+  ],
+  "Crescive.UI.Navigation.Animation.dll": [
+    144478120,
+    61,
+    148492252
+  ],
+  "Crescive.UI.Navigation.Extended.dll": [
+    144478188,
+    50,
+    148492496
+  ],
+  "Crescive.UI.Navigation.dll": [
+    144478256,
+    281,
+    148492696
+  ],
+  "Crescive.UI.Progression.dll": [
+    144478324,
+    94,
+    148493948
+  ],
+  "Crescive.UI.SafeArea.dll": [
+    144478392,
+    13,
+    148494332
+  ],
+  "Crescive.UI.Selectables.dll": [
+    144478460,
+    86,
+    148494384
+  ],
+  "Crescive.UI.Text.Extended.Template.dll": [
+    144478776,
+    48,
+    148494728
+  ],
+  "Crescive.UI.Text.Formatters.dll": [
+    144479004,
+    53,
+    148494920
+  ],
+  "Crescive.UI.Text.Localization.dll": [
+    144479072,
+    18,
+    148495156
+  ],
+  "Crescive.UI.Text.dll": [
+    144479164,
+    130,
+    148495228
+  ],
+  "Crescive.UI.Unyverse.dll": [
+    144479232,
+    70,
+    148495748
+  ],
+  "Crescive.UnyGUI.dll": [
+    144479548,
+    119,
+    148496028
+  ],
+  "Crescive.Unyverse.AsyncVar.dll": [
+    144480464,
+    51,
+    148496512
+  ],
+  "Crescive.Unyverse.BuiltInTypes.dll": [
+    144480532,
+    128,
+    148496716
+  ],
+  "Crescive.Unyverse.Extended.dll": [
+    144481624,
+    147,
+    148497228
+  ],
+  "Crescive.Unyverse.UGUITypes.dll": [
+    144481692,
+    179,
+    148497816
+  ],
+  "Crescive.Unyverse.UnityTypes.dll": [
+    144481760,
+    268,
+    148498532
+  ],
+  "Crescive.Unyverse.dll": [
+    144490556,
+    895,
+    148499604
+  ],
+  "Crescive.UserVersion.DebugMenu.dll": [
+    144490624,
+    16,
+    148503184
+  ],
+  "Crescive.UserVersion.dll": [
+    144490692,
+    18,
+    148503248
+  ],
+  "Crescive.ValueAnimator.dll": [
+    144490760,
+    22,
+    148503320
+  ],
+  "DOTween.Modules.dll": [
+    144490828,
+    336,
+    148503408
+  ],
+  "DOTweenPro.Scripts.dll": [
+    144490904,
+    59,
+    148504848
+  ],
+  "DOTweenPro.dll": [
+    144490972,
+    60,
+    148505084
+  ],
+  "DOTween.dll": [
+    144492240,
+    1195,
+    148505332
+  ],
+  "Dreamteck.Splines.dll": [
+    144492348,
+    1358,
+    148510312
+  ],
+  "Dreamteck.Utilities.dll": [
+    144493272,
+    169,
+    148516064
+  ],
+  "Facebook.Unity.Android.dll": [
+    144493356,
+    3,
+    148516740
+  ],
+  "Facebook.Unity.Settings.dll": [
+    144493424,
+    53,
+    148516752
+  ],
+  "Facebook.Unity.dll": [
+    144493924,
+    1806,
+    148516964
+  ],
+  "Firebase.Analytics.dll": [
+    144494248,
+    208,
+    148524188
+  ],
+  "Firebase.App.dll": [
+    144494652,
+    797,
+    148525020
+  ],
+  "Firebase.Crashlytics.dll": [
+    144494984,
+    245,
+    148528208
+  ],
+  "Firebase.Installations.dll": [
+    144495292,
+    75,
+    148529188
+  ],
+  "Firebase.Platform.dll": [
+    144496008,
+    215,
+    148529488
+  ],
+  "Firebase.RemoteConfig.dll": [
+    144496348,
+    265,
+    148530348
+  ],
+  "Firebase.TaskExtension.dll": [
+    144497136,
+    30,
+    148531520
+  ],
+  "FormatAdapters.dll": [
+    144497204,
+    8,
+    148531640
+  ],
+  "Google.Play.Common.dll": [
+    144497528,
+    63,
+    148531672
+  ],
+  "Google.Play.Core.dll": [
+    144498052,
+    54,
+    148531924
+  ],
+  "Google.Play.Review.dll": [
+    144498160,
+    21,
+    148532140
+  ],
+  "GoogleMobileAds.Android.dll": [
+    144498228,
+    630,
+    148532224
+  ],
+  "GoogleMobileAds.Common.dll": [
+    144498296,
+    295,
+    148534744
+  ],
+  "GoogleMobileAds.Core.dll": [
+    144498364,
+    79,
+    148535924
+  ],
+  "GoogleMobileAds.Ump.Android.dll": [
+    144498432,
+    38,
+    148536240
+  ],
+  "GoogleMobileAds.Ump.dll": [
+    144498500,
+    59,
+    148536392
+  ],
+  "GoogleMobileAds.dll": [
+    144498568,
+    441,
+    148536628
+  ],
+  "GoogleSignIn.Runtime.dll": [
+    144498796,
+    106,
+    148538392
+  ],
+  "KinoBloom.Runtime.dll": [
+    147205828,
+    22,
+    150225628
+  ],
+  "LeTai.TrueShadow.dll": [
+    147206336,
+    366,
+    150225716
+  ],
+  "Lofelt.NiceVibrations.dll": [
+    147206420,
+    139,
+    150227244
+  ],
+  "Loom.BattlePass.dll": [
+    147206576,
+    945,
+    150227848
+  ],
+  "Loom.BonusLevels.DebugMenu.dll": [
+    147206644,
+    30,
+    150232060
+  ],
+  "Loom.BonusLevels.dll": [
+    147206712,
+    52,
+    150232180
+  ],
+  "Loom.Bundles.Generated.dll": [
+    147206780,
+    2,
+    150232388
+  ],
+  "Loom.Bundles.UI.dll": [
+    147206848,
+    15,
+    150232396
+  ],
+  "Loom.Bundles.dll": [
+    147206932,
+    120,
+    150232488
+  ],
+  "Loom.Checkpoint.dll": [
+    147207000,
+    135,
+    150233128
+  ],
+  "Loom.ClaimableNoAds.dll": [
+    147207068,
+    94,
+    150233668
+  ],
+  "Loom.Common.dll": [
+    147207136,
+    135,
+    150234060
+  ],
+  "Loom.Concurrency.Unyverse.dll": [
+    147207556,
+    45,
+    150234600
+  ],
+  "Loom.ConnectedShooter.Logic.dll": [
+    147207624,
+    68,
+    150234780
+  ],
+  "Loom.ConsecutiveSegment.dll": [
+    147207692,
+    38,
+    150235116
+  ],
+  "Loom.CosmicJourney.dll": [
+    147207760,
+    520,
+    150235268
+  ],
+  "Loom.DailyBonus.dll": [
+    147207828,
+    361,
+    150237604
+  ],
+  "Loom.Data.CloudSave.dll": [
+    147208072,
+    382,
+    150239240
+  ],
+  "Loom.Data.CurrentValues.dll": [
+    147208948,
+    57,
+    150241040
+  ],
+  "Loom.DebugMenu.dll": [
+    147209400,
+    327,
+    150241268
+  ],
+  "Loom.EndgameLeague.dll": [
+    147209468,
+    442,
+    150242584
+  ],
+  "Loom.FairyShoots.dll": [
+    147209536,
+    1186,
+    150244656
+  ],
+  "Loom.FileStorage.dll": [
+    147209604,
+    11,
+    150249840
+  ],
+  "Loom.ForceUpdater.dll": [
+    147209672,
+    10,
+    150249884
+  ],
+  "Loom.GameplayFlow.Logic.dll": [
+    147209740,
+    20,
+    150249940
+  ],
+  "Loom.LavaQuest.Extensions.dll": [
+    147209808,
+    23,
+    150250020
+  ],
+  "Loom.LavaQuest.Utilities.dll": [
+    147209876,
+    40,
+    150250112
+  ],
+  "Loom.LavaQuest.dll": [
+    147209944,
+    731,
+    150250272
+  ],
+  "Loom.Leaderboard.dll": [
+    147210012,
+    510,
+    150253396
+  ],
+  "Loom.LevelDesign.Tools.dll": [
+    147210280,
+    450,
+    150255916
+  ],
+  "Loom.LevelEase.Logic.dll": [
+    147210348,
+    13,
+    150258004
+  ],
+  "Loom.LevelFailFreeContinue.dll": [
+    147210416,
+    41,
+    150258056
+  ],
+  "Loom.LevelFailOfferBundleDisplay.dll": [
+    147210484,
+    16,
+    150258220
+  ],
+  "Loom.LevelFailRvContinue.dll": [
+    147210552,
+    53,
+    150258292
+  ],
+  "Loom.Levels.Remote.Logic.dll": [
+    147210620,
+    42,
+    150258504
+  ],
+  "Loom.LiveEvents.dll": [
+    147210688,
+    188,
+    150258672
+  ],
+  "Loom.LiveGame.Avatars.dll": [
+    147210756,
+    126,
+    150259536
+  ],
+  "Loom.LiveGame.DebugMenu.dll": [
+    147210824,
+    69,
+    150260040
+  ],
+  "Loom.LiveGame.DebugTools.dll": [
+    147210892,
+    19,
+    150260460
+  ],
+  "Loom.LiveGame.UI.dll": [
+    147210960,
+    85,
+    150260544
+  ],
+  "Loom.LiveGame.dll": [
+    147211028,
+    207,
+    150260916
+  ],
+  "Loom.LiveLeaderboard.UI.dll": [
+    147211096,
+    240,
+    150262400
+  ],
+  "Loom.LiveLeaderboard.dll": [
+    147211164,
+    126,
+    150263536
+  ],
+  "Loom.LiveTournament.UI.dll": [
+    147211232,
+    12,
+    150264104
+  ],
+  "Loom.LiveTournament.dll": [
+    147211300,
+    52,
+    150264152
+  ],
+  "Loom.Loading.Indicator.dll": [
+    147211368,
+    13,
+    150264464
+  ],
+  "Loom.LocationUtils.dll": [
+    147211436,
+    25,
+    150264516
+  ],
+  "Loom.LoopShooter.Logic.dll": [
+    147211504,
+    17,
+    150264664
+  ],
+  "Loom.Map.Logic.dll": [
+    147211572,
+    21,
+    150264732
+  ],
+  "Loom.Marathon.UI.dll": [
+    147211640,
+    126,
+    150264832
+  ],
+  "Loom.Marathon.dll": [
+    147211708,
+    102,
+    150265384
+  ],
+  "Loom.MilestoneRewards.dll": [
+    147211776,
+    103,
+    150265792
+  ],
+  "Loom.Mission.dll": [
+    147211868,
+    980,
+    150266220
+  ],
+  "Loom.MobileNotifications.DebugMenu.dll": [
+    147211936,
+    49,
+    150270396
+  ],
+  "Loom.MobileNotifications.dll": [
+    147212004,
+    203,
+    150270608
+  ],
+  "Loom.Nakama.DebugMenu.dll": [
+    147212112,
+    96,
+    150271436
+  ],
+  "Loom.Nakama.dll": [
+    147214164,
+    1182,
+    150271900
+  ],
+  "Loom.OfflineMode.dll": [
+    147214232,
+    66,
+    150278276
+  ],
+  "Loom.Performance.DebugMenu.dll": [
+    147214300,
+    82,
+    150278540
+  ],
+  "Loom.Performance.Runtime.dll": [
+    147214368,
+    148,
+    150278884
+  ],
+  "Loom.Performance.Sequencer.dll": [
+    147214436,
+    44,
+    150279484
+  ],
+  "Loom.PixelArena.dll": [
+    147214504,
+    402,
+    150279660
+  ],
+  "Loom.PixelMixer.Logic.dll": [
+    147214572,
+    19,
+    150281580
+  ],
+  "Loom.Race.dll": [
+    147214736,
+    1099,
+    150281736
+  ],
+  "Loom.RemoteConfigs.dll": [
+    147214844,
+    83,
+    150286380
+  ],
+  "Loom.RendererUtils.dll": [
+    147215368,
+    44,
+    150286728
+  ],
+  "Loom.ResourceMutation.dll": [
+    147215436,
+    19,
+    150286904
+  ],
+  "Loom.Rush.dll": [
+    147215552,
+    849,
+    150286980
+  ],
+  "Loom.SchedulerDebug.dll": [
+    147215620,
+    126,
+    150290648
+  ],
+  "Loom.SecurityUtils.dll": [
+    147215688,
+    4,
+    150291152
+  ],
+  "Loom.Shooter.Animation.Logic.dll": [
+    147215756,
+    17,
+    150291168
+  ],
+  "Loom.SocialMediaRewards.dll": [
+    147215824,
+    182,
+    150291236
+  ],
+  "Loom.SoftUpdate.dll": [
+    147215892,
+    8,
+    150292012
+  ],
+  "Loom.StoreRating.dll": [
+    147215960,
+    79,
+    150292044
+  ],
+  "Loom.Streaks.dll": [
+    147216028,
+    36,
+    150292440
+  ],
+  "Loom.SuperSlot.dll": [
+    147216096,
+    373,
+    150292584
+  ],
+  "Loom.TimeUtils.dll": [
+    147216164,
+    46,
+    150294140
+  ],
+  "Loom.UI.Generic.dll": [
+    147216552,
+    159,
+    150294356
+  ],
+  "Loom.UI.Tracking.DebugMenu.dll": [
+    147216620,
+    25,
+    150295024
+  ],
+  "Loom.UI.Tracking.dll": [
+    147216688,
+    89,
+    150295124
+  ],
+  "Loom.Unipig.dll": [
+    147216756,
+    394,
+    150295512
+  ],
+  "Loom.UserRewards.dll": [
+    147216824,
+    68,
+    150297152
+  ],
+  "Loom.Weaver.Integrations.dll": [
+    147216908,
+    259,
+    150297528
+  ],
+  "Loom.Weaver.Sdk.Foundation.dll": [
+    147216976,
+    10,
+    150298660
+  ],
+  "Loom.WeaverSdk.AppleSignIn.dll": [
+    147217044,
+    9,
+    150298700
+  ],
+  "Loom.WeaverSdk.CloudKit.dll": [
+    147217112,
+    9,
+    150298752
+  ],
+  "Loom.WeaverSdk.GoogleSignIn.dll": [
+    147217180,
+    16,
+    150298804
+  ],
+  "Loom.Weaver.dll": [
+    147218168,
+    3045,
+    150298884
+  ],
+  "Loom.WeeklyMission.dll": [
+    147218260,
+    810,
+    150312608
+  ],
+  "Loom.WelcomeBack.dll": [
+    147218328,
+    72,
+    150316088
+  ],
+  "LoopExecutor.dll": [
+    147218396,
+    2,
+    150316392
+  ],
+  "MaxSdk.Scripts.dll": [
+    147218848,
+    485,
+    150316400
+  ],
+  "MessagePack.Annotations.dll": [
+    147218916,
+    31,
+    150318364
+  ],
+  "MessagePack.dll": [
+    147231224,
+    1612,
+    150318488
+  ],
+  "Microsoft.NET.StringTools_PlaygamiMsgPack.dll": [
+    147231292,
+    36,
+    150325248
+  ],
+  "Mono.Security.dll": [
+    147231360,
+    546,
+    150325464
+  ],
+  "mscorlib.dll": [
+    147256196,
+    13324,
+    150327648
+  ],
+  "NakamaRuntime.dll": [
+    147256264,
+    81,
+    150388768
+  ],
+  "Nakama.dll": [
+    147256644,
+    4623,
+    150389092
+  ],
+  "NeftaCustomAdapter.dll": [
+    147256712,
+    155,
+    150412304
+  ],
+  "Newtonsoft.Json.dll": [
+    147262204,
+    4181,
+    150412956
+  ],
+  "Obi.dll": [
+    147266344,
+    3451,
+    150431320
+  ],
+  "OEBIF.dll": [
+    147266588,
+    54,
+    150447692
+  ],
+  "OPS.Obfuscator.dll": [
+    147266656,
+    8,
+    150447908
+  ],
+  "PixelFlow.GameReset.dll": [
+    147266724,
+    14,
+    150447940
+  ],
+  "Playgami.Sdk.CustomerSupport.Runtime.dll": [
+    147266816,
+    159,
+    150448012
+  ],
+  "Playgami.Sdk.ErrorReporter.Runtime.dll": [
+    147267156,
+    215,
+    150448648
+  ],
+  "Playgami.Sdk.GradleWrapper.Runtime.dll": [
+    147267224,
+    2,
+    150449540
+  ],
+  "Playgami.Sdk.HelpshiftX.Runtime.dll": [
+    147267308,
+    406,
+    150449548
+  ],
+  "Playgami.Sdk.Swizzler.Runtime.dll": [
+    147267376,
+    4,
+    150451172
+  ],
+  "RayFireAssembly.dll": [
+    147267444,
+    1375,
+    150451188
+  ],
+  "RFLib_DotNet_2018_andr.dll": [
+    147267640,
+    103,
+    150456696
+  ],
+  "Satori.dll": [
+    147268020,
+    675,
+    150457108
+  ],
+  "Scopely.Sdk.Analytics.Runtime.dll": [
+    147268744,
+    1269,
+    150460448
+  ],
+  "Scopely.Sdk.Assets.Runtime.dll": [
+    147269444,
+    312,
+    150465604
+  ],
+  "Scopely.Sdk.Core.Runtime.dll": [
+    147275176,
+    3189,
+    150466868
+  ],
+  "Scopely.Sdk.MsgPack.Runtime.dll": [
+    147275244,
+    6,
+    150480488
+  ],
+  "Scopely.Sdk.Notification.Runtime.dll": [
+    147275440,
+    465,
+    150480512
+  ],
+  "Scopely.Sdk.RemoteConfig.Runtime.dll": [
+    147276404,
+    302,
+    150482452
+  ],
+  "Scopely.Sdk.RuleEngine.Runtime.dll": [
+    147277080,
+    397,
+    150483660
+  ],
+  "ShapesRuntime.dll": [
+    147277988,
+    3248,
+    150485248
+  ],
+  "ShapesSamples.dll": [
+    147278056,
+    47,
+    150498584
+  ],
+  "SimpleInspectorAttributes.dll": [
+    147278124,
+    6,
+    150498772
+  ],
+  "SimpleSignIn.Google.dll": [
+    147278192,
+    153,
+    150498804
+  ],
+  "Sirenix.OdinInspector.Attributes.dll": [
+    147278388,
+    504,
+    150499512
+  ],
+  "Sirenix.OdinInspector.Modules.Unity.Addressables.dll": [
+    147278456,
+    4,
+    150501600
+  ],
+  "Sirenix.OdinInspector.Modules.UnityLocalization.dll": [
+    147278524,
+    6,
+    150501616
+  ],
+  "Sirenix.Serialization.Config.dll": [
+    147278592,
+    22,
+    150501640
+  ],
+  "Sirenix.Serialization.dll": [
+    147286868,
+    1882,
+    150501728
+  ],
+  "Sirenix.Utilities.dll": [
+    147294768,
+    985,
+    150509312
+  ],
+  "SuperScrollView.Demo.dll": [
+    147295276,
+    1200,
+    150513308
+  ],
+  "SuperScrollView.dll": [
+    147295344,
+    493,
+    150518108
+  ],
+  "System.Configuration.dll": [
+    147295412,
+    17,
+    150520112
+  ],
+  "System.Core.dll": [
+    147309768,
+    3484,
+    150520180
+  ],
+  "System.Data.dll": [
+    147310988,
+    3328,
+    150534236
+  ],
+  "System.Drawing.dll": [
+    147311056,
+    67,
+    150549484
+  ],
+  "System.Net.Http.dll": [
+    147311796,
+    546,
+    150550160
+  ],
+  "System.Numerics.dll": [
+    147311864,
+    164,
+    150552480
+  ],
+  "System.Runtime.CompilerServices.Unsafe_PlaygamiMsgPack.dll": [
+    147311964,
+    5,
+    150553424
+  ],
+  "System.Runtime.Serialization.dll": [
+    147312032,
+    16,
+    150553444
+  ],
+  "System.Xml.Linq.dll": [
+    147312292,
+    246,
+    150553508
+  ],
+  "System.Xml.dll": [
+    147312424,
+    6671,
+    150554604
+  ],
+  "System.dll": [
+    147318300,
+    5755,
+    150582768
+  ],
+  "Tayx.Graphy.dll": [
+    147318408,
+    271,
+    150607132
+  ],
+  "TinyGiantStudio.BetterInspector.BetterTransform.dll": [
+    147318476,
+    2,
+    150608216
+  ],
+  "TinyGiantStudio.BetterInspector.dll": [
+    147318544,
+    8,
+    150608224
+  ],
+  "ToonyColorsPro.Runtime.dll": [
+    147318612,
+    37,
+    150608256
+  ],
+  "ToonyColorsPro2.Demo.dll": [
+    147318680,
+    120,
+    150608404
+  ],
+  "UITKComposer.dll": [
+    147319884,
+    251,
+    150608884
+  ],
+  "UniTask.DOTween.dll": [
+    147319952,
+    36,
+    150609888
+  ],
+  "UniTask.dll": [
+    147391820,
+    3471,
+    150611400
+  ],
+  "Unity.Addressables.dll": [
+    147393112,
+    652,
+    150625284
+  ],
+  "Unity.Burst.Unsafe.dll": [
+    147393460,
+    37,
+    150627980
+  ],
+  "Unity.Burst.dll": [
+    147394232,
+    3667,
+    150628128
+  ],
+  "Unity.Cinemachine.dll": [
+    147394804,
+    2163,
+    150643460
+  ],
+  "Unity.Collections.LowLevel.ILSupport.dll": [
+    147394888,
+    4,
+    150653488
+  ],
+  "Unity.Collections.dll": [
+    147454292,
+    3535,
+    150653504
+  ],
+  "Unity.Localization.dll": [
+    147461584,
+    2174,
+    150674628
+  ],
+  "Unity.Mathematics.dll": [
+    147461652,
+    9427,
+    150683852
+  ],
+  "Unity.MemoryProfiler.dll": [
+    147461720,
+    10,
+    150757792
+  ],
+  "Unity.Postprocessing.Runtime.dll": [
+    147462212,
+    610,
+    150757832
+  ],
+  "Unity.Purchasing.AppleMacosStub.dll": [
+    147462280,
+    37,
+    150760288
+  ],
+  "Unity.Purchasing.AppleStub.dll": [
+    147462348,
+    37,
+    150760436
+  ],
+  "Unity.Purchasing.LiveContentAdapterService.dll": [
+    147463800,
+    364,
+    150760584
+  ],
+  "Unity.Purchasing.PaymentProviderService.dll": [
+    147465300,
+    570,
+    150762264
+  ],
+  "Unity.Purchasing.SecurityCore.dll": [
+    147465368,
+    60,
+    150764912
+  ],
+  "Unity.Purchasing.Security.dll": [
+    147465468,
+    286,
+    150765152
+  ],
+  "Unity.Purchasing.Stores.dll": [
+    147465680,
+    1481,
+    150766296
+  ],
+  "Unity.Purchasing.Utilities.dll": [
+    147466364,
+    183,
+    150773532
+  ],
+  "Unity.Purchasing.WebshopService.dll": [
+    147467816,
+    323,
+    150774280
+  ],
+  "Unity.Purchasing.dll": [
+    147468212,
+    2358,
+    150775772
+  ],
+  "Unity.RenderPipeline.Universal.ShaderLibrary.dll": [
+    147468280,
+    2,
+    150785748
+  ],
+  "Unity.RenderPipelines.Core.Runtime.Shared.dll": [
+    147468348,
+    3,
+    150785756
+  ],
+  "Unity.RenderPipelines.Core.Runtime.dll": [
+    147477176,
+    4953,
+    150785768
+  ],
+  "Unity.RenderPipelines.GPUDriven.Runtime.dll": [
+    147477564,
+    947,
+    150808228
+  ],
+  "Unity.RenderPipelines.Universal.2D.Runtime.dll": [
+    147478232,
+    1047,
+    150814744
+  ],
+  "Unity.RenderPipelines.Universal.Runtime.dll": [
+    147479012,
+    3187,
+    150819556
+  ],
+  "Unity.ResourceManager.dll": [
+    147483536,
+    931,
+    150834288
+  ],
+  "Unity.Services.Core.Configuration.dll": [
+    147483604,
+    39,
+    150838636
+  ],
+  "Unity.Services.Core.Device.dll": [
+    147483672,
+    32,
+    150838808
+  ],
+  "Unity.Services.Core.Environments.Internal.dll": [
+    147483740,
+    3,
+    150838936
+  ],
+  "Unity.Services.Core.Environments.dll": [
+    147483808,
+    3,
+    150838948
+  ],
+  "Unity.Services.Core.Internal.dll": [
+    147485380,
+    477,
+    150838960
+  ],
+  "Unity.Services.Core.Registration.dll": [
+    147485448,
+    55,
+    150841260
+  ],
+  "Unity.Services.Core.Scheduler.dll": [
+    147485772,
+    32,
+    150841576
+  ],
+  "Unity.Services.Core.Telemetry.dll": [
+    147485840,
+    12,
+    150841704
+  ],
+  "Unity.Services.Core.Threading.dll": [
+    147486196,
+    18,
+    150841752
+  ],
+  "Unity.Services.Core.dll": [
+    147486368,
+    91,
+    150841824
+  ],
+  "Unity.Splines.dll": [
+    147490828,
+    909,
+    150842204
+  ],
+  "Unity.TextMeshPro.dll": [
+    147492080,
+    1820,
+    150846744
+  ],
+  "Unity.Timeline.dll": [
+    147492428,
+    903,
+    150855488
+  ],
+  "UnityEngine.AIModule.dll": [
+    147492496,
+    3,
+    150859396
+  ],
+  "UnityEngine.AndroidJNIModule.dll": [
+    147493324,
+    594,
+    150859408
+  ],
+  "UnityEngine.AnimationModule.dll": [
+    147493408,
+    275,
+    150861800
+  ],
+  "UnityEngine.AssetBundleModule.dll": [
+    147493484,
+    46,
+    150863268
+  ],
+  "UnityEngine.AudioModule.dll": [
+    147493552,
+    180,
+    150863452
+  ],
+  "UnityEngine.CoreModule.dll": [
+    147502028,
+    7234,
+    150864284
+  ],
+  "UnityEngine.DirectorModule.dll": [
+    147502096,
+    58,
+    150901676
+  ],
+  "UnityEngine.GridModule.dll": [
+    147502164,
+    1,
+    150901924
+  ],
+  "UnityEngine.HierarchyCoreModule.dll": [
+    147502392,
+    281,
+    150901928
+  ],
+  "UnityEngine.ImageConversionModule.dll": [
+    147502460,
+    8,
+    150903572
+  ],
+  "UnityEngine.IMGUIModule.dll": [
+    147502528,
+    826,
+    150903604
+  ],
+  "UnityEngine.InputForUIModule.dll": [
+    147502764,
+    238,
+    150907204
+  ],
+  "UnityEngine.InputLegacyModule.dll": [
+    147502832,
+    103,
+    150909012
+  ],
+  "UnityEngine.InputModule.dll": [
+    147502900,
+    8,
+    150909568
+  ],
+  "UnityEngine.JSONSerializeModule.dll": [
+    147502984,
+    9,
+    150909600
+  ],
+  "UnityEngine.ParticleSystemModule.dll": [
+    147503052,
+    623,
+    150909636
+  ],
+  "UnityEngine.Physics2DModule.dll": [
+    147503120,
+    150,
+    150914056
+  ],
+  "UnityEngine.PhysicsModule.dll": [
+    147503188,
+    389,
+    150914824
+  ],
+  "UnityEngine.PropertiesModule.dll": [
+    147508432,
+    839,
+    150916788
+  ],
+  "UnityEngine.ScreenCaptureModule.dll": [
+    147508500,
+    6,
+    150920576
+  ],
+  "UnityEngine.SharedInternalsModule.dll": [
+    147508568,
+    68,
+    150920600
+  ],
+  "UnityEngine.SpriteMaskModule.dll": [
+    147508636,
+    2,
+    150920872
+  ],
+  "UnityEngine.SubsystemsModule.dll": [
+    147508972,
+    38,
+    150920880
+  ],
+  "UnityEngine.TerrainModule.dll": [
+    147509040,
+    55,
+    150921032
+  ],
+  "UnityEngine.TerrainPhysicsModule.dll": [
+    147509108,
+    2,
+    150921260
+  ],
+  "UnityEngine.TextCoreFontEngineModule.dll": [
+    147509264,
+    191,
+    150921268
+  ],
+  "UnityEngine.TextCoreTextEngineModule.dll": [
+    147509828,
+    752,
+    150922816
+  ],
+  "UnityEngine.TextRenderingModule.dll": [
+    147509896,
+    63,
+    150926240
+  ],
+  "UnityEngine.TilemapModule.dll": [
+    147509964,
+    59,
+    150926516
+  ],
+  "UnityEngine.UIElementsModule.dll": [
+    147526912,
+    10913,
+    150926800
+  ],
+  "UnityEngine.UIModule.dll": [
+    147526980,
+    225,
+    150978388
+  ],
+  "UnityEngine.UI.dll": [
+    147527640,
+    1905,
+    150979288
+  ],
+  "UnityEngine.UnityAnalyticsCommonModule.dll": [
+    147527708,
+    65,
+    150987484
+  ],
+  "UnityEngine.UnityAnalyticsModule.dll": [
+    147527776,
+    12,
+    150987744
+  ],
+  "UnityEngine.UnityWebRequestAssetBundleModule.dll": [
+    147527844,
+    25,
+    150987792
+  ],
+  "UnityEngine.UnityWebRequestModule.dll": [
+    147527920,
+    218,
+    150987892
+  ],
+  "UnityEngine.UnityWebRequestTextureModule.dll": [
+    147527988,
+    16,
+    150988764
+  ],
+  "UnityEngine.VFXModule.dll": [
+    147528056,
+    42,
+    150988844
+  ],
+  "UnityEngine.VideoModule.dll": [
+    147528124,
+    38,
+    150989020
+  ],
+  "UnityEngine.VRModule.dll": [
+    147528192,
+    13,
+    150989188
+  ],
+  "UnityEngine.XRModule.dll": [
+    147528260,
+    109,
+    150989240
+  ],
+  "UnityUIExtensions.dll": [
+    147530452,
+    2036,
+    150990308
+  ],
+  "VInspector.dll": [
+    147531008,
+    34,
+    150998452
+  ],
+  "websocket-sharp.dll": [
+    147531812,
+    1569,
+    150998588
+  ],
+  "__Generated": [
+    147531880,
+    3,
+    151004864
+  ]
+}

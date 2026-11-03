@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "nodeVersion": "v24.22.1",
+  "traceReplays": 14400,
+  "generatedCertificates": 8,
+  "aggregateAgreement": true,
+  "analysisZeroBudget": "UNKNOWN",
+  "reportNumbersVerified": true,
+  "files": [
+    {
+      "file": "puzzle-lab.mjs",
+      "sha256": "317b63496a197d9a303770093bec98fdad0405fa6badad34c7e03213443cc7c1"
+    },
+    {
+      "file": "generate.mjs",
+      "sha256": "8f3ffc245c5b4cf4d38ad249681971c18918dabc6a2a7185a333406e1e2793f0"
+    },
+    {
+      "file": "generator-spec.json",
+      "sha256": "7c930fc254a21d5667cd5e178ff16591a4f45e7698304a26ae3ea795bea52e6f"
+    },
+    {
+      "file": "verify.mjs",
+      "sha256": "886979fb6224f762b58d8d85459ba099ecedebacbdaf9c44d630888bf92b961d"
+    },
+    {
+      "file": "README.md",
+      "sha256": "f757fc78e7962c9f672f482cf7d12e726e9822148116447117c3e141825c431f"
+    },
+    {
+      "file": "研究报告.md",
+      "sha256": "6701c382399edc4a09aaa9622c48828e815e4acf415bc12e0d016d1b1553f7ba"
+    },
+    {
+      "file": "results/summary.json",
+      "sha256": "2ca12206a49ff8c4bbe6fef7644969155d5359f34e8c74e7509e73908eb385fb"
+    },
+    {
+      "file": "results/levels.json",
+      "sha256": "1950f91c38b86e960b0b31bd9ba4cfa052993a75439c9a33cb4a93f917ddeeba"
+    },
+    {
+      "file": "results/agent-traces.jsonl",
+      "sha256": "4987f5e3cf0d3bdef16faa39d66a22f01ebcf59d6a37332575beaaa89b0cd949"
+    },
+    {
+      "file": "results/example.json",
+      "sha256": "19d468ff13b9751db8b11641ee1a0746bc605fee1fa80cfd7d94bf1d7074583c"
+    },
+    {
+      "file": "results/generated.json",
+      "sha256": "7844e9933f9a3eab845ea8be866559f443b513c72f53b820337c6d9bf912fa1a"
+    },
+    {
+      "file": "research-report/src/data.json",
+      "sha256": "494747c23aed4c68b80bd2cbbd9e876052d643bbfc074ab669bec867c0674feb"
+    },
+    {
+      "file": "research-report/src/content/report/sections.json",
+      "sha256": "77c00777696bebf71a1512ccd10142148bcc873be3a7f64afd7590a4a9952074"
+    },
+    {
+      "file": "research-report/src/content/report/ReportContent.jsx",
+      "sha256": "dc56699a046c1fdd3fa753b7192822d6152dd7af2707a7e05fe1c187df864a7b"
+    }
+  ]
+}

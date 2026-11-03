@@ -1,0 +1,11 @@
+const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),assert=require('node:assert/strict'),C=require('./core.js'),P=require('./play-engine.js');
+const box={window:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'levels-first10.js'),'utf8'),box);const builtins=JSON.parse(JSON.stringify(box.window.PIXEL_FLOW_FIRST10));let passed=0;
+for(let n=1;n<=10;n++){const file=path.join(__dirname,'原版前10关',String(n).padStart(2,'0')+'.json'),l=JSON.parse(fs.readFileSync(file,'utf8')),before=JSON.stringify(l);assert.deepEqual(l,builtins.levels[n-1].data);C.validate(l,{allowSurprise:true});const g=P.create(l),c=C.counts(l);assert.deepEqual(c.target,c.ammo);assert.equal(g.left,l.PixelImageData.pixels.length);P.launch(g,'queue',0);for(let k=0;k<80;k++)P.step(g);assert.equal(JSON.stringify(l),before);assert.deepEqual(g.input,l);assert.ok(P.audit(g).allPassed);passed++;console.log('PASS original level '+n+' imports, balances and preserves all fields');}
+const eighth=JSON.parse(JSON.stringify(builtins.levels[7].data)),g=P.create(eighth);const column=g.input.QueueGroup.shooterQueues.findIndex((q,c)=>q.shooters.slice(1).some(s=>g.hiddenIds.has(s.id)));const q=g.input.QueueGroup.shooterQueues[column];const id=q.shooters.findIndex((s,i)=>i>0&&g.hiddenIds.has(s.id));
+assert.equal(P.hidden(g,q.shooters[id].id),true);g.pos[column]=id;assert.equal(P.hidden(g,q.shooters[id].id),false);assert.deepEqual(g.input.SurpriseShooters,eighth.SurpriseShooters);passed++;console.log('PASS hidden rear shooter reveals at head without changing source data');
+assert.throws(()=>C.validate(eighth),/SurpriseShooters/);passed++;console.log('PASS editor stays strict: no unsupported hidden-data rewriting');
+const bad=C.copy(eighth);bad.SurpriseShooters.Shooters.push(999999);assert.throws(()=>P.create(bad),/隐藏射手ID/);passed++;console.log('PASS unknown hidden shooter ID rejected');
+const changed=C.copy(eighth);changed.SurpriseShooters.Shooters.pop();assert.notEqual(P.canonical(changed),P.canonical(eighth));passed++;console.log('PASS hidden flags participate in source comparison');
+console.log(passed+' first10 tests passed');
+fs.writeFileSync(path.join(__dirname,'原版前10关','试玩兼容核查.json'),JSON.stringify({levelsValidated:10,tests:passed,sourceObjectsUnchanged:true,hiddenRearRevealsAtHead:true,scope:'基础集合1–10；试玩速度和失败时序仍为本地近似。'},null,2));
+
